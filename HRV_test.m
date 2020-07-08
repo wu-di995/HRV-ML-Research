@@ -39,12 +39,17 @@ ylabel("Voltage (mV)");
 % InitializeHRVparams.m function
 HRVparams = InitializeHRVparams('Test');
 HRVparams.Fs = Fs;
-HRVparams.windowlength = 60; % seconds
-HRVparams.increment = 5; % seconds
+HRVparams.windowlength = 5; % seconds
+HRVparams.increment = 1; % seconds
 HRVparams.MSE.on = 0;
 HRVparams.DFA.on = 0;
 HRVparams.HRT.on = 0;
 HRVparams.af.on = 0;
+HRVparams.sqi.LowQualityThreshold = 0.01; % Default: 0.9, Threshold for which SQI represents good data
+HRVparams.sqi.windowlength = 5;         % Default: 10, seconds, length of the comparison window
+HRVparams.sqi.increment = 1;             % Default: 1, seconds
+HRVparams.sqi.TimeThreshold = 0.1;       % Default: 0.1, seconds
+HRVparams.sqi.margin = 1;                % Default: 2, seconds, Margin time not include in comparison 
 
 % call the function that perform peak detection
 % r_peaks = jqrs(ecg,HRVparams);

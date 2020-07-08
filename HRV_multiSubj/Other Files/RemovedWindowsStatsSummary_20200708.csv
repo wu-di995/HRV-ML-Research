@@ -1,0 +1,117 @@
+patID,TotWind,NotAnalyzed,PercentNotAnalyzed,PercentAFWind,PercentLowQualityWind
+s01_Headarray - Command,131,0,0,0,0
+s01_Headarray - Low level autonomy,371,6,1.6173,0,1.6173
+s01_Headarray - Mid level autonomy,1076,27,2.5093,0,2.5093
+s01_Headarray - Teleoperation,236,1,0.42373,0,0.42373
+s01_Headarray - Trajectory,191,0,0,0,0
+s01_Headarray - WST,851,2,0.23502,0,0.23502
+s01_Sip-n-puff - Command,236,1,0.42373,0,0.42373
+s01_Sip-n-puff - Teleoperation,611,0,0,0,0
+s01_Sip-n-puff - Trajectory,281,0,0,0,0
+s01_Sip-n-puff - WST,1166,52,4.4597,0,4.4597
+s03_Joystick - Command,131,1,0.76336,0,0.76336
+s03_Joystick - Low level autonomy,371,241,64.9596,0,64.9596
+s03_Joystick - Mid level autonomy,698,456,65.3295,0,65.3295
+s03_Joystick - Teleoperation,233,116,49.7854,0,49.7854
+s03_Joystick - Trajectory,176,43,24.4318,0,24.4318
+s03_Joystick - WST,956,85,8.8912,0,8.8912
+s03_Sip-n-puff - Command,244,229,93.8525,0,93.8525
+s03_Sip-n-puff - Teleoperation,1181,94,7.9594,0,7.9594
+s03_Sip-n-puff - Trajectory,470,226,48.0851,0,48.0851
+s03_Sip-n-puff - WST,2246,501,22.3063,0,22.3063
+s05_Headarray - Command,131,7,5.3435,0,5.3435
+s05_Headarray - Low level autonomy,475,86,18.1053,0,18.1053
+s05_Headarray - Mid level autonomy,671,551,82.1162,0,82.1162
+s05_Headarray - Teleoperation,221,10,4.5249,0,4.5249
+s05_Headarray - Trajectory,146,24,16.4384,0,16.4384
+s05_Headarray - WST,926,232,25.054,0,25.054
+s05_Joystick - Command,131,18,13.7405,0,13.7405
+s05_Joystick - Low level autonomy,311,219,70.418,0,70.418
+s05_Joystick - Mid level autonomy,640,36,5.625,0,5.625
+s05_Joystick - Teleoperation,236,39,16.5254,0,16.5254
+s05_Joystick - Trajectory,160,17,10.625,0,10.625
+s05_Joystick - WST,746,211,28.2842,0,28.2842
+s05_Sip-n-puff - Command,236,24,10.1695,0,10.1695
+s05_Sip-n-puff - Teleoperation,1061,156,14.7031,0,14.7031
+s05_Sip-n-puff - Trajectory,341,7,2.0528,0,2.0528
+s05_Sip-n-puff - WST,1301,347,26.6718,0,26.6718
+u03_Headarray - Command,131,13,9.9237,0,9.9237
+u03_Headarray - Low level autonomy,791,59,7.4589,0,7.4589
+u03_Headarray - Mid level autonomy,821,82,9.9878,0,9.9878
+u03_Headarray - Teleoperation,461,46,9.9783,0,9.9783
+u03_Headarray - Trajectory,236,30,12.7119,0,12.7119
+u03_Headarray - WST,1046,586,56.0229,0,56.0229
+u03_Joystick - Command,116,1,0.86207,0,0.86207
+u03_Joystick - Low level autonomy,371,32,8.6253,0,8.6253
+u03_Joystick - Mid level autonomy,551,28,5.0817,0,5.0817
+u03_Joystick - Teleoperation,251,4,1.5936,0,1.5936
+u03_Joystick - Trajectory,131,7,5.3435,0,5.3435
+u03_Joystick - WST,743,333,44.8183,0,44.8183
+u03_Sip-n-puff - Command,236,16,6.7797,0,6.7797
+u03_Sip-n-puff - Teleoperation,566,63,11.1307,0,11.1307
+u03_Sip-n-puff - Trajectory,461,9,1.9523,0,1.9523
+u03_Sip-n-puff - WST,1151,626,54.3875,0,54.3875
+u04_Headarray - Command,116,0,0,0,0
+u04_Headarray - Low level autonomy,506,20,3.9526,0,3.9526
+u04_Headarray - Mid level autonomy,803,12,1.4944,0,1.4944
+u04_Headarray - Teleoperation,251,7,2.7888,0,2.7888
+u04_Headarray - Trajectory,146,1,0.68493,0,0.68493
+u04_Headarray - WST,716,10,1.3966,0,1.3966
+u04_Joystick - Command,131,7,5.3435,0,5.3435
+u04_Joystick - Low level autonomy,295,9,3.0508,0,3.0508
+u04_Joystick - Mid level autonomy,716,59,8.2402,0,8.2402
+u04_Joystick - Teleoperation,191,15,7.8534,0,7.8534
+u04_Joystick - Trajectory,116,1,0.86207,0,0.86207
+u04_Joystick - WST,356,29,8.1461,0,8.1461
+u04_Sip-n-puff - Command,236,6,2.5424,0,2.5424
+u04_Sip-n-puff - Teleoperation,491,20,4.0733,0,4.0733
+u04_Sip-n-puff - Trajectory,206,1,0.48544,0,0.48544
+u04_Sip-n-puff - WST,926,35,3.7797,0,3.7797
+u09_Headarray - Command,110,43,39.0909,0,39.0909
+u09_Headarray - Low level autonomy,386,213,55.1813,0,55.1813
+u09_Headarray - Mid level autonomy,761,480,63.0749,0,63.0749
+u09_Headarray - Teleoperation,339,183,53.9823,0,53.9823
+u09_Headarray - Trajectory,146,21,14.3836,0,14.3836
+u09_Headarray - WST,806,247,30.6452,0,30.6452
+u09_Joystick - Command,116,1,0.86207,0,0.86207
+u09_Joystick - Low level autonomy,626,419,66.9329,0,66.9329
+u09_Joystick - Mid level autonomy,709,407,57.4048,0,57.4048
+u09_Joystick - Teleoperation,266,88,33.0827,0,33.0827
+u09_Joystick - Trajectory,176,1,0.56818,0,0.56818
+u09_Joystick - WST,825,171,20.7273,0,20.7273
+u09_Sip-n-puff - Command,234,197,84.188,0,84.188
+u09_Sip-n-puff - Teleoperation,941,682,72.4761,0,72.4761
+u09_Sip-n-puff - Trajectory,266,162,60.9023,0,60.9023
+u09_Sip-n-puff - WST,1251,487,38.9289,0,38.9289
+u13_Headarray - Command,140,59,42.1429,0,42.1429
+u13_Headarray - Low level autonomy,611,167,27.3322,0,27.3322
+u13_Headarray - Mid level autonomy,896,244,27.2321,0,27.2321
+u13_Headarray - Teleoperation,371,162,43.6658,0,43.6658
+u13_Headarray - Trajectory,161,50,31.0559,0,31.0559
+u13_Headarray - WST,881,113,12.8263,0,12.8263
+u13_Joystick - Command,131,22,16.7939,0,16.7939
+u13_Joystick - Low level autonomy,287,40,13.9373,0,13.9373
+u13_Joystick - Mid level autonomy,626,253,40.4153,0,40.4153
+u13_Joystick - Teleoperation,236,61,25.8475,0,25.8475
+u13_Joystick - Trajectory,131,30,22.9008,0,22.9008
+u13_Joystick - WST,611,105,17.1849,0,17.1849
+u13_Sip-n-puff - Command,236,107,45.339,0,45.339
+u13_Sip-n-puff - Teleoperation,787,214,27.1919,0,27.1919
+u13_Sip-n-puff - Trajectory,296,17,5.7432,0,5.7432
+u13_Sip-n-puff - WST,1031,194,18.8167,0,18.8167
+u14_Headarray - Command,131,89,67.9389,0,67.9389
+u14_Headarray - Low level autonomy,266,44,16.5414,0,16.5414
+u14_Headarray - Mid level autonomy,791,139,17.5727,0,17.5727
+u14_Headarray - Teleoperation,251,43,17.1315,0,17.1315
+u14_Headarray - Trajectory,146,30,20.5479,0,20.5479
+u14_Headarray - WST,626,198,31.6294,0,31.6294
+u14_Joystick - Command,130,10,7.6923,0,7.6923
+u14_Joystick - Low level autonomy,461,122,26.4642,0,26.4642
+u14_Joystick - Mid level autonomy,565,157,27.7876,0,27.7876
+u14_Joystick - Teleoperation,221,23,10.4072,0,10.4072
+u14_Joystick - Trajectory,161,3,1.8634,0,1.8634
+u14_Joystick - WST,761,214,28.1209,0,28.1209
+u14_Sip-n-puff - Command,236,47,19.9153,0,19.9153
+u14_Sip-n-puff - Teleoperation,506,127,25.0988,0,25.0988
+u14_Sip-n-puff - Trajectory,236,40,16.9492,0,16.9492
+u14_Sip-n-puff - WST,1076,386,35.8736,0,35.8736
