@@ -62,11 +62,12 @@ HRVparams.sqi.margin = 1;                % Default: 2, seconds, Margin time not 
 
 
 %Convert ECG waveform to RR intervals 
-% subID = "s00";
-% [t, rr, jqrs_ann, SQIvalue , tSQI] = ConvertRawDataToRRIntervals(ecg, HRVparams, subID);
+subID = "s00";
+[t, rr, jqrs_ann, SQIvalue , tSQI] = ConvertRawDataToRRIntervals(ecg, HRVparams, subID);
 % figure(1);
 % plot(t,rr);
 % sqi = [tSQI', SQIvalue'];
+RR_int = [t',rr'];
 
 %Preprocess data
 % ann = [];
@@ -79,5 +80,5 @@ HRVparams.sqi.margin = 1;                % Default: 2, seconds, Margin time not 
 % subID = "s04-ha_midauto";
 % subID = "s04-snp_tele";
 % subID = "s04-ha_tele";
-subID = "s05-ha_com";
-[results, resFileName] = Main_HRV_Analysis(ecg,[],"ECGWaveform",HRVparams,subID);
+% subID = "s05-ha_com";
+% [results, resFileName] = Main_HRV_Analysis(ecg,[],"ECGWaveform",HRVparams,subID);
