@@ -1,7 +1,7 @@
-% Creates HRV metrics for 5s windows, 1s increments to find longest window
+% Creates HRV metrics for 5/10/30/60 windows, 1s increments to find longest window
 % for comparison 
 
-% run("startup.m");
+run("startup.m");
 
 % Subjects
 subjects = ["s01", "s03", "s05", "u03", "u04", "u09", "u13", "u14"];
@@ -21,14 +21,14 @@ paths = [];
 % InitializeHRVparams.m function
 HRVparams = InitializeHRVparams('Test');
 HRVparams.Fs = 250;
-HRVparams.windowlength = 5; % seconds
+HRVparams.windowlength = 60; % seconds
 HRVparams.increment = 1; % seconds
 HRVparams.MSE.on = 0;
 HRVparams.DFA.on = 0;
 HRVparams.HRT.on = 0;
 HRVparams.af.on = 0;
-HRVparams.sqi.LowQualityThreshold = 0.01; % Default: 0.9, Threshold for which SQI represents good data
-HRVparams.sqi.windowlength = 5;         % Default: 10, seconds, length of the comparison window
+HRVparams.sqi.LowQualityThreshold = 0.9; % Default: 0.9, Threshold for which SQI represents good data
+HRVparams.sqi.windowlength = 10;         % Default: 10, seconds, length of the comparison window
 HRVparams.sqi.increment = 1;             % Default: 1, seconds
 HRVparams.sqi.TimeThreshold = 0.1;       % Default: 0.1, seconds
 HRVparams.sqi.margin = 1;                % Default: 2, seconds, Margin time not include in comparison 

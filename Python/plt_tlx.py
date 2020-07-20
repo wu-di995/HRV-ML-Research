@@ -22,7 +22,8 @@ weighted_scores = tlx_df.loc[non_pilots,"Weighted Score"]
 
 # Histogram plots of Raw and Weighted scores 
 
-def plot_histograms(scores,scType):
+def plot_histograms(scores,scType): 
+    # scType == score type (raw or weighted)
     fig1,ax1 = plt.subplots(1,2,tight_layout=True)
     # N is the count in each bin, bins is the lower-limit of the bin
     N, bins, patches = ax1[0].hist(scores)
