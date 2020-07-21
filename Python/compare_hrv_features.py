@@ -11,8 +11,9 @@ import itertools
 
 cwd = os.getcwd()
 mainDir = pathlib.Path(cwd).parent
-HRV_pathsList = glob.glob(str(mainDir)+"\\HRV_multiSubj\\Extracted-with_tlx_labels\\60s\\*.csv")
-savedir = str(mainDir)+"\\Plots\\Feature_comparison\\60s\\"
+# Have to manually change for 5s/10s/30s/60s
+HRV_pathsList = glob.glob(str(mainDir)+"\\HRV_multiSubj\\Extracted-with_tlx_labels\\5s\\*.csv")
+savedir = str(mainDir)+"\\Plots\\Feature_comparison\\5s\\"
 
 # Print feature names 
 HRV_df0 = pd.read_csv(HRV_pathsList[0])
@@ -59,13 +60,11 @@ print(featureNames)
 ##############################################################
 
 
-# Combine data by labels 
+# Combine data by labels
 for i,path in enumerate(HRV_pathsList):
     HRVdf = pd.read_csv(path)
-    # Instantiate Standard scalar
-    sc = StandardScaler()
     # Do not inlcude the last 4 columns and first column
-    colData = sc.fit_transform(HRVdf.iloc[:,1:-5].values)
+    colData = HRVdf.iloc[:,1:-5].values
     # Get raw and weighted labels
     if HRVdf["Raw Label"][0] == "Low":
         rLabel = 0
@@ -128,10 +127,16 @@ for i,path in enumerate(HRV_pathsList):
                 wHigh_ar = colData
 # Raw label arrays
 print("Size of Raw TLX feature arrays (Low/Med/High)")
+rLowlen = rLow_ar.shape[0]
+rMedlen = rMed_ar.shape[0]
+rHighlen = rHigh_ar.shape[0]
 print(rLow_ar.shape)
 print(rMed_ar.shape)
 print(rHigh_ar.shape)
 # Weighted label arrays
+wLowlen = wLow_ar.shape[0]
+wMedlen = wMed_ar.shape[0]
+wHighlen = rHigh_ar.shape[0]
 print("Size of Weighted TLX feature arrays (Low/Med/High)")
 print(wLow_ar.shape)
 print(wMed_ar.shape)
@@ -142,6 +147,32 @@ rX = np.vstack((rLow_ar,rMed_ar,rHigh_ar)) # Raw label features
 wX = np.vstack((wLow_ar,wMed_ar,wHigh_ar)) # Weighted label features
 ry = np.hstack((np.zeros(len(rLow_ar)), np.ones(len(rMed_ar)), np.ones(len(rHigh_ar))*2)) # Raw labels
 wy = np.hstack((np.zeros(len(wLow_ar)), np.ones(len(wMed_ar)), np.ones(len(wHigh_ar))*2)) # Weighted labels
+
+# Instantiate Standard scalar
+sc = StandardScaler()
+# Standardize all features on full datasets
+rX = sc.fit_transform(rX)
+wX = sc.fit_transform(wX)
+# Change low/med/high arrays to standardized features
+## Raw Labels
+rLow_ar = rX[:rLowlen]
+rMed_ar = rX[rLowlen:rLowlen+rMedlen]
+rHigh_ar = rX[rLowlen+rMedlen:]
+## Weighted Labels
+wLow_ar = wX[:wLowlen]
+wMed_ar = wX[wLowlen:wLowlen+wMedlen]
+wHigh_ar = wX[wLowlen+wMedlen:]
+
+# Raw label arrays
+print("Size of Raw TLX standardized feature arrays (Low/Med/High)")
+print(rLow_ar.shape)
+print(rMed_ar.shape)
+print(rHigh_ar.shape)
+# Weighted label arrays
+print("Size of Weighted TLX standardized feature arrays (Low/Med/High)")
+print(wLow_ar.shape)
+print(wMed_ar.shape)
+print(wHigh_ar.shape)
 
 # Generate feat1 vs feat2 plots 
 # Iterate through all combinations of feature pairs, no pair with 
