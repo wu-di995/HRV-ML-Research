@@ -12,7 +12,7 @@ cwd = os.getcwd()
 # Parent directory
 mainDir = str(pathlib.Path(cwd).parent)
 # HRV window length
-win = "5s"
+win = "60s"
 # HRV metrics directory
 HRV_pathsList = glob.glob(mainDir+"\\HRV_multiSubj\\Extracted-with_tlx_labels\\" + win + "\\*.csv")
 # Directory to save plots to 
@@ -81,8 +81,7 @@ summary_df.to_csv(savedir+filename)
 
 # Generate bar plots for: --- autonomy level not confirmed 
 # 1) each event, comparing across subjects
-# 2) each interface, comparing across subjects and autonomy  
-# 3) each interface and autonomy level 
+
 for col in summary_df:
     # Fig 1 
     fig,ax = plt.subplots()
@@ -90,10 +89,20 @@ for col in summary_df:
     ax.set_xlabel("Subjects")
     plt.title(col)
     # plt.show()
-    # plt.savefig()
-    # plt.close()
-for interface in intefaces:
-    
+    plt.savefig(plotsdir+col+".png")
+    plt.close()
+
+# for interface in interfaces:
+#     colsMask = summary_df.columns.str.contains(interface)
+#     colNames = summary_df.columns[colsMask].values
+#     # print(colNames)
+#     for idx, row in summary_df.iterrows():
+#         fig,ax = plt.subplots()
+#         plt.title(interface)
+#         xlen = len(row[colsMask])
+#         ax.bar(range(xlen),row[colsMask])
+#         plt.show()
+#     # interface_auto_feat
 
 
 
