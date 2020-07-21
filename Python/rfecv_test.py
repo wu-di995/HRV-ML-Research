@@ -152,43 +152,64 @@ def apply_sss(X,y):
 rX_train,rX_test,ry_train,ry_test = apply_sss(rX,ry)
 wX_train,wX_test,wy_train,wy_test = apply_sss(wX,wy)
 
-# # RFE
-# svc = SVC(kernel="linear")
-# rfe = RFE(estimator=svc,n_features_to_select=5)
-# rfe.fit(rX_train,ry_train)
-# ranking = rfe.ranking_
-# print("Ranking:")
-# print(ranking)
+# RFE
+svc = SVC(kernel="linear")
+rrfe = RFE(estimator=svc,n_features_to_select=5)
+wrfe = RFE(estimator=svc,n_features_to_select=5)
 
-# # Using only the selected features 
-# feat_cols = [idx for idx, rank in enumerate(ranking) if rank==1]
-# rX_train_sel = rX_train[:,feat_cols]
-# rX_test_sel = rX_test[:,feat_cols]
-# svc.fit(rX_train_sel,ry_train)
-# ry_pred = svc.predict(rX_test_sel)
-# val_acc = accuracy_score(ry_test,ry_pred)
-# print(val_acc)
-# # Raw   
-# # 5s : 0.4679765246236285 Ranking: [1 1 6 3 4 1 2 1 1 7 5]
-# # 10s: 0.4795690936106984 Ranking: [1 2 1 1 5 4 3 1 1 7 6]
-# # 30s: 0.540734109221128 Ranking: [1 1 6 5 1 3 4 1 1 2 7]
-# # 60s: 0.5655655655655656 Ranking: [1 1 6 4 2 1 5 3 1 1 7]
+rrfe.fit(rX_train,ry_train)
+r_ranking = rrfe.ranking_
 
-# # Weighted   
-# # 5s :  Ranking: 
-# # 10s:  Ranking: 
-# # 30s:  Ranking: 
-# # 60s:  Ranking: 
+wrfe.fit(wX_train,wy_train)
+w_ranking = wrfe.ranking_
+print("Raw Ranking:")
+print(r_ranking)
+print([feature for i, feature in enumerate(featureNames) if r_ranking[i]==1])
+print("Weighted Ranking:")
+print(w_ranking)
+print([feature for i, feature in enumerate(featureNames) if w_ranking[i]==1])
+
+
+# Using only the selected features 
+rfeat_cols = [idx for idx, rank in enumerate(r_ranking) if rank==1]
+wfeat_cols = [idx for idx, rank in enumerate(w_ranking) if rank==1]
+
+rX_train_sel = rX_train[:,rfeat_cols]
+rX_test_sel = rX_test[:,rfeat_cols]
+svc.fit(rX_train_sel,ry_train)
+ry_pred = rsvc.predict(rX_test_sel)
+rval_acc = accuracy_score(ry_test,ry_pred)
+print(rval_acc)
+
+wX_train_sel = wX_train[:,wfeat_cols]
+wX_test_sel = wX_test[:,wfeat_cols]
+svc.fit(wX_train_sel,wy_train)
+wy_pred = wsvc.predict(wX_test_sel)
+wval_acc = accuracy_score(wy_test,wy_pred)
+print(wval_acc)
+
+# Raw   
+# 5s : 0.4679765246236285 Ranking: [1 1 6 3 4 1 2 1 1 7 5]
+# 10s: 0.4795690936106984 Ranking: [1 2 1 1 5 4 3 1 1 7 6]
+# 30s: 0.540734109221128 Ranking: [1 1 6 5 1 3 4 1 1 2 7]
+# 60s: 0.5655655655655656 Ranking: [1 1 6 4 2 1 5 3 1 1 7]
+
+# Weighted   
+# 5s :  Ranking: 
+# 10s:  Ranking: 
+# 30s:  Ranking: 
+# 60s:  Ranking: 
 
 
 
 # RFE CV 
-rfe = RFECV(estimator=DecisionTreeClassifier(),cv=5)
-model = SVC(kernel="linear")
-pipeline = Pipeline(steps=[('s',rfe),('m',model)])
-pipeline.fit(rX_train,ry_train)
-score = pipeline.score(rX_test,ry_test)
-print(score)
+# rfe = RFECV(estimator=DecisionTreeClassifier(),cv=5)
+# model = SVC(kernel="linear")
+# pipeline = Pipeline(steps=[('s',rfe),('m',model)])
+# pipeline.fit(rX_train,ry_train)
+# score = pipeline.score(rX_test,ry_test)
+# print(score)
+## Raw 
 # # 5s : 0.46185251339627453 Ranking: 
 # # 10s: 0.48699851411589895 Ranking: 
 # # 30s: 0.5434198746642793 Ranking: 
