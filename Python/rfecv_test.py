@@ -154,51 +154,36 @@ wX_train,wX_test,wy_train,wy_test = apply_sss(wX,wy)
 
 # RFE
 svc = SVC(kernel="linear")
-rrfe = RFE(estimator=svc,n_features_to_select=5)
-wrfe = RFE(estimator=svc,n_features_to_select=5)
+rfe = RFE(estimator=svc,n_features_to_select=5)
 
-rrfe.fit(rX_train,ry_train)
-r_ranking = rrfe.ranking_
+rfe.fit(wX_train,wy_train)
+ranking = rfe.ranking_
 
-wrfe.fit(wX_train,wy_train)
-w_ranking = wrfe.ranking_
-print("Raw Ranking:")
-print(r_ranking)
-print([feature for i, feature in enumerate(featureNames) if r_ranking[i]==1])
-print("Weighted Ranking:")
-print(w_ranking)
-print([feature for i, feature in enumerate(featureNames) if w_ranking[i]==1])
-
+print("Ranking:")
+print(ranking)
+print([feature for i, feature in enumerate(featureNames) if ranking[i]==1])
 
 # Using only the selected features 
-rfeat_cols = [idx for idx, rank in enumerate(r_ranking) if rank==1]
-wfeat_cols = [idx for idx, rank in enumerate(w_ranking) if rank==1]
+feat_cols = [idx for idx, rank in enumerate(ranking) if rank==1]
 
-rX_train_sel = rX_train[:,rfeat_cols]
-rX_test_sel = rX_test[:,rfeat_cols]
-svc.fit(rX_train_sel,ry_train)
-ry_pred = rsvc.predict(rX_test_sel)
-rval_acc = accuracy_score(ry_test,ry_pred)
-print(rval_acc)
-
-wX_train_sel = wX_train[:,wfeat_cols]
-wX_test_sel = wX_test[:,wfeat_cols]
+wX_train_sel = wX_train[:,feat_cols]
+wX_test_sel = wX_test[:,feat_cols]
 svc.fit(wX_train_sel,wy_train)
-wy_pred = wsvc.predict(wX_test_sel)
+wy_pred = svc.predict(wX_test_sel)
 wval_acc = accuracy_score(wy_test,wy_pred)
 print(wval_acc)
 
 # Raw   
-# 5s : 0.4679765246236285 Ranking: [1 1 6 3 4 1 2 1 1 7 5]
-# 10s: 0.4795690936106984 Ranking: [1 2 1 1 5 4 3 1 1 7 6]
-# 30s: 0.540734109221128 Ranking: [1 1 6 5 1 3 4 1 1 2 7]
-# 60s: 0.5655655655655656 Ranking: [1 1 6 4 2 1 5 3 1 1 7]
+# 5s : 0.4679765246236285 Ranking: [1 1 6 3 4 1 2 1 1 7 5], Features: ['SDNN', 'RMSSD', 'hf', 'SD1', 'SD2']
+# 10s: 0.4795690936106984 Ranking: [1 2 1 1 5 4 3 1 1 7 6], Features: ['SDNN', 'ulf', 'vlf', 'SD1', 'SD2']
+# 30s: 0.540734109221128 Ranking: [1 1 6 5 1 3 4 1 1 2 7], Features: ['SDNN', 'RMSSD', 'lf', 'SD1', 'SD2']
+# 60s: 0.5655655655655656 Ranking: [1 1 6 4 2 1 5 3 1 1 7], Features: ['SDNN', 'RMSSD', 'hf', 'SD2', 'SD1SD2']
 
 # Weighted   
-# 5s :  Ranking: 
-# 10s:  Ranking: 
-# 30s:  Ranking: 
-# 60s:  Ranking: 
+# 5s :  0.6333248277621842 Ranking: [1 1 4 2 1 5 6 1 3 7 1] , Features: ['SDNN', 'RMSSD', 'lf', 'SD1', 'ApEn']
+# 10s:  0.6619613670133729 Ranking: [1 1 1 1 3 4 5 1 2 7 6], Features: ['SDNN', 'RMSSD', 'ulf', 'vlf', 'SD1']
+# 30s:  0.6951656222023277 Ranking: [1 1 6 4 1 2 3 1 1 5 7] , Features: ['SDNN', 'RMSSD', 'lf', 'SD1', 'SD2']
+# 60s:  Ranking: , Features: 
 
 
 

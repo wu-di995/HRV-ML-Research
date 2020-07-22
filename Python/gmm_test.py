@@ -1,5 +1,6 @@
-# Classify TLX labels using HRV
-# SVM Classifer
+# Testing GMM models 
+
+# Import necessary libraries
 import pandas as pd
 import numpy as np
 import glob,os, pathlib
@@ -9,11 +10,11 @@ from sklearn.model_selection import StratifiedShuffleSplit, GridSearchCV, Random
 from sklearn.metrics import classification_report, confusion_matrix, plot_confusion_matrix, accuracy_score
 from scipy.stats import loguniform
 import re
-
+from sklearn.mixture import GaussianMixture
 
 cwd = os.getcwd()
 mainDir = pathlib.Path(cwd).parent
-HRV_pathsList = glob.glob(str(mainDir)+"\\HRV_multiSubj\\Extracted-with_tlx_labels\\60s\\*.csv")
+HRV_pathsList = glob.glob(str(mainDir)+"\\HRV_multiSubj\\Extracted-with_tlx_labels\\30s\\*.csv")
 
 # Combine data by labels
 for i,path in enumerate(HRV_pathsList):
@@ -103,10 +104,10 @@ wX = np.vstack((wLow_ar,wMed_ar,wHigh_ar)) # Weighted label features
 ry = np.hstack((np.zeros(len(rLow_ar)), np.ones(len(rMed_ar)), np.ones(len(rHigh_ar))*2)) # Raw labels
 wy = np.hstack((np.zeros(len(wLow_ar)), np.ones(len(wMed_ar)), np.ones(len(wHigh_ar))*2)) # Weighted labels
 
-# Select features
+# Select Features
 rX_select = [9,6,5,4,1]
-rX = rX[:,rX_select]
 wX_select = [10,9,7,5,0]
+rX = rX[:,rX_select]
 wX = wX[:,wX_select]
 
 # Instantiate Standard scalar
@@ -150,110 +151,147 @@ def apply_sss(X,y):
 rX_train,rX_test,ry_train,ry_test = apply_sss(rX,ry)
 wX_train,wX_test,wy_train,wy_test = apply_sss(wX,wy)
 
-# SVM Classifier
-clf = svm.SVC()
-# SVM Hyperparamater tuning and cross-validation 
-print("Cross Validation...")
-# params_dist = { 'C': loguniform(1e2,1e3),
-#                 'gamma': [loguniform(1e-4,1e-3),'auto','scale'],
-#                 'kernel': ['linear','rbf']
-# }
-params_dist = {'kernel':['linear','rbf'],
-                'C':loguniform(1e2,1e3)}
-r_search = RandomizedSearchCV(clf,params_dist,n_iter=10,cv=5,random_state=0)
-# w_search = RandomizedSearchCV(clf,params_dist,n_iter=10,cv=5,n_jobs=-1,random_state=0)
-r_search.fit(rX_train,ry_train)
-w_search.fit(wX_train,wy_train)
-# Use the best parameters from Cross-Validation 
-r_params = r_search['best_params']
-w_params = w_search['best_params']
-r_clf = svm.SVC(**r_params)
-w_clf = svm.SVC(**w_params)
-r_clf = svm.SVC()
-w_clf = svm.SVC()
-# Training
-print("Training...")
-r_clf.fit(rX_train,ry_train)
-w_clf.fit(wX_train,wy_train)
-# Testing 
-print("Testing...")
-ry_pred = r_clf.predict(rX_test)
-wy_pred = w_clf.predict(wX_test)
-# Get accuracy scores
-r_acc = accuracy_score(ry_test,ry_pred)
-w_acc = accuracy_score(wy_test,wy_pred)
-# Get confusion matrices 
-r_cm = confusion_matrix(ry_test,ry_pred)
-w_cm = confusion_matrix(wy_test,wy_pred)
-print("Accuracy scores:")
-print("Raw TLX:",r_acc)
-print("Weighted TLX:",w_acc)
-print("Confusion Matrices:")
-print("Raw TLX CM")
-print(r_cm)
-print("Weigted TLX CM")
-print(w_cm)
+# Try GMMs using different types of covariances.
+n_classes = 3
+estimators = {cov_type: GaussianMixture(n_components=n_classes,
+              covariance_type=cov_type, max_iter=30, random_state=0)
+              for cov_type in ['spherical', 'diag', 'tied', 'full']}
 
-# 5s --- 5 Features
-# Accuracy scores:
-# rX_select = [10,5,4,1,0]
-# wX_select = [10,8,7,5,1]
-# Raw TLX: 0.5128859402908905
-# Weighted TLX: 0.673896402143404
-# Confusion Matrices:
-# Raw TLX CM
-# [[1285  419  130]
-#  [ 459  501  159]
-#  [ 537  205  224]]
-# Weigted TLX CM
-# [[1018  382    0]
-#  [ 363 1623    0]
-#  [ 172  361    0]]
+n_estimators = len(estimators)
 
-# 10s --- 5 features
-# rX_select = [10,9,7,5,0]
-# wX_select = [10,9,5,1,0]
-# Raw TLX: 0.562407132243685
-# Weighted TLX: 0.7076523031203567
-# Confusion Matrices:
-# Raw TLX CM
-# [[887 315  67]
-#  [257 405 124]
-#  [220 195 222]]
-# Weigted TLX CM
-# [[ 607  397    0]
-#  [  80 1298    0]
-#  [  10  300    0]]
-
-# 30s --- 5 Features
-# rX_select = [9,6,5,4,1]
-# wX_select = [10,9,7,5,0]
-# Accuracy scores:
-# Raw TLX: 0.6230975828111012
-# Weighted TLX: 0.7479856759176365
-# Confusion Matrices:
-# Raw TLX CM
-# [[724 305  46]
-#  [137 411 113]
-#  [ 65 176 257]]
-# Weigted TLX CM
-# [[ 624  263    0]
-#  [  65 1047    0]
-#  [  14  221    0]]
+X_train = wX_train
+X_test = wX_test
+y_train = wy_train
+y_test = wy_test
 
 
-# 60s --- 5 Features
-# rX_select = [9,6,5,4,1]
-# wX_select = [10,9,7,5,0]
-# Accuracy scores:
-# Raw TLX: 0.718968968968969
-# Weighted TLX: 0.7855355355355356
-# Confusion Matrices:
-# Raw TLX CM
-# [[1466  454    6]
-#  [ 160  917  161]
-#  [  57  285  490]]
-# Weigted TLX CM
-# [[1124  461    0]
-#  [ 102 1924    6]
-#  [  32  256   91]]
+for index, (name, estimator) in enumerate(estimators.items()):
+    print(name)
+    # Since we have class labels for the training data, we can
+    # initialize the GMM parameters in a supervised manner.
+    estimator.means_init = np.array([X_train[ry_train == i].mean(axis=0)
+                                    for i in range(n_classes)])
+
+    # Train the other parameters using the EM algorithm.
+    estimator.fit(X_train)
+
+    y_train_pred = estimator.predict(X_train)
+    train_accuracy = np.mean(y_train_pred.ravel() == y_train.ravel())
+    print("Train accuracy: ", train_accuracy)
+
+    y_test_pred = estimator.predict(X_test)
+    test_accuracy = np.mean(y_test_pred.ravel() == y_test.ravel()) 
+    print("Test accuracy: ", test_accuracy)
+
+
+# 5s
+# Raw
+# spherical
+# Train accuracy:,  0.4070435115477861
+# Test accuracy:,  0.41260525644297014
+# diag
+# Train accuracy:,  0.4678448385861937
+# Test accuracy:,  0.4679765246236285
+# tied
+# Train accuracy:,  0.3981115222661733
+# Test accuracy:,  0.4021434039295739
+# full
+# Train accuracy:,  0.46790863850963377
+# Test accuracy:,  0.4679765246236285
+# Weighted
+# spherical
+# Train accuracy:,  0.20524435370677555
+# Test accuracy:,  0.20719571319214086
+# diag
+# Train accuracy:,  0.3568967717238739
+# Test accuracy:,  0.35723398826231184
+# tied
+# Train accuracy:,  0.13614903662115604
+# Test accuracy:,  0.13600408267415157
+# full
+# Train accuracy:,  0.35683297180043383
+# Test accuracy:,  0.3574891553967849
+
+# 10s
+# Raw
+# spherical
+# Train accuracy:, %f 0.387630014858841
+# Test accuracy:, %f 0.39561664190193163
+# diag
+# Train accuracy:, %f 0.21471025260029716
+# Test accuracy:, %f 0.21508172362555722
+# tied
+# Train accuracy:, %f 0.3639487369985141
+# Test accuracy:, %f 0.3803863298662704
+# full
+# Train accuracy:, %f 0.21536032689450224
+# Test accuracy:, %f 0.21099554234769688
+# Weighted
+# spherical
+# Train accuracy:  0.41781203566121844
+# Test accuracy:  0.4112184249628529
+# diag
+# Train accuracy:  0.4973997028231798
+# Test accuracy:  0.4988855869242199
+# tied
+# Train accuracy:  0.1150631500742942
+# Test accuracy:  0.1151560178306092
+# full
+# Train accuracy:  0.46823922734026746
+# Test accuracy:  0.4684249628528975
+
+# 30s 
+# Raw
+# spherical
+# Train accuracy:, %f 0.49339453649798476
+# Test accuracy:, %f 0.5
+# diag
+# Train accuracy:, %f 0.5139946260635916
+# Test accuracy:, %f 0.5228290062667861
+# tied
+# Train accuracy:, %f 0.4965293327362293
+# Test accuracy:, %f 0.4923903312444047
+# full
+# Train accuracy:, %f 0.4907075682937752
+# Test accuracy:, %f 0.5013428827215757
+# Weighted
+# spherical
+# Train accuracy:  0.14274518584863413
+# Test accuracy:  0.13428827215756492
+# diag
+# Train accuracy:  0.18360949395432155
+# Test accuracy:  0.16696508504923904
+# tied
+# Train accuracy:  0.1639050604567846
+# Test accuracy:  0.15443151298119964
+# full
+# Train accuracy:  0.26253918495297807
+# Test accuracy:  0.2430617726051925
+
+# 60s 
+# Raw
+# spherical
+# Train accuracy:, %f 0.5251564455569462
+# Test accuracy:, %f 0.5295295295295295
+# diag
+# Train accuracy:, %f 0.5379224030037547
+# Test accuracy:, %f 0.5380380380380381
+# tied
+# Train accuracy:, %f 0.5007509386733416
+# Test accuracy:, %f 0.501001001001001
+# full
+# Train accuracy:, %f 0.4773466833541927
+# Test accuracy:, %f 0.4774774774774775
+# Weighted
+# spherical
+# Train accuracy:, %f 0.3659574468085106
+# Test accuracy:, %f 0.37737737737737737
+# diag
+# Train accuracy:, %f 0.1246558197747184
+# Test accuracy:, %f 0.12462462462462462
+# tied
+# Train accuracy:, %f 0.396558197747184
+# Test accuracy:, %f 0.3966466466466467
+# full
+# Train accuracy:, %f 0.17909887359198998
+# Test accuracy:, %f 0.17917917917917917
