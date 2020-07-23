@@ -52,41 +52,39 @@ def plot_histograms(scores,scType):
     ax1[1].yaxis.set_major_formatter(PercentFormatter(1))
     plt.show()
 
+plot_histograms(raw_scores,"Raw")
+plot_histograms(weighted_scores,"Weighted")
+
 # Convert pd series to np arrays
 raw_scores_ar = raw_scores.values
 weighted_scores_ar = weighted_scores.values
 
-# Get 1/3 and 2/3 percentiles 
-raw_lowcut = np.percentile(raw_scores_ar,33.3)
-raw_highcut = np.percentile(raw_scores_ar,66.7)
-print("Raw score 33.3% and 66.7% percentiles:",round(raw_lowcut,2),round(raw_highcut,2))
+# Split into two groups, high and low, which are above and below 50th percentile respectively
+raw_cut = np.percentile(raw_scores_ar,50.0)
+print("Raw score 50th percentile:",round(raw_cut,2))
 
-weighted_lowcut = np.percentile(weighted_scores_ar,33.3)
-weighted_highcut = np.percentile(weighted_scores_ar,66.7)
-print("Raw score 33.3% and 66.7% percentiles:",round(weighted_lowcut,2),round(weighted_highcut,2))
+weighted_cut = np.percentile(weighted_scores_ar,50.0)
+print("Weighted score 50th percentile:",round(weighted_cut,2))
 
 # Produce labels for each session and save as csv 
-columns = ["id","interface","Raw Label", "Weighted Label"]
+columns = ["id","interface","autonomy","Raw Label", "Weighted Label"]
 index = range(non_pilots.sum())
 tlxLabels_df = pd.DataFrame(index=index,columns=columns)
-tlxLabels_df["id"] = tlx_df.loc[non_pilots,"id"].values
+tlxLabels_df["id"] = tlx_df.loc[non_pilots,"id"].map(lambda x: x.lower()).values
 tlxLabels_df["interface"] = tlx_df.loc[non_pilots,"interface"].values
+tlxLabels_df["autonomy"] = tlx_df.loc[non_pilots,"assistance"].values
 
 for idx in index:
     rScore = raw_scores_ar[idx]
     wScore = weighted_scores_ar[idx]
     # Create raw score label
-    if rScore< raw_lowcut:
+    if rScore< raw_cut:
         rLabel = "Low"
-    elif rScore< raw_highcut:
-        rLabel = "Med"
     else:
         rLabel = "High"
     # Create weighted score label
-    if wScore< weighted_lowcut:
+    if wScore< weighted_cut:
         wLabel = "Low"
-    elif rScore< weighted_highcut:
-        wLabel = "Med"
     else:
         wLabel = "High"
     tlxLabels_df.loc[idx,"Raw Label"] = rLabel
