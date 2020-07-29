@@ -1,0 +1,491 @@
+patID,TotWind,NotAnalyzed,PercentNotAnalyzed,PercentAFWind,PercentLowQualityWind
+"s00_Headarray - Low level autonomy",605,553,91.405,0,91.405
+"s00_Headarray - Mid level autonomy",811,755,93.0949,0,93.0949
+"s00_Headarray - Teleoperation",406,322,79.3103,0,79.3103
+"s00_Joystick - Command",106,106,100,0,100
+"s00_Joystick - Low level autonomy",196,196,100,0,100
+"s00_Joystick - Mid level autonomy",1156,1006,87.0242,0,87.0242
+"s00_Sip-n-puff - Command",346,291,84.104,0,84.104
+"s00_Sip-n-puff - Teleoperation",736,695,94.4293,0,94.4293
+"s01_Headarray - Low level autonomy",346,0,0,0,0
+"s01_Headarray - Mid level autonomy",1051,0,0,0,0
+"s01_Headarray - Teleoperation",211,0,0,0,0
+"s01_Sip-n-puff - Command",211,0,0,0,0
+"s01_Sip-n-puff - Teleoperation",586,0,0,0,0
+"s02_Headarray - Low level autonomy",375,194,51.7333,0,51.7333
+"s02_Headarray - Mid level autonomy",1336,785,58.7575,0,58.7575
+"s02_Headarray - Teleoperation",271,152,56.0886,0,56.0886
+"s02_Joystick - Command",271,152,56.0886,0,56.0886
+"s02_Joystick - Low level autonomy",271,152,56.0886,0,56.0886
+"s02_Joystick - Mid level autonomy",271,152,56.0886,0,56.0886
+"s02_Sip-n-puff - Command",211,28,13.2701,0,13.2701
+"s02_Sip-n-puff - Teleoperation",715,708,99.021,0,99.021
+"s03_Joystick - Command",106,0,0,0,0
+"s03_Joystick - Low level autonomy",346,281,81.2139,0,81.2139
+"s03_Joystick - Mid level autonomy",673,555,82.4666,0,82.4666
+"s03_Sip-n-puff - Command",219,219,100,0,100
+"s03_Sip-n-puff - Teleoperation",1156,107,9.2561,0,9.2561
+"s04,_Headarray - Low level autonomy",1156,107,9.2561,0,9.2561
+"s04,_Headarray - Mid level autonomy",1156,107,9.2561,0,9.2561
+"s04,_Headarray - Teleoperation",1156,107,9.2561,0,9.2561
+"s04,_Joystick - Command",1156,107,9.2561,0,9.2561
+"s04,_Joystick - Low level autonomy",1156,107,9.2561,0,9.2561
+"s04,_Joystick - Mid level autonomy",1156,107,9.2561,0,9.2561
+"s04,_Sip-n-puff - Command",1156,107,9.2561,0,9.2561
+"s04,_Sip-n-puff - Teleoperation",1156,107,9.2561,0,9.2561
+"s05_Headarray - Low level autonomy",450,40,8.8889,0,8.8889
+"s05_Headarray - Mid level autonomy",646,562,86.9969,0,86.9969
+"s05_Headarray - Teleoperation",196,0,0,0,0
+"s05_Joystick - Command",106,0,0,0,0
+"s05_Joystick - Low level autonomy",286,204,71.3287,0,71.3287
+"s05_Joystick - Mid level autonomy",615,0,0,0,0
+"s05_Sip-n-puff - Command",211,0,0,0,0
+"s05_Sip-n-puff - Teleoperation",1036,111,10.7143,0,10.7143
+"s06_Headarray - Low level autonomy",361,361,100,0,100
+"s06_Headarray - Mid level autonomy",916,916,100,0,100
+"s06_Headarray - Teleoperation",196,196,100,0,100
+"s06_Joystick - Command",106,106,100,0,100
+"s06_Joystick - Low level autonomy",421,421,100,0,100
+"s06_Joystick - Mid level autonomy",736,736,100,0,100
+"s06_Sip-n-puff - Command",211,211,100,0,100
+"s06_Sip-n-puff - Teleoperation",796,796,100,0,100
+"s07_Headarray - Low level autonomy",796,796,100,0,100
+"s07_Headarray - Mid level autonomy",796,796,100,0,100
+"s07_Headarray - Teleoperation",796,796,100,0,100
+"s07_Joystick - Command",796,796,100,0,100
+"s07_Joystick - Low level autonomy",796,796,100,0,100
+"s07_Joystick - Mid level autonomy",796,796,100,0,100
+"s07_Sip-n-puff - Command",211,211,100,0,100
+"s07_Sip-n-puff - Teleoperation",1516,1502,99.0765,0,99.0765
+"s08,_Headarray - Low level autonomy",1516,1502,99.0765,0,99.0765
+"s08,_Headarray - Mid level autonomy",1516,1502,99.0765,0,99.0765
+"s08,_Headarray - Teleoperation",1516,1502,99.0765,0,99.0765
+"s08,_Joystick - Command",1516,1502,99.0765,0,99.0765
+"s08,_Joystick - Low level autonomy",1516,1502,99.0765,0,99.0765
+"s08,_Joystick - Mid level autonomy",1516,1502,99.0765,0,99.0765
+"s08,_Sip-n-puff - Command",1516,1502,99.0765,0,99.0765
+"s08,_Sip-n-puff - Teleoperation",1516,1502,99.0765,0,99.0765
+"u00_Headarray - Low level autonomy",328,328,100,0,100
+"u00_Headarray - Mid level autonomy",1138,1010,88.7522,0,88.7522
+"u00_Headarray - Teleoperation",510,510,100,0,100
+"u00_Joystick - Command",86,86,100,0,100
+"u00_Joystick - Low level autonomy",421,421,100,0,100
+"u00_Joystick - Mid level autonomy",676,676,100,0,100
+"u00_Sip-n-puff - Command",676,676,100,0,100
+"u00_Sip-n-puff - Teleoperation",676,676,100,0,100
+"u01_Headarray - Low level autonomy",676,676,100,0,100
+"u01_Headarray - Mid level autonomy",391,300,76.7263,0,76.7263
+"u01_Headarray - Teleoperation",256,83,32.4219,0,32.4219
+"u01_Joystick - Command",106,106,100,0,100
+"u01_Joystick - Low level autonomy",331,287,86.7069,0,86.7069
+"u01_Joystick - Mid level autonomy",766,756,98.6945,0,98.6945
+"u01_Sip-n-puff - Command",211,211,100,0,100
+"u01_Sip-n-puff - Teleoperation",609,609,100,0,100
+"u02_Headarray - Low level autonomy",419,419,100,0,100
+"u02_Headarray - Mid level autonomy",879,810,92.1502,0,92.1502
+"u02_Headarray - Teleoperation",271,238,87.8229,0,87.8229
+"u02_Joystick - Command",91,25,27.4725,0,27.4725
+"u02_Joystick - Low level autonomy",265,260,98.1132,0,98.1132
+"u02_Joystick - Mid level autonomy",883,733,83.0125,0,83.0125
+"u02_Sip-n-puff - Command",224,216,96.4286,0,96.4286
+"u02_Sip-n-puff - Teleoperation",1153,990,85.863,0,85.863
+"u03_Headarray - Low level autonomy",766,21,2.7415,0,2.7415
+"u03_Headarray - Mid level autonomy",796,46,5.7789,0,5.7789
+"u03_Headarray - Teleoperation",436,1,0.22936,0,0.22936
+"u03_Joystick - Command",91,0,0,0,0
+"u03_Joystick - Low level autonomy",346,23,6.6474,0,6.6474
+"u03_Joystick - Mid level autonomy",526,1,0.19011,0,0.19011
+"u03_Sip-n-puff - Command",211,0,0,0,0
+"u03_Sip-n-puff - Teleoperation",541,39,7.2089,0,7.2089
+"u04,_Headarray - Low level autonomy",541,39,7.2089,0,7.2089
+"u04,_Headarray - Mid level autonomy",541,39,7.2089,0,7.2089
+"u04,_Headarray - Teleoperation",541,39,7.2089,0,7.2089
+"u04,_Joystick - Command",541,39,7.2089,0,7.2089
+"u04,_Joystick - Low level autonomy",541,39,7.2089,0,7.2089
+"u04,_Joystick - Mid level autonomy",541,39,7.2089,0,7.2089
+"u04,_Sip-n-puff - Command",541,39,7.2089,0,7.2089
+"u04,_Sip-n-puff - Teleoperation",541,39,7.2089,0,7.2089
+"u05_Headarray - Low level autonomy",406,37,9.1133,0,9.1133
+"u05_Headarray - Mid level autonomy",856,488,57.0093,0,57.0093
+"u05_Headarray - Teleoperation",286,253,88.4615,0,88.4615
+"u05_Joystick - Command",99,95,95.9596,0,95.9596
+"u05_Joystick - Low level autonomy",203,164,80.7882,0,80.7882
+"u05_Joystick - Mid level autonomy",628,150,23.8854,0,23.8854
+"u05_Sip-n-puff - Command",211,51,24.1706,0,24.1706
+"u05_Sip-n-puff - Teleoperation",619,477,77.0598,0,77.0598
+"u06_Headarray - Low level autonomy",316,0,0,0,0
+"u06_Headarray - Mid level autonomy",661,655,99.0923,0,99.0923
+"u06_Headarray - Teleoperation",676,565,83.5799,0,83.5799
+"u06_Joystick - Command",121,121,100,0,100
+"u06_Joystick - Low level autonomy",271,271,100,0,100
+"u06_Joystick - Mid level autonomy",646,262,40.5573,0,40.5573
+"u06_Sip-n-puff - Command",226,207,91.5929,0,91.5929
+"u06_Sip-n-puff - Teleoperation",1306,664,50.8423,0,50.8423
+"u07_Headarray - Low level autonomy",540,492,91.1111,0,91.1111
+"u07_Headarray - Mid level autonomy",976,661,67.7254,0,67.7254
+"u07_Headarray - Teleoperation",519,473,91.1368,0,91.1368
+"u07_Joystick - Command",106,106,100,0,100
+"u07_Joystick - Low level autonomy",481,409,85.0312,0,85.0312
+"u07_Joystick - Mid level autonomy",1149,715,62.228,0,62.228
+"u07_Sip-n-puff - Command",196,69,35.2041,0,35.2041
+"u07_Sip-n-puff - Teleoperation",582,328,56.3574,0,56.3574
+"u08,_Headarray - Low level autonomy",582,328,56.3574,0,56.3574
+"u08,_Headarray - Mid level autonomy",582,328,56.3574,0,56.3574
+"u08,_Headarray - Teleoperation",582,328,56.3574,0,56.3574
+"u08,_Joystick - Command",582,328,56.3574,0,56.3574
+"u08,_Joystick - Low level autonomy",582,328,56.3574,0,56.3574
+"u08,_Joystick - Mid level autonomy",582,328,56.3574,0,56.3574
+"u08,_Sip-n-puff - Command",582,328,56.3574,0,56.3574
+"u08,_Sip-n-puff - Teleoperation",582,328,56.3574,0,56.3574
+"u09_Headarray - Low level autonomy",361,228,63.1579,0,63.1579
+"u09_Headarray - Mid level autonomy",736,617,83.8315,0,83.8315
+"u09_Headarray - Teleoperation",314,187,59.5541,0,59.5541
+"u09_Joystick - Command",91,0,0,0,0
+"u09_Joystick - Low level autonomy",601,524,87.188,0,87.188
+"u09_Joystick - Mid level autonomy",684,482,70.4678,0,70.4678
+"u09_Sip-n-puff - Command",209,209,100,0,100
+"u09_Sip-n-puff - Teleoperation",916,741,80.8952,0,80.8952
+"u09_Headarray - Low level autonomy",361,228,63.1579,0,63.1579
+"u09_Headarray - Mid level autonomy",736,617,83.8315,0,83.8315
+"u09_Headarray - Teleoperation",314,187,59.5541,0,59.5541
+"u09_Joystick - Command",91,0,0,0,0
+"u09_Joystick - Low level autonomy",601,524,87.188,0,87.188
+"u09_Joystick - Mid level autonomy",684,482,70.4678,0,70.4678
+"u09_Sip-n-puff - Command",209,209,100,0,100
+"u09_Sip-n-puff - Teleoperation",916,741,80.8952,0,80.8952
+"s00_Headarray - Teleoperation",406,322,79.3103,0,79.3103
+"s00_Headarray - Low level autonomy",605,553,91.405,0,91.405
+"s00_Headarray - Mid level autonomy",811,755,93.0949,0,93.0949
+"s00_Joystick - Teleoperation",135,135,100,0,100
+"s00_Joystick - Low level autonomy",196,196,100,0,100
+"s00_Joystick - Mid level autonomy",1156,1006,87.0242,0,87.0242
+"s00_Sip-n-puff - Teleoperation",736,695,94.4293,0,94.4293
+"s01_Headarray - Teleoperation",211,0,0,0,0
+"s01_Headarray - Low level autonomy",346,0,0,0,0
+"s01_Headarray - Mid level autonomy",1051,0,0,0,0
+"s01_Joystick - Teleoperation",1051,0,0,0,0
+"s01_Joystick - Low level autonomy",1051,0,0,0,0
+"s01_Joystick - Mid level autonomy",1051,0,0,0,0
+"s01_Sip-n-puff - Teleoperation",586,0,0,0,0
+"s02_Headarray - Teleoperation",271,152,56.0886,0,56.0886
+"s02_Headarray - Low level autonomy",375,194,51.7333,0,51.7333
+"s02_Headarray - Mid level autonomy",1336,785,58.7575,0,58.7575
+"s02_Joystick - Teleoperation",1336,785,58.7575,0,58.7575
+"s02_Joystick - Low level autonomy",1336,785,58.7575,0,58.7575
+"s02_Joystick - Mid level autonomy",1336,785,58.7575,0,58.7575
+"s02_Sip-n-puff - Teleoperation",715,708,99.021,0,99.021
+"s03_Headarray - Teleoperation",715,708,99.021,0,99.021
+"s03_Headarray - Low level autonomy",715,708,99.021,0,99.021
+"s03_Headarray - Mid level autonomy",715,708,99.021,0,99.021
+"s03_Joystick - Teleoperation",208,135,64.9038,0,64.9038
+"s03_Joystick - Low level autonomy",346,281,81.2139,0,81.2139
+"s03_Joystick - Mid level autonomy",673,555,82.4666,0,82.4666
+"s03_Sip-n-puff - Teleoperation",1156,107,9.2561,0,9.2561
+"s04_Headarray - Teleoperation",328,307,93.5976,0,93.5976
+"s04_Headarray - Low level autonomy",315,296,93.9683,0,93.9683
+"s04_Headarray - Mid level autonomy",819,261,31.8681,0,31.8681
+"s04_Joystick - Teleoperation",819,261,31.8681,0,31.8681
+"s04_Joystick - Low level autonomy",819,261,31.8681,0,31.8681
+"s04_Joystick - Mid level autonomy",819,261,31.8681,0,31.8681
+"s04_Sip-n-puff - Teleoperation",503,424,84.2942,0,84.2942
+"s05_Headarray - Teleoperation",196,0,0,0,0
+"s05_Headarray - Low level autonomy",450,40,8.8889,0,8.8889
+"s05_Headarray - Mid level autonomy",646,562,86.9969,0,86.9969
+"s05_Joystick - Teleoperation",211,14,6.6351,0,6.6351
+"s05_Joystick - Low level autonomy",286,204,71.3287,0,71.3287
+"s05_Joystick - Mid level autonomy",615,0,0,0,0
+"s05_Sip-n-puff - Teleoperation",1036,111,10.7143,0,10.7143
+"s06_Headarray - Teleoperation",196,196,100,0,100
+"s06_Headarray - Low level autonomy",361,361,100,0,100
+"s06_Headarray - Mid level autonomy",916,916,100,0,100
+"s06_Joystick - Teleoperation",151,151,100,0,100
+"s06_Joystick - Low level autonomy",421,421,100,0,100
+"s06_Joystick - Mid level autonomy",736,736,100,0,100
+"s06_Sip-n-puff - Teleoperation",796,796,100,0,100
+"s07_Headarray - Teleoperation",796,796,100,0,100
+"s07_Headarray - Low level autonomy",796,796,100,0,100
+"s07_Headarray - Mid level autonomy",796,796,100,0,100
+"s07_Joystick - Teleoperation",796,796,100,0,100
+"s07_Joystick - Low level autonomy",796,796,100,0,100
+"s07_Joystick - Mid level autonomy",796,796,100,0,100
+"s07_Sip-n-puff - Teleoperation",1516,1502,99.0765,0,99.0765
+"s08_Headarray - Teleoperation",269,269,100,0,100
+"s08_Headarray - Low level autonomy",466,466,100,0,100
+"s08_Headarray - Mid level autonomy",1243,1243,100,0,100
+"s08_Joystick - Teleoperation",316,316,100,0,100
+"s08_Joystick - Low level autonomy",406,230,56.6502,0,56.6502
+"s08_Joystick - Mid level autonomy",886,886,100,0,100
+"s08_Sip-n-puff - Teleoperation",556,556,100,0,100
+"u00_Headarray - Teleoperation",510,510,100,0,100
+"u00_Headarray - Low level autonomy",328,328,100,0,100
+"u00_Headarray - Mid level autonomy",1138,1010,88.7522,0,88.7522
+"u00_Joystick - Teleoperation",256,251,98.0469,0,98.0469
+"u00_Joystick - Low level autonomy",421,421,100,0,100
+"u00_Joystick - Mid level autonomy",676,676,100,0,100
+"u00_Sip-n-puff - Teleoperation",676,676,100,0,100
+"u01_Headarray - Teleoperation",256,83,32.4219,0,32.4219
+"u01_Headarray - Low level autonomy",256,83,32.4219,0,32.4219
+"u01_Headarray - Mid level autonomy",391,300,76.7263,0,76.7263
+"u01_Joystick - Teleoperation",166,131,78.9157,0,78.9157
+"u01_Joystick - Low level autonomy",331,287,86.7069,0,86.7069
+"u01_Joystick - Mid level autonomy",766,756,98.6945,0,98.6945
+"u01_Sip-n-puff - Teleoperation",609,609,100,0,100
+"u02_Headarray - Teleoperation",271,238,87.8229,0,87.8229
+"u02_Headarray - Low level autonomy",419,419,100,0,100
+"u02_Headarray - Mid level autonomy",879,810,92.1502,0,92.1502
+"u02_Joystick - Teleoperation",279,272,97.491,0,97.491
+"u02_Joystick - Low level autonomy",265,260,98.1132,0,98.1132
+"u02_Joystick - Mid level autonomy",883,733,83.0125,0,83.0125
+"u02_Sip-n-puff - Teleoperation",1153,990,85.863,0,85.863
+"u03_Headarray - Teleoperation",436,1,0.22936,0,0.22936
+"u03_Headarray - Low level autonomy",766,21,2.7415,0,2.7415
+"u03_Headarray - Mid level autonomy",796,46,5.7789,0,5.7789
+"u03_Joystick - Teleoperation",226,0,0,0,0
+"u03_Joystick - Low level autonomy",346,23,6.6474,0,6.6474
+"u03_Joystick - Mid level autonomy",526,1,0.19011,0,0.19011
+"u03_Sip-n-puff - Teleoperation",541,39,7.2089,0,7.2089
+"u04_Headarray - Teleoperation",226,0,0,0,0
+"u04_Headarray - Low level autonomy",481,27,5.6133,0,5.6133
+"u04_Headarray - Mid level autonomy",778,0,0,0,0
+"u04_Joystick - Teleoperation",166,0,0,0,0
+"u04_Joystick - Low level autonomy",270,0,0,0,0
+"u04_Joystick - Mid level autonomy",691,88,12.7352,0,12.7352
+"u04_Sip-n-puff - Teleoperation",466,27,5.794,0,5.794
+"u05_Headarray - Teleoperation",286,253,88.4615,0,88.4615
+"u05_Headarray - Low level autonomy",406,37,9.1133,0,9.1133
+"u05_Headarray - Mid level autonomy",856,488,57.0093,0,57.0093
+"u05_Joystick - Teleoperation",181,62,34.2541,0,34.2541
+"u05_Joystick - Low level autonomy",203,164,80.7882,0,80.7882
+"u05_Joystick - Mid level autonomy",628,150,23.8854,0,23.8854
+"u05_Sip-n-puff - Teleoperation",619,477,77.0598,0,77.0598
+"u06_Headarray - Teleoperation",676,565,83.5799,0,83.5799
+"u06_Headarray - Low level autonomy",316,0,0,0,0
+"u06_Headarray - Mid level autonomy",661,655,99.0923,0,99.0923
+"u06_Joystick - Teleoperation",226,226,100,0,100
+"u06_Joystick - Low level autonomy",271,271,100,0,100
+"u06_Joystick - Mid level autonomy",646,262,40.5573,0,40.5573
+"u06_Sip-n-puff - Teleoperation",1306,664,50.8423,0,50.8423
+"u07_Headarray - Teleoperation",519,473,91.1368,0,91.1368
+"u07_Headarray - Low level autonomy",540,492,91.1111,0,91.1111
+"u07_Headarray - Mid level autonomy",976,661,67.7254,0,67.7254
+"u07_Joystick - Teleoperation",181,0,0,0,0
+"u07_Joystick - Low level autonomy",481,409,85.0312,0,85.0312
+"u07_Joystick - Mid level autonomy",1149,715,62.228,0,62.228
+"u07_Sip-n-puff - Teleoperation",582,328,56.3574,0,56.3574
+"u08_Headarray - Teleoperation",586,586,100,0,100
+"u08_Headarray - Low level autonomy",481,481,100,0,100
+"u08_Headarray - Mid level autonomy",646,646,100,0,100
+"u08_Joystick - Teleoperation",215,215,100,0,100
+"u08_Joystick - Low level autonomy",436,436,100,0,100
+"u08_Joystick - Mid level autonomy",856,856,100,0,100
+"u08_Sip-n-puff - Teleoperation",660,660,100,0,100
+"u09_Headarray - Teleoperation",314,187,59.5541,0,59.5541
+"u09_Headarray - Low level autonomy",361,228,63.1579,0,63.1579
+"u09_Headarray - Mid level autonomy",736,617,83.8315,0,83.8315
+"u09_Joystick - Teleoperation",241,107,44.3983,0,44.3983
+"u09_Joystick - Low level autonomy",601,524,87.188,0,87.188
+"u09_Joystick - Mid level autonomy",684,482,70.4678,0,70.4678
+"u09_Sip-n-puff - Teleoperation",916,741,80.8952,0,80.8952
+"u10_Headarray - Teleoperation",916,741,80.8952,0,80.8952
+"u10_Headarray - Low level autonomy",916,741,80.8952,0,80.8952
+"u10_Headarray - Mid level autonomy",916,741,80.8952,0,80.8952
+"u10_Joystick - Teleoperation",916,741,80.8952,0,80.8952
+"u10_Joystick - Low level autonomy",916,741,80.8952,0,80.8952
+"u10_Joystick - Mid level autonomy",916,741,80.8952,0,80.8952
+"u10_Sip-n-puff - Teleoperation",916,741,80.8952,0,80.8952
+"u11_Headarray - Teleoperation",271,256,94.4649,0,94.4649
+"u11_Headarray - Low level autonomy",331,216,65.2568,0,65.2568
+"u11_Headarray - Mid level autonomy",766,331,43.2115,0,43.2115
+"u11_Joystick - Teleoperation",211,205,97.1564,0,97.1564
+"u11_Joystick - Low level autonomy",264,183,69.3182,0,69.3182
+"u11_Joystick - Mid level autonomy",641,428,66.7707,0,66.7707
+"u11_Sip-n-puff - Teleoperation",721,560,77.6699,0,77.6699
+"u12_Headarray - Teleoperation",225,225,100,0,100
+"u12_Headarray - Low level autonomy",361,361,100,0,100
+"u12_Headarray - Mid level autonomy",555,555,100,0,100
+"u12_Joystick - Teleoperation",151,151,100,0,100
+"u12_Joystick - Low level autonomy",346,346,100,0,100
+"u12_Joystick - Mid level autonomy",661,661,100,0,100
+"u12_Sip-n-puff - Teleoperation",661,661,100,0,100
+"u13_Headarray - Teleoperation",346,181,52.3121,0,52.3121
+"u13_Headarray - Low level autonomy",586,208,35.4949,0,35.4949
+"u13_Headarray - Mid level autonomy",871,300,34.4432,0,34.4432
+"u13_Joystick - Teleoperation",211,51,24.1706,0,24.1706
+"u13_Joystick - Low level autonomy",262,50,19.084,0,19.084
+"u13_Joystick - Mid level autonomy",601,308,51.2479,0,51.2479
+"u13_Sip-n-puff - Teleoperation",762,236,30.9711,0,30.9711
+"u14_Headarray - Teleoperation",226,1,0.44248,0,0.44248
+"u14_Headarray - Low level autonomy",241,28,11.6183,0,11.6183
+"u14_Headarray - Mid level autonomy",766,26,3.3943,0,3.3943
+"u14_Joystick - Teleoperation",196,0,0,0,0
+"u14_Joystick - Low level autonomy",436,110,25.2294,0,25.2294
+"u14_Joystick - Mid level autonomy",540,39,7.2222,0,7.2222
+"u14_Sip-n-puff - Teleoperation",481,77,16.0083,0,16.0083
+"s00_Headarray - Teleoperation",376,321,85.3723,0,85.3723
+"s00_Headarray - Low level autonomy",575,570,99.1304,0,99.1304
+"s00_Headarray - Mid level autonomy",781,754,96.5429,0,96.5429
+"s00_Joystick - Teleoperation",105,105,100,0,100
+"s00_Joystick - Low level autonomy",166,166,100,0,100
+"s00_Joystick - Mid level autonomy",1126,1057,93.8721,0,93.8721
+"s00_Sip-n-puff - Teleoperation",706,687,97.3088,0,97.3088
+"s01_Headarray - Teleoperation",181,0,0,0,0
+"s01_Headarray - Low level autonomy",316,0,0,0,0
+"s01_Headarray - Mid level autonomy",1021,0,0,0,0
+"s01_Joystick - Teleoperation",1021,0,0,0,0
+"s01_Joystick - Low level autonomy",1021,0,0,0,0
+"s01_Joystick - Mid level autonomy",1021,0,0,0,0
+"s01_Sip-n-puff - Teleoperation",556,0,0,0,0
+"s02_Headarray - Teleoperation",241,161,66.805,0,66.805
+"s02_Headarray - Low level autonomy",345,191,55.3623,0,55.3623
+"s02_Headarray - Mid level autonomy",1306,785,60.1072,0,60.1072
+"s02_Joystick - Teleoperation",1306,785,60.1072,0,60.1072
+"s02_Joystick - Low level autonomy",1306,785,60.1072,0,60.1072
+"s02_Joystick - Mid level autonomy",1306,785,60.1072,0,60.1072
+"s02_Sip-n-puff - Teleoperation",685,685,100,0,100
+"s03_Headarray - Teleoperation",685,685,100,0,100
+"s03_Headarray - Low level autonomy",685,685,100,0,100
+"s03_Headarray - Mid level autonomy",685,685,100,0,100
+"s03_Joystick - Teleoperation",178,151,84.8315,0,84.8315
+"s03_Joystick - Low level autonomy",316,299,94.6203,0,94.6203
+"s03_Joystick - Mid level autonomy",643,610,94.8678,0,94.8678
+"s03_Sip-n-puff - Teleoperation",1126,148,13.1439,0,13.1439
+"s04_Headarray - Teleoperation",298,298,100,0,100
+"s04_Headarray - Low level autonomy",285,285,100,0,100
+"s04_Headarray - Mid level autonomy",789,285,36.1217,0,36.1217
+"s04_Joystick - Teleoperation",789,285,36.1217,0,36.1217
+"s04_Joystick - Low level autonomy",789,285,36.1217,0,36.1217
+"s04_Joystick - Mid level autonomy",789,285,36.1217,0,36.1217
+"s04_Sip-n-puff - Teleoperation",473,444,93.8689,0,93.8689
+"s05_Headarray - Teleoperation",166,0,0,0,0
+"s05_Headarray - Low level autonomy",420,64,15.2381,0,15.2381
+"s05_Headarray - Mid level autonomy",616,542,87.987,0,87.987
+"s05_Joystick - Teleoperation",181,0,0,0,0
+"s05_Joystick - Low level autonomy",256,193,75.3906,0,75.3906
+"s05_Joystick - Mid level autonomy",585,0,0,0,0
+"s05_Sip-n-puff - Teleoperation",1006,120,11.9284,0,11.9284
+"s06_Headarray - Teleoperation",166,166,100,0,100
+"s06_Headarray - Low level autonomy",331,331,100,0,100
+"s06_Headarray - Mid level autonomy",886,886,100,0,100
+"s06_Joystick - Teleoperation",121,121,100,0,100
+"s06_Joystick - Low level autonomy",391,391,100,0,100
+"s06_Joystick - Mid level autonomy",706,706,100,0,100
+"s06_Sip-n-puff - Teleoperation",766,766,100,0,100
+"s07_Headarray - Teleoperation",766,766,100,0,100
+"s07_Headarray - Low level autonomy",766,766,100,0,100
+"s07_Headarray - Mid level autonomy",766,766,100,0,100
+"s07_Joystick - Teleoperation",766,766,100,0,100
+"s07_Joystick - Low level autonomy",766,766,100,0,100
+"s07_Joystick - Mid level autonomy",766,766,100,0,100
+"s07_Sip-n-puff - Teleoperation",1486,1486,100,0,100
+"s08_Headarray - Teleoperation",239,239,100,0,100
+"s08_Headarray - Low level autonomy",436,436,100,0,100
+"s08_Headarray - Mid level autonomy",1213,1213,100,0,100
+"s08_Joystick - Teleoperation",286,286,100,0,100
+"s08_Joystick - Low level autonomy",376,212,56.383,0,56.383
+"s08_Joystick - Mid level autonomy",856,856,100,0,100
+"s08_Sip-n-puff - Teleoperation",526,526,100,0,100
+"u00_Headarray - Teleoperation",480,480,100,0,100
+"u00_Headarray - Low level autonomy",298,298,100,0,100
+"u00_Headarray - Mid level autonomy",1108,1001,90.343,0,90.343
+"u00_Joystick - Teleoperation",226,225,99.5575,0,99.5575
+"u00_Joystick - Low level autonomy",391,391,100,0,100
+"u00_Joystick - Mid level autonomy",646,646,100,0,100
+"u00_Sip-n-puff - Teleoperation",646,646,100,0,100
+"u01_Headarray - Teleoperation",226,97,42.9204,0,42.9204
+"u01_Headarray - Low level autonomy",226,97,42.9204,0,42.9204
+"u01_Headarray - Mid level autonomy",361,323,89.4737,0,89.4737
+"u01_Joystick - Teleoperation",136,126,92.6471,0,92.6471
+"u01_Joystick - Low level autonomy",301,284,94.3522,0,94.3522
+"u01_Joystick - Mid level autonomy",736,736,100,0,100
+"u01_Sip-n-puff - Teleoperation",579,579,100,0,100
+"u02_Headarray - Teleoperation",241,229,95.0207,0,95.0207
+"u02_Headarray - Low level autonomy",389,389,100,0,100
+"u02_Headarray - Mid level autonomy",849,801,94.3463,0,94.3463
+"u02_Joystick - Teleoperation",249,249,100,0,100
+"u02_Joystick - Low level autonomy",235,235,100,0,100
+"u02_Joystick - Mid level autonomy",853,826,96.8347,0,96.8347
+"u02_Sip-n-puff - Teleoperation",1123,1025,91.2734,0,91.2734
+"u03_Headarray - Teleoperation",406,0,0,0,0
+"u03_Headarray - Low level autonomy",736,0,0,0,0
+"u03_Headarray - Mid level autonomy",766,18,2.3499,0,2.3499
+"u03_Joystick - Teleoperation",196,0,0,0,0
+"u03_Joystick - Low level autonomy",316,0,0,0,0
+"u03_Joystick - Mid level autonomy",496,0,0,0,0
+"u03_Sip-n-puff - Teleoperation",511,0,0,0,0
+"u04_Headarray - Teleoperation",196,0,0,0,0
+"u04_Headarray - Low level autonomy",451,0,0,0,0
+"u04_Headarray - Mid level autonomy",748,0,0,0,0
+"u04_Joystick - Teleoperation",136,0,0,0,0
+"u04_Joystick - Low level autonomy",240,0,0,0,0
+"u04_Joystick - Mid level autonomy",661,128,19.3646,0,19.3646
+"u04_Sip-n-puff - Teleoperation",436,0,0,0,0
+"u05_Headarray - Teleoperation",256,256,100,0,100
+"u05_Headarray - Low level autonomy",376,57,15.1596,0,15.1596
+"u05_Headarray - Mid level autonomy",826,558,67.5545,0,67.5545
+"u05_Joystick - Teleoperation",151,45,29.8013,0,29.8013
+"u05_Joystick - Low level autonomy",173,155,89.5954,0,89.5954
+"u05_Joystick - Mid level autonomy",598,178,29.7659,0,29.7659
+"u05_Sip-n-puff - Teleoperation",589,519,88.1154,0,88.1154
+"u06_Headarray - Teleoperation",646,586,90.7121,0,90.7121
+"u06_Headarray - Low level autonomy",286,0,0,0,0
+"u06_Headarray - Mid level autonomy",631,631,100,0,100
+"u06_Joystick - Teleoperation",196,196,100,0,100
+"u06_Joystick - Low level autonomy",241,241,100,0,100
+"u06_Joystick - Mid level autonomy",616,278,45.1299,0,45.1299
+"u06_Sip-n-puff - Teleoperation",1276,698,54.7022,0,54.7022
+"u07_Headarray - Teleoperation",489,489,100,0,100
+"u07_Headarray - Low level autonomy",510,499,97.8431,0,97.8431
+"u07_Headarray - Mid level autonomy",946,705,74.5243,0,74.5243
+"u07_Joystick - Teleoperation",151,0,0,0,0
+"u07_Joystick - Low level autonomy",451,442,98.0044,0,98.0044
+"u07_Joystick - Mid level autonomy",1119,686,61.3047,0,61.3047
+"u07_Sip-n-puff - Teleoperation",552,346,62.6812,0,62.6812
+"u08_Headarray - Teleoperation",556,556,100,0,100
+"u08_Headarray - Low level autonomy",451,451,100,0,100
+"u08_Headarray - Mid level autonomy",616,616,100,0,100
+"u08_Joystick - Teleoperation",185,185,100,0,100
+"u08_Joystick - Low level autonomy",406,406,100,0,100
+"u08_Joystick - Mid level autonomy",826,826,100,0,100
+"u08_Sip-n-puff - Teleoperation",630,630,100,0,100
+"u09_Headarray - Teleoperation",284,178,62.6761,0,62.6761
+"u09_Headarray - Low level autonomy",331,223,67.3716,0,67.3716
+"u09_Headarray - Mid level autonomy",706,660,93.4844,0,93.4844
+"u09_Joystick - Teleoperation",211,124,58.7678,0,58.7678
+"u09_Joystick - Low level autonomy",571,535,93.6953,0,93.6953
+"u09_Joystick - Mid level autonomy",654,504,77.0642,0,77.0642
+"u09_Sip-n-puff - Teleoperation",886,777,87.6975,0,87.6975
+"u10_Headarray - Teleoperation",886,777,87.6975,0,87.6975
+"u10_Headarray - Low level autonomy",886,777,87.6975,0,87.6975
+"u10_Headarray - Mid level autonomy",886,777,87.6975,0,87.6975
+"u10_Joystick - Teleoperation",886,777,87.6975,0,87.6975
+"u10_Joystick - Low level autonomy",886,777,87.6975,0,87.6975
+"u10_Joystick - Mid level autonomy",886,777,87.6975,0,87.6975
+"u10_Sip-n-puff - Teleoperation",886,777,87.6975,0,87.6975
+"u11_Headarray - Teleoperation",241,241,100,0,100
+"u11_Headarray - Low level autonomy",301,239,79.402,0,79.402
+"u11_Headarray - Mid level autonomy",736,333,45.2446,0,45.2446
+"u11_Joystick - Teleoperation",181,181,100,0,100
+"u11_Joystick - Low level autonomy",234,169,72.2222,0,72.2222
+"u11_Joystick - Mid level autonomy",611,469,76.7594,0,76.7594
+"u11_Sip-n-puff - Teleoperation",691,584,84.5152,0,84.5152
+"u12_Headarray - Teleoperation",195,195,100,0,100
+"u12_Headarray - Low level autonomy",331,331,100,0,100
+"u12_Headarray - Mid level autonomy",525,525,100,0,100
+"u12_Joystick - Teleoperation",121,121,100,0,100
+"u12_Joystick - Low level autonomy",316,316,100,0,100
+"u12_Joystick - Mid level autonomy",631,631,100,0,100
+"u12_Sip-n-puff - Teleoperation",631,631,100,0,100
+"u13_Headarray - Teleoperation",316,165,52.2152,0,52.2152
+"u13_Headarray - Low level autonomy",556,227,40.8273,0,40.8273
+"u13_Headarray - Mid level autonomy",841,423,50.2973,0,50.2973
+"u13_Joystick - Teleoperation",181,49,27.0718,0,27.0718
+"u13_Joystick - Low level autonomy",232,63,27.1552,0,27.1552
+"u13_Joystick - Mid level autonomy",571,301,52.7145,0,52.7145
+"u13_Sip-n-puff - Teleoperation",732,279,38.1148,0,38.1148
+"u14_Headarray - Teleoperation",196,0,0,0,0
+"u14_Headarray - Low level autonomy",211,18,8.5308,0,8.5308
+"u14_Headarray - Mid level autonomy",736,0,0,0,0
+"u14_Joystick - Teleoperation",166,0,0,0,0
+"u14_Joystick - Low level autonomy",406,100,24.6305,0,24.6305
+"u14_Joystick - Mid level autonomy",510,47,9.2157,0,9.2157
+"u14_Sip-n-puff - Teleoperation",451,96,21.286,0,21.286

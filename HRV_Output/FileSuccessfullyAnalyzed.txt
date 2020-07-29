@@ -694,3 +694,703 @@ u14_Sip-n-puff - Command
 u14_Sip-n-puff - Teleoperation 
 u14_Sip-n-puff - Trajectory 
 u14_Sip-n-puff - WST 
+s00_Headarray - Low level autonomy 
+s00_Headarray - Mid level autonomy 
+s00_Headarray - Teleoperation 
+s00_Joystick - Command 
+s00_Joystick - Low level autonomy 
+s00_Joystick - Mid level autonomy 
+s00_Sip-n-puff - Command 
+s00_Sip-n-puff - Teleoperation 
+s01_Headarray - Low level autonomy 
+s01_Headarray - Mid level autonomy 
+s01_Headarray - Teleoperation 
+s01_Sip-n-puff - Command 
+s01_Sip-n-puff - Teleoperation 
+s02_Headarray - Low level autonomy 
+s02_Headarray - Mid level autonomy 
+s02_Headarray - Teleoperation 
+s00_Headarray - Low level autonomy 
+s00_Headarray - Mid level autonomy 
+s00_Headarray - Teleoperation 
+s00_Joystick - Command 
+s00_Joystick - Low level autonomy 
+s00_Joystick - Mid level autonomy 
+s00_Sip-n-puff - Command 
+s00_Sip-n-puff - Teleoperation 
+s01_Headarray - Low level autonomy 
+s01_Headarray - Mid level autonomy 
+s01_Headarray - Teleoperation 
+s01_Sip-n-puff - Command 
+s01_Sip-n-puff - Teleoperation 
+s02_Headarray - Low level autonomy 
+s02_Headarray - Mid level autonomy 
+s02_Headarray - Teleoperation 
+s02_Joystick - Command 
+s02_Joystick - Low level autonomy 
+s02_Joystick - Mid level autonomy 
+s02_Sip-n-puff - Command 
+s02_Sip-n-puff - Teleoperation 
+s03_Joystick - Command 
+s03_Joystick - Low level autonomy 
+s03_Joystick - Mid level autonomy 
+s03_Sip-n-puff - Command 
+s03_Sip-n-puff - Teleoperation 
+s04,_Headarray - Low level autonomy 
+s04,_Headarray - Mid level autonomy 
+s04,_Headarray - Teleoperation 
+s04,_Joystick - Command 
+s04,_Joystick - Low level autonomy 
+s04,_Joystick - Mid level autonomy 
+s04,_Sip-n-puff - Command 
+s04,_Sip-n-puff - Teleoperation 
+s05_Headarray - Low level autonomy 
+s05_Headarray - Mid level autonomy 
+s05_Headarray - Teleoperation 
+s05_Joystick - Command 
+s05_Joystick - Low level autonomy 
+s05_Joystick - Mid level autonomy 
+s05_Sip-n-puff - Command 
+s05_Sip-n-puff - Teleoperation 
+s06_Headarray - Low level autonomy 
+s06_Headarray - Mid level autonomy 
+s06_Headarray - Teleoperation 
+s06_Joystick - Command 
+s06_Joystick - Low level autonomy 
+s06_Joystick - Mid level autonomy 
+s06_Sip-n-puff - Command 
+s06_Sip-n-puff - Teleoperation 
+s07_Headarray - Low level autonomy 
+s07_Headarray - Mid level autonomy 
+s07_Headarray - Teleoperation 
+s07_Joystick - Command 
+s07_Joystick - Low level autonomy 
+s07_Joystick - Mid level autonomy 
+s07_Sip-n-puff - Command 
+s07_Sip-n-puff - Teleoperation 
+s08,_Headarray - Low level autonomy 
+s08,_Headarray - Mid level autonomy 
+s08,_Headarray - Teleoperation 
+s08,_Joystick - Command 
+s08,_Joystick - Low level autonomy 
+s08,_Joystick - Mid level autonomy 
+s08,_Sip-n-puff - Command 
+s08,_Sip-n-puff - Teleoperation 
+u00_Headarray - Low level autonomy 
+u00_Headarray - Mid level autonomy 
+u00_Headarray - Teleoperation 
+u00_Joystick - Command 
+u00_Joystick - Low level autonomy 
+u00_Joystick - Mid level autonomy 
+u00_Sip-n-puff - Command 
+u00_Sip-n-puff - Teleoperation 
+u01_Headarray - Low level autonomy 
+u01_Headarray - Mid level autonomy 
+u01_Headarray - Teleoperation 
+u01_Joystick - Command 
+u01_Joystick - Low level autonomy 
+u01_Joystick - Mid level autonomy 
+u01_Sip-n-puff - Command 
+u01_Sip-n-puff - Teleoperation 
+u02_Headarray - Low level autonomy 
+u02_Headarray - Mid level autonomy 
+u02_Headarray - Teleoperation 
+u02_Joystick - Command 
+u02_Joystick - Low level autonomy 
+u02_Joystick - Mid level autonomy 
+u02_Sip-n-puff - Command 
+u02_Sip-n-puff - Teleoperation 
+u03_Headarray - Low level autonomy 
+u03_Headarray - Mid level autonomy 
+u03_Headarray - Teleoperation 
+u03_Joystick - Command 
+u03_Joystick - Low level autonomy 
+u03_Joystick - Mid level autonomy 
+u03_Sip-n-puff - Command 
+u03_Sip-n-puff - Teleoperation 
+u04,_Headarray - Low level autonomy 
+u04,_Headarray - Mid level autonomy 
+u04,_Headarray - Teleoperation 
+u04,_Joystick - Command 
+u04,_Joystick - Low level autonomy 
+u04,_Joystick - Mid level autonomy 
+u04,_Sip-n-puff - Command 
+u04,_Sip-n-puff - Teleoperation 
+u05_Headarray - Low level autonomy 
+u05_Headarray - Mid level autonomy 
+u05_Headarray - Teleoperation 
+u05_Joystick - Command 
+u05_Joystick - Low level autonomy 
+u05_Joystick - Mid level autonomy 
+u05_Sip-n-puff - Command 
+u05_Sip-n-puff - Teleoperation 
+u06_Headarray - Low level autonomy 
+u06_Headarray - Mid level autonomy 
+u06_Headarray - Teleoperation 
+u06_Joystick - Command 
+u06_Joystick - Low level autonomy 
+u06_Joystick - Mid level autonomy 
+u06_Sip-n-puff - Command 
+u06_Sip-n-puff - Teleoperation 
+u07_Headarray - Low level autonomy 
+u07_Headarray - Mid level autonomy 
+u07_Headarray - Teleoperation 
+u07_Joystick - Command 
+u07_Joystick - Low level autonomy 
+u07_Joystick - Mid level autonomy 
+u07_Sip-n-puff - Command 
+u07_Sip-n-puff - Teleoperation 
+u08,_Headarray - Low level autonomy 
+u08,_Headarray - Mid level autonomy 
+u08,_Headarray - Teleoperation 
+u08,_Joystick - Command 
+u08,_Joystick - Low level autonomy 
+u08,_Joystick - Mid level autonomy 
+u08,_Sip-n-puff - Command 
+u08,_Sip-n-puff - Teleoperation 
+u09_Headarray - Low level autonomy 
+u09_Headarray - Mid level autonomy 
+u09_Headarray - Teleoperation 
+u09_Joystick - Command 
+u09_Joystick - Low level autonomy 
+u09_Joystick - Mid level autonomy 
+u09_Sip-n-puff - Command 
+u09_Sip-n-puff - Teleoperation 
+u09_Headarray - Low level autonomy 
+u09_Headarray - Mid level autonomy 
+u09_Headarray - Teleoperation 
+u09_Joystick - Command 
+u09_Joystick - Low level autonomy 
+u09_Joystick - Mid level autonomy 
+u09_Sip-n-puff - Command 
+u09_Sip-n-puff - Teleoperation 
+u10_Headarray - Low level autonomy 
+u10_Headarray - Mid level autonomy 
+u10_Headarray - Teleoperation 
+u10_Joystick - Command 
+u10_Joystick - Low level autonomy 
+u10_Joystick - Mid level autonomy 
+u10_Sip-n-puff - Command 
+u10_Sip-n-puff - Teleoperation 
+u11_Headarray - Low level autonomy 
+u11_Headarray - Mid level autonomy 
+u11_Headarray - Teleoperation 
+u11_Joystick - Command 
+u11_Joystick - Low level autonomy 
+u11_Joystick - Mid level autonomy 
+u11_Sip-n-puff - Command 
+u11_Sip-n-puff - Teleoperation 
+u12_Headarray - Low level autonomy 
+u12_Headarray - Mid level autonomy 
+u12_Headarray - Teleoperation 
+u12_Joystick - Command 
+u12_Joystick - Low level autonomy 
+u12_Joystick - Mid level autonomy 
+u12_Sip-n-puff - Command 
+u12_Sip-n-puff - Teleoperation 
+u13_Headarray - Low level autonomy 
+u13_Headarray - Mid level autonomy 
+u13_Headarray - Teleoperation 
+u13_Joystick - Command 
+u13_Joystick - Low level autonomy 
+u13_Joystick - Mid level autonomy 
+u13_Sip-n-puff - Command 
+u13_Sip-n-puff - Teleoperation 
+u14_Headarray - Low level autonomy 
+u14_Headarray - Mid level autonomy 
+u14_Headarray - Teleoperation 
+u14_Joystick - Command 
+u14_Joystick - Low level autonomy 
+u14_Joystick - Mid level autonomy 
+u14_Sip-n-puff - Command 
+u14_Sip-n-puff - Teleoperation 
+s00_Headarray - Low level autonomy 
+s00_Headarray - Mid level autonomy 
+s00_Headarray - Teleoperation 
+s00_Joystick - Command 
+s00_Joystick - Low level autonomy 
+s00_Joystick - Mid level autonomy 
+s00_Sip-n-puff - Command 
+s00_Sip-n-puff - Teleoperation 
+s01_Headarray - Low level autonomy 
+s01_Headarray - Mid level autonomy 
+s01_Headarray - Teleoperation 
+s01_Sip-n-puff - Command 
+s01_Sip-n-puff - Teleoperation 
+s02_Headarray - Low level autonomy 
+s02_Headarray - Mid level autonomy 
+s02_Headarray - Teleoperation 
+s02_Joystick - Command 
+s02_Joystick - Low level autonomy 
+s02_Joystick - Mid level autonomy 
+s02_Sip-n-puff - Command 
+s02_Sip-n-puff - Teleoperation 
+s03_Joystick - Command 
+s03_Joystick - Low level autonomy 
+s03_Joystick - Mid level autonomy 
+s03_Sip-n-puff - Command 
+s03_Sip-n-puff - Teleoperation 
+s04,_Headarray - Low level autonomy 
+s04,_Headarray - Mid level autonomy 
+s04,_Headarray - Teleoperation 
+s04,_Joystick - Command 
+s04,_Joystick - Low level autonomy 
+s04,_Joystick - Mid level autonomy 
+s04,_Sip-n-puff - Command 
+s04,_Sip-n-puff - Teleoperation 
+s05_Headarray - Low level autonomy 
+s05_Headarray - Mid level autonomy 
+s05_Headarray - Teleoperation 
+s05_Joystick - Command 
+s05_Joystick - Low level autonomy 
+s05_Joystick - Mid level autonomy 
+s05_Sip-n-puff - Command 
+s05_Sip-n-puff - Teleoperation 
+s06_Headarray - Low level autonomy 
+s06_Headarray - Mid level autonomy 
+s06_Headarray - Teleoperation 
+s06_Joystick - Command 
+s06_Joystick - Low level autonomy 
+s06_Joystick - Mid level autonomy 
+s06_Sip-n-puff - Command 
+s06_Sip-n-puff - Teleoperation 
+s07_Headarray - Low level autonomy 
+s07_Headarray - Mid level autonomy 
+s07_Headarray - Teleoperation 
+s07_Joystick - Command 
+s07_Joystick - Low level autonomy 
+s07_Joystick - Mid level autonomy 
+s07_Sip-n-puff - Command 
+s07_Sip-n-puff - Teleoperation 
+s08,_Headarray - Low level autonomy 
+s08,_Headarray - Mid level autonomy 
+s08,_Headarray - Teleoperation 
+s08,_Joystick - Command 
+s08,_Joystick - Low level autonomy 
+s08,_Joystick - Mid level autonomy 
+s08,_Sip-n-puff - Command 
+s08,_Sip-n-puff - Teleoperation 
+u00_Headarray - Low level autonomy 
+u00_Headarray - Mid level autonomy 
+u00_Headarray - Teleoperation 
+u00_Joystick - Command 
+u00_Joystick - Low level autonomy 
+u00_Joystick - Mid level autonomy 
+u00_Sip-n-puff - Command 
+u00_Sip-n-puff - Teleoperation 
+u01_Headarray - Low level autonomy 
+u01_Headarray - Mid level autonomy 
+u01_Headarray - Teleoperation 
+u01_Joystick - Command 
+u01_Joystick - Low level autonomy 
+u01_Joystick - Mid level autonomy 
+u01_Sip-n-puff - Command 
+u01_Sip-n-puff - Teleoperation 
+u02_Headarray - Low level autonomy 
+u02_Headarray - Mid level autonomy 
+u02_Headarray - Teleoperation 
+u02_Joystick - Command 
+u02_Joystick - Low level autonomy 
+u02_Joystick - Mid level autonomy 
+u02_Sip-n-puff - Command 
+u02_Sip-n-puff - Teleoperation 
+u03_Headarray - Low level autonomy 
+u03_Headarray - Mid level autonomy 
+u03_Headarray - Teleoperation 
+u03_Joystick - Command 
+u03_Joystick - Low level autonomy 
+u03_Joystick - Mid level autonomy 
+u03_Sip-n-puff - Command 
+u03_Sip-n-puff - Teleoperation 
+u04,_Headarray - Low level autonomy 
+u04,_Headarray - Mid level autonomy 
+u04,_Headarray - Teleoperation 
+u04,_Joystick - Command 
+u04,_Joystick - Low level autonomy 
+u04,_Joystick - Mid level autonomy 
+u04,_Sip-n-puff - Command 
+u04,_Sip-n-puff - Teleoperation 
+u05_Headarray - Low level autonomy 
+u05_Headarray - Mid level autonomy 
+u05_Headarray - Teleoperation 
+u05_Joystick - Command 
+u05_Joystick - Low level autonomy 
+u05_Joystick - Mid level autonomy 
+u05_Sip-n-puff - Command 
+u05_Sip-n-puff - Teleoperation 
+u06_Headarray - Low level autonomy 
+u06_Headarray - Mid level autonomy 
+u06_Headarray - Teleoperation 
+u06_Joystick - Command 
+u06_Joystick - Low level autonomy 
+u06_Joystick - Mid level autonomy 
+u06_Sip-n-puff - Command 
+u06_Sip-n-puff - Teleoperation 
+u07_Headarray - Low level autonomy 
+u07_Headarray - Mid level autonomy 
+u07_Headarray - Teleoperation 
+u07_Joystick - Command 
+u07_Joystick - Low level autonomy 
+u07_Joystick - Mid level autonomy 
+u07_Sip-n-puff - Command 
+u07_Sip-n-puff - Teleoperation 
+u08,_Headarray - Low level autonomy 
+u08,_Headarray - Mid level autonomy 
+u08,_Headarray - Teleoperation 
+u08,_Joystick - Command 
+u08,_Joystick - Low level autonomy 
+u08,_Joystick - Mid level autonomy 
+u08,_Sip-n-puff - Command 
+u08,_Sip-n-puff - Teleoperation 
+u09_Headarray - Low level autonomy 
+u09_Headarray - Mid level autonomy 
+u09_Headarray - Teleoperation 
+u09_Joystick - Command 
+u09_Joystick - Low level autonomy 
+u09_Joystick - Mid level autonomy 
+u09_Sip-n-puff - Command 
+u09_Sip-n-puff - Teleoperation 
+u09_Headarray - Low level autonomy 
+u09_Headarray - Mid level autonomy 
+u09_Headarray - Teleoperation 
+u09_Joystick - Command 
+u09_Joystick - Low level autonomy 
+u09_Joystick - Mid level autonomy 
+u09_Sip-n-puff - Command 
+u09_Sip-n-puff - Teleoperation 
+s00_Headarray - Teleoperation 
+s00_Headarray - Low level autonomy 
+s00_Headarray - Mid level autonomy 
+s00_Joystick - Teleoperation 
+s00_Joystick - Low level autonomy 
+s00_Joystick - Mid level autonomy 
+s00_Sip-n-puff - Teleoperation 
+s01_Headarray - Teleoperation 
+s01_Headarray - Low level autonomy 
+s01_Headarray - Mid level autonomy 
+s01_Joystick - Teleoperation 
+s01_Joystick - Low level autonomy 
+s01_Joystick - Mid level autonomy 
+s01_Sip-n-puff - Teleoperation 
+s02_Headarray - Teleoperation 
+s02_Headarray - Low level autonomy 
+s02_Headarray - Mid level autonomy 
+s02_Joystick - Teleoperation 
+s02_Joystick - Low level autonomy 
+s02_Joystick - Mid level autonomy 
+s02_Sip-n-puff - Teleoperation 
+s03_Headarray - Teleoperation 
+s03_Headarray - Low level autonomy 
+s03_Headarray - Mid level autonomy 
+s03_Joystick - Teleoperation 
+s03_Joystick - Low level autonomy 
+s03_Joystick - Mid level autonomy 
+s03_Sip-n-puff - Teleoperation 
+s04_Headarray - Teleoperation 
+s04_Headarray - Low level autonomy 
+s04_Headarray - Mid level autonomy 
+s04_Joystick - Teleoperation 
+s04_Joystick - Low level autonomy 
+s04_Joystick - Mid level autonomy 
+s04_Sip-n-puff - Teleoperation 
+s05_Headarray - Teleoperation 
+s05_Headarray - Low level autonomy 
+s05_Headarray - Mid level autonomy 
+s05_Joystick - Teleoperation 
+s05_Joystick - Low level autonomy 
+s05_Joystick - Mid level autonomy 
+s05_Sip-n-puff - Teleoperation 
+s06_Headarray - Teleoperation 
+s06_Headarray - Low level autonomy 
+s06_Headarray - Mid level autonomy 
+s06_Joystick - Teleoperation 
+s06_Joystick - Low level autonomy 
+s06_Joystick - Mid level autonomy 
+s06_Sip-n-puff - Teleoperation 
+s07_Headarray - Teleoperation 
+s07_Headarray - Low level autonomy 
+s07_Headarray - Mid level autonomy 
+s07_Joystick - Teleoperation 
+s07_Joystick - Low level autonomy 
+s07_Joystick - Mid level autonomy 
+s07_Sip-n-puff - Teleoperation 
+s08_Headarray - Teleoperation 
+s08_Headarray - Low level autonomy 
+s08_Headarray - Mid level autonomy 
+s08_Joystick - Teleoperation 
+s08_Joystick - Low level autonomy 
+s08_Joystick - Mid level autonomy 
+s08_Sip-n-puff - Teleoperation 
+u00_Headarray - Teleoperation 
+u00_Headarray - Low level autonomy 
+u00_Headarray - Mid level autonomy 
+u00_Joystick - Teleoperation 
+u00_Joystick - Low level autonomy 
+u00_Joystick - Mid level autonomy 
+u00_Sip-n-puff - Teleoperation 
+u01_Headarray - Teleoperation 
+u01_Headarray - Low level autonomy 
+u01_Headarray - Mid level autonomy 
+u01_Joystick - Teleoperation 
+u01_Joystick - Low level autonomy 
+u01_Joystick - Mid level autonomy 
+u01_Sip-n-puff - Teleoperation 
+u02_Headarray - Teleoperation 
+u02_Headarray - Low level autonomy 
+u02_Headarray - Mid level autonomy 
+u02_Joystick - Teleoperation 
+u02_Joystick - Low level autonomy 
+u02_Joystick - Mid level autonomy 
+u02_Sip-n-puff - Teleoperation 
+u03_Headarray - Teleoperation 
+u03_Headarray - Low level autonomy 
+u03_Headarray - Mid level autonomy 
+u03_Joystick - Teleoperation 
+u03_Joystick - Low level autonomy 
+u03_Joystick - Mid level autonomy 
+u03_Sip-n-puff - Teleoperation 
+u04_Headarray - Teleoperation 
+u04_Headarray - Low level autonomy 
+u04_Headarray - Mid level autonomy 
+u04_Joystick - Teleoperation 
+u04_Joystick - Low level autonomy 
+u04_Joystick - Mid level autonomy 
+u04_Sip-n-puff - Teleoperation 
+u05_Headarray - Teleoperation 
+u05_Headarray - Low level autonomy 
+u05_Headarray - Mid level autonomy 
+u05_Joystick - Teleoperation 
+u05_Joystick - Low level autonomy 
+u05_Joystick - Mid level autonomy 
+u05_Sip-n-puff - Teleoperation 
+u06_Headarray - Teleoperation 
+u06_Headarray - Low level autonomy 
+u06_Headarray - Mid level autonomy 
+u06_Joystick - Teleoperation 
+u06_Joystick - Low level autonomy 
+u06_Joystick - Mid level autonomy 
+u06_Sip-n-puff - Teleoperation 
+u07_Headarray - Teleoperation 
+u07_Headarray - Low level autonomy 
+u07_Headarray - Mid level autonomy 
+u07_Joystick - Teleoperation 
+u07_Joystick - Low level autonomy 
+u07_Joystick - Mid level autonomy 
+u07_Sip-n-puff - Teleoperation 
+u08_Headarray - Teleoperation 
+u08_Headarray - Low level autonomy 
+u08_Headarray - Mid level autonomy 
+u08_Joystick - Teleoperation 
+u08_Joystick - Low level autonomy 
+u08_Joystick - Mid level autonomy 
+u08_Sip-n-puff - Teleoperation 
+u09_Headarray - Teleoperation 
+u09_Headarray - Low level autonomy 
+u09_Headarray - Mid level autonomy 
+u09_Joystick - Teleoperation 
+u09_Joystick - Low level autonomy 
+u09_Joystick - Mid level autonomy 
+u09_Sip-n-puff - Teleoperation 
+u10_Headarray - Teleoperation 
+u10_Headarray - Low level autonomy 
+u10_Headarray - Mid level autonomy 
+u10_Joystick - Teleoperation 
+u10_Joystick - Low level autonomy 
+u10_Joystick - Mid level autonomy 
+u10_Sip-n-puff - Teleoperation 
+u11_Headarray - Teleoperation 
+u11_Headarray - Low level autonomy 
+u11_Headarray - Mid level autonomy 
+u11_Joystick - Teleoperation 
+u11_Joystick - Low level autonomy 
+u11_Joystick - Mid level autonomy 
+u11_Sip-n-puff - Teleoperation 
+u12_Headarray - Teleoperation 
+u12_Headarray - Low level autonomy 
+u12_Headarray - Mid level autonomy 
+u12_Joystick - Teleoperation 
+u12_Joystick - Low level autonomy 
+u12_Joystick - Mid level autonomy 
+u12_Sip-n-puff - Teleoperation 
+u13_Headarray - Teleoperation 
+u13_Headarray - Low level autonomy 
+u13_Headarray - Mid level autonomy 
+u13_Joystick - Teleoperation 
+u13_Joystick - Low level autonomy 
+u13_Joystick - Mid level autonomy 
+u13_Sip-n-puff - Teleoperation 
+u14_Headarray - Teleoperation 
+u14_Headarray - Low level autonomy 
+u14_Headarray - Mid level autonomy 
+u14_Joystick - Teleoperation 
+u14_Joystick - Low level autonomy 
+u14_Joystick - Mid level autonomy 
+u14_Sip-n-puff - Teleoperation 
+s00_Headarray - Teleoperation 
+s00_Headarray - Low level autonomy 
+s00_Headarray - Mid level autonomy 
+s00_Joystick - Teleoperation 
+s00_Joystick - Low level autonomy 
+s00_Joystick - Mid level autonomy 
+s00_Sip-n-puff - Teleoperation 
+s01_Headarray - Teleoperation 
+s01_Headarray - Low level autonomy 
+s01_Headarray - Mid level autonomy 
+s01_Joystick - Teleoperation 
+s01_Joystick - Low level autonomy 
+s01_Joystick - Mid level autonomy 
+s01_Sip-n-puff - Teleoperation 
+s02_Headarray - Teleoperation 
+s02_Headarray - Low level autonomy 
+s02_Headarray - Mid level autonomy 
+s02_Joystick - Teleoperation 
+s02_Joystick - Low level autonomy 
+s02_Joystick - Mid level autonomy 
+s02_Sip-n-puff - Teleoperation 
+s03_Headarray - Teleoperation 
+s03_Headarray - Low level autonomy 
+s03_Headarray - Mid level autonomy 
+s03_Joystick - Teleoperation 
+s03_Joystick - Low level autonomy 
+s03_Joystick - Mid level autonomy 
+s03_Sip-n-puff - Teleoperation 
+s04_Headarray - Teleoperation 
+s04_Headarray - Low level autonomy 
+s04_Headarray - Mid level autonomy 
+s04_Joystick - Teleoperation 
+s04_Joystick - Low level autonomy 
+s04_Joystick - Mid level autonomy 
+s04_Sip-n-puff - Teleoperation 
+s05_Headarray - Teleoperation 
+s05_Headarray - Low level autonomy 
+s05_Headarray - Mid level autonomy 
+s05_Joystick - Teleoperation 
+s05_Joystick - Low level autonomy 
+s05_Joystick - Mid level autonomy 
+s05_Sip-n-puff - Teleoperation 
+s06_Headarray - Teleoperation 
+s06_Headarray - Low level autonomy 
+s06_Headarray - Mid level autonomy 
+s06_Joystick - Teleoperation 
+s06_Joystick - Low level autonomy 
+s06_Joystick - Mid level autonomy 
+s06_Sip-n-puff - Teleoperation 
+s07_Headarray - Teleoperation 
+s07_Headarray - Low level autonomy 
+s07_Headarray - Mid level autonomy 
+s07_Joystick - Teleoperation 
+s07_Joystick - Low level autonomy 
+s07_Joystick - Mid level autonomy 
+s07_Sip-n-puff - Teleoperation 
+s08_Headarray - Teleoperation 
+s08_Headarray - Low level autonomy 
+s08_Headarray - Mid level autonomy 
+s08_Joystick - Teleoperation 
+s08_Joystick - Low level autonomy 
+s08_Joystick - Mid level autonomy 
+s08_Sip-n-puff - Teleoperation 
+u00_Headarray - Teleoperation 
+u00_Headarray - Low level autonomy 
+u00_Headarray - Mid level autonomy 
+u00_Joystick - Teleoperation 
+u00_Joystick - Low level autonomy 
+u00_Joystick - Mid level autonomy 
+u00_Sip-n-puff - Teleoperation 
+u01_Headarray - Teleoperation 
+u01_Headarray - Low level autonomy 
+u01_Headarray - Mid level autonomy 
+u01_Joystick - Teleoperation 
+u01_Joystick - Low level autonomy 
+u01_Joystick - Mid level autonomy 
+u01_Sip-n-puff - Teleoperation 
+u02_Headarray - Teleoperation 
+u02_Headarray - Low level autonomy 
+u02_Headarray - Mid level autonomy 
+u02_Joystick - Teleoperation 
+u02_Joystick - Low level autonomy 
+u02_Joystick - Mid level autonomy 
+u02_Sip-n-puff - Teleoperation 
+u03_Headarray - Teleoperation 
+u03_Headarray - Low level autonomy 
+u03_Headarray - Mid level autonomy 
+u03_Joystick - Teleoperation 
+u03_Joystick - Low level autonomy 
+u03_Joystick - Mid level autonomy 
+u03_Sip-n-puff - Teleoperation 
+u04_Headarray - Teleoperation 
+u04_Headarray - Low level autonomy 
+u04_Headarray - Mid level autonomy 
+u04_Joystick - Teleoperation 
+u04_Joystick - Low level autonomy 
+u04_Joystick - Mid level autonomy 
+u04_Sip-n-puff - Teleoperation 
+u05_Headarray - Teleoperation 
+u05_Headarray - Low level autonomy 
+u05_Headarray - Mid level autonomy 
+u05_Joystick - Teleoperation 
+u05_Joystick - Low level autonomy 
+u05_Joystick - Mid level autonomy 
+u05_Sip-n-puff - Teleoperation 
+u06_Headarray - Teleoperation 
+u06_Headarray - Low level autonomy 
+u06_Headarray - Mid level autonomy 
+u06_Joystick - Teleoperation 
+u06_Joystick - Low level autonomy 
+u06_Joystick - Mid level autonomy 
+u06_Sip-n-puff - Teleoperation 
+u07_Headarray - Teleoperation 
+u07_Headarray - Low level autonomy 
+u07_Headarray - Mid level autonomy 
+u07_Joystick - Teleoperation 
+u07_Joystick - Low level autonomy 
+u07_Joystick - Mid level autonomy 
+u07_Sip-n-puff - Teleoperation 
+u08_Headarray - Teleoperation 
+u08_Headarray - Low level autonomy 
+u08_Headarray - Mid level autonomy 
+u08_Joystick - Teleoperation 
+u08_Joystick - Low level autonomy 
+u08_Joystick - Mid level autonomy 
+u08_Sip-n-puff - Teleoperation 
+u09_Headarray - Teleoperation 
+u09_Headarray - Low level autonomy 
+u09_Headarray - Mid level autonomy 
+u09_Joystick - Teleoperation 
+u09_Joystick - Low level autonomy 
+u09_Joystick - Mid level autonomy 
+u09_Sip-n-puff - Teleoperation 
+u10_Headarray - Teleoperation 
+u10_Headarray - Low level autonomy 
+u10_Headarray - Mid level autonomy 
+u10_Joystick - Teleoperation 
+u10_Joystick - Low level autonomy 
+u10_Joystick - Mid level autonomy 
+u10_Sip-n-puff - Teleoperation 
+u11_Headarray - Teleoperation 
+u11_Headarray - Low level autonomy 
+u11_Headarray - Mid level autonomy 
+u11_Joystick - Teleoperation 
+u11_Joystick - Low level autonomy 
+u11_Joystick - Mid level autonomy 
+u11_Sip-n-puff - Teleoperation 
+u12_Headarray - Teleoperation 
+u12_Headarray - Low level autonomy 
+u12_Headarray - Mid level autonomy 
+u12_Joystick - Teleoperation 
+u12_Joystick - Low level autonomy 
+u12_Joystick - Mid level autonomy 
+u12_Sip-n-puff - Teleoperation 
+u13_Headarray - Teleoperation 
+u13_Headarray - Low level autonomy 
+u13_Headarray - Mid level autonomy 
+u13_Joystick - Teleoperation 
+u13_Joystick - Low level autonomy 
+u13_Joystick - Mid level autonomy 
+u13_Sip-n-puff - Teleoperation 
+u14_Headarray - Teleoperation 
+u14_Headarray - Low level autonomy 
+u14_Headarray - Mid level autonomy 
+u14_Joystick - Teleoperation 
+u14_Joystick - Low level autonomy 
+u14_Joystick - Mid level autonomy 
+u14_Sip-n-puff - Teleoperation 
