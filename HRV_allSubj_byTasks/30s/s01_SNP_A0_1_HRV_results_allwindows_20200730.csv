@@ -1,0 +1,2 @@
+patID,t_start,t_end,NNmean,NNmedian,NNmode,NNvariance,NNskew,NNkurt,NNiqr,SDNN,RMSSD,pnn50,btsdet,avgsqi,tdflag,ulf,vlf,lf,hf,lfhf,ttlpwr,fdflag,ac,dc,SD1,SD2,SD1SD2,SampEn,ApEn
+s01_SNP_A0_1,0,30,804.6486,808,764,421.7898,-0.2421468,2.400595,25,20.53752,19.56187,0,37,0.9584371,5,5.909782,152.1979,205.8854,101.3004,2.03,465.2935,5,,,14.02832,25.43199,0.5516013,Inf,0.07718964

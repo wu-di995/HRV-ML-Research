@@ -1,0 +1,2415 @@
+Basic HRV Analysis faild for subject: s00_HA_A0_1, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: s00_HA_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_HA_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_HA_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_HA_A0_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_HA_A1_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_HA_A1_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_HA_A1_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_HA_A1_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_HA_A1_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_HA_A1_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_HA_A1_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_HA_A2_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_HA_A2_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_HA_A2_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_HA_A2_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_HA_A2_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_HA_A2_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_HA_A2_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_JOY_A0_1,  
+Basic HRV Analysis faild for subject: s00_JOY_A0_2,  
+Basic HRV Analysis faild for subject: s00_JOY_A0_3,  
+Basic HRV Analysis faild for subject: s00_JOY_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_JOY_A0_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_JOY_A0_6,  
+Basic HRV Analysis faild for subject: s00_JOY_A0_7,  
+Basic HRV Analysis faild for subject: s00_JOY_A1_1,  
+Basic HRV Analysis faild for subject: s00_JOY_A1_2,  
+Basic HRV Analysis faild for subject: s00_JOY_A1_3,  
+Basic HRV Analysis faild for subject: s00_JOY_A1_4,  
+Basic HRV Analysis faild for subject: s00_JOY_A1_5,  
+Basic HRV Analysis faild for subject: s00_JOY_A1_6,  
+Basic HRV Analysis faild for subject: s00_JOY_A1_7,  
+Basic HRV Analysis faild for subject: s00_JOY_A2_1,  
+Basic HRV Analysis faild for subject: s00_JOY_A2_2,  
+Basic HRV Analysis faild for subject: s00_JOY_A2_3,  
+Basic HRV Analysis faild for subject: s00_JOY_A2_4,  
+Basic HRV Analysis faild for subject: s00_JOY_A2_5,  
+Basic HRV Analysis faild for subject: s00_JOY_A2_6,  
+Basic HRV Analysis faild for subject: s00_JOY_A2_7,  
+Basic HRV Analysis faild for subject: s00_SNP_A0_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_SNP_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_SNP_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_SNP_A0_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_SNP_A1_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_SNP_A1_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_SNP_A1_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_SNP_A1_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_SNP_A1_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_SNP_A1_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_SNP_A1_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_SNP_A2_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_SNP_A2_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_SNP_A2_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_SNP_A2_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_SNP_A2_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_SNP_A2_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_SNP_A2_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_HA_A0_1,  
+Basic HRV Analysis faild for subject: s01_HA_A0_2,  
+Basic HRV Analysis faild for subject: s01_HA_A0_3,  
+Basic HRV Analysis faild for subject: s01_HA_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_HA_A0_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_HA_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_HA_A0_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_HA_A1_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_HA_A1_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_HA_A1_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_HA_A1_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_HA_A1_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_HA_A1_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_HA_A1_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_HA_A2_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_HA_A2_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_HA_A2_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_HA_A2_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_HA_A2_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_HA_A2_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_HA_A2_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_JOY_A0_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_JOY_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_JOY_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_JOY_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_JOY_A0_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_JOY_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_JOY_A0_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_JOY_A1_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_JOY_A1_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_JOY_A1_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_JOY_A1_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_JOY_A1_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_JOY_A1_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_JOY_A1_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_JOY_A2_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_JOY_A2_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_JOY_A2_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_JOY_A2_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_JOY_A2_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_JOY_A2_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_JOY_A2_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_SNP_A0_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_SNP_A0_3,  
+Basic HRV Analysis faild for subject: s01_SNP_A0_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_SNP_A1_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_SNP_A1_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_SNP_A1_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_SNP_A1_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_SNP_A1_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_SNP_A1_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_SNP_A1_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_SNP_A2_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_SNP_A2_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_SNP_A2_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_SNP_A2_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_SNP_A2_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_SNP_A2_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_SNP_A2_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_HA_A0_1,  
+Basic HRV Analysis faild for subject: s02_HA_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_HA_A0_3, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: s02_HA_A0_4, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: s02_HA_A0_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_HA_A0_6, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: s02_HA_A0_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_HA_A1_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_HA_A1_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_HA_A1_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_HA_A1_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_HA_A1_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_HA_A1_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_HA_A1_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_HA_A2_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_HA_A2_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_HA_A2_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_HA_A2_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_HA_A2_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_HA_A2_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_HA_A2_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_JOY_A0_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_JOY_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_JOY_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_JOY_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_JOY_A0_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_JOY_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_JOY_A0_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_JOY_A1_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_JOY_A1_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_JOY_A1_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_JOY_A1_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_JOY_A1_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_JOY_A1_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_JOY_A1_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_JOY_A2_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_JOY_A2_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_JOY_A2_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_JOY_A2_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_JOY_A2_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_JOY_A2_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_JOY_A2_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_SNP_A0_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_SNP_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_SNP_A0_6,  
+Basic HRV Analysis faild for subject: s02_SNP_A0_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_SNP_A1_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_SNP_A1_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_SNP_A1_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_SNP_A1_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_SNP_A1_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_SNP_A1_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_SNP_A1_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_SNP_A2_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_SNP_A2_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_SNP_A2_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_SNP_A2_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_SNP_A2_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_SNP_A2_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_SNP_A2_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_HA_A0_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_HA_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_HA_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_HA_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_HA_A0_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_HA_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_HA_A0_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_HA_A1_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_HA_A1_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_HA_A1_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_HA_A1_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_HA_A1_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_HA_A1_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_HA_A1_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_HA_A2_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_HA_A2_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_HA_A2_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_HA_A2_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_HA_A2_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_HA_A2_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_HA_A2_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_JOY_A0_1,  
+Basic HRV Analysis faild for subject: s03_JOY_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_JOY_A0_3,  
+Basic HRV Analysis faild for subject: s03_JOY_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_JOY_A0_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_JOY_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_JOY_A0_7,  
+Basic HRV Analysis faild for subject: s03_JOY_A1_1,  
+Basic HRV Analysis faild for subject: s03_JOY_A1_2,  
+Basic HRV Analysis faild for subject: s03_JOY_A1_3,  
+Basic HRV Analysis faild for subject: s03_JOY_A1_4,  
+Basic HRV Analysis faild for subject: s03_JOY_A1_5,  
+Basic HRV Analysis faild for subject: s03_JOY_A1_6,  
+Basic HRV Analysis faild for subject: s03_JOY_A1_7,  
+Basic HRV Analysis faild for subject: s03_JOY_A2_1,  
+Basic HRV Analysis faild for subject: s03_JOY_A2_2,  
+Basic HRV Analysis faild for subject: s03_JOY_A2_3,  
+Basic HRV Analysis faild for subject: s03_JOY_A2_4,  
+Basic HRV Analysis faild for subject: s03_JOY_A2_5,  
+Basic HRV Analysis faild for subject: s03_JOY_A2_6,  
+Basic HRV Analysis faild for subject: s03_JOY_A2_7,  
+Basic HRV Analysis faild for subject: s03_SNP_A0_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_SNP_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_SNP_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s04_HA_A0_1,  
+Basic HRV Analysis faild for subject: s04_HA_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s04_HA_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s04_HA_A0_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s04_HA_A0_6,  
+Basic HRV Analysis faild for subject: s04_HA_A0_7,  
+Basic HRV Analysis faild for subject: s04_HA_A1_1,  
+Basic HRV Analysis faild for subject: s04_HA_A1_2,  
+Basic HRV Analysis faild for subject: s04_HA_A1_3,  
+Basic HRV Analysis faild for subject: s04_HA_A1_4,  
+Basic HRV Analysis faild for subject: s04_HA_A1_5,  
+Basic HRV Analysis faild for subject: s04_HA_A1_6,  
+Basic HRV Analysis faild for subject: s04_HA_A1_7,  
+Basic HRV Analysis faild for subject: s04_HA_A2_1,  
+Basic HRV Analysis faild for subject: s04_HA_A2_2,  
+Basic HRV Analysis faild for subject: s04_HA_A2_3,  
+Basic HRV Analysis faild for subject: s04_HA_A2_4,  
+Basic HRV Analysis faild for subject: s04_HA_A2_5,  
+Basic HRV Analysis faild for subject: s04_HA_A2_6,  
+Basic HRV Analysis faild for subject: s04_HA_A2_7,  
+Basic HRV Analysis faild for subject: s04_JOY_A0_1,  
+Basic HRV Analysis faild for subject: s04_JOY_A0_2,  
+Basic HRV Analysis faild for subject: s04_JOY_A0_3,  
+Basic HRV Analysis faild for subject: s04_JOY_A0_4,  
+Basic HRV Analysis faild for subject: s04_JOY_A0_5,  
+Basic HRV Analysis faild for subject: s04_JOY_A0_6,  
+Basic HRV Analysis faild for subject: s04_JOY_A0_7,  
+Basic HRV Analysis faild for subject: s04_JOY_A1_1,  
+Basic HRV Analysis faild for subject: s04_JOY_A1_2,  
+Basic HRV Analysis faild for subject: s04_JOY_A1_3,  
+Basic HRV Analysis faild for subject: s04_JOY_A1_4,  
+Basic HRV Analysis faild for subject: s04_JOY_A1_5,  
+Basic HRV Analysis faild for subject: s04_JOY_A1_6,  
+Basic HRV Analysis faild for subject: s04_JOY_A1_7,  
+Basic HRV Analysis faild for subject: s04_JOY_A2_1,  
+Basic HRV Analysis faild for subject: s04_JOY_A2_2,  
+Basic HRV Analysis faild for subject: s04_JOY_A2_3,  
+Basic HRV Analysis faild for subject: s04_JOY_A2_4,  
+Basic HRV Analysis faild for subject: s04_JOY_A2_5,  
+Basic HRV Analysis faild for subject: s04_JOY_A2_6,  
+Basic HRV Analysis faild for subject: s04_JOY_A2_7,  
+Basic HRV Analysis faild for subject: s04_SNP_A0_1,  
+Basic HRV Analysis faild for subject: s04_SNP_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s04_SNP_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s04_SNP_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s04_SNP_A0_7,  
+Basic HRV Analysis faild for subject: s04_SNP_A1_1,  
+Basic HRV Analysis faild for subject: s04_SNP_A1_2,  
+Basic HRV Analysis faild for subject: s04_SNP_A1_3,  
+Basic HRV Analysis faild for subject: s04_SNP_A1_4,  
+Basic HRV Analysis faild for subject: s04_SNP_A1_5,  
+Basic HRV Analysis faild for subject: s04_SNP_A1_6,  
+Basic HRV Analysis faild for subject: s04_SNP_A1_7,  
+Basic HRV Analysis faild for subject: s04_SNP_A2_1,  
+Basic HRV Analysis faild for subject: s04_SNP_A2_2,  
+Basic HRV Analysis faild for subject: s04_SNP_A2_3,  
+Basic HRV Analysis faild for subject: s04_SNP_A2_4,  
+Basic HRV Analysis faild for subject: s04_SNP_A2_5,  
+Basic HRV Analysis faild for subject: s04_SNP_A2_6,  
+Basic HRV Analysis faild for subject: s04_SNP_A2_7,  
+Basic HRV Analysis faild for subject: s05_HA_A0_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s05_HA_A0_2,  
+Basic HRV Analysis faild for subject: s05_HA_A0_3,  
+Basic HRV Analysis faild for subject: s05_HA_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s05_HA_A0_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s05_HA_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s05_HA_A0_7,  
+Basic HRV Analysis faild for subject: s05_HA_A1_1,  
+Basic HRV Analysis faild for subject: s05_HA_A1_2,  
+Basic HRV Analysis faild for subject: s05_HA_A1_3,  
+Basic HRV Analysis faild for subject: s05_HA_A1_4,  
+Basic HRV Analysis faild for subject: s05_HA_A1_5,  
+Basic HRV Analysis faild for subject: s05_HA_A1_6,  
+Basic HRV Analysis faild for subject: s05_HA_A1_7,  
+Basic HRV Analysis faild for subject: s05_HA_A2_1,  
+Basic HRV Analysis faild for subject: s05_HA_A2_2,  
+Basic HRV Analysis faild for subject: s05_HA_A2_3,  
+Basic HRV Analysis faild for subject: s05_HA_A2_4,  
+Basic HRV Analysis faild for subject: s05_HA_A2_5,  
+Basic HRV Analysis faild for subject: s05_HA_A2_6,  
+Basic HRV Analysis faild for subject: s05_HA_A2_7,  
+Basic HRV Analysis faild for subject: s05_JOY_A0_1,  
+Basic HRV Analysis faild for subject: s05_JOY_A0_2,  
+Basic HRV Analysis faild for subject: s05_JOY_A0_3,  
+Basic HRV Analysis faild for subject: s05_JOY_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s05_JOY_A0_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s05_JOY_A0_6,  
+Basic HRV Analysis faild for subject: s05_JOY_A0_7,  
+Basic HRV Analysis faild for subject: s05_JOY_A1_1,  
+Basic HRV Analysis faild for subject: s05_JOY_A1_2,  
+Basic HRV Analysis faild for subject: s05_JOY_A1_3,  
+Basic HRV Analysis faild for subject: s05_JOY_A1_4,  
+Basic HRV Analysis faild for subject: s05_JOY_A1_5,  
+Basic HRV Analysis faild for subject: s05_JOY_A1_6,  
+Basic HRV Analysis faild for subject: s05_JOY_A1_7,  
+Basic HRV Analysis faild for subject: s05_JOY_A2_1,  
+Basic HRV Analysis faild for subject: s05_JOY_A2_2,  
+Basic HRV Analysis faild for subject: s05_JOY_A2_3,  
+Basic HRV Analysis faild for subject: s05_JOY_A2_4,  
+Basic HRV Analysis faild for subject: s05_JOY_A2_5,  
+Basic HRV Analysis faild for subject: s05_JOY_A2_6,  
+Basic HRV Analysis faild for subject: s05_JOY_A2_7,  
+Basic HRV Analysis faild for subject: s05_SNP_A0_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s05_SNP_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s05_SNP_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s05_SNP_A0_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s05_SNP_A1_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s05_SNP_A1_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s05_SNP_A1_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s05_SNP_A1_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s05_SNP_A1_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s05_SNP_A1_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s05_SNP_A1_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s05_SNP_A2_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s05_SNP_A2_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s05_SNP_A2_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s05_SNP_A2_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s05_SNP_A2_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s05_SNP_A2_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s05_SNP_A2_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s06_HA_A0_1,  
+Basic HRV Analysis faild for subject: s06_HA_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s06_HA_A0_3,  
+Basic HRV Analysis faild for subject: s06_HA_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s06_HA_A0_6,  
+Basic HRV Analysis faild for subject: s06_HA_A0_7,  
+Basic HRV Analysis faild for subject: s06_HA_A1_1,  
+Basic HRV Analysis faild for subject: s06_HA_A1_2,  
+Basic HRV Analysis faild for subject: s06_HA_A1_3,  
+Basic HRV Analysis faild for subject: s06_HA_A1_4,  
+Basic HRV Analysis faild for subject: s06_HA_A1_5,  
+Basic HRV Analysis faild for subject: s06_HA_A1_6,  
+Basic HRV Analysis faild for subject: s06_HA_A1_7,  
+Basic HRV Analysis faild for subject: s06_HA_A2_1,  
+Basic HRV Analysis faild for subject: s06_HA_A2_2,  
+Basic HRV Analysis faild for subject: s06_HA_A2_3,  
+Basic HRV Analysis faild for subject: s06_HA_A2_4,  
+Basic HRV Analysis faild for subject: s06_HA_A2_5,  
+Basic HRV Analysis faild for subject: s06_HA_A2_6,  
+Basic HRV Analysis faild for subject: s06_HA_A2_7,  
+Basic HRV Analysis faild for subject: s06_JOY_A0_1,  
+Basic HRV Analysis faild for subject: s06_JOY_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s06_JOY_A0_3,  
+Basic HRV Analysis faild for subject: s06_JOY_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s06_JOY_A0_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s06_JOY_A0_6,  
+Basic HRV Analysis faild for subject: s06_JOY_A0_7,  
+Basic HRV Analysis faild for subject: s06_JOY_A1_1,  
+Basic HRV Analysis faild for subject: s06_JOY_A1_2,  
+Basic HRV Analysis faild for subject: s06_JOY_A1_3,  
+Basic HRV Analysis faild for subject: s06_JOY_A1_4,  
+Basic HRV Analysis faild for subject: s06_JOY_A1_5,  
+Basic HRV Analysis faild for subject: s06_JOY_A1_6,  
+Basic HRV Analysis faild for subject: s06_JOY_A1_7,  
+Basic HRV Analysis faild for subject: s06_JOY_A2_1,  
+Basic HRV Analysis faild for subject: s06_JOY_A2_2,  
+Basic HRV Analysis faild for subject: s06_JOY_A2_3,  
+Basic HRV Analysis faild for subject: s06_JOY_A2_4,  
+Basic HRV Analysis faild for subject: s06_JOY_A2_5,  
+Basic HRV Analysis faild for subject: s06_JOY_A2_6,  
+Basic HRV Analysis faild for subject: s06_JOY_A2_7,  
+Basic HRV Analysis faild for subject: s06_SNP_A0_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s06_SNP_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s06_SNP_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s06_SNP_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s06_SNP_A0_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s06_SNP_A1_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s06_SNP_A1_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s06_SNP_A1_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s06_SNP_A1_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s06_SNP_A1_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s06_SNP_A1_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s06_SNP_A1_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s06_SNP_A2_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s06_SNP_A2_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s06_SNP_A2_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s06_SNP_A2_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s06_SNP_A2_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s06_SNP_A2_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s06_SNP_A2_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_HA_A0_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_HA_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_HA_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_HA_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_HA_A0_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_HA_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_HA_A0_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_HA_A1_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_HA_A1_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_HA_A1_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_HA_A1_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_HA_A1_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_HA_A1_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_HA_A1_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_HA_A2_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_HA_A2_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_HA_A2_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_HA_A2_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_HA_A2_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_HA_A2_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_HA_A2_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_JOY_A0_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_JOY_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_JOY_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_JOY_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_JOY_A0_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_JOY_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_JOY_A0_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_JOY_A1_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_JOY_A1_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_JOY_A1_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_JOY_A1_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_JOY_A1_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_JOY_A1_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_JOY_A1_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_JOY_A2_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_JOY_A2_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_JOY_A2_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_JOY_A2_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_JOY_A2_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_JOY_A2_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_JOY_A2_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_SNP_A0_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_SNP_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_SNP_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_SNP_A0_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_SNP_A1_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_SNP_A1_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_SNP_A1_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_SNP_A1_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_SNP_A1_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_SNP_A1_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_SNP_A1_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_SNP_A2_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_SNP_A2_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_SNP_A2_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_SNP_A2_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_SNP_A2_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_SNP_A2_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s07_SNP_A2_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s08_HA_A0_1,  
+Basic HRV Analysis faild for subject: s08_HA_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s08_HA_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s08_HA_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s08_HA_A0_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s08_HA_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s08_HA_A0_7,  
+Basic HRV Analysis faild for subject: s08_HA_A1_1,  
+Basic HRV Analysis faild for subject: s08_HA_A1_2,  
+Basic HRV Analysis faild for subject: s08_HA_A1_3,  
+Basic HRV Analysis faild for subject: s08_HA_A1_4,  
+Basic HRV Analysis faild for subject: s08_HA_A1_5,  
+Basic HRV Analysis faild for subject: s08_HA_A1_6,  
+Basic HRV Analysis faild for subject: s08_HA_A1_7,  
+Basic HRV Analysis faild for subject: s08_HA_A2_1,  
+Basic HRV Analysis faild for subject: s08_HA_A2_2,  
+Basic HRV Analysis faild for subject: s08_HA_A2_3,  
+Basic HRV Analysis faild for subject: s08_HA_A2_4,  
+Basic HRV Analysis faild for subject: s08_HA_A2_5,  
+Basic HRV Analysis faild for subject: s08_HA_A2_6,  
+Basic HRV Analysis faild for subject: s08_HA_A2_7,  
+Basic HRV Analysis faild for subject: s08_JOY_A0_1,  
+Basic HRV Analysis faild for subject: s08_JOY_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s08_JOY_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s08_JOY_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s08_JOY_A0_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s08_JOY_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s08_JOY_A0_7,  
+Basic HRV Analysis faild for subject: s08_JOY_A1_1,  
+Basic HRV Analysis faild for subject: s08_JOY_A1_2,  
+Basic HRV Analysis faild for subject: s08_JOY_A1_3,  
+Basic HRV Analysis faild for subject: s08_JOY_A1_4,  
+Basic HRV Analysis faild for subject: s08_JOY_A1_5,  
+Basic HRV Analysis faild for subject: s08_JOY_A1_6,  
+Basic HRV Analysis faild for subject: s08_JOY_A1_7,  
+Basic HRV Analysis faild for subject: s08_JOY_A2_1,  
+Basic HRV Analysis faild for subject: s08_JOY_A2_2,  
+Basic HRV Analysis faild for subject: s08_JOY_A2_3,  
+Basic HRV Analysis faild for subject: s08_JOY_A2_4,  
+Basic HRV Analysis faild for subject: s08_JOY_A2_5,  
+Basic HRV Analysis faild for subject: s08_JOY_A2_6,  
+Basic HRV Analysis faild for subject: s08_JOY_A2_7,  
+Basic HRV Analysis faild for subject: s08_SNP_A0_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s08_SNP_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s08_SNP_A0_3,  
+Basic HRV Analysis faild for subject: s08_SNP_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s08_SNP_A0_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s08_SNP_A1_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s08_SNP_A1_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s08_SNP_A1_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s08_SNP_A1_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s08_SNP_A1_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s08_SNP_A1_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s08_SNP_A1_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s08_SNP_A2_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s08_SNP_A2_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s08_SNP_A2_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s08_SNP_A2_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s08_SNP_A2_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s08_SNP_A2_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s08_SNP_A2_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u00_HA_A0_1,  
+Basic HRV Analysis faild for subject: u00_HA_A0_2,  
+Basic HRV Analysis faild for subject: u00_HA_A0_3,  
+Basic HRV Analysis faild for subject: u00_HA_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u00_HA_A0_6,  
+Basic HRV Analysis faild for subject: u00_HA_A0_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u00_HA_A1_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u00_HA_A1_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u00_HA_A1_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u00_HA_A1_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u00_HA_A1_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u00_HA_A1_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u00_HA_A1_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u00_HA_A2_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u00_HA_A2_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u00_HA_A2_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u00_HA_A2_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u00_HA_A2_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u00_HA_A2_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u00_HA_A2_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u00_JOY_A0_1,  
+Basic HRV Analysis faild for subject: u00_JOY_A0_2,  
+Basic HRV Analysis faild for subject: u00_JOY_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u00_JOY_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u00_JOY_A0_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u00_JOY_A0_6,  
+Basic HRV Analysis faild for subject: u00_JOY_A0_7,  
+Basic HRV Analysis faild for subject: u00_JOY_A1_1,  
+Basic HRV Analysis faild for subject: u00_JOY_A1_2,  
+Basic HRV Analysis faild for subject: u00_JOY_A1_3,  
+Basic HRV Analysis faild for subject: u00_JOY_A1_4,  
+Basic HRV Analysis faild for subject: u00_JOY_A1_5,  
+Basic HRV Analysis faild for subject: u00_JOY_A1_6,  
+Basic HRV Analysis faild for subject: u00_JOY_A1_7,  
+Basic HRV Analysis faild for subject: u00_JOY_A2_1,  
+Basic HRV Analysis faild for subject: u00_JOY_A2_2,  
+Basic HRV Analysis faild for subject: u00_JOY_A2_3,  
+Basic HRV Analysis faild for subject: u00_JOY_A2_4,  
+Basic HRV Analysis faild for subject: u00_JOY_A2_5,  
+Basic HRV Analysis faild for subject: u00_JOY_A2_6,  
+Basic HRV Analysis faild for subject: u00_JOY_A2_7,  
+Basic HRV Analysis faild for subject: u00_SNP_A0_1,  
+Basic HRV Analysis faild for subject: u00_SNP_A0_2,  
+Basic HRV Analysis faild for subject: u00_SNP_A0_3,  
+Basic HRV Analysis faild for subject: u00_SNP_A0_4,  
+Basic HRV Analysis faild for subject: u00_SNP_A0_5,  
+Basic HRV Analysis faild for subject: u00_SNP_A0_6,  
+Basic HRV Analysis faild for subject: u00_SNP_A0_7,  
+Basic HRV Analysis faild for subject: u00_SNP_A1_1,  
+Basic HRV Analysis faild for subject: u00_SNP_A1_2,  
+Basic HRV Analysis faild for subject: u00_SNP_A1_3,  
+Basic HRV Analysis faild for subject: u00_SNP_A1_4,  
+Basic HRV Analysis faild for subject: u00_SNP_A1_5,  
+Basic HRV Analysis faild for subject: u00_SNP_A1_6,  
+Basic HRV Analysis faild for subject: u00_SNP_A1_7,  
+Basic HRV Analysis faild for subject: u00_SNP_A2_1,  
+Basic HRV Analysis faild for subject: u00_SNP_A2_2,  
+Basic HRV Analysis faild for subject: u00_SNP_A2_3,  
+Basic HRV Analysis faild for subject: u00_SNP_A2_4,  
+Basic HRV Analysis faild for subject: u00_SNP_A2_5,  
+Basic HRV Analysis faild for subject: u00_SNP_A2_6,  
+Basic HRV Analysis faild for subject: u00_SNP_A2_7,  
+Basic HRV Analysis faild for subject: u01_HA_A0_1,  
+Basic HRV Analysis faild for subject: u01_HA_A0_2,  
+Basic HRV Analysis faild for subject: u01_HA_A0_3,  
+Basic HRV Analysis faild for subject: u01_HA_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u01_HA_A0_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u01_HA_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u01_HA_A0_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u01_HA_A1_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u01_HA_A1_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u01_HA_A1_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u01_HA_A1_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u01_HA_A1_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u01_HA_A1_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u01_HA_A1_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u01_HA_A2_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u01_HA_A2_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u01_HA_A2_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u01_HA_A2_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u01_HA_A2_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u01_HA_A2_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u01_HA_A2_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u01_JOY_A0_1,  
+Basic HRV Analysis faild for subject: u01_JOY_A0_2,  
+Basic HRV Analysis faild for subject: u01_JOY_A0_3, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: u01_JOY_A0_4, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: u01_JOY_A0_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u01_JOY_A0_6,  
+Basic HRV Analysis faild for subject: u01_JOY_A0_7,  
+Basic HRV Analysis faild for subject: u01_JOY_A1_1,  
+Basic HRV Analysis faild for subject: u01_JOY_A1_2,  
+Basic HRV Analysis faild for subject: u01_JOY_A1_3,  
+Basic HRV Analysis faild for subject: u01_JOY_A1_4,  
+Basic HRV Analysis faild for subject: u01_JOY_A1_5,  
+Basic HRV Analysis faild for subject: u01_JOY_A1_6,  
+Basic HRV Analysis faild for subject: u01_JOY_A1_7,  
+Basic HRV Analysis faild for subject: u01_JOY_A2_1,  
+Basic HRV Analysis faild for subject: u01_JOY_A2_2,  
+Basic HRV Analysis faild for subject: u01_JOY_A2_3,  
+Basic HRV Analysis faild for subject: u01_JOY_A2_4,  
+Basic HRV Analysis faild for subject: u01_JOY_A2_5,  
+Basic HRV Analysis faild for subject: u01_JOY_A2_6,  
+Basic HRV Analysis faild for subject: u01_JOY_A2_7,  
+Basic HRV Analysis faild for subject: u01_SNP_A0_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u01_SNP_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u01_SNP_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u01_SNP_A0_7,  
+Basic HRV Analysis faild for subject: u01_SNP_A1_1,  
+Basic HRV Analysis faild for subject: u01_SNP_A1_2,  
+Basic HRV Analysis faild for subject: u01_SNP_A1_3,  
+Basic HRV Analysis faild for subject: u01_SNP_A1_4,  
+Basic HRV Analysis faild for subject: u01_SNP_A1_5,  
+Basic HRV Analysis faild for subject: u01_SNP_A1_6,  
+Basic HRV Analysis faild for subject: u01_SNP_A1_7,  
+Basic HRV Analysis faild for subject: u01_SNP_A2_1,  
+Basic HRV Analysis faild for subject: u01_SNP_A2_2,  
+Basic HRV Analysis faild for subject: u01_SNP_A2_3,  
+Basic HRV Analysis faild for subject: u01_SNP_A2_4,  
+Basic HRV Analysis faild for subject: u01_SNP_A2_5,  
+Basic HRV Analysis faild for subject: u01_SNP_A2_6,  
+Basic HRV Analysis faild for subject: u01_SNP_A2_7,  
+Basic HRV Analysis faild for subject: u02_HA_A0_1,  
+Basic HRV Analysis faild for subject: u02_HA_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_HA_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_HA_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_HA_A0_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_HA_A0_6,  
+Basic HRV Analysis faild for subject: u02_HA_A0_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_HA_A1_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_HA_A1_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_HA_A1_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_HA_A1_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_HA_A1_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_HA_A1_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_HA_A1_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_HA_A2_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_HA_A2_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_HA_A2_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_HA_A2_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_HA_A2_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_HA_A2_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_HA_A2_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_JOY_A0_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_JOY_A0_2,  
+Basic HRV Analysis faild for subject: u02_JOY_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_JOY_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_JOY_A0_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_JOY_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_JOY_A0_7,  
+Basic HRV Analysis faild for subject: u02_JOY_A1_1,  
+Basic HRV Analysis faild for subject: u02_JOY_A1_2,  
+Basic HRV Analysis faild for subject: u02_JOY_A1_3,  
+Basic HRV Analysis faild for subject: u02_JOY_A1_4,  
+Basic HRV Analysis faild for subject: u02_JOY_A1_5,  
+Basic HRV Analysis faild for subject: u02_JOY_A1_6,  
+Basic HRV Analysis faild for subject: u02_JOY_A1_7,  
+Basic HRV Analysis faild for subject: u02_JOY_A2_1,  
+Basic HRV Analysis faild for subject: u02_JOY_A2_2,  
+Basic HRV Analysis faild for subject: u02_JOY_A2_3,  
+Basic HRV Analysis faild for subject: u02_JOY_A2_4,  
+Basic HRV Analysis faild for subject: u02_JOY_A2_5,  
+Basic HRV Analysis faild for subject: u02_JOY_A2_6,  
+Basic HRV Analysis faild for subject: u02_JOY_A2_7,  
+Basic HRV Analysis faild for subject: u02_SNP_A0_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_SNP_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_SNP_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_SNP_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_SNP_A0_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_SNP_A1_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_SNP_A1_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_SNP_A1_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_SNP_A1_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_SNP_A1_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_SNP_A1_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_SNP_A1_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_SNP_A2_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_SNP_A2_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_SNP_A2_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_SNP_A2_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_SNP_A2_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_SNP_A2_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_SNP_A2_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u03_HA_A0_1,  
+Basic HRV Analysis faild for subject: u03_HA_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u03_HA_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u03_HA_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u03_HA_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u03_HA_A0_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u03_HA_A1_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u03_HA_A1_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u03_HA_A1_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u03_HA_A1_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u03_HA_A1_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u03_HA_A1_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u03_HA_A1_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u03_HA_A2_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u03_HA_A2_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u03_HA_A2_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u03_HA_A2_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u03_HA_A2_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u03_HA_A2_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u03_HA_A2_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u03_JOY_A0_1,  
+Basic HRV Analysis faild for subject: u03_JOY_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u03_JOY_A0_3,  
+Basic HRV Analysis faild for subject: u03_JOY_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u03_JOY_A0_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u03_JOY_A0_6,  
+Basic HRV Analysis faild for subject: u03_JOY_A0_7,  
+Basic HRV Analysis faild for subject: u03_JOY_A1_1,  
+Basic HRV Analysis faild for subject: u03_JOY_A1_2,  
+Basic HRV Analysis faild for subject: u03_JOY_A1_3,  
+Basic HRV Analysis faild for subject: u03_JOY_A1_4,  
+Basic HRV Analysis faild for subject: u03_JOY_A1_5,  
+Basic HRV Analysis faild for subject: u03_JOY_A1_6,  
+Basic HRV Analysis faild for subject: u03_JOY_A1_7,  
+Basic HRV Analysis faild for subject: u03_JOY_A2_1,  
+Basic HRV Analysis faild for subject: u03_JOY_A2_2,  
+Basic HRV Analysis faild for subject: u03_JOY_A2_3,  
+Basic HRV Analysis faild for subject: u03_JOY_A2_4,  
+Basic HRV Analysis faild for subject: u03_JOY_A2_5,  
+Basic HRV Analysis faild for subject: u03_JOY_A2_6,  
+Basic HRV Analysis faild for subject: u03_JOY_A2_7,  
+Basic HRV Analysis faild for subject: u03_SNP_A0_1,  
+Basic HRV Analysis faild for subject: u03_SNP_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u03_SNP_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u03_SNP_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u03_SNP_A0_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u03_SNP_A1_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u03_SNP_A1_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u03_SNP_A1_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u03_SNP_A1_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u03_SNP_A1_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u03_SNP_A1_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u03_SNP_A1_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u03_SNP_A2_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u03_SNP_A2_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u03_SNP_A2_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u03_SNP_A2_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u03_SNP_A2_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u03_SNP_A2_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u03_SNP_A2_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u04_HA_A0_1,  
+Basic HRV Analysis faild for subject: u04_HA_A0_2,  
+Basic HRV Analysis faild for subject: u04_HA_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u04_HA_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u04_HA_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u04_HA_A0_7,  
+Basic HRV Analysis faild for subject: u04_HA_A1_1,  
+Basic HRV Analysis faild for subject: u04_HA_A1_2,  
+Basic HRV Analysis faild for subject: u04_HA_A1_3,  
+Basic HRV Analysis faild for subject: u04_HA_A1_4,  
+Basic HRV Analysis faild for subject: u04_HA_A1_5,  
+Basic HRV Analysis faild for subject: u04_HA_A1_6,  
+Basic HRV Analysis faild for subject: u04_HA_A1_7,  
+Basic HRV Analysis faild for subject: u04_HA_A2_1,  
+Basic HRV Analysis faild for subject: u04_HA_A2_2,  
+Basic HRV Analysis faild for subject: u04_HA_A2_3,  
+Basic HRV Analysis faild for subject: u04_HA_A2_4,  
+Basic HRV Analysis faild for subject: u04_HA_A2_5,  
+Basic HRV Analysis faild for subject: u04_HA_A2_6,  
+Basic HRV Analysis faild for subject: u04_HA_A2_7,  
+Basic HRV Analysis faild for subject: u04_JOY_A0_1,  
+Basic HRV Analysis faild for subject: u04_JOY_A0_2,  
+Basic HRV Analysis faild for subject: u04_JOY_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u04_JOY_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u04_JOY_A0_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u04_JOY_A0_6,  
+Basic HRV Analysis faild for subject: u04_JOY_A0_7,  
+Basic HRV Analysis faild for subject: u04_JOY_A1_1,  
+Basic HRV Analysis faild for subject: u04_JOY_A1_2,  
+Basic HRV Analysis faild for subject: u04_JOY_A1_3,  
+Basic HRV Analysis faild for subject: u04_JOY_A1_4,  
+Basic HRV Analysis faild for subject: u04_JOY_A1_5,  
+Basic HRV Analysis faild for subject: u04_JOY_A1_6,  
+Basic HRV Analysis faild for subject: u04_JOY_A1_7,  
+Basic HRV Analysis faild for subject: u04_JOY_A2_1,  
+Basic HRV Analysis faild for subject: u04_JOY_A2_2,  
+Basic HRV Analysis faild for subject: u04_JOY_A2_3,  
+Basic HRV Analysis faild for subject: u04_JOY_A2_4,  
+Basic HRV Analysis faild for subject: u04_JOY_A2_5,  
+Basic HRV Analysis faild for subject: u04_JOY_A2_6,  
+Basic HRV Analysis faild for subject: u04_JOY_A2_7,  
+Basic HRV Analysis faild for subject: u04_SNP_A0_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u04_SNP_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u04_SNP_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u04_SNP_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u04_SNP_A0_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u04_SNP_A1_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u04_SNP_A1_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u04_SNP_A1_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u04_SNP_A1_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u04_SNP_A1_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u04_SNP_A1_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u04_SNP_A1_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u04_SNP_A2_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u04_SNP_A2_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u04_SNP_A2_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u04_SNP_A2_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u04_SNP_A2_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u04_SNP_A2_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u04_SNP_A2_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u05_HA_A0_1,  
+Basic HRV Analysis faild for subject: u05_HA_A0_2,  
+Basic HRV Analysis faild for subject: u05_HA_A0_3,  
+Basic HRV Analysis faild for subject: u05_HA_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u05_HA_A0_6,  
+Basic HRV Analysis faild for subject: u05_HA_A0_7,  
+Basic HRV Analysis faild for subject: u05_HA_A1_1,  
+Basic HRV Analysis faild for subject: u05_HA_A1_2,  
+Basic HRV Analysis faild for subject: u05_HA_A1_3,  
+Basic HRV Analysis faild for subject: u05_HA_A1_4,  
+Basic HRV Analysis faild for subject: u05_HA_A1_5,  
+Basic HRV Analysis faild for subject: u05_HA_A1_6,  
+Basic HRV Analysis faild for subject: u05_HA_A1_7,  
+Basic HRV Analysis faild for subject: u05_HA_A2_1,  
+Basic HRV Analysis faild for subject: u05_HA_A2_2,  
+Basic HRV Analysis faild for subject: u05_HA_A2_3,  
+Basic HRV Analysis faild for subject: u05_HA_A2_4,  
+Basic HRV Analysis faild for subject: u05_HA_A2_5,  
+Basic HRV Analysis faild for subject: u05_HA_A2_6,  
+Basic HRV Analysis faild for subject: u05_HA_A2_7,  
+Basic HRV Analysis faild for subject: u05_JOY_A0_1,  
+Basic HRV Analysis faild for subject: u05_JOY_A0_2,  
+Basic HRV Analysis faild for subject: u05_JOY_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u05_JOY_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u05_JOY_A0_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u05_JOY_A0_6,  
+Basic HRV Analysis faild for subject: u05_JOY_A0_7,  
+Basic HRV Analysis faild for subject: u05_JOY_A1_1,  
+Basic HRV Analysis faild for subject: u05_JOY_A1_2,  
+Basic HRV Analysis faild for subject: u05_JOY_A1_3,  
+Basic HRV Analysis faild for subject: u05_JOY_A1_4,  
+Basic HRV Analysis faild for subject: u05_JOY_A1_5,  
+Basic HRV Analysis faild for subject: u05_JOY_A1_6,  
+Basic HRV Analysis faild for subject: u05_JOY_A1_7,  
+Basic HRV Analysis faild for subject: u05_JOY_A2_1,  
+Basic HRV Analysis faild for subject: u05_JOY_A2_2,  
+Basic HRV Analysis faild for subject: u05_JOY_A2_3,  
+Basic HRV Analysis faild for subject: u05_JOY_A2_4,  
+Basic HRV Analysis faild for subject: u05_JOY_A2_5,  
+Basic HRV Analysis faild for subject: u05_JOY_A2_6,  
+Basic HRV Analysis faild for subject: u05_JOY_A2_7,  
+Basic HRV Analysis faild for subject: u05_SNP_A0_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u05_SNP_A0_2, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: u05_SNP_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u05_SNP_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u05_SNP_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u05_SNP_A0_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u05_SNP_A1_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u05_SNP_A1_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u05_SNP_A1_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u05_SNP_A1_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u05_SNP_A1_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u05_SNP_A1_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u05_SNP_A1_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u05_SNP_A2_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u05_SNP_A2_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u05_SNP_A2_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u05_SNP_A2_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u05_SNP_A2_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u05_SNP_A2_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u05_SNP_A2_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u06_HA_A0_1,  
+Basic HRV Analysis faild for subject: u06_HA_A0_2,  
+Basic HRV Analysis faild for subject: u06_HA_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u06_HA_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u06_HA_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u06_HA_A0_7,  
+Basic HRV Analysis faild for subject: u06_HA_A1_1,  
+Basic HRV Analysis faild for subject: u06_HA_A1_2,  
+Basic HRV Analysis faild for subject: u06_HA_A1_3,  
+Basic HRV Analysis faild for subject: u06_HA_A1_4,  
+Basic HRV Analysis faild for subject: u06_HA_A1_5,  
+Basic HRV Analysis faild for subject: u06_HA_A1_6,  
+Basic HRV Analysis faild for subject: u06_HA_A1_7,  
+Basic HRV Analysis faild for subject: u06_HA_A2_1,  
+Basic HRV Analysis faild for subject: u06_HA_A2_2,  
+Basic HRV Analysis faild for subject: u06_HA_A2_3,  
+Basic HRV Analysis faild for subject: u06_HA_A2_4,  
+Basic HRV Analysis faild for subject: u06_HA_A2_5,  
+Basic HRV Analysis faild for subject: u06_HA_A2_6,  
+Basic HRV Analysis faild for subject: u06_HA_A2_7,  
+Basic HRV Analysis faild for subject: u06_JOY_A0_1,  
+Basic HRV Analysis faild for subject: u06_JOY_A0_2,  
+Basic HRV Analysis faild for subject: u06_JOY_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u06_JOY_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u06_JOY_A0_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u06_JOY_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u06_JOY_A0_7,  
+Basic HRV Analysis faild for subject: u06_JOY_A1_1,  
+Basic HRV Analysis faild for subject: u06_JOY_A1_2,  
+Basic HRV Analysis faild for subject: u06_JOY_A1_3,  
+Basic HRV Analysis faild for subject: u06_JOY_A1_4,  
+Basic HRV Analysis faild for subject: u06_JOY_A1_5,  
+Basic HRV Analysis faild for subject: u06_JOY_A1_6,  
+Basic HRV Analysis faild for subject: u06_JOY_A1_7,  
+Basic HRV Analysis faild for subject: u06_JOY_A2_1,  
+Basic HRV Analysis faild for subject: u06_JOY_A2_2,  
+Basic HRV Analysis faild for subject: u06_JOY_A2_3,  
+Basic HRV Analysis faild for subject: u06_JOY_A2_4,  
+Basic HRV Analysis faild for subject: u06_JOY_A2_5,  
+Basic HRV Analysis faild for subject: u06_JOY_A2_6,  
+Basic HRV Analysis faild for subject: u06_JOY_A2_7,  
+Basic HRV Analysis faild for subject: u06_SNP_A0_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u06_SNP_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_HA_A0_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_HA_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_HA_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_HA_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_HA_A0_6, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: u07_HA_A0_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_HA_A1_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_HA_A1_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_HA_A1_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_HA_A1_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_HA_A1_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_HA_A1_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_HA_A1_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_HA_A2_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_HA_A2_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_HA_A2_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_HA_A2_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_HA_A2_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_HA_A2_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_HA_A2_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_JOY_A0_1,  
+Basic HRV Analysis faild for subject: u07_JOY_A0_2,  
+Basic HRV Analysis faild for subject: u07_JOY_A0_3, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: u07_JOY_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_JOY_A0_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_JOY_A0_6,  
+Basic HRV Analysis faild for subject: u07_JOY_A0_7,  
+Basic HRV Analysis faild for subject: u07_JOY_A1_1,  
+Basic HRV Analysis faild for subject: u07_JOY_A1_2,  
+Basic HRV Analysis faild for subject: u07_JOY_A1_3,  
+Basic HRV Analysis faild for subject: u07_JOY_A1_4,  
+Basic HRV Analysis faild for subject: u07_JOY_A1_5,  
+Basic HRV Analysis faild for subject: u07_JOY_A1_6,  
+Basic HRV Analysis faild for subject: u07_JOY_A1_7,  
+Basic HRV Analysis faild for subject: u07_JOY_A2_1,  
+Basic HRV Analysis faild for subject: u07_JOY_A2_2,  
+Basic HRV Analysis faild for subject: u07_JOY_A2_3,  
+Basic HRV Analysis faild for subject: u07_JOY_A2_4,  
+Basic HRV Analysis faild for subject: u07_JOY_A2_5,  
+Basic HRV Analysis faild for subject: u07_JOY_A2_6,  
+Basic HRV Analysis faild for subject: u07_JOY_A2_7,  
+Basic HRV Analysis faild for subject: u07_SNP_A0_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_SNP_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_SNP_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_SNP_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_SNP_A0_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_SNP_A1_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_SNP_A1_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_SNP_A1_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_SNP_A1_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_SNP_A1_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_SNP_A1_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_SNP_A1_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_SNP_A2_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_SNP_A2_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_SNP_A2_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_SNP_A2_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_SNP_A2_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_SNP_A2_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_SNP_A2_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u08_HA_A0_2,  
+Basic HRV Analysis faild for subject: u08_HA_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u08_HA_A0_4, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: u08_HA_A0_6,  
+Basic HRV Analysis faild for subject: u08_HA_A0_7,  
+Basic HRV Analysis faild for subject: u08_HA_A1_1,  
+Basic HRV Analysis faild for subject: u08_HA_A1_2,  
+Basic HRV Analysis faild for subject: u08_HA_A1_3,  
+Basic HRV Analysis faild for subject: u08_HA_A1_4,  
+Basic HRV Analysis faild for subject: u08_HA_A1_5,  
+Basic HRV Analysis faild for subject: u08_HA_A1_6,  
+Basic HRV Analysis faild for subject: u08_HA_A1_7,  
+Basic HRV Analysis faild for subject: u08_HA_A2_1,  
+Basic HRV Analysis faild for subject: u08_HA_A2_2,  
+Basic HRV Analysis faild for subject: u08_HA_A2_3,  
+Basic HRV Analysis faild for subject: u08_HA_A2_4,  
+Basic HRV Analysis faild for subject: u08_HA_A2_5,  
+Basic HRV Analysis faild for subject: u08_HA_A2_6,  
+Basic HRV Analysis faild for subject: u08_HA_A2_7,  
+Basic HRV Analysis faild for subject: u08_JOY_A0_1,  
+Basic HRV Analysis faild for subject: u08_JOY_A0_2,  
+Basic HRV Analysis faild for subject: u08_JOY_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u08_JOY_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u08_JOY_A0_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u08_JOY_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u08_JOY_A0_7,  
+Basic HRV Analysis faild for subject: u08_JOY_A1_1,  
+Basic HRV Analysis faild for subject: u08_JOY_A1_2,  
+Basic HRV Analysis faild for subject: u08_JOY_A1_3,  
+Basic HRV Analysis faild for subject: u08_JOY_A1_4,  
+Basic HRV Analysis faild for subject: u08_JOY_A1_5,  
+Basic HRV Analysis faild for subject: u08_JOY_A1_6,  
+Basic HRV Analysis faild for subject: u08_JOY_A1_7,  
+Basic HRV Analysis faild for subject: u08_JOY_A2_1,  
+Basic HRV Analysis faild for subject: u08_JOY_A2_2,  
+Basic HRV Analysis faild for subject: u08_JOY_A2_3,  
+Basic HRV Analysis faild for subject: u08_JOY_A2_4,  
+Basic HRV Analysis faild for subject: u08_JOY_A2_5,  
+Basic HRV Analysis faild for subject: u08_JOY_A2_6,  
+Basic HRV Analysis faild for subject: u08_JOY_A2_7,  
+Basic HRV Analysis faild for subject: u08_SNP_A0_1,  
+Basic HRV Analysis faild for subject: u08_SNP_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u08_SNP_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u08_SNP_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u08_SNP_A0_7,  
+Basic HRV Analysis faild for subject: u08_SNP_A1_1,  
+Basic HRV Analysis faild for subject: u08_SNP_A1_2,  
+Basic HRV Analysis faild for subject: u08_SNP_A1_3,  
+Basic HRV Analysis faild for subject: u08_SNP_A1_4,  
+Basic HRV Analysis faild for subject: u08_SNP_A1_5,  
+Basic HRV Analysis faild for subject: u08_SNP_A1_6,  
+Basic HRV Analysis faild for subject: u08_SNP_A1_7,  
+Basic HRV Analysis faild for subject: u08_SNP_A2_1,  
+Basic HRV Analysis faild for subject: u08_SNP_A2_2,  
+Basic HRV Analysis faild for subject: u08_SNP_A2_3,  
+Basic HRV Analysis faild for subject: u08_SNP_A2_4,  
+Basic HRV Analysis faild for subject: u08_SNP_A2_5,  
+Basic HRV Analysis faild for subject: u08_SNP_A2_6,  
+Basic HRV Analysis faild for subject: u08_SNP_A2_7,  
+Basic HRV Analysis faild for subject: u09_HA_A0_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u09_HA_A0_2,  
+Basic HRV Analysis faild for subject: u09_HA_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u09_HA_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u09_HA_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u09_HA_A0_7,  
+Basic HRV Analysis faild for subject: u09_HA_A1_1,  
+Basic HRV Analysis faild for subject: u09_HA_A1_2,  
+Basic HRV Analysis faild for subject: u09_HA_A1_3,  
+Basic HRV Analysis faild for subject: u09_HA_A1_4,  
+Basic HRV Analysis faild for subject: u09_HA_A1_5,  
+Basic HRV Analysis faild for subject: u09_HA_A1_6,  
+Basic HRV Analysis faild for subject: u09_HA_A1_7,  
+Basic HRV Analysis faild for subject: u09_HA_A2_1,  
+Basic HRV Analysis faild for subject: u09_HA_A2_2,  
+Basic HRV Analysis faild for subject: u09_HA_A2_3,  
+Basic HRV Analysis faild for subject: u09_HA_A2_4,  
+Basic HRV Analysis faild for subject: u09_HA_A2_5,  
+Basic HRV Analysis faild for subject: u09_HA_A2_6,  
+Basic HRV Analysis faild for subject: u09_HA_A2_7,  
+Basic HRV Analysis faild for subject: u09_JOY_A0_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u09_JOY_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u09_JOY_A0_3,  
+Basic HRV Analysis faild for subject: u09_JOY_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u09_JOY_A0_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u09_JOY_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u09_JOY_A0_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u09_JOY_A1_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u09_JOY_A1_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u09_JOY_A1_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u09_JOY_A1_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u09_JOY_A1_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u09_JOY_A1_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u09_JOY_A1_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u09_JOY_A2_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u09_JOY_A2_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u09_JOY_A2_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u09_JOY_A2_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u09_JOY_A2_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u09_JOY_A2_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u09_JOY_A2_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u09_SNP_A0_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u09_SNP_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u09_SNP_A0_3,  
+Basic HRV Analysis faild for subject: u11_HA_A0_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_HA_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_HA_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_HA_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_HA_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_HA_A0_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_HA_A1_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_HA_A1_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_HA_A1_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_HA_A1_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_HA_A1_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_HA_A1_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_HA_A1_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_HA_A2_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_HA_A2_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_HA_A2_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_HA_A2_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_HA_A2_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_HA_A2_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_HA_A2_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_JOY_A0_1,  
+Basic HRV Analysis faild for subject: u11_JOY_A0_2, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: u11_JOY_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_JOY_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_JOY_A0_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_JOY_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_JOY_A0_7,  
+Basic HRV Analysis faild for subject: u11_JOY_A1_1,  
+Basic HRV Analysis faild for subject: u11_JOY_A1_2,  
+Basic HRV Analysis faild for subject: u11_JOY_A1_3,  
+Basic HRV Analysis faild for subject: u11_JOY_A1_4,  
+Basic HRV Analysis faild for subject: u11_JOY_A1_5,  
+Basic HRV Analysis faild for subject: u11_JOY_A1_6,  
+Basic HRV Analysis faild for subject: u11_JOY_A1_7,  
+Basic HRV Analysis faild for subject: u11_JOY_A2_1,  
+Basic HRV Analysis faild for subject: u11_JOY_A2_2,  
+Basic HRV Analysis faild for subject: u11_JOY_A2_3,  
+Basic HRV Analysis faild for subject: u11_JOY_A2_4,  
+Basic HRV Analysis faild for subject: u11_JOY_A2_5,  
+Basic HRV Analysis faild for subject: u11_JOY_A2_6,  
+Basic HRV Analysis faild for subject: u11_JOY_A2_7,  
+Basic HRV Analysis faild for subject: u11_SNP_A0_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_SNP_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_SNP_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_SNP_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_SNP_A0_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_SNP_A1_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_SNP_A1_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_SNP_A1_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_SNP_A1_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_SNP_A1_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_SNP_A1_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_SNP_A1_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_SNP_A2_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_SNP_A2_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_SNP_A2_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_SNP_A2_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_SNP_A2_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_SNP_A2_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_SNP_A2_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u12_HA_A0_1,  
+Basic HRV Analysis faild for subject: u12_HA_A0_2,  
+Basic HRV Analysis faild for subject: u12_HA_A0_3,  
+Basic HRV Analysis faild for subject: u12_HA_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u12_HA_A0_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u12_HA_A0_6,  
+Basic HRV Analysis faild for subject: u12_HA_A0_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u12_HA_A1_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u12_HA_A1_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u12_HA_A1_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u12_HA_A1_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u12_HA_A1_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u12_HA_A1_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u12_HA_A1_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u12_HA_A2_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u12_HA_A2_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u12_HA_A2_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u12_HA_A2_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u12_HA_A2_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u12_HA_A2_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u12_HA_A2_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u12_JOY_A0_1,  
+Basic HRV Analysis faild for subject: u12_JOY_A0_2,  
+Basic HRV Analysis faild for subject: u12_JOY_A0_3,  
+Basic HRV Analysis faild for subject: u12_JOY_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u12_JOY_A0_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u12_JOY_A0_6,  
+Basic HRV Analysis faild for subject: u12_JOY_A0_7,  
+Basic HRV Analysis faild for subject: u12_JOY_A1_1,  
+Basic HRV Analysis faild for subject: u12_JOY_A1_2,  
+Basic HRV Analysis faild for subject: u12_JOY_A1_3,  
+Basic HRV Analysis faild for subject: u12_JOY_A1_4,  
+Basic HRV Analysis faild for subject: u12_JOY_A1_5,  
+Basic HRV Analysis faild for subject: u12_JOY_A1_6,  
+Basic HRV Analysis faild for subject: u12_JOY_A1_7,  
+Basic HRV Analysis faild for subject: u12_JOY_A2_1,  
+Basic HRV Analysis faild for subject: u12_JOY_A2_2,  
+Basic HRV Analysis faild for subject: u12_JOY_A2_3,  
+Basic HRV Analysis faild for subject: u12_JOY_A2_4,  
+Basic HRV Analysis faild for subject: u12_JOY_A2_5,  
+Basic HRV Analysis faild for subject: u12_JOY_A2_6,  
+Basic HRV Analysis faild for subject: u12_JOY_A2_7,  
+Basic HRV Analysis faild for subject: u12_SNP_A0_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u12_SNP_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u12_SNP_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u12_SNP_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u12_SNP_A0_7,  
+Basic HRV Analysis faild for subject: u12_SNP_A1_1,  
+Basic HRV Analysis faild for subject: u12_SNP_A1_2,  
+Basic HRV Analysis faild for subject: u12_SNP_A1_3,  
+Basic HRV Analysis faild for subject: u12_SNP_A1_4,  
+Basic HRV Analysis faild for subject: u12_SNP_A1_5,  
+Basic HRV Analysis faild for subject: u12_SNP_A1_6,  
+Basic HRV Analysis faild for subject: u12_SNP_A1_7,  
+Basic HRV Analysis faild for subject: u12_SNP_A2_1,  
+Basic HRV Analysis faild for subject: u12_SNP_A2_2,  
+Basic HRV Analysis faild for subject: u12_SNP_A2_3,  
+Basic HRV Analysis faild for subject: u12_SNP_A2_4,  
+Basic HRV Analysis faild for subject: u12_SNP_A2_5,  
+Basic HRV Analysis faild for subject: u12_SNP_A2_6,  
+Basic HRV Analysis faild for subject: u12_SNP_A2_7,  
+Basic HRV Analysis faild for subject: u13_HA_A0_1, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: u13_HA_A0_2, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: u13_HA_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u13_HA_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u13_HA_A0_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u13_HA_A0_7, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: u13_HA_A1_1, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: u13_HA_A1_2, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: u13_HA_A1_3, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: u13_HA_A1_4, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: u13_HA_A1_5, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: u13_HA_A1_6, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: u13_HA_A1_7, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: u13_HA_A2_1, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: u13_HA_A2_2, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: u13_HA_A2_3, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: u13_HA_A2_4, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: u13_HA_A2_5, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: u13_HA_A2_6, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: u13_HA_A2_7, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: u13_JOY_A0_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u13_JOY_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u13_JOY_A0_3,  
+Basic HRV Analysis faild for subject: u13_JOY_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u13_JOY_A0_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u13_JOY_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u13_JOY_A0_7,  
+Basic HRV Analysis faild for subject: u13_JOY_A1_1,  
+Basic HRV Analysis faild for subject: u13_JOY_A1_2,  
+Basic HRV Analysis faild for subject: u13_JOY_A1_3,  
+Basic HRV Analysis faild for subject: u13_JOY_A1_4,  
+Basic HRV Analysis faild for subject: u13_JOY_A1_5,  
+Basic HRV Analysis faild for subject: u13_JOY_A1_6,  
+Basic HRV Analysis faild for subject: u13_JOY_A1_7,  
+Basic HRV Analysis faild for subject: u13_JOY_A2_1,  
+Basic HRV Analysis faild for subject: u13_JOY_A2_2,  
+Basic HRV Analysis faild for subject: u13_JOY_A2_3,  
+Basic HRV Analysis faild for subject: u13_JOY_A2_4,  
+Basic HRV Analysis faild for subject: u13_JOY_A2_5,  
+Basic HRV Analysis faild for subject: u13_JOY_A2_6,  
+Basic HRV Analysis faild for subject: u13_JOY_A2_7,  
+Basic HRV Analysis faild for subject: u13_SNP_A0_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u13_SNP_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u13_SNP_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u13_SNP_A0_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u13_SNP_A1_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u13_SNP_A1_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u13_SNP_A1_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u13_SNP_A1_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u13_SNP_A1_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u13_SNP_A1_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u13_SNP_A1_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u13_SNP_A2_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u13_SNP_A2_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u13_SNP_A2_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u13_SNP_A2_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u13_SNP_A2_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u13_SNP_A2_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u13_SNP_A2_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u14_HA_A0_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u14_HA_A0_2,  
+Basic HRV Analysis faild for subject: u14_HA_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u14_HA_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u14_HA_A0_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u14_HA_A0_6,  
+Basic HRV Analysis faild for subject: u14_HA_A0_7,  
+Basic HRV Analysis faild for subject: u14_HA_A1_1,  
+Basic HRV Analysis faild for subject: u14_HA_A1_2,  
+Basic HRV Analysis faild for subject: u14_HA_A1_3,  
+Basic HRV Analysis faild for subject: u14_HA_A1_4,  
+Basic HRV Analysis faild for subject: u14_HA_A1_5,  
+Basic HRV Analysis faild for subject: u14_HA_A1_6,  
+Basic HRV Analysis faild for subject: u14_HA_A1_7,  
+Basic HRV Analysis faild for subject: u14_HA_A2_1,  
+Basic HRV Analysis faild for subject: u14_HA_A2_2,  
+Basic HRV Analysis faild for subject: u14_HA_A2_3,  
+Basic HRV Analysis faild for subject: u14_HA_A2_4,  
+Basic HRV Analysis faild for subject: u14_HA_A2_5,  
+Basic HRV Analysis faild for subject: u14_HA_A2_6,  
+Basic HRV Analysis faild for subject: u14_HA_A2_7,  
+Basic HRV Analysis faild for subject: u14_JOY_A0_1,  
+Basic HRV Analysis faild for subject: u14_JOY_A0_2,  
+Basic HRV Analysis faild for subject: u14_JOY_A0_3,  
+Basic HRV Analysis faild for subject: u14_JOY_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u14_JOY_A0_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u14_JOY_A0_6,  
+Basic HRV Analysis faild for subject: u14_JOY_A0_7,  
+Basic HRV Analysis faild for subject: u14_JOY_A1_1,  
+Basic HRV Analysis faild for subject: u14_JOY_A1_2,  
+Basic HRV Analysis faild for subject: u14_JOY_A1_3,  
+Basic HRV Analysis faild for subject: u14_JOY_A1_4,  
+Basic HRV Analysis faild for subject: u14_JOY_A1_5,  
+Basic HRV Analysis faild for subject: u14_JOY_A1_6,  
+Basic HRV Analysis faild for subject: u14_JOY_A1_7,  
+Basic HRV Analysis faild for subject: u14_JOY_A2_1,  
+Basic HRV Analysis faild for subject: u14_JOY_A2_2,  
+Basic HRV Analysis faild for subject: u14_JOY_A2_3,  
+Basic HRV Analysis faild for subject: u14_JOY_A2_4,  
+Basic HRV Analysis faild for subject: u14_JOY_A2_5,  
+Basic HRV Analysis faild for subject: u14_JOY_A2_6,  
+Basic HRV Analysis faild for subject: u14_JOY_A2_7,  
+Basic HRV Analysis faild for subject: u14_SNP_A0_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u14_SNP_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u14_SNP_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u14_SNP_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u14_SNP_A0_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u14_SNP_A1_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u14_SNP_A1_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u14_SNP_A1_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u14_SNP_A1_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u14_SNP_A1_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u14_SNP_A1_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u14_SNP_A1_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u14_SNP_A2_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u14_SNP_A2_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u14_SNP_A2_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u14_SNP_A2_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u14_SNP_A2_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u14_SNP_A2_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u14_SNP_A2_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_HA_A0_1, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: s00_HA_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_HA_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_HA_A0_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_HA_A1_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_HA_A1_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_HA_A1_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_HA_A1_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_HA_A1_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_HA_A1_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_HA_A1_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_HA_A2_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_HA_A2_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_HA_A2_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_HA_A2_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_HA_A2_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_HA_A2_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_HA_A2_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_JOY_A0_1,  
+Basic HRV Analysis faild for subject: s00_JOY_A0_2,  
+Basic HRV Analysis faild for subject: s00_JOY_A0_3,  
+Basic HRV Analysis faild for subject: s00_JOY_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_JOY_A0_6,  
+Basic HRV Analysis faild for subject: s00_JOY_A0_7,  
+Basic HRV Analysis faild for subject: s00_JOY_A1_1,  
+Basic HRV Analysis faild for subject: s00_JOY_A1_2,  
+Basic HRV Analysis faild for subject: s00_JOY_A1_3,  
+Basic HRV Analysis faild for subject: s00_JOY_A1_4,  
+Basic HRV Analysis faild for subject: s00_JOY_A1_5,  
+Basic HRV Analysis faild for subject: s00_JOY_A1_6,  
+Basic HRV Analysis faild for subject: s00_JOY_A1_7,  
+Basic HRV Analysis faild for subject: s00_JOY_A2_1,  
+Basic HRV Analysis faild for subject: s00_JOY_A2_2,  
+Basic HRV Analysis faild for subject: s00_JOY_A2_3,  
+Basic HRV Analysis faild for subject: s00_JOY_A2_4,  
+Basic HRV Analysis faild for subject: s00_JOY_A2_5,  
+Basic HRV Analysis faild for subject: s00_JOY_A2_6,  
+Basic HRV Analysis faild for subject: s00_JOY_A2_7,  
+Basic HRV Analysis faild for subject: s00_SNP_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_SNP_A0_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_SNP_A1_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_SNP_A1_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_SNP_A1_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_SNP_A1_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_SNP_A1_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_SNP_A1_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_SNP_A1_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_SNP_A2_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_SNP_A2_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_SNP_A2_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_SNP_A2_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_SNP_A2_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_SNP_A2_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s00_SNP_A2_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_HA_A0_1,  
+Basic HRV Analysis faild for subject: s01_HA_A0_2,  
+Basic HRV Analysis faild for subject: s01_HA_A0_3,  
+Basic HRV Analysis faild for subject: s01_HA_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_HA_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_HA_A0_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_HA_A1_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_HA_A1_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_HA_A1_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_HA_A1_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_HA_A1_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_HA_A1_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_HA_A1_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_HA_A2_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_HA_A2_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_HA_A2_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_HA_A2_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_HA_A2_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_HA_A2_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_HA_A2_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_JOY_A0_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_JOY_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_JOY_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_JOY_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_JOY_A0_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_JOY_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_JOY_A0_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_JOY_A1_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_JOY_A1_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_JOY_A1_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_JOY_A1_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_JOY_A1_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_JOY_A1_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_JOY_A1_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_JOY_A2_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_JOY_A2_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_JOY_A2_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_JOY_A2_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_JOY_A2_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_JOY_A2_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_JOY_A2_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_SNP_A0_3,  
+Basic HRV Analysis faild for subject: s01_SNP_A0_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_SNP_A1_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_SNP_A1_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_SNP_A1_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_SNP_A1_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_SNP_A1_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_SNP_A1_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_SNP_A1_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_SNP_A2_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_SNP_A2_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_SNP_A2_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_SNP_A2_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_SNP_A2_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_SNP_A2_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s01_SNP_A2_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_HA_A0_1,  
+Basic HRV Analysis faild for subject: s02_HA_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_HA_A0_3, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: s02_HA_A0_4, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: s02_HA_A0_6, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: s02_HA_A0_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_HA_A1_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_HA_A1_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_HA_A1_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_HA_A1_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_HA_A1_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_HA_A1_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_HA_A1_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_HA_A2_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_HA_A2_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_HA_A2_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_HA_A2_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_HA_A2_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_HA_A2_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_HA_A2_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_JOY_A0_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_JOY_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_JOY_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_JOY_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_JOY_A0_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_JOY_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_JOY_A0_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_JOY_A1_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_JOY_A1_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_JOY_A1_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_JOY_A1_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_JOY_A1_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_JOY_A1_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_JOY_A1_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_JOY_A2_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_JOY_A2_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_JOY_A2_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_JOY_A2_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_JOY_A2_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_JOY_A2_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_JOY_A2_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_SNP_A0_6,  
+Basic HRV Analysis faild for subject: s02_SNP_A0_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_SNP_A1_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_SNP_A1_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_SNP_A1_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_SNP_A1_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_SNP_A1_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_SNP_A1_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_SNP_A1_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_SNP_A2_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_SNP_A2_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_SNP_A2_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_SNP_A2_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_SNP_A2_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_SNP_A2_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s02_SNP_A2_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_HA_A0_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_HA_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_HA_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_HA_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_HA_A0_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_HA_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_HA_A0_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_HA_A1_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_HA_A1_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_HA_A1_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_HA_A1_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_HA_A1_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_HA_A1_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_HA_A1_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_HA_A2_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_HA_A2_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_HA_A2_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_HA_A2_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_HA_A2_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_HA_A2_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_HA_A2_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_JOY_A0_1,  
+Basic HRV Analysis faild for subject: s03_JOY_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_JOY_A0_3,  
+Basic HRV Analysis faild for subject: s03_JOY_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_JOY_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s03_JOY_A0_7,  
+Basic HRV Analysis faild for subject: s03_JOY_A1_1,  
+Basic HRV Analysis faild for subject: s03_JOY_A1_2,  
+Basic HRV Analysis faild for subject: s03_JOY_A1_3,  
+Basic HRV Analysis faild for subject: s03_JOY_A1_4,  
+Basic HRV Analysis faild for subject: s03_JOY_A1_5,  
+Basic HRV Analysis faild for subject: s03_JOY_A1_6,  
+Basic HRV Analysis faild for subject: s03_JOY_A1_7,  
+Basic HRV Analysis faild for subject: s03_JOY_A2_1,  
+Basic HRV Analysis faild for subject: s03_JOY_A2_2,  
+Basic HRV Analysis faild for subject: s03_JOY_A2_3,  
+Basic HRV Analysis faild for subject: s03_JOY_A2_4,  
+Basic HRV Analysis faild for subject: s03_JOY_A2_5,  
+Basic HRV Analysis faild for subject: s03_JOY_A2_6,  
+Basic HRV Analysis faild for subject: s03_JOY_A2_7,  
+Basic HRV Analysis faild for subject: s04_HA_A0_1,  
+Basic HRV Analysis faild for subject: s04_HA_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s04_HA_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s04_HA_A0_6,  
+Basic HRV Analysis faild for subject: s04_HA_A0_7,  
+Basic HRV Analysis faild for subject: s04_HA_A1_1,  
+Basic HRV Analysis faild for subject: s04_HA_A1_2,  
+Basic HRV Analysis faild for subject: s04_HA_A1_3,  
+Basic HRV Analysis faild for subject: s04_HA_A1_4,  
+Basic HRV Analysis faild for subject: s04_HA_A1_5,  
+Basic HRV Analysis faild for subject: s04_HA_A1_6,  
+Basic HRV Analysis faild for subject: s04_HA_A1_7,  
+Basic HRV Analysis faild for subject: s04_HA_A2_1,  
+Basic HRV Analysis faild for subject: s04_HA_A2_2,  
+Basic HRV Analysis faild for subject: s04_HA_A2_3,  
+Basic HRV Analysis faild for subject: s04_HA_A2_4,  
+Basic HRV Analysis faild for subject: s04_HA_A2_5,  
+Basic HRV Analysis faild for subject: s04_HA_A2_6,  
+Basic HRV Analysis faild for subject: s04_HA_A2_7,  
+Basic HRV Analysis faild for subject: s04_JOY_A0_1,  
+Basic HRV Analysis faild for subject: s04_JOY_A0_2,  
+Basic HRV Analysis faild for subject: s04_JOY_A0_3,  
+Basic HRV Analysis faild for subject: s04_JOY_A0_4,  
+Basic HRV Analysis faild for subject: s04_JOY_A0_5,  
+Basic HRV Analysis faild for subject: s04_JOY_A0_6,  
+Basic HRV Analysis faild for subject: s04_JOY_A0_7,  
+Basic HRV Analysis faild for subject: s04_JOY_A1_1,  
+Basic HRV Analysis faild for subject: s04_JOY_A1_2,  
+Basic HRV Analysis faild for subject: s04_JOY_A1_3,  
+Basic HRV Analysis faild for subject: s04_JOY_A1_4,  
+Basic HRV Analysis faild for subject: s04_JOY_A1_5,  
+Basic HRV Analysis faild for subject: s04_JOY_A1_6,  
+Basic HRV Analysis faild for subject: s04_JOY_A1_7,  
+Basic HRV Analysis faild for subject: s04_JOY_A2_1,  
+Basic HRV Analysis faild for subject: s04_JOY_A2_2,  
+Basic HRV Analysis faild for subject: s04_JOY_A2_3,  
+Basic HRV Analysis faild for subject: s04_JOY_A2_4,  
+Basic HRV Analysis faild for subject: s04_JOY_A2_5,  
+Basic HRV Analysis faild for subject: s04_JOY_A2_6,  
+Basic HRV Analysis faild for subject: s04_JOY_A2_7,  
+Basic HRV Analysis faild for subject: s04_SNP_A0_1,  
+Basic HRV Analysis faild for subject: s04_SNP_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s04_SNP_A0_7,  
+Basic HRV Analysis faild for subject: s04_SNP_A1_1,  
+Basic HRV Analysis faild for subject: s04_SNP_A1_2,  
+Basic HRV Analysis faild for subject: s04_SNP_A1_3,  
+Basic HRV Analysis faild for subject: s04_SNP_A1_4,  
+Basic HRV Analysis faild for subject: s04_SNP_A1_5,  
+Basic HRV Analysis faild for subject: s04_SNP_A1_6,  
+Basic HRV Analysis faild for subject: s04_SNP_A1_7,  
+Basic HRV Analysis faild for subject: s04_SNP_A2_1,  
+Basic HRV Analysis faild for subject: s04_SNP_A2_2,  
+Basic HRV Analysis faild for subject: s04_SNP_A2_3,  
+Basic HRV Analysis faild for subject: s04_SNP_A2_4,  
+Basic HRV Analysis faild for subject: s04_SNP_A2_5,  
+Basic HRV Analysis faild for subject: s04_SNP_A2_6,  
+Basic HRV Analysis faild for subject: s04_SNP_A2_7,  
+Basic HRV Analysis faild for subject: s05_HA_A0_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s05_HA_A0_2,  
+Basic HRV Analysis faild for subject: s05_HA_A0_3,  
+Basic HRV Analysis faild for subject: s05_HA_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s05_HA_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s05_HA_A0_7,  
+Basic HRV Analysis faild for subject: s05_HA_A1_1,  
+Basic HRV Analysis faild for subject: s05_HA_A1_2,  
+Basic HRV Analysis faild for subject: s05_HA_A1_3,  
+Basic HRV Analysis faild for subject: s05_HA_A1_4,  
+Basic HRV Analysis faild for subject: s05_HA_A1_5,  
+Basic HRV Analysis faild for subject: s05_HA_A1_6,  
+Basic HRV Analysis faild for subject: s05_HA_A1_7,  
+Basic HRV Analysis faild for subject: s05_HA_A2_1,  
+Basic HRV Analysis faild for subject: s05_HA_A2_2,  
+Basic HRV Analysis faild for subject: s05_HA_A2_3,  
+Basic HRV Analysis faild for subject: s05_HA_A2_4,  
+Basic HRV Analysis faild for subject: s05_HA_A2_5,  
+Basic HRV Analysis faild for subject: s05_HA_A2_6,  
+Basic HRV Analysis faild for subject: s05_HA_A2_7,  
+Basic HRV Analysis faild for subject: s05_JOY_A0_1,  
+Basic HRV Analysis faild for subject: s05_JOY_A0_2,  
+Basic HRV Analysis faild for subject: s05_JOY_A0_3,  
+Basic HRV Analysis faild for subject: s05_JOY_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s05_JOY_A0_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s05_JOY_A0_6,  
+Basic HRV Analysis faild for subject: s05_JOY_A0_7,  
+Basic HRV Analysis faild for subject: s05_JOY_A1_1,  
+Basic HRV Analysis faild for subject: s05_JOY_A1_2,  
+Basic HRV Analysis faild for subject: s05_JOY_A1_3,  
+Basic HRV Analysis faild for subject: s05_JOY_A1_4,  
+Basic HRV Analysis faild for subject: s05_JOY_A1_5,  
+Basic HRV Analysis faild for subject: s05_JOY_A1_6,  
+Basic HRV Analysis faild for subject: s05_JOY_A1_7,  
+Basic HRV Analysis faild for subject: s05_JOY_A2_1,  
+Basic HRV Analysis faild for subject: s05_JOY_A2_2,  
+Basic HRV Analysis faild for subject: s05_JOY_A2_3,  
+Basic HRV Analysis faild for subject: s05_JOY_A2_4,  
+Basic HRV Analysis faild for subject: s05_JOY_A2_5,  
+Basic HRV Analysis faild for subject: s05_JOY_A2_6,  
+Basic HRV Analysis faild for subject: s05_JOY_A2_7,  
+Basic HRV Analysis faild for subject: s05_SNP_A0_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s05_SNP_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s06_HA_A0_1,  
+Basic HRV Analysis faild for subject: s06_HA_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s06_HA_A0_3,  
+Basic HRV Analysis faild for subject: s06_HA_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s06_HA_A0_6,  
+Basic HRV Analysis faild for subject: s06_HA_A0_7,  
+Basic HRV Analysis faild for subject: s06_HA_A1_1,  
+Basic HRV Analysis faild for subject: s06_HA_A1_2,  
+Basic HRV Analysis faild for subject: s06_HA_A1_3,  
+Basic HRV Analysis faild for subject: s06_HA_A1_4,  
+Basic HRV Analysis faild for subject: s06_HA_A1_5,  
+Basic HRV Analysis faild for subject: s06_HA_A1_6,  
+Basic HRV Analysis faild for subject: s06_HA_A1_7,  
+Basic HRV Analysis faild for subject: s06_HA_A2_1,  
+Basic HRV Analysis faild for subject: s06_HA_A2_2,  
+Basic HRV Analysis faild for subject: s06_HA_A2_3,  
+Basic HRV Analysis faild for subject: s06_HA_A2_4,  
+Basic HRV Analysis faild for subject: s06_HA_A2_5,  
+Basic HRV Analysis faild for subject: s06_HA_A2_6,  
+Basic HRV Analysis faild for subject: s06_HA_A2_7,  
+Basic HRV Analysis faild for subject: s06_JOY_A0_1,  
+Basic HRV Analysis faild for subject: s06_JOY_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s06_JOY_A0_3,  
+Basic HRV Analysis faild for subject: s06_JOY_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s06_JOY_A0_6,  
+Basic HRV Analysis faild for subject: s06_JOY_A0_7,  
+Basic HRV Analysis faild for subject: s06_JOY_A1_1,  
+Basic HRV Analysis faild for subject: s06_JOY_A1_2,  
+Basic HRV Analysis faild for subject: s06_JOY_A1_3,  
+Basic HRV Analysis faild for subject: s06_JOY_A1_4,  
+Basic HRV Analysis faild for subject: s06_JOY_A1_5,  
+Basic HRV Analysis faild for subject: s06_JOY_A1_6,  
+Basic HRV Analysis faild for subject: s06_JOY_A1_7,  
+Basic HRV Analysis faild for subject: s06_JOY_A2_1,  
+Basic HRV Analysis faild for subject: s06_JOY_A2_2,  
+Basic HRV Analysis faild for subject: s06_JOY_A2_3,  
+Basic HRV Analysis faild for subject: s06_JOY_A2_4,  
+Basic HRV Analysis faild for subject: s06_JOY_A2_5,  
+Basic HRV Analysis faild for subject: s06_JOY_A2_6,  
+Basic HRV Analysis faild for subject: s06_JOY_A2_7,  
+Basic HRV Analysis faild for subject: s06_SNP_A0_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s08_HA_A0_1,  
+Basic HRV Analysis faild for subject: s08_HA_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s08_HA_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s08_HA_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s08_HA_A0_7,  
+Basic HRV Analysis faild for subject: s08_HA_A1_1,  
+Basic HRV Analysis faild for subject: s08_HA_A1_2,  
+Basic HRV Analysis faild for subject: s08_HA_A1_3,  
+Basic HRV Analysis faild for subject: s08_HA_A1_4,  
+Basic HRV Analysis faild for subject: s08_HA_A1_5,  
+Basic HRV Analysis faild for subject: s08_HA_A1_6,  
+Basic HRV Analysis faild for subject: s08_HA_A1_7,  
+Basic HRV Analysis faild for subject: s08_HA_A2_1,  
+Basic HRV Analysis faild for subject: s08_HA_A2_2,  
+Basic HRV Analysis faild for subject: s08_HA_A2_3,  
+Basic HRV Analysis faild for subject: s08_HA_A2_4,  
+Basic HRV Analysis faild for subject: s08_HA_A2_5,  
+Basic HRV Analysis faild for subject: s08_HA_A2_6,  
+Basic HRV Analysis faild for subject: s08_HA_A2_7,  
+Basic HRV Analysis faild for subject: s08_JOY_A0_1,  
+Basic HRV Analysis faild for subject: s08_JOY_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s08_JOY_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s08_JOY_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s08_JOY_A0_7,  
+Basic HRV Analysis faild for subject: s08_JOY_A1_1,  
+Basic HRV Analysis faild for subject: s08_JOY_A1_2,  
+Basic HRV Analysis faild for subject: s08_JOY_A1_3,  
+Basic HRV Analysis faild for subject: s08_JOY_A1_4,  
+Basic HRV Analysis faild for subject: s08_JOY_A1_5,  
+Basic HRV Analysis faild for subject: s08_JOY_A1_6,  
+Basic HRV Analysis faild for subject: s08_JOY_A1_7,  
+Basic HRV Analysis faild for subject: s08_JOY_A2_1,  
+Basic HRV Analysis faild for subject: s08_JOY_A2_2,  
+Basic HRV Analysis faild for subject: s08_JOY_A2_3,  
+Basic HRV Analysis faild for subject: s08_JOY_A2_4,  
+Basic HRV Analysis faild for subject: s08_JOY_A2_5,  
+Basic HRV Analysis faild for subject: s08_JOY_A2_6,  
+Basic HRV Analysis faild for subject: s08_JOY_A2_7,  
+Basic HRV Analysis faild for subject: s08_SNP_A0_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s08_SNP_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s08_SNP_A0_3,  
+Basic HRV Analysis faild for subject: s08_SNP_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s08_SNP_A0_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s08_SNP_A1_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s08_SNP_A1_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s08_SNP_A1_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s08_SNP_A1_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s08_SNP_A1_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s08_SNP_A1_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s08_SNP_A1_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: s08_SNP_A2_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: s08_SNP_A2_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: s08_SNP_A2_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: s08_SNP_A2_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: s08_SNP_A2_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: s08_SNP_A2_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: s08_SNP_A2_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u00_HA_A0_1,  
+Basic HRV Analysis faild for subject: u00_HA_A0_2,  
+Basic HRV Analysis faild for subject: u00_HA_A0_3,  
+Basic HRV Analysis faild for subject: u00_HA_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u00_HA_A0_6,  
+Basic HRV Analysis faild for subject: u00_HA_A0_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u00_HA_A1_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u00_HA_A1_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u00_HA_A1_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u00_HA_A1_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u00_HA_A1_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u00_HA_A1_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u00_HA_A1_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u00_HA_A2_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u00_HA_A2_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u00_HA_A2_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u00_HA_A2_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u00_HA_A2_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u00_HA_A2_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u00_HA_A2_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u00_JOY_A0_1,  
+Basic HRV Analysis faild for subject: u00_JOY_A0_2,  
+Basic HRV Analysis faild for subject: u00_JOY_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u00_JOY_A0_6,  
+Basic HRV Analysis faild for subject: u00_JOY_A0_7,  
+Basic HRV Analysis faild for subject: u00_JOY_A1_1,  
+Basic HRV Analysis faild for subject: u00_JOY_A1_2,  
+Basic HRV Analysis faild for subject: u00_JOY_A1_3,  
+Basic HRV Analysis faild for subject: u00_JOY_A1_4,  
+Basic HRV Analysis faild for subject: u00_JOY_A1_5,  
+Basic HRV Analysis faild for subject: u00_JOY_A1_6,  
+Basic HRV Analysis faild for subject: u00_JOY_A1_7,  
+Basic HRV Analysis faild for subject: u00_JOY_A2_1,  
+Basic HRV Analysis faild for subject: u00_JOY_A2_2,  
+Basic HRV Analysis faild for subject: u00_JOY_A2_3,  
+Basic HRV Analysis faild for subject: u00_JOY_A2_4,  
+Basic HRV Analysis faild for subject: u00_JOY_A2_5,  
+Basic HRV Analysis faild for subject: u00_JOY_A2_6,  
+Basic HRV Analysis faild for subject: u00_JOY_A2_7,  
+Basic HRV Analysis faild for subject: u00_SNP_A0_1,  
+Basic HRV Analysis faild for subject: u00_SNP_A0_2,  
+Basic HRV Analysis faild for subject: u00_SNP_A0_3,  
+Basic HRV Analysis faild for subject: u00_SNP_A0_4,  
+Basic HRV Analysis faild for subject: u00_SNP_A0_5,  
+Basic HRV Analysis faild for subject: u00_SNP_A0_6,  
+Basic HRV Analysis faild for subject: u00_SNP_A0_7,  
+Basic HRV Analysis faild for subject: u00_SNP_A1_1,  
+Basic HRV Analysis faild for subject: u00_SNP_A1_2,  
+Basic HRV Analysis faild for subject: u00_SNP_A1_3,  
+Basic HRV Analysis faild for subject: u00_SNP_A1_4,  
+Basic HRV Analysis faild for subject: u00_SNP_A1_5,  
+Basic HRV Analysis faild for subject: u00_SNP_A1_6,  
+Basic HRV Analysis faild for subject: u00_SNP_A1_7,  
+Basic HRV Analysis faild for subject: u00_SNP_A2_1,  
+Basic HRV Analysis faild for subject: u00_SNP_A2_2,  
+Basic HRV Analysis faild for subject: u00_SNP_A2_3,  
+Basic HRV Analysis faild for subject: u00_SNP_A2_4,  
+Basic HRV Analysis faild for subject: u00_SNP_A2_5,  
+Basic HRV Analysis faild for subject: u00_SNP_A2_6,  
+Basic HRV Analysis faild for subject: u00_SNP_A2_7,  
+Basic HRV Analysis faild for subject: u01_HA_A0_1,  
+Basic HRV Analysis faild for subject: u01_HA_A0_2,  
+Basic HRV Analysis faild for subject: u01_HA_A0_3,  
+Basic HRV Analysis faild for subject: u01_HA_A0_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u01_HA_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u01_HA_A0_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u01_HA_A1_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u01_HA_A1_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u01_HA_A1_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u01_HA_A1_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u01_HA_A1_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u01_HA_A1_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u01_HA_A1_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u01_HA_A2_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u01_HA_A2_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u01_HA_A2_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u01_HA_A2_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u01_HA_A2_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u01_HA_A2_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u01_HA_A2_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u01_JOY_A0_1,  
+Basic HRV Analysis faild for subject: u01_JOY_A0_2,  
+Basic HRV Analysis faild for subject: u01_JOY_A0_3, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: u01_JOY_A0_4, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: u01_JOY_A0_6,  
+Basic HRV Analysis faild for subject: u01_JOY_A0_7,  
+Basic HRV Analysis faild for subject: u01_JOY_A1_1,  
+Basic HRV Analysis faild for subject: u01_JOY_A1_2,  
+Basic HRV Analysis faild for subject: u01_JOY_A1_3,  
+Basic HRV Analysis faild for subject: u01_JOY_A1_4,  
+Basic HRV Analysis faild for subject: u01_JOY_A1_5,  
+Basic HRV Analysis faild for subject: u01_JOY_A1_6,  
+Basic HRV Analysis faild for subject: u01_JOY_A1_7,  
+Basic HRV Analysis faild for subject: u01_JOY_A2_1,  
+Basic HRV Analysis faild for subject: u01_JOY_A2_2,  
+Basic HRV Analysis faild for subject: u01_JOY_A2_3,  
+Basic HRV Analysis faild for subject: u01_JOY_A2_4,  
+Basic HRV Analysis faild for subject: u01_JOY_A2_5,  
+Basic HRV Analysis faild for subject: u01_JOY_A2_6,  
+Basic HRV Analysis faild for subject: u01_JOY_A2_7,  
+Basic HRV Analysis faild for subject: u01_SNP_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u01_SNP_A0_7,  
+Basic HRV Analysis faild for subject: u01_SNP_A1_1,  
+Basic HRV Analysis faild for subject: u01_SNP_A1_2,  
+Basic HRV Analysis faild for subject: u01_SNP_A1_3,  
+Basic HRV Analysis faild for subject: u01_SNP_A1_4,  
+Basic HRV Analysis faild for subject: u01_SNP_A1_5,  
+Basic HRV Analysis faild for subject: u01_SNP_A1_6,  
+Basic HRV Analysis faild for subject: u01_SNP_A1_7,  
+Basic HRV Analysis faild for subject: u01_SNP_A2_1,  
+Basic HRV Analysis faild for subject: u01_SNP_A2_2,  
+Basic HRV Analysis faild for subject: u01_SNP_A2_3,  
+Basic HRV Analysis faild for subject: u01_SNP_A2_4,  
+Basic HRV Analysis faild for subject: u01_SNP_A2_5,  
+Basic HRV Analysis faild for subject: u01_SNP_A2_6,  
+Basic HRV Analysis faild for subject: u01_SNP_A2_7,  
+Basic HRV Analysis faild for subject: u02_HA_A0_1,  
+Basic HRV Analysis faild for subject: u02_HA_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_HA_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_HA_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_HA_A0_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_HA_A0_6,  
+Basic HRV Analysis faild for subject: u02_HA_A0_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_HA_A1_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_HA_A1_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_HA_A1_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_HA_A1_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_HA_A1_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_HA_A1_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_HA_A1_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_HA_A2_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_HA_A2_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_HA_A2_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_HA_A2_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_HA_A2_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_HA_A2_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_HA_A2_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_JOY_A0_2,  
+Basic HRV Analysis faild for subject: u02_JOY_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_JOY_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_JOY_A0_7,  
+Basic HRV Analysis faild for subject: u02_JOY_A1_1,  
+Basic HRV Analysis faild for subject: u02_JOY_A1_2,  
+Basic HRV Analysis faild for subject: u02_JOY_A1_3,  
+Basic HRV Analysis faild for subject: u02_JOY_A1_4,  
+Basic HRV Analysis faild for subject: u02_JOY_A1_5,  
+Basic HRV Analysis faild for subject: u02_JOY_A1_6,  
+Basic HRV Analysis faild for subject: u02_JOY_A1_7,  
+Basic HRV Analysis faild for subject: u02_JOY_A2_1,  
+Basic HRV Analysis faild for subject: u02_JOY_A2_2,  
+Basic HRV Analysis faild for subject: u02_JOY_A2_3,  
+Basic HRV Analysis faild for subject: u02_JOY_A2_4,  
+Basic HRV Analysis faild for subject: u02_JOY_A2_5,  
+Basic HRV Analysis faild for subject: u02_JOY_A2_6,  
+Basic HRV Analysis faild for subject: u02_JOY_A2_7,  
+Basic HRV Analysis faild for subject: u02_SNP_A0_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_SNP_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_SNP_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_SNP_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_SNP_A0_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_SNP_A1_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_SNP_A1_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_SNP_A1_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_SNP_A1_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_SNP_A1_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_SNP_A1_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_SNP_A1_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_SNP_A2_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_SNP_A2_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_SNP_A2_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_SNP_A2_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_SNP_A2_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_SNP_A2_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u02_SNP_A2_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u03_HA_A0_1,  
+Basic HRV Analysis faild for subject: u03_HA_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u03_JOY_A0_1,  
+Basic HRV Analysis faild for subject: u03_JOY_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u03_JOY_A0_3,  
+Basic HRV Analysis faild for subject: u03_JOY_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u03_JOY_A0_6,  
+Basic HRV Analysis faild for subject: u03_JOY_A0_7,  
+Basic HRV Analysis faild for subject: u03_JOY_A1_1,  
+Basic HRV Analysis faild for subject: u03_JOY_A1_2,  
+Basic HRV Analysis faild for subject: u03_JOY_A1_3,  
+Basic HRV Analysis faild for subject: u03_JOY_A1_4,  
+Basic HRV Analysis faild for subject: u03_JOY_A1_5,  
+Basic HRV Analysis faild for subject: u03_JOY_A1_6,  
+Basic HRV Analysis faild for subject: u03_JOY_A1_7,  
+Basic HRV Analysis faild for subject: u03_JOY_A2_1,  
+Basic HRV Analysis faild for subject: u03_JOY_A2_2,  
+Basic HRV Analysis faild for subject: u03_JOY_A2_3,  
+Basic HRV Analysis faild for subject: u03_JOY_A2_4,  
+Basic HRV Analysis faild for subject: u03_JOY_A2_5,  
+Basic HRV Analysis faild for subject: u03_JOY_A2_6,  
+Basic HRV Analysis faild for subject: u03_JOY_A2_7,  
+Basic HRV Analysis faild for subject: u03_SNP_A0_1,  
+Basic HRV Analysis faild for subject: u04_HA_A0_1,  
+Basic HRV Analysis faild for subject: u04_HA_A0_2,  
+Basic HRV Analysis faild for subject: u04_HA_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u04_HA_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u04_HA_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u04_HA_A0_7,  
+Basic HRV Analysis faild for subject: u04_HA_A1_1,  
+Basic HRV Analysis faild for subject: u04_HA_A1_2,  
+Basic HRV Analysis faild for subject: u04_HA_A1_3,  
+Basic HRV Analysis faild for subject: u04_HA_A1_4,  
+Basic HRV Analysis faild for subject: u04_HA_A1_5,  
+Basic HRV Analysis faild for subject: u04_HA_A1_6,  
+Basic HRV Analysis faild for subject: u04_HA_A1_7,  
+Basic HRV Analysis faild for subject: u04_HA_A2_1,  
+Basic HRV Analysis faild for subject: u04_HA_A2_2,  
+Basic HRV Analysis faild for subject: u04_HA_A2_3,  
+Basic HRV Analysis faild for subject: u04_HA_A2_4,  
+Basic HRV Analysis faild for subject: u04_HA_A2_5,  
+Basic HRV Analysis faild for subject: u04_HA_A2_6,  
+Basic HRV Analysis faild for subject: u04_HA_A2_7,  
+Basic HRV Analysis faild for subject: u04_JOY_A0_1,  
+Basic HRV Analysis faild for subject: u04_JOY_A0_2,  
+Basic HRV Analysis faild for subject: u04_JOY_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u04_JOY_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u04_JOY_A0_6,  
+Basic HRV Analysis faild for subject: u04_JOY_A0_7,  
+Basic HRV Analysis faild for subject: u04_JOY_A1_1,  
+Basic HRV Analysis faild for subject: u04_JOY_A1_2,  
+Basic HRV Analysis faild for subject: u04_JOY_A1_3,  
+Basic HRV Analysis faild for subject: u04_JOY_A1_4,  
+Basic HRV Analysis faild for subject: u04_JOY_A1_5,  
+Basic HRV Analysis faild for subject: u04_JOY_A1_6,  
+Basic HRV Analysis faild for subject: u04_JOY_A1_7,  
+Basic HRV Analysis faild for subject: u04_JOY_A2_1,  
+Basic HRV Analysis faild for subject: u04_JOY_A2_2,  
+Basic HRV Analysis faild for subject: u04_JOY_A2_3,  
+Basic HRV Analysis faild for subject: u04_JOY_A2_4,  
+Basic HRV Analysis faild for subject: u04_JOY_A2_5,  
+Basic HRV Analysis faild for subject: u04_JOY_A2_6,  
+Basic HRV Analysis faild for subject: u04_JOY_A2_7,  
+Basic HRV Analysis faild for subject: u04_SNP_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u04_SNP_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u04_SNP_A0_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u04_SNP_A1_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u04_SNP_A1_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u04_SNP_A1_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u04_SNP_A1_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u04_SNP_A1_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u04_SNP_A1_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u04_SNP_A1_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u04_SNP_A2_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u04_SNP_A2_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u04_SNP_A2_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u04_SNP_A2_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u04_SNP_A2_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u04_SNP_A2_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u04_SNP_A2_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u05_HA_A0_1,  
+Basic HRV Analysis faild for subject: u05_HA_A0_2,  
+Basic HRV Analysis faild for subject: u05_HA_A0_3,  
+Basic HRV Analysis faild for subject: u05_HA_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u05_HA_A0_6,  
+Basic HRV Analysis faild for subject: u05_HA_A0_7,  
+Basic HRV Analysis faild for subject: u05_HA_A1_1,  
+Basic HRV Analysis faild for subject: u05_HA_A1_2,  
+Basic HRV Analysis faild for subject: u05_HA_A1_3,  
+Basic HRV Analysis faild for subject: u05_HA_A1_4,  
+Basic HRV Analysis faild for subject: u05_HA_A1_5,  
+Basic HRV Analysis faild for subject: u05_HA_A1_6,  
+Basic HRV Analysis faild for subject: u05_HA_A1_7,  
+Basic HRV Analysis faild for subject: u05_HA_A2_1,  
+Basic HRV Analysis faild for subject: u05_HA_A2_2,  
+Basic HRV Analysis faild for subject: u05_HA_A2_3,  
+Basic HRV Analysis faild for subject: u05_HA_A2_4,  
+Basic HRV Analysis faild for subject: u05_HA_A2_5,  
+Basic HRV Analysis faild for subject: u05_HA_A2_6,  
+Basic HRV Analysis faild for subject: u05_HA_A2_7,  
+Basic HRV Analysis faild for subject: u05_JOY_A0_1,  
+Basic HRV Analysis faild for subject: u05_JOY_A0_2,  
+Basic HRV Analysis faild for subject: u05_JOY_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u05_JOY_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u05_JOY_A0_6,  
+Basic HRV Analysis faild for subject: u05_JOY_A0_7,  
+Basic HRV Analysis faild for subject: u05_JOY_A1_1,  
+Basic HRV Analysis faild for subject: u05_JOY_A1_2,  
+Basic HRV Analysis faild for subject: u05_JOY_A1_3,  
+Basic HRV Analysis faild for subject: u05_JOY_A1_4,  
+Basic HRV Analysis faild for subject: u05_JOY_A1_5,  
+Basic HRV Analysis faild for subject: u05_JOY_A1_6,  
+Basic HRV Analysis faild for subject: u05_JOY_A1_7,  
+Basic HRV Analysis faild for subject: u05_JOY_A2_1,  
+Basic HRV Analysis faild for subject: u05_JOY_A2_2,  
+Basic HRV Analysis faild for subject: u05_JOY_A2_3,  
+Basic HRV Analysis faild for subject: u05_JOY_A2_4,  
+Basic HRV Analysis faild for subject: u05_JOY_A2_5,  
+Basic HRV Analysis faild for subject: u05_JOY_A2_6,  
+Basic HRV Analysis faild for subject: u05_JOY_A2_7,  
+Basic HRV Analysis faild for subject: u05_SNP_A0_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u05_SNP_A0_2, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: u06_HA_A0_1,  
+Basic HRV Analysis faild for subject: u06_HA_A0_2,  
+Basic HRV Analysis faild for subject: u06_HA_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u06_HA_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u06_HA_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u06_HA_A0_7,  
+Basic HRV Analysis faild for subject: u06_HA_A1_1,  
+Basic HRV Analysis faild for subject: u06_HA_A1_2,  
+Basic HRV Analysis faild for subject: u06_HA_A1_3,  
+Basic HRV Analysis faild for subject: u06_HA_A1_4,  
+Basic HRV Analysis faild for subject: u06_HA_A1_5,  
+Basic HRV Analysis faild for subject: u06_HA_A1_6,  
+Basic HRV Analysis faild for subject: u06_HA_A1_7,  
+Basic HRV Analysis faild for subject: u06_HA_A2_1,  
+Basic HRV Analysis faild for subject: u06_HA_A2_2,  
+Basic HRV Analysis faild for subject: u06_HA_A2_3,  
+Basic HRV Analysis faild for subject: u06_HA_A2_4,  
+Basic HRV Analysis faild for subject: u06_HA_A2_5,  
+Basic HRV Analysis faild for subject: u06_HA_A2_6,  
+Basic HRV Analysis faild for subject: u06_HA_A2_7,  
+Basic HRV Analysis faild for subject: u06_JOY_A0_1,  
+Basic HRV Analysis faild for subject: u06_JOY_A0_2,  
+Basic HRV Analysis faild for subject: u06_JOY_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u06_JOY_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u06_JOY_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u06_JOY_A0_7,  
+Basic HRV Analysis faild for subject: u06_JOY_A1_1,  
+Basic HRV Analysis faild for subject: u06_JOY_A1_2,  
+Basic HRV Analysis faild for subject: u06_JOY_A1_3,  
+Basic HRV Analysis faild for subject: u06_JOY_A1_4,  
+Basic HRV Analysis faild for subject: u06_JOY_A1_5,  
+Basic HRV Analysis faild for subject: u06_JOY_A1_6,  
+Basic HRV Analysis faild for subject: u06_JOY_A1_7,  
+Basic HRV Analysis faild for subject: u06_JOY_A2_1,  
+Basic HRV Analysis faild for subject: u06_JOY_A2_2,  
+Basic HRV Analysis faild for subject: u06_JOY_A2_3,  
+Basic HRV Analysis faild for subject: u06_JOY_A2_4,  
+Basic HRV Analysis faild for subject: u06_JOY_A2_5,  
+Basic HRV Analysis faild for subject: u06_JOY_A2_6,  
+Basic HRV Analysis faild for subject: u06_JOY_A2_7,  
+Basic HRV Analysis faild for subject: u06_SNP_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_HA_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_HA_A0_6, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: u07_HA_A0_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_HA_A1_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_HA_A1_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_HA_A1_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_HA_A1_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_HA_A1_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_HA_A1_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_HA_A1_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_HA_A2_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_HA_A2_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_HA_A2_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_HA_A2_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_HA_A2_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_HA_A2_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_HA_A2_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_JOY_A0_1,  
+Basic HRV Analysis faild for subject: u07_JOY_A0_2,  
+Basic HRV Analysis faild for subject: u07_JOY_A0_3, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: u07_JOY_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_JOY_A0_6,  
+Basic HRV Analysis faild for subject: u07_JOY_A0_7,  
+Basic HRV Analysis faild for subject: u07_JOY_A1_1,  
+Basic HRV Analysis faild for subject: u07_JOY_A1_2,  
+Basic HRV Analysis faild for subject: u07_JOY_A1_3,  
+Basic HRV Analysis faild for subject: u07_JOY_A1_4,  
+Basic HRV Analysis faild for subject: u07_JOY_A1_5,  
+Basic HRV Analysis faild for subject: u07_JOY_A1_6,  
+Basic HRV Analysis faild for subject: u07_JOY_A1_7,  
+Basic HRV Analysis faild for subject: u07_JOY_A2_1,  
+Basic HRV Analysis faild for subject: u07_JOY_A2_2,  
+Basic HRV Analysis faild for subject: u07_JOY_A2_3,  
+Basic HRV Analysis faild for subject: u07_JOY_A2_4,  
+Basic HRV Analysis faild for subject: u07_JOY_A2_5,  
+Basic HRV Analysis faild for subject: u07_JOY_A2_6,  
+Basic HRV Analysis faild for subject: u07_JOY_A2_7,  
+Basic HRV Analysis faild for subject: u07_SNP_A0_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_SNP_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_SNP_A0_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_SNP_A1_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_SNP_A1_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_SNP_A1_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_SNP_A1_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_SNP_A1_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_SNP_A1_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_SNP_A1_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_SNP_A2_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_SNP_A2_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_SNP_A2_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_SNP_A2_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_SNP_A2_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_SNP_A2_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u07_SNP_A2_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u08_HA_A0_2,  
+Basic HRV Analysis faild for subject: u08_HA_A0_4, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: u08_HA_A0_6,  
+Basic HRV Analysis faild for subject: u08_HA_A0_7,  
+Basic HRV Analysis faild for subject: u08_HA_A1_1,  
+Basic HRV Analysis faild for subject: u08_HA_A1_2,  
+Basic HRV Analysis faild for subject: u08_HA_A1_3,  
+Basic HRV Analysis faild for subject: u08_HA_A1_4,  
+Basic HRV Analysis faild for subject: u08_HA_A1_5,  
+Basic HRV Analysis faild for subject: u08_HA_A1_6,  
+Basic HRV Analysis faild for subject: u08_HA_A1_7,  
+Basic HRV Analysis faild for subject: u08_HA_A2_1,  
+Basic HRV Analysis faild for subject: u08_HA_A2_2,  
+Basic HRV Analysis faild for subject: u08_HA_A2_3,  
+Basic HRV Analysis faild for subject: u08_HA_A2_4,  
+Basic HRV Analysis faild for subject: u08_HA_A2_5,  
+Basic HRV Analysis faild for subject: u08_HA_A2_6,  
+Basic HRV Analysis faild for subject: u08_HA_A2_7,  
+Basic HRV Analysis faild for subject: u08_JOY_A0_1,  
+Basic HRV Analysis faild for subject: u08_JOY_A0_2,  
+Basic HRV Analysis faild for subject: u08_JOY_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u08_JOY_A0_7,  
+Basic HRV Analysis faild for subject: u08_JOY_A1_1,  
+Basic HRV Analysis faild for subject: u08_JOY_A1_2,  
+Basic HRV Analysis faild for subject: u08_JOY_A1_3,  
+Basic HRV Analysis faild for subject: u08_JOY_A1_4,  
+Basic HRV Analysis faild for subject: u08_JOY_A1_5,  
+Basic HRV Analysis faild for subject: u08_JOY_A1_6,  
+Basic HRV Analysis faild for subject: u08_JOY_A1_7,  
+Basic HRV Analysis faild for subject: u08_JOY_A2_1,  
+Basic HRV Analysis faild for subject: u08_JOY_A2_2,  
+Basic HRV Analysis faild for subject: u08_JOY_A2_3,  
+Basic HRV Analysis faild for subject: u08_JOY_A2_4,  
+Basic HRV Analysis faild for subject: u08_JOY_A2_5,  
+Basic HRV Analysis faild for subject: u08_JOY_A2_6,  
+Basic HRV Analysis faild for subject: u08_JOY_A2_7,  
+Basic HRV Analysis faild for subject: u08_SNP_A0_1,  
+Basic HRV Analysis faild for subject: u08_SNP_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u08_SNP_A0_7,  
+Basic HRV Analysis faild for subject: u08_SNP_A1_1,  
+Basic HRV Analysis faild for subject: u08_SNP_A1_2,  
+Basic HRV Analysis faild for subject: u08_SNP_A1_3,  
+Basic HRV Analysis faild for subject: u08_SNP_A1_4,  
+Basic HRV Analysis faild for subject: u08_SNP_A1_5,  
+Basic HRV Analysis faild for subject: u08_SNP_A1_6,  
+Basic HRV Analysis faild for subject: u08_SNP_A1_7,  
+Basic HRV Analysis faild for subject: u08_SNP_A2_1,  
+Basic HRV Analysis faild for subject: u08_SNP_A2_2,  
+Basic HRV Analysis faild for subject: u08_SNP_A2_3,  
+Basic HRV Analysis faild for subject: u08_SNP_A2_4,  
+Basic HRV Analysis faild for subject: u08_SNP_A2_5,  
+Basic HRV Analysis faild for subject: u08_SNP_A2_6,  
+Basic HRV Analysis faild for subject: u08_SNP_A2_7,  
+Basic HRV Analysis faild for subject: u09_HA_A0_2,  
+Basic HRV Analysis faild for subject: u09_HA_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u09_HA_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u09_HA_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u09_HA_A0_7,  
+Basic HRV Analysis faild for subject: u09_HA_A1_1,  
+Basic HRV Analysis faild for subject: u09_HA_A1_2,  
+Basic HRV Analysis faild for subject: u09_HA_A1_3,  
+Basic HRV Analysis faild for subject: u09_HA_A1_4,  
+Basic HRV Analysis faild for subject: u09_HA_A1_5,  
+Basic HRV Analysis faild for subject: u09_HA_A1_6,  
+Basic HRV Analysis faild for subject: u09_HA_A1_7,  
+Basic HRV Analysis faild for subject: u09_HA_A2_1,  
+Basic HRV Analysis faild for subject: u09_HA_A2_2,  
+Basic HRV Analysis faild for subject: u09_HA_A2_3,  
+Basic HRV Analysis faild for subject: u09_HA_A2_4,  
+Basic HRV Analysis faild for subject: u09_HA_A2_5,  
+Basic HRV Analysis faild for subject: u09_HA_A2_6,  
+Basic HRV Analysis faild for subject: u09_HA_A2_7,  
+Basic HRV Analysis faild for subject: u09_JOY_A0_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u09_JOY_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u09_JOY_A0_3,  
+Basic HRV Analysis faild for subject: u09_JOY_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u09_JOY_A0_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u09_JOY_A1_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u09_JOY_A1_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u09_JOY_A1_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u09_JOY_A1_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u09_JOY_A1_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u09_JOY_A1_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u09_JOY_A1_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u09_JOY_A2_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u09_JOY_A2_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u09_JOY_A2_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u09_JOY_A2_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u09_JOY_A2_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u09_JOY_A2_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u09_JOY_A2_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u09_SNP_A0_3,  
+Basic HRV Analysis faild for subject: u11_HA_A0_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_HA_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_HA_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_HA_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_HA_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_HA_A0_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_HA_A1_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_HA_A1_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_HA_A1_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_HA_A1_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_HA_A1_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_HA_A1_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_HA_A1_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_HA_A2_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_HA_A2_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_HA_A2_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_HA_A2_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_HA_A2_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_HA_A2_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_HA_A2_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_JOY_A0_1,  
+Basic HRV Analysis faild for subject: u11_JOY_A0_2, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: u11_JOY_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_JOY_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_JOY_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u11_JOY_A0_7,  
+Basic HRV Analysis faild for subject: u11_JOY_A1_1,  
+Basic HRV Analysis faild for subject: u11_JOY_A1_2,  
+Basic HRV Analysis faild for subject: u11_JOY_A1_3,  
+Basic HRV Analysis faild for subject: u11_JOY_A1_4,  
+Basic HRV Analysis faild for subject: u11_JOY_A1_5,  
+Basic HRV Analysis faild for subject: u11_JOY_A1_6,  
+Basic HRV Analysis faild for subject: u11_JOY_A1_7,  
+Basic HRV Analysis faild for subject: u11_JOY_A2_1,  
+Basic HRV Analysis faild for subject: u11_JOY_A2_2,  
+Basic HRV Analysis faild for subject: u11_JOY_A2_3,  
+Basic HRV Analysis faild for subject: u11_JOY_A2_4,  
+Basic HRV Analysis faild for subject: u11_JOY_A2_5,  
+Basic HRV Analysis faild for subject: u11_JOY_A2_6,  
+Basic HRV Analysis faild for subject: u11_JOY_A2_7,  
+Basic HRV Analysis faild for subject: u11_SNP_A0_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u12_HA_A0_1,  
+Basic HRV Analysis faild for subject: u12_HA_A0_2,  
+Basic HRV Analysis faild for subject: u12_HA_A0_3,  
+Basic HRV Analysis faild for subject: u12_HA_A0_6,  
+Basic HRV Analysis faild for subject: u12_HA_A0_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u12_HA_A1_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u12_HA_A1_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u12_HA_A1_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u12_HA_A1_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u12_HA_A1_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u12_HA_A1_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u12_HA_A1_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u12_HA_A2_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u12_HA_A2_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u12_HA_A2_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u12_HA_A2_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u12_HA_A2_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u12_HA_A2_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u12_HA_A2_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u12_JOY_A0_1,  
+Basic HRV Analysis faild for subject: u12_JOY_A0_2,  
+Basic HRV Analysis faild for subject: u12_JOY_A0_3,  
+Basic HRV Analysis faild for subject: u12_JOY_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u12_JOY_A0_6,  
+Basic HRV Analysis faild for subject: u12_JOY_A0_7,  
+Basic HRV Analysis faild for subject: u12_JOY_A1_1,  
+Basic HRV Analysis faild for subject: u12_JOY_A1_2,  
+Basic HRV Analysis faild for subject: u12_JOY_A1_3,  
+Basic HRV Analysis faild for subject: u12_JOY_A1_4,  
+Basic HRV Analysis faild for subject: u12_JOY_A1_5,  
+Basic HRV Analysis faild for subject: u12_JOY_A1_6,  
+Basic HRV Analysis faild for subject: u12_JOY_A1_7,  
+Basic HRV Analysis faild for subject: u12_JOY_A2_1,  
+Basic HRV Analysis faild for subject: u12_JOY_A2_2,  
+Basic HRV Analysis faild for subject: u12_JOY_A2_3,  
+Basic HRV Analysis faild for subject: u12_JOY_A2_4,  
+Basic HRV Analysis faild for subject: u12_JOY_A2_5,  
+Basic HRV Analysis faild for subject: u12_JOY_A2_6,  
+Basic HRV Analysis faild for subject: u12_JOY_A2_7,  
+Basic HRV Analysis faild for subject: u12_SNP_A0_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u12_SNP_A0_7,  
+Basic HRV Analysis faild for subject: u12_SNP_A1_1,  
+Basic HRV Analysis faild for subject: u12_SNP_A1_2,  
+Basic HRV Analysis faild for subject: u12_SNP_A1_3,  
+Basic HRV Analysis faild for subject: u12_SNP_A1_4,  
+Basic HRV Analysis faild for subject: u12_SNP_A1_5,  
+Basic HRV Analysis faild for subject: u12_SNP_A1_6,  
+Basic HRV Analysis faild for subject: u12_SNP_A1_7,  
+Basic HRV Analysis faild for subject: u12_SNP_A2_1,  
+Basic HRV Analysis faild for subject: u12_SNP_A2_2,  
+Basic HRV Analysis faild for subject: u12_SNP_A2_3,  
+Basic HRV Analysis faild for subject: u12_SNP_A2_4,  
+Basic HRV Analysis faild for subject: u12_SNP_A2_5,  
+Basic HRV Analysis faild for subject: u12_SNP_A2_6,  
+Basic HRV Analysis faild for subject: u12_SNP_A2_7,  
+Basic HRV Analysis faild for subject: u13_HA_A0_1, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: u13_HA_A0_2, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: u13_HA_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u13_HA_A0_7, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: u13_HA_A1_1, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: u13_HA_A1_2, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: u13_HA_A1_3, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: u13_HA_A1_4, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: u13_HA_A1_5, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: u13_HA_A1_6, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: u13_HA_A1_7, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: u13_HA_A2_1, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: u13_HA_A2_2, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: u13_HA_A2_3, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: u13_HA_A2_4, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: u13_HA_A2_5, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: u13_HA_A2_6, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: u13_HA_A2_7, Data Preprocessing or AF detection failure 
+Basic HRV Analysis faild for subject: u13_JOY_A0_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u13_JOY_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u13_JOY_A0_3,  
+Basic HRV Analysis faild for subject: u13_JOY_A0_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u13_JOY_A0_7,  
+Basic HRV Analysis faild for subject: u13_JOY_A1_1,  
+Basic HRV Analysis faild for subject: u13_JOY_A1_2,  
+Basic HRV Analysis faild for subject: u13_JOY_A1_3,  
+Basic HRV Analysis faild for subject: u13_JOY_A1_4,  
+Basic HRV Analysis faild for subject: u13_JOY_A1_5,  
+Basic HRV Analysis faild for subject: u13_JOY_A1_6,  
+Basic HRV Analysis faild for subject: u13_JOY_A1_7,  
+Basic HRV Analysis faild for subject: u13_JOY_A2_1,  
+Basic HRV Analysis faild for subject: u13_JOY_A2_2,  
+Basic HRV Analysis faild for subject: u13_JOY_A2_3,  
+Basic HRV Analysis faild for subject: u13_JOY_A2_4,  
+Basic HRV Analysis faild for subject: u13_JOY_A2_5,  
+Basic HRV Analysis faild for subject: u13_JOY_A2_6,  
+Basic HRV Analysis faild for subject: u13_JOY_A2_7,  
+Basic HRV Analysis faild for subject: u13_SNP_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u14_HA_A0_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u14_HA_A0_2,  
+Basic HRV Analysis faild for subject: u14_HA_A0_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u14_HA_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u14_HA_A0_6,  
+Basic HRV Analysis faild for subject: u14_HA_A0_7,  
+Basic HRV Analysis faild for subject: u14_HA_A1_1,  
+Basic HRV Analysis faild for subject: u14_HA_A1_2,  
+Basic HRV Analysis faild for subject: u14_HA_A1_3,  
+Basic HRV Analysis faild for subject: u14_HA_A1_4,  
+Basic HRV Analysis faild for subject: u14_HA_A1_5,  
+Basic HRV Analysis faild for subject: u14_HA_A1_6,  
+Basic HRV Analysis faild for subject: u14_HA_A1_7,  
+Basic HRV Analysis faild for subject: u14_HA_A2_1,  
+Basic HRV Analysis faild for subject: u14_HA_A2_2,  
+Basic HRV Analysis faild for subject: u14_HA_A2_3,  
+Basic HRV Analysis faild for subject: u14_HA_A2_4,  
+Basic HRV Analysis faild for subject: u14_HA_A2_5,  
+Basic HRV Analysis faild for subject: u14_HA_A2_6,  
+Basic HRV Analysis faild for subject: u14_HA_A2_7,  
+Basic HRV Analysis faild for subject: u14_JOY_A0_1,  
+Basic HRV Analysis faild for subject: u14_JOY_A0_2,  
+Basic HRV Analysis faild for subject: u14_JOY_A0_3,  
+Basic HRV Analysis faild for subject: u14_JOY_A0_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u14_JOY_A0_6,  
+Basic HRV Analysis faild for subject: u14_JOY_A0_7,  
+Basic HRV Analysis faild for subject: u14_JOY_A1_1,  
+Basic HRV Analysis faild for subject: u14_JOY_A1_2,  
+Basic HRV Analysis faild for subject: u14_JOY_A1_3,  
+Basic HRV Analysis faild for subject: u14_JOY_A1_4,  
+Basic HRV Analysis faild for subject: u14_JOY_A1_5,  
+Basic HRV Analysis faild for subject: u14_JOY_A1_6,  
+Basic HRV Analysis faild for subject: u14_JOY_A1_7,  
+Basic HRV Analysis faild for subject: u14_JOY_A2_1,  
+Basic HRV Analysis faild for subject: u14_JOY_A2_2,  
+Basic HRV Analysis faild for subject: u14_JOY_A2_3,  
+Basic HRV Analysis faild for subject: u14_JOY_A2_4,  
+Basic HRV Analysis faild for subject: u14_JOY_A2_5,  
+Basic HRV Analysis faild for subject: u14_JOY_A2_6,  
+Basic HRV Analysis faild for subject: u14_JOY_A2_7,  
+Basic HRV Analysis faild for subject: u14_SNP_A0_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u14_SNP_A0_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u14_SNP_A0_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u14_SNP_A1_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u14_SNP_A1_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u14_SNP_A1_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u14_SNP_A1_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u14_SNP_A1_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u14_SNP_A1_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u14_SNP_A1_7, Failure during output file generation 
+Basic HRV Analysis faild for subject: u14_SNP_A2_1, Failure during output file generation 
+Basic HRV Analysis faild for subject: u14_SNP_A2_2, Failure during output file generation 
+Basic HRV Analysis faild for subject: u14_SNP_A2_3, Failure during output file generation 
+Basic HRV Analysis faild for subject: u14_SNP_A2_4, Failure during output file generation 
+Basic HRV Analysis faild for subject: u14_SNP_A2_5, Failure during output file generation 
+Basic HRV Analysis faild for subject: u14_SNP_A2_6, Failure during output file generation 
+Basic HRV Analysis faild for subject: u14_SNP_A2_7, Failure during output file generation 

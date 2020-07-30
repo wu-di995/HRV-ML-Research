@@ -1,0 +1,17 @@
+% Generate HRV metrics for all subjects, 30s and 60s windows only
+
+% run("startup.m");
+
+% Subjects
+subjects = ["s00", "s01", "s02", "s03", "s04", "s05", "s06", "s07", "s08", ...
+    "u00", "u01", "u02", "u03", "u04", "u05", "u06", "u07", "u08" ,...
+    "u09", "u11", "u12", "u13", "u14"];
+
+% Interfaces
+interfaces = ["HA", "JOY", "SNP"];
+
+% Autonomy 
+autonomies = ["A0", "A1", "A2"];
+
+% Task numbers 
+tasks = ["1", "2", "3", "
