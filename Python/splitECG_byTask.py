@@ -37,11 +37,13 @@ def find_closest(df,timestamp):
 
 def splitECG(trajSubjsPaths):
     # Create dataframe to save task times 
-    task_time_df_cols = ["Task", "Task time", "Index diff time"]
+    task_time_df_cols = ["Task", "Task time", "Index diff time", "Start Time", "End Time"]
     task_time_df = pd.DataFrame(columns=task_time_df_cols)
     tasks_list = []
     task_time_list = []
     task_idxTime_list = []
+    start_time_list = []
+    end_time_list = []
     for path in trajSubjsPaths:
         A0folders = glob.glob(path+"*A0*")
         for folder in A0folders:
@@ -78,6 +80,8 @@ def splitECG(trajSubjsPaths):
                 # endTime = int(np.squeeze(task_status[task][1])) 
                 startTime = int((np.squeeze(task_status[task][0]))*1000) # Convert to ms, multiply 1000 
                 endTime = int((np.squeeze(task_status[task][1]))*1000)
+                start_time_list.append(startTime)
+                end_time_list.append(endTime)
                 # print(startTime,endTime)
                 taskTime = (endTime-startTime)/1000
                 # In the ECG dataframe, select ecg between start/end times 
@@ -102,6 +106,8 @@ def splitECG(trajSubjsPaths):
     task_time_df["Task"] = tasks_list
     task_time_df["Task time"] = task_time_list
     task_time_df["Index diff time"] = task_idxTime_list
+    task_time_df["Start Time"] = start_time_list
+    task_time_df["End Time"] = end_time_list
     task_time_df.to_csv(savedir+"task_times.csv",index=False)
 
 splitECG(trajSubjsPaths)
