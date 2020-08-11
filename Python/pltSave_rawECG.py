@@ -37,7 +37,7 @@ def find_closest(df,timestamp):
     return (exactmatch[exactmatch==True].index[0])
 
 # Data folder path
-dataPath = "F:\\argall-lab-data\\ECG Data\\"
+dataPath = "E:\\argall-lab-data\\ECG Data\\"
 
 # Subjects 
 subjsList = []
@@ -138,11 +138,11 @@ for i in range(len(subjsList)):
             num += 1
         new_df.to_csv(newPath,index=False,header=False) #do not save the index values 
         # Create Plots 
-        plt.plot(new_df.values)
-        plt.title(event)
-        plt.ylabel("mV")
-        plt.savefig(newPath.rstrip("csv")+"png")
-        plt.close()
+        # plt.plot(new_df.values)
+        # plt.title(event)
+        # plt.ylabel("mV")
+        # plt.savefig(newPath.rstrip("csv")+"png")
+        # plt.close()
 
 
 

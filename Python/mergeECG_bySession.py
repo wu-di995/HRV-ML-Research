@@ -1,4 +1,4 @@
-# Merge task raw ECG csv files by session
+# Merge task raw ECG csv files by EVENT
 import pandas as pd
 import numpy as np
 import glob,os, pathlib

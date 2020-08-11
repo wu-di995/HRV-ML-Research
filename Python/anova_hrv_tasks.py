@@ -13,7 +13,7 @@ mainDir = pathlib.Path(cwd).parent
 weighted_HRV_df = pd.read_csv(str(mainDir)+"\\HRV_weightedWindows\\HRV_weightedAvg.csv")
 
 # For each HRV metric, conduct an ANOVA test
-HRV_metrics_list = ["SDNN","RMSSD","ulf","vlf","lf","hf","lfhf","SD1","SD2","SD1SD2","ApEn"]
+HRV_metrics_list = ["SDNN","RMSSD","lf","hf","lfhf","SD1","SD2","SD1SD2","ApEn"]
 
 
 # Get HRV_metrics by task and metric
@@ -28,14 +28,22 @@ def get_task_metric_df(weighted_HRV_df,task,metric):
 
 for metric in HRV_metrics_list:
     print(metric)
-    stat, p = stats.f_oneway(get_task_metric_df(weighted_HRV_df,1,metric),
+    # stat, p = stats.f_oneway(get_task_metric_df(weighted_HRV_df,1,metric),
+    #                 get_task_metric_df(weighted_HRV_df,2,metric),
+    #                 get_task_metric_df(weighted_HRV_df,3,metric),
+    #                 get_task_metric_df(weighted_HRV_df,4,metric),
+    #                 get_task_metric_df(weighted_HRV_df,5,metric),
+    #                 get_task_metric_df(weighted_HRV_df,6,metric),
+    #                 get_task_metric_df(weighted_HRV_df,7,metric)
+    # )
+    stat, p = stats.kruskal(get_task_metric_df(weighted_HRV_df,1,metric),
                     get_task_metric_df(weighted_HRV_df,2,metric),
                     get_task_metric_df(weighted_HRV_df,3,metric),
                     get_task_metric_df(weighted_HRV_df,4,metric),
                     get_task_metric_df(weighted_HRV_df,5,metric),
                     get_task_metric_df(weighted_HRV_df,6,metric),
                     get_task_metric_df(weighted_HRV_df,7,metric)
-    )
+    )    
     print("Stat: ", stat)
     print("p:", p)
     print("--------------")
