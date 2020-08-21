@@ -25,6 +25,7 @@ for i in range(11,14+1):
         subjsList.append("u0"+str(i))
     else:
         subjsList.append("u"+str(i))
+subjsList = [subj for subj in subjsList if "u00" not in subj]
 # print(subjsList)
 
 # ECG subject folder paths

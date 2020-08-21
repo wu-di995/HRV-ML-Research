@@ -10,8 +10,8 @@ from Documents.SPARC.scripts.smoothness import sparc
 subjFolderList = glob.glob("E:\\argall-lab-data\\Trajectory Data\\*\\")
 subjFolderList = [path for path in subjFolderList if "U00" not in path]
 # subjs = ["U04","U05","U06","U07","U08","U09","U10","U11","U12","U13","U14"]
-subjs = ["S01"]
-subjFolderList = [path for path in subjFolderList if any(subj in path for subj in subjs)]
+# subjs = ["S01"]
+# subjFolderList = [path for path in subjFolderList if any(subj in path for subj in subjs)]
 
 # u3_SNP_A0 timestamps do not match starttime is 1536696177568, traj start time 1536696180987
 print(subjFolderList)
@@ -20,8 +20,8 @@ print(subjFolderList)
 ECGDir = "E:\\argall-lab-data\\ECG Data\\"
 
 # Save directory 
-lin_savedir = "E:\\argall-lab-data\\SPARC_linVel_byEvent\\"
-ang_savedir = "E:\\argall-lab-data\\SPARC_angVel_byEvent\\"
+lin_savedir = "E:\\argall-lab-data\\SPARC_userCmd_byEvent\\lin\\"
+ang_savedir = "E:\\argall-lab-data\\SPARC_userCmd_byEvent\\ang\\"
 
 # Get start and end times for an event 
 def readEvent_start_end(ECGDir,subj,interface,autonomy):
@@ -61,24 +61,40 @@ def slidingWin_gen(timeSeries,windowSize,stepSize):
         yield window
 
 # Generate SPARC outputs dataframe
-def makeSPARCdf(velocity,samp_freq,windowSizeSeconds,stepSizeSeconds):
+def makeSPARCdf(velocity,userControl,samp_freq,windowSizeSeconds,stepSizeSeconds):
+    # userControl, vector of 1s and 0s, 1 means user controlled
     windowSize = windowSizeSeconds*samp_freq
     stepSize = stepSizeSeconds*samp_freq
     # Create dataframe to save SPARC outputs
-    sparc_columns = ["sal"]
+    sparc_columns = ["Start Win Time", "End Win Time","sal","User Controlled", "User Control Ratio"] # Need to do math for Start Win Time, End Win Time
     sparc_index = range(len(velocity))
     sparc_df = pd.DataFrame(columns=sparc_columns)
     # Fill in dataframe 
     windows = slidingWin_gen(velocity,windowSize,stepSize)
-    for i,window in enumerate(windows):
+    user_windows = slidingWin_gen(userControl,windowSize,stepSize)
+    # Check if user operates for that entire window 
+    for i,(window,user_window) in enumerate(zip(windows,user_windows)):
         # if window is all zeros, smooth= 0, and continue to next loop
         if max(window)==0:
             sal = 0
         else: 
-            sal,(f, Mf),(f_sel, Mf_sel) = sparc(window,samp_freq)
+            sal,_,_= sparc(window,samp_freq)
+        # if all the values in the user control window are 0s
+        if 0 in user_window:
+            user_controlled = 0
+        else:
+            user_controlled = 1
+        # Calculate user control ratio
+        user_control_ratio= np.count_nonzero(np.array(user_window))/len(user_window)
+        # Fill in values for sparc_df
         sparc_df.loc[i,"sal"] = sal
+        sparc_df.loc[i,"Start Win Time"] = i
+        sparc_df.loc[i,"End Win Time"] = i+30
+        sparc_df.loc[i,"User Controlled"] = user_controlled
+        sparc_df.loc[i,"User Control Ratio"] = user_control_ratio
     
     return sparc_df
+
 
 
 # Function to find index of closest lower neighbour of a timestamp
@@ -86,7 +102,11 @@ def find_closest(df,timestamp,times_col_idx,test=False):
     # times_col_idx is the timestamp column index in df 
     if test:
         print(df.columns[times_col_idx])
-    # If annot start time earlier than traj start time, use traj start time 
+    print(df.loc[0,df.columns[times_col_idx]])
+    # If annot start time earlier than traj start time, use traj start time
+    if timestamp < df.loc[0,df.columns[times_col_idx]]:
+        timestamp = df.loc[0,df.columns[times_col_idx]]
+    # Check for exactmatch 
     exactmatch = (df[df.columns[times_col_idx]]==timestamp)
     while (exactmatch[exactmatch==True].empty):
         # print(timestamp)
@@ -98,77 +118,56 @@ for subjFolder in subjFolderList:
     trajFolders = glob.glob(subjFolder+"\\*\\")
     for trajFolder in trajFolders:
         if "A0" in trajFolder:
-            odomFilename = glob.glob(trajFolder+"*odom.csv")[0]
-            # print(odomFilename)
-            odomFilenameList = odomFilename.split("\\")[-1]
-            subj = odomFilenameList.split("_")[0]
-            interface = odomFilenameList.split("_")[1]
-            autonomy = odomFilenameList.split("_")[2]
+            userCmdFilename = glob.glob(trajFolder+"*user_cmd.csv")[0]
+            # print(userCmdFilename)
+            userCmdFilenameList = userCmdFilename.split("\\")[-1]
+            subj = userCmdFilenameList.split("_")[0]
+            interface = userCmdFilenameList.split("_")[1]
+            autonomy = userCmdFilenameList.split("_")[2]
             eventName = subj.lower()+"_"+interface+"_"+autonomy
             print(eventName)
-            odom_df = pd.read_csv(odomFilename,header = None)
-            odom_df.columns = ["Timestamp", "Lin_vel", "Ang_vel"]
-            odom_df.iloc[:,0] = odom_df.iloc[:,0].apply(lambda x: int(x*1000)) # Convert ROS timestamps to ms 
+            columnNames = ["Timestamp", "User Control", "Lin_userCmd", "Ang_userCmd"]
+            userCmd_df = pd.read_csv(userCmdFilename,header = None, names=columnNames)
             # Read event start and end times 
             startTime, endTime = readEvent_start_end(ECGDir,subj,interface,autonomy)
             print("Start Time: ",startTime)
-            startIdx = find_closest(odom_df,startTime,0)
+            startIdx = find_closest(userCmd_df,startTime,0)
             # print(startIdx)
 
             # print(endTime)
-            endIdx = find_closest(odom_df,endTime,0)
+            endIdx = find_closest(userCmd_df,endTime,0)
             # print(endIdx)
             print(endIdx-startIdx)
 
+            # Get user control array
+            userControl = userCmd_df.loc[startIdx:endIdx+1,"User Control"].values
+
             # Slice velocity arrays from start to end times 
-            lin_vel = odom_df.iloc[startIdx:endIdx+1,1].values
-            ang_vel = odom_df.iloc[startIdx:endIdx+1,2].values
-            # print(len(lin_vel))
+            lin_vel = userCmd_df.loc[startIdx:endIdx+1,"Lin_userCmd"].values
+            ang_vel = userCmd_df.loc[startIdx:endIdx+1,"Ang_userCmd"].values
+
             # Sampling frequency 25 Hz
             samp_freq = 25
 
-            # windows = slidingWin_gen(lin_vel,30*samp_freq,30*samp_freq)
-            # for window in windows:
-            
             # Generate SPARC dataframes
-            # Possible problems: padding? incorrect event times? creating windows of zeros?
-            lin_sparc_30_df = makeSPARCdf(lin_vel,samp_freq,30,1)
-            # lin_sparc_30_df.to_csv(lin_savedir+"30s\\"+eventName+"_sparc.csv")
-            # lin_sparc_60_df = makeSPARCdf(lin_vel,samp_freq,60,1)
-            # lin_sparc_60_df.to_csv(lin_savedir+"60s\\"+eventName+"_sparc.csv")
-            # ang_sparc_30_df = makeSPARCdf(ang_vel,samp_freq,30,1)
-            # ang_sparc_30_df.to_csv(ang_savedir+"30s\\"+eventName+"_sparc.csv")
-            # ang_sparc_60_df = makeSPARCdf(ang_vel,samp_freq,60,1)
-            # ang_sparc_60_df.to_csv(ang_savedir+"60s\\"+eventName+"_sparc.csv")
+            # Linear 
+            # 30s
+            lin_sparc_30_df = makeSPARCdf(lin_vel,userControl,samp_freq,30,1)
+            lin_sparc_30_df.to_csv(lin_savedir+"30s\\"+eventName+"_sparc.csv")
+            # 60s
+            lin_sparc_60_df = makeSPARCdf(lin_vel,userControl,samp_freq,60,1)
+            lin_sparc_60_df.to_csv(lin_savedir+"60s\\"+eventName+"_sparc.csv")
+            # Angular 
+            # 30s
+            ang_sparc_30_df = makeSPARCdf(ang_vel,userControl,samp_freq,30,1)
+            ang_sparc_30_df.to_csv(ang_savedir+"30s\\"+eventName+"_sparc.csv")
+            # 60s
+            ang_sparc_60_df = makeSPARCdf(ang_vel,userControl,samp_freq,60,1)
+            ang_sparc_60_df.to_csv(ang_savedir+"60s\\"+eventName+"_sparc.csv")
 
-            # try:
-            #     lin_sparc_30_df = makeSPARCdf(lin_vel,samp_freq,30,1)
-            #     lin_sparc_30_df.to_csv(lin_savedir+"30s\\"+eventName+"_sparc.csv")
-            # except IndexError:
-            #     continue 
-            # try: 
-            #     lin_sparc_60_df = makeSPARCdf(lin_vel,samp_freq,60,1)
-            #     lin_sparc_60_df.to_csv(lin_savedir+"60s\\"+eventName+"_sparc.csv")
-            # except IndexError:
-            #     continue 
-            # try: 
-            #     ang_sparc_30_df = makeSPARCdf(ang_vel,samp_freq,30,1)
-            #     ang_sparc_30_df.to_csv(ang_savedir+"30s\\"+eventName+"_sparc.csv")
-            # except IndexError:
-            #     continue 
-            # try:
-            #     ang_sparc_60_df = makeSPARCdf(ang_vel,samp_freq,60,1)
-            #     ang_sparc_60_df.to_csv(ang_savedir+"60s\\"+eventName+"_sparc.csv")
-            # except IndexError:
-            #     continue 
-            # Save SPARC data
             
             
-            
-            
-    
-
-
+        
 # def getColumnPaths(array, title, path):
 #     columns = []
 #     array = array[title][0][0]
