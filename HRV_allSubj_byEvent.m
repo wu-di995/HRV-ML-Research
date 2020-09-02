@@ -1,24 +1,24 @@
-% Generate HRV metrics for all subjects, 30s and 60s windows only
+% Generate HRV metrics for all subjects, by event, 30s and 60s windows only
 
 run("startup.m");
+
+% Loop through all raw ECG by event files 
+base = "E:\argall-lab-data\ECG_byEventNew\";
 
 % Subjects
 subjects = ["s00", "s01", "s02", "s03", "s04", "s05", "s06", "s07", "s08", ...
     "u01", "u02", "u03", "u04", "u05", "u06", "u07", "u08" ,...
-    "u09", "u10", "u11", "u12", "u13", "u14"];
+    "u09", "u11", "u12", "u13", "u14"];
 
 % Events 
 events = ["Headarray - Teleoperation","Headarray - Low level autonomy", "Headarray - Mid level autonomy", ... 
            "Joystick - Teleoperation", "Joystick - Low level autonomy", "Joystick - Mid level autonomy", ...
           "Sip-n-puff - Teleoperation"];
-      
-% Base path 
-base = "E:\argall-lab-data\ECG_byEvent\";
 
 % InitializeHRVparams.m function
 HRVparams = InitializeHRVparams('Test');
 HRVparams.Fs = 250;
-HRVparams.windowlength = 60; % seconds
+HRVparams.windowlength = 30; % seconds
 HRVparams.increment = 1; % seconds
 HRVparams.MSE.on = 0;
 HRVparams.DFA.on = 0;
@@ -56,8 +56,4 @@ for subject = subjects
         [results, resFileName] = Main_HRV_Analysis(ecg,[],"ECGWaveform",HRVparams,subjID);
     end
 end
-    
-      
-      
-      
-      
+
