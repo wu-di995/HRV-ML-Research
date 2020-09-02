@@ -1,5 +1,4 @@
-# Support vector regression on user input regression features 
-# Types of features - Welch's method frequencies (total power), moving window frequency, find peaks frequency
+# Support vector regression, trajectory features as targets, HRV as features 
 
 from sklearn.svm import SVR
 from sklearn.pipeline import make_pipeline
@@ -14,183 +13,466 @@ import glob,os, pathlib
 import matplotlib.pyplot as plt 
 from sklearn import svm 
 
-# PSD files, Moving average files 
-subjFolders = glob.glob("E:\\argall-lab-data\\Trajectory Data\\*\\")
-subjFolders = [path for path in subjFolders if "U00" not in path]
-teleopFolders = []
-for subjFolder in subjFolders:
-    trajFolders = glob.glob(subjFolder+"*\\")
-    for trajFolder in trajFolders:
-        if "A0" in trajFolder:
-            teleopFolders.append(trajFolder)
-psd30Paths = []
-psd60Paths = []
-mvAvg30Paths = []
-mvAvg60Paths = []
-pksFreq30Paths = []
-pksFreq60Paths = []
-for teleopFolder in teleopFolders:
-    psd30Paths.append(glob.glob(teleopFolder+"*psd_30.csv")[0])
-    psd60Paths.append(glob.glob(teleopFolder+"*psd_60.csv")[0])
-    mvAvg30Paths.append(glob.glob(teleopFolder+"*_movingAvg_30.csv")[0])
-    mvAvg60Paths.append(glob.glob(teleopFolder+"*_movingAvg_60.csv")[0])
-    pksFreq30Paths.append(glob.glob(teleopFolder+"*pksFreq_30.csv")[0])
-    pksFreq60Paths.append(glob.glob(teleopFolder+"*pksFreq_60.csv")[0])
+# Feature files - SPARC (velocity, user command), user command frequencies 
+## SPARC velocity 
+### 30s 
+sparcVel30_aft_Paths = glob.glob("E:\\argall-lab-data\\SPARC_vel_byEvent\\*aft_30.csv")
+sparcVel30_close_Paths = glob.glob("E:\\argall-lab-data\\SPARC_vel_byEvent\\*close_30.csv")
+### 60s 
+sparcVel60_aft_Paths = glob.glob("E:\\argall-lab-data\\SPARC_vel_byEvent\\*aft_60.csv")
+sparcVel60_close_Paths = glob.glob("E:\\argall-lab-data\\SPARC_vel_byEvent\\*close_60.csv")
+
+## SPARC User command 
+### 30s
+sparcUserCmd30_aft_Paths = glob.glob("E:\\argall-lab-data\\SPARC_userCmd_byEventNEW\\*aft_30.csv")
+sparcUserCmd30_close_Paths = glob.glob("E:\\argall-lab-data\\SPARC_userCmd_byEventNEW\\*close_30.csv")
+### 60s
+sparcUserCmd60_aft_Paths = glob.glob("E:\\argall-lab-data\\SPARC_userCmd_byEventNEW\\*aft_60.csv")
+sparcUserCmd60_close_Paths = glob.glob("E:\\argall-lab-data\\SPARC_userCmd_byEventNEW\\*close_60.csv")
+
+## User Command Frequencies 
+### 30s
+userCmdFreqs30_aft_Paths = glob.glob("E:\\argall-lab-data\\UserCmdFreq_byEvent\\*aft_30.csv")
+userCmdFreqs30_close_Paths = glob.glob("E:\\argall-lab-data\\UserCmdFreq_byEvent\\*close_30.csv")
+### 60s
+userCmdFreqs60_aft_Paths = glob.glob("E:\\argall-lab-data\\UserCmdFreq_byEvent\\*aft_60.csv")
+userCmdFreqs60_close_Paths = glob.glob("E:\\argall-lab-data\\UserCmdFreq_byEvent\\*close_60.csv")
+
+## User Controlled status 
+### 30s
+userCtrl30_aft_Paths = glob.glob("E:\\argall-lab-data\\UserControlled_byEventNEW\\*aft_30.csv")
+userCtrl30_close_Paths = glob.glob("E:\\argall-lab-data\\UserControlled_byEventNEW\\*close_30.csv")
+##s# 60s
+userCtrl60_aft_Paths = glob.glob("E:\\argall-lab-data\\UserControlled_byEventNEW\\*aft_60.csv")
+userCtrl60_close_Paths = glob.glob("E:\\argall-lab-data\\UserControlled_byEventNEW\\*close_60.csv")
 
 # HRV files 
-hrv30Paths = glob.glob("E:\\argall-lab-data\\HRV_byEvent\\30s\\*.csv")
-hrv60Paths = glob.glob("E:\\argall-lab-data\\HRV_byEvent\\60s\\*.csv")
+hrv30Paths = glob.glob("E:\\argall-lab-data\\HRV_byEventNEW\\30s\\*.csv")
+hrv60Paths = glob.glob("E:\\argall-lab-data\\HRV_byEventNEW\\60s\\*.csv")
 
-# HRV metrics -- use as features 
+# HRV metrics -- use as features (9)
 hrv_metrics_list = ['SDNN','RMSSD','lf','hf','lfhf','SD1','SD2','SD1SD2','ApEn']
 
+# Read event name from a path
+def readEvent(path):
+    filenameList = path.split("\\")[-1].split("_")
+    event = filenameList[0].lower()+"_"+filenameList[1]+"_"+filenameList[2]
+    return event
 
-# User controlled files 
-userCtrl30Paths = glob.glob("E:\\argall-lab-data\\UserControlled_byEvent\\30s\\*.csv")
-userCtrl60Paths = glob.glob("E:\\argall-lab-data\\UserControlled_byEvent\\60s\\*.csv")
-
-
-# Create PSD dataset, grouped by interfaces 
-def mk_PSD_dataset(psdPaths,hrvPaths,userCtrlPaths,hrv_metrics_list):
-    for i,psdPath in enumerate(psdPaths):
-        subj = psdPath.split("\\")[-1].split("_")[0]
-        interface = psdPath.split("\\")[-1].split("_")[1]
-        autonomy = psdPath.split("\\")[-1].split("_")[2]
-        event = subj+"_"+interface+"_"+autonomy
-        print(event)
-        # Load PSD dataframe
-        psd_df = pd.read_csv(psdPath)
+# Create dataset, grouped by interfaces, 9 features, target as the 10th column 
+def mk_dataset(targetPaths, hrvPaths, userCtrlPaths, hrv_metrics_list, target_cols_idx_list):
+    HA_counter = 0
+    JOY_counter = 0
+    SNP_counter = 0
+    for i, targetPath in enumerate(targetPaths):
+        print(targetPath)
+        event = readEvent(targetPath)
+        interface = event.split("_")[1]
+        # Load target dataframe
+        target_df = pd.read_csv(targetPath)
         # Load HRV dataframe
         hrv_path = [path for path in hrvPaths if event in path][0]
+        print(hrv_path)
         hrv_df = pd.read_csv(hrv_path)
         # Load user controlled dataframe
         userCtrl_path = [path for path in userCtrlPaths if event in path][0]
+        print(userCtrl_path)
         userCtrl_df = pd.read_csv(userCtrl_path)
-        # print(userCtrl_df.shape)
-        # print(psd_df.shape)
-        # Get indices for PSD times where "User Controlled == 1"
-        userCtrl_idx = (userCtrl_df["User Controlled"] == 1).tolist()
-        psd_len = psd_df.shape[0]
+        # Get indices userCtrl where "User Controlled == 1"
+        userCtrl_idx = userCtrl_df[(userCtrl_df["User Controlled"] == 1)].iloc[:,0].to_list()
+        target_len = target_df.shape[0]
         userCtrl_len = len(userCtrl_idx)
-        # print(userCtrl_len)
-        if psd_len < userCtrl_len:
-            userCtrl_idx = userCtrl_idx[:psd_len]
-        elif psd_len > userCtrl_len:
-            print("b")
-            for i in range(psd_len-userCtrl_len):
-                userCtrl_idx.append(False)
-        # print(len(userCtrl_idx))
         # print(userCtrl_idx)
-        # print(psd_len)
-        psd_userControlIdx = psd_df.iloc[userCtrl_idx].index.to_list()
-        # psd_userControlIdx= psd_df[userCtrl_df["User Controlled"] == 1].index.to_list()
-        """psd_df and userCtrl_df have different number of rows """
+        # print("User controlled: "+ str(userCtrl_len))
         # Get indices for HRV times where "NNMean" exists 
         hrv_existIdx = hrv_df[~(hrv_df["NNmean"].isnull())].index.to_list()
+        if len(hrv_existIdx) == 0:
+            print("No HRV metrics")
+            continue
+        # print(hrv_existIdx)
+        # print("HRV exist: "+str(len(hrv_existIdx)))
         # Get indices that fulfill both conditions 
-        featuresIdx = list(set(psd_userControlIdx) & set(hrv_existIdx))
-        # If no HRV metrics exist, continue to next loop 
-        if len(featuresIdx) == 0:
+        ctrlHRVIdx = list(set(userCtrl_idx) & set(hrv_existIdx))
+        if len(ctrlHRVIdx) == 0:
+            print("No matching userCtrl and HRV times")
             continue 
-        # print(len(featuresIdx))
-        # Select PSD and HRV metrics 
+        # print(featuresIdx)
+        # print("Features number: "+str(len(featuresIdx)))
+        # Start time exist in target datframe
+        target_existIdx = target_df[~target_df["Start Win Time"].isnull()].index.to_list()
+        # Convert ctrlHRVIdx to indices matching indices in target dataframe indices, and must be non null in target df
+        targetIdx = target_df[(target_df.iloc[:,0].isin(ctrlHRVIdx))].index.to_list() # These indices are aligned with target_df
+        targetIdx = list(set(targetIdx) & set(target_existIdx))
+        # Refine featuresIdx to only those that exist in the target dataframe and must be non null in target df
+        target_existIdx_featureRef = target_df[~target_df["Start Win Time"].isnull()].iloc[:,0].to_list() # These indices are aligned with HRV
+        featuresIdx = list(set(ctrlHRVIdx) & set(target_existIdx_featureRef))
+        # Select Target and HRV metrics
         hrv_features = hrv_df.loc[featuresIdx, hrv_metrics_list].values
-        psd_selected = psd_df.iloc[featuresIdx,1:].values
-        # psd_totalPower =  np.zeros((psd_selected.shape[0],1))
-        psd_totalPower = np.apply_along_axis(lambda x: np.trapz(x), axis=1, arr=psd_selected)
-        psd_totalPower = psd_totalPower.reshape(-1,1)
-        # print(psd_selected.shape)
-        # print(psd_totalPower.shape)
-        data = np.hstack((hrv_features,psd_totalPower))
+        target_sel = target_df.iloc[targetIdx, target_cols_idx_list].values
+        # print("HRV/Target lengths:" +str(len(featuresIdx))+" " + str(len(targetIdx)))
+        if len(featuresIdx) != len(targetIdx):
+            print(featuresIdx)
+            print(targetIdx)
+        print("HRV shape: "+ str(hrv_features.shape))
+        print("Target shape: " +str(target_sel.shape))
+        if len(target_cols_idx_list) == 1:
+            target_sel = target_sel.reshape(-1,1)
+        data = np.hstack((hrv_features,target_sel))
+        # print(data.shape)
         # Append to dataset, if already exists, otherwise, create the dataset 
         if interface == "HA":
+            HA_counter+=1
             try:
                 HA_dataset = np.vstack((HA_dataset,data))
             except NameError:
                 HA_dataset = data
         elif interface == "JOY":
+            JOY_counter+=1
             try:
                 JOY_dataset = np.vstack((JOY_dataset,data))
             except NameError:
                 JOY_dataset = data
         elif interface == "SNP":
+            SNP_counter+=1
             try:
                 SNP_dataset = np.vstack((SNP_dataset,data))
             except NameError:
                 SNP_dataset = data
+    print(HA_counter,JOY_counter,SNP_counter)
+    # Check sizes of each dataset before returning datasets
     # Standardize features 
     sc = StandardScaler()
-    HA_dataset[:,:9] = sc.fit_transform(HA_dataset[:,:9])
-    JOY_dataset[:,:9] = sc.fit_transform(JOY_dataset[:,:9])
-    SNP_dataset[:,:9] = sc.fit_transform(SNP_dataset[:,:9])
-    return HA_dataset, JOY_dataset, SNP_dataset
+    if HA_counter:
+        HA_dataset[:,:9] = sc.fit_transform(HA_dataset[:,:9])
+    else:
+        HA_dataset = np.zeros(9)
+    if JOY_counter:
+        JOY_dataset[:,:9] = sc.fit_transform(JOY_dataset[:,:9])
+    else:
+        JOY_dataset = np.zeros(9)
+    if SNP_counter:
+        SNP_dataset[:,:9] = sc.fit_transform(SNP_dataset[:,:9])
+    else:
+        SNP_dataset = np.zeros(9)
+    return (HA_dataset, JOY_dataset, SNP_dataset)
 
-# Create mvAvg dataset, grouped by interfaces 
-def mk_mvAvg_dataset(mvAvgPaths,hrvPaths,userCtrlPaths,hrv_metrics_list):
-    for i, mvAvgPath in enumerate(mvAvgPaths):
-        subj = mvAvgPath.split("\\")[-1].split("_")[0]
-        interface = mvAvgPath.split("\\")[-1].split("_")[1]
-        autonomy = mvAvgPath.split("\\")[-1].split("_")[2]
-        event = subj+"_"+interface+"_"+autonomy
-        print(event)
-        # Load mvAvg dataframe
-        mvAvg_df = pd.read_csv(mvAvgPath)
-        # Load HRV dataframe
-        hrv_path = [path for path in hrvPaths if event in path][0]
-        hrv_df = pd.read_csv(hrv_path)
-        # Load user controlled dataframe
-        userCtrl_path = [path for path in userCtrlPaths if event in path][0]
-        userCtrl_df = pd.read_csv(userCtrl_path)
-        # print(userCtrl_df.shape)
-        # print(psd_df.shape)
-        # Get indices for PSD times where "User Controlled == 1"
-        userCtrl_idx = (userCtrl_df["User Controlled"] == 1).tolist()
-        mvAvg_len = mvAvg_df.shape[0]
-        userCtrl_len = len(userCtrl_idx)
-        # print(userCtrl_len)
-        if mvAvg_len < userCtrl_len:
-            userCtrl_idx = userCtrl_idx[:mvAvg_len]
-        elif mvAvg_len > userCtrl_len:
-            print("b")
-            for i in range(mvAvg_len-userCtrl_len):
-                userCtrl_idx.append(False)
-        mvAvg_userControlIdx = mvAvg_df.iloc[userCtrl_idx].index.to_list()
-        # psd_userControlIdx= psd_df[userCtrl_df["User Controlled"] == 1].index.to_list()
-        """psd_df and userCtrl_df have different number of rows """
-        # Get indices for HRV times where "NNMean" exists 
-        hrv_existIdx = hrv_df[~(hrv_df["NNmean"].isnull())].index.to_list()
-        # Get indices that fulfill both conditions 
-        featuresIdx = list(set(mvAvg_userControlIdx) & set(hrv_existIdx))
-        # If no HRV metrics exist, continue to next loop 
-        if len(featuresIdx) == 0:
-            continue 
-        # print(len(featuresIdx))
-        # Select PSD and HRV metrics 
-        hrv_features = hrv_df.loc[featuresIdx, hrv_metrics_list].values
-        mvAvg_selected = mvAvg_df.iloc[featuresIdx,1].values.reshape(-1,1)
-        data = np.hstack((hrv_features,mvAvg_selected))
-        # Append to dataset, if already exists, otherwise, create the dataset 
-        if interface == "HA":
-            try:
-                HA_dataset = np.vstack((HA_dataset,data))
-            except NameError:
-                HA_dataset = data
-        elif interface == "JOY":
-            try:
-                JOY_dataset = np.vstack((JOY_dataset,data))
-            except NameError:
-                JOY_dataset = data
-        elif interface == "SNP":
-            try:
-                SNP_dataset = np.vstack((SNP_dataset,data))
-            except NameError:
-                SNP_dataset = data
-    # Standardize features 
-    sc = StandardScaler()
-    HA_dataset[:,:9] = sc.fit_transform(HA_dataset[:,:9])
-    JOY_dataset[:,:9] = sc.fit_transform(JOY_dataset[:,:9])
-    SNP_dataset[:,:9] = sc.fit_transform(SNP_dataset[:,:9])
-    return HA_dataset, JOY_dataset, SNP_dataset
+
+# Support Vector Regression
+def apply_SVR_interfaces(dataset,no_features,target_col_idx):
+    interfaces = ["HA","JOY","SNP"]
+    r2_scores = []
+    for i in range(3):
+        print("-----"+interfaces[i]+"-----")
+        if np.array_equal(dataset[i],np.zeros(9)):
+            r2_scores.append("NA")
+            print("No Data")
+            continue
+        # Separate features and targets
+        X = dataset[i][:,:9]
+        y = dataset[i][:,target_col_idx]
+        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=1)
+        # sss = StratifiedShuffleSplit(n_splits=5,test_size=0.2,random_state=0)
+        # for train_index, test_index in sss.split(X,y):
+        #     X_train, X_test = X[train_index],X[test_index]
+        #     y_train, y_test = y[train_index],y[test_index]
+        # f_selector = SelectKBest(score_func=f_regression, k=3)
+        f_selector = SelectKBest(score_func=mutual_info_regression,k=no_features)
+        # learn relationship from training data
+        f_selector.fit(X_train, y_train)
+        # transform train input data
+        X_train_fs = f_selector.transform(X_train)
+        # transform test input data
+        X_test_fs = f_selector.transform(X_test)
+        # print(X_test_fs.shape)
+        # SVR models
+        svr_rbf = SVR(kernel='rbf', C=100, gamma=0.1, epsilon=.1)
+        # svr_lin = SVR(kernel='linear', C=100, gamma='auto')
+        # svr_poly = SVR(kernel='poly', C=100, gamma='auto', degree=3, epsilon=.1,
+        #            coef0=1)
+        # Predictions
+        ypred_rbf = svr_rbf.fit(X_train_fs,y_train).predict(X_test_fs) 
+        # ypred_lin = svr_lin.fit(X_train_fs,y_train).predict(X_test_fs) 
+        # ypred_poly = svr_poly.fit(X_train_fs,y_train).predict(X_test_fs) 
+        # R^2 values 
+        r2_rbf = r2_score(y_test,ypred_rbf)
+        # r2_lin = r2_score(y_test,ypred_lin)
+        # r2_poly = r2_score(y_test,ypred_poly)
+        # MAE
+        mse_rbf = mean_squared_error(y_test,ypred_rbf)
+        # mse_lin = mean_squared_error(y_test,ypred_lin)
+        # mse_poly = mean_squared_error(y_test,ypred_poly)
+
+        print("R^2 values: ", r2_rbf)
+        print("MSE values: ", mse_rbf)
+        r2_scores.append(r2_rbf)
+        return r2_scores
+
+def apply_SVR_multiFeat(dataset,target_col_idx,export_results=False):
+    if export_results:
+        # Create dataframe
+        results_df = pd.dataframe(columns=range(1,len(hrv_metrics_list)+1),index=["HA","JOY","SNP"])
+    for i in range(1,len(hrv_metrics_list)+1):
+        print("No of features: "+str(i))
+        r2_scores = apply_SVR_interfaces(dataset,i,target_col_idx)
+        results_df.loc[:,i] = r2_scores 
+# Create datasets 
+print("Creating datasets...")
+## SPARC Vel (lin,ang)
+print("sparcVel30_aft_dataset")
+sparcVel30_aft_dataset = mk_dataset(sparcVel30_aft_Paths,hrv30Paths,userCtrl30_aft_Paths,hrv_metrics_list,[-2,-1])
+print("sparcVel30_close_dataset")
+sparcVel30_close_dataset = mk_dataset(sparcVel30_close_Paths,hrv30Paths,userCtrl30_close_Paths,hrv_metrics_list,[-2,-1])
+print("sparcVel60_aft_dataset")
+sparcVel60_aft_dataset = mk_dataset(sparcVel60_aft_Paths,hrv60Paths,userCtrl60_aft_Paths,hrv_metrics_list,[-2,-1])
+print("sparcVel60_close_dataset")
+sparcVel60_close_dataset = mk_dataset(sparcVel60_close_Paths,hrv60Paths,userCtrl60_close_Paths,hrv_metrics_list,[-2,-1])
+
+## SPARC User Cmd (lin,ang)
+print("sparcUserCmd30_aft_dataset")
+sparcUserCmd30_aft_dataset = mk_dataset(sparcUserCmd30_aft_Paths,hrv30Paths,userCtrl30_aft_Paths,hrv_metrics_list,[-2,-1])
+print("sparcUserCmd30_close_dataset")
+sparcUserCmd30_close_dataset = mk_dataset(sparcUserCmd30_close_Paths,hrv30Paths,userCtrl30_close_Paths,hrv_metrics_list,[-2,-1])
+print("sparcUserCmd60_aft_dataset")
+sparcUserCmd60_aft_dataset = mk_dataset(sparcUserCmd60_aft_Paths,hrv60Paths,userCtrl60_aft_Paths,hrv_metrics_list,[-2,-1])
+print("sparcUserCmd60_close_dataset")
+sparcUserCmd60_close_dataset = mk_dataset(sparcUserCmd60_close_Paths,hrv60Paths,userCtrl60_close_Paths,hrv_metrics_list,[-2,-1])
+
+## User Cmd Freqs (mvAvg, peakFreq, totalPower)
+print("userCmdFreqs30_aft_dataset")
+userCmdFreqs30_aft_dataset = mk_dataset(userCmdFreqs30_aft_Paths,hrv30Paths,userCtrl30_aft_Paths,hrv_metrics_list,[-3,-2,-1])
+print("userCmdFreqs30_close_dataset")
+userCmdFreqs30_close_dataset = mk_dataset(userCmdFreqs30_close_Paths,hrv30Paths,userCtrl30_close_Paths,hrv_metrics_list,[-3,-2,-1])
+print("userCmdFreqs60_aft_dataset")
+userCmdFreqs60_aft_dataset = mk_dataset(userCmdFreqs60_aft_Paths,hrv60Paths,userCtrl60_aft_Paths,hrv_metrics_list,[-3,-2,-1])
+print("userCmdFreqs60_close_dataset")
+userCmdFreqs60_close_dataset = mk_dataset(userCmdFreqs60_close_Paths,hrv60Paths,userCtrl60_close_Paths,hrv_metrics_list,[-3,-2,-1])
+
+# SVR Regression
+
+## SPARC Velocity 
+### 30s 
+#### Linear Velocity 
+print("SPARC Linear Velocity- 30s, aft")
+apply_SVR_multiFeat(sparcVel30_aft_dataset,-2)
+print("SPARC Linear Velocity- 30s, close")
+apply_SVR_multiFeat(sparcVel30_close_dataset,-2)
+#### Angular Velocity
+print("SPARC Angular Velocity- 30s, aft")
+apply_SVR_multiFeat(sparcVel30_aft_dataset,-1)
+print("SPARC Angular Velocity- 30s, close")
+apply_SVR_multiFeat(sparcVel30_close_dataset,-1)
+### 60s 
+#### Linear Velocity 
+print("SPARC Linear Velocity- 60s, aft")
+apply_SVR_multiFeat(sparcVel60_aft_dataset,-2)
+print("SPARC Linear Velocity- 60s, close")
+apply_SVR_multiFeat(sparcVel60_close_dataset,-2)
+#### Angular Velocity
+print("SPARC Angular Velocity- 60s, aft")
+apply_SVR_multiFeat(sparcVel60_aft_dataset,-1)
+print("SPARC Angular Velocity- 60s, close")
+apply_SVR_multiFeat(sparcVel60_close_dataset,-1)
+
+## SPARC User Command  
+### 30s 
+#### Linear  
+print("SPARC Linear UserCmd- 30s, aft")
+apply_SVR_multiFeat(sparcUserCmd30_aft_dataset,-2)
+print("SPARC Linear UserCmd- 30s, close")
+apply_SVR_multiFeat(sparcUserCmd30_close_dataset,-2)
+#### Angular 
+print("SPARC Angular UserCmd- 30s, aft")
+apply_SVR_multiFeat(sparcUserCmd30_aft_dataset,-1)
+print("SPARC Angular UserCmd- 30s, close")
+apply_SVR_multiFeat(sparcUserCmd30_close_dataset,-1)
+### 60s 
+#### Linear  
+print("SPARC Linear UserCmd- 60s, aft")
+apply_SVR_multiFeat(sparcUserCmd60_aft_dataset,-2)
+print("SPARC Linear UserCmd- 60s, close")
+apply_SVR_multiFeat(sparcUserCmd60_close_dataset,-2)
+#### Angular 
+print("SPARC Angular UserCmd- 60s, aft")
+apply_SVR_multiFeat(sparcUserCmd60_aft_dataset,-1)
+print("SPARC Angular UserCmd- 60s, close")
+apply_SVR_multiFeat(sparcUserCmd60_close_dataset,-1)
+
+## User Command Frequencies
+### 30s 
+#### Moving Average  
+print("MvAvg UserCmd- 30s, aft")
+apply_SVR_multiFeat(userCmdFreqs30_aft_dataset,-3)
+print("MvAvg UserCmd- 30s, close")
+apply_SVR_multiFeat(userCmdFreqs30_close_dataset,-3)
+#### Peaks Frequency 
+print("PksFreq  UserCmd- 30s, aft")
+apply_SVR_multiFeat(userCmdFreqs30_aft_dataset,-2)
+print("PksFreq  UserCmd- 30s, close")
+apply_SVR_multiFeat(userCmdFreqs30_close_dataset,-2)
+#### Total Power
+print("TotalPower  UserCmd- 30s, aft")
+apply_SVR_multiFeat(userCmdFreqs30_aft_dataset,-1)
+print("TotalPower  UserCmd- 30s, close")
+apply_SVR_multiFeat(userCmdFreqs30_close_dataset,-1)
+### 60s 
+#### Moving Average  
+print("MvAvg UserCmd- 60s, aft")
+apply_SVR_multiFeat(userCmdFreqs60_aft_dataset,-3)
+print("MvAvg UserCmd- 60s, close")
+apply_SVR_multiFeat(userCmdFreqs60_close_dataset,-3)
+#### Peaks Frequency 
+print("PksFreq  UserCmd- 60s, aft")
+apply_SVR_multiFeat(userCmdFreqs60_aft_dataset,-2)
+print("PksFreq  UserCmd- 60s, close")
+apply_SVR_multiFeat(userCmdFreqs60_close_dataset,-2)
+#### Total Power
+print("TotalPower  UserCmd- 60s, aft")
+apply_SVR_multiFeat(userCmdFreqs60_aft_dataset,-1)
+print("TotalPower  UserCmd- 60s, close")
+apply_SVR_multiFeat(userCmdFreqs60_close_dataset,-1)
+
+# # Create PSD dataset, grouped by interfaces 
+# def mk_PSD_dataset(psdPaths,hrvPaths,userCtrlPaths,hrv_metrics_list):
+#     for i,psdPath in enumerate(psdPaths):
+#         subj = psdPath.split("\\")[-1].split("_")[0]
+#         interface = psdPath.split("\\")[-1].split("_")[1]
+#         autonomy = psdPath.split("\\")[-1].split("_")[2]
+#         event = subj+"_"+interface+"_"+autonomy
+#         print(event)
+#         # Load PSD dataframe
+#         psd_df = pd.read_csv(psdPath)
+#         # Load HRV dataframe
+#         hrv_path = [path for path in hrvPaths if event in path][0]
+#         hrv_df = pd.read_csv(hrv_path)
+#         # Load user controlled dataframe
+#         userCtrl_path = [path for path in userCtrlPaths if event in path][0]
+#         userCtrl_df = pd.read_csv(userCtrl_path)
+#         # print(userCtrl_df.shape)
+#         # print(psd_df.shape)
+#         # Get indices for PSD times where "User Controlled == 1"
+#         userCtrl_idx = (userCtrl_df["User Controlled"] == 1).tolist()
+#         psd_len = psd_df.shape[0]
+#         userCtrl_len = len(userCtrl_idx)
+#         # print(userCtrl_len)
+#         if psd_len < userCtrl_len:
+#             userCtrl_idx = userCtrl_idx[:psd_len]
+#         elif psd_len > userCtrl_len:
+#             print("b")
+#             for i in range(psd_len-userCtrl_len):
+#                 userCtrl_idx.append(False)
+#         # print(len(userCtrl_idx))
+#         # print(userCtrl_idx)
+#         # print(psd_len)
+#         psd_userControlIdx = psd_df.iloc[userCtrl_idx].index.to_list()
+#         # psd_userControlIdx= psd_df[userCtrl_df["User Controlled"] == 1].index.to_list()
+#         """psd_df and userCtrl_df have different number of rows """
+#         # Get indices for HRV times where "NNMean" exists 
+#         hrv_existIdx = hrv_df[~(hrv_df["NNmean"].isnull())].index.to_list()
+#         # Get indices that fulfill both conditions 
+#         featuresIdx = list(set(psd_userControlIdx) & set(hrv_existIdx))
+#         # If no HRV metrics exist, continue to next loop 
+#         if len(featuresIdx) == 0:
+#             continue 
+#         # print(len(featuresIdx))
+#         # Select PSD and HRV metrics 
+#         hrv_features = hrv_df.loc[featuresIdx, hrv_metrics_list].values
+#         psd_selected = psd_df.iloc[featuresIdx,1:].values
+#         # psd_totalPower =  np.zeros((psd_selected.shape[0],1))
+#         psd_totalPower = np.apply_along_axis(lambda x: np.trapz(x), axis=1, arr=psd_selected)
+#         psd_totalPower = psd_totalPower.reshape(-1,1)
+#         # print(psd_selected.shape)
+#         # print(psd_totalPower.shape)
+#         data = np.hstack((hrv_features,psd_totalPower))
+#         # Append to dataset, if already exists, otherwise, create the dataset 
+#         if interface == "HA":
+#             try:
+#                 HA_dataset = np.vstack((HA_dataset,data))
+#             except NameError:
+#                 HA_dataset = data
+#         elif interface == "JOY":
+#             try:
+#                 JOY_dataset = np.vstack((JOY_dataset,data))
+#             except NameError:
+#                 JOY_dataset = data
+#         elif interface == "SNP":
+#             try:
+#                 SNP_dataset = np.vstack((SNP_dataset,data))
+#             except NameError:
+#                 SNP_dataset = data
+#     # Standardize features 
+#     sc = StandardScaler()
+#     HA_dataset[:,:9] = sc.fit_transform(HA_dataset[:,:9])
+#     JOY_dataset[:,:9] = sc.fit_transform(JOY_dataset[:,:9])
+#     SNP_dataset[:,:9] = sc.fit_transform(SNP_dataset[:,:9])
+#     return HA_dataset, JOY_dataset, SNP_dataset
+
+
+# # Create mvAvg dataset, grouped by interfaces 
+# def mk_mvAvg_dataset(mvAvgPaths,hrvPaths,userCtrlPaths,hrv_metrics_list):
+#     for i, mvAvgPath in enumerate(mvAvgPaths):
+#         subj = mvAvgPath.split("\\")[-1].split("_")[0]
+#         interface = mvAvgPath.split("\\")[-1].split("_")[1]
+#         autonomy = mvAvgPath.split("\\")[-1].split("_")[2]
+#         event = subj+"_"+interface+"_"+autonomy
+#         print(event)
+#         # Load mvAvg dataframe
+#         mvAvg_df = pd.read_csv(mvAvgPath)
+#         # Load HRV dataframe
+#         hrv_path = [path for path in hrvPaths if event in path][0]
+#         hrv_df = pd.read_csv(hrv_path)
+#         # Load user controlled dataframe
+#         userCtrl_path = [path for path in userCtrlPaths if event in path][0]
+#         userCtrl_df = pd.read_csv(userCtrl_path)
+#         # print(userCtrl_df.shape)
+#         # print(psd_df.shape)
+#         # Get indices for PSD times where "User Controlled == 1"
+#         userCtrl_idx = (userCtrl_df["User Controlled"] == 1).tolist()
+#         mvAvg_len = mvAvg_df.shape[0]
+#         userCtrl_len = len(userCtrl_idx)
+#         # print(userCtrl_len)
+#         if mvAvg_len < userCtrl_len:
+#             userCtrl_idx = userCtrl_idx[:mvAvg_len]
+#         elif mvAvg_len > userCtrl_len:
+#             print("b")
+#             for i in range(mvAvg_len-userCtrl_len):
+#                 userCtrl_idx.append(False)
+#         mvAvg_userControlIdx = mvAvg_df.iloc[userCtrl_idx].index.to_list()
+#         # psd_userControlIdx= psd_df[userCtrl_df["User Controlled"] == 1].index.to_list()
+#         """psd_df and userCtrl_df have different number of rows """
+#         # Get indices for HRV times where "NNMean" exists 
+#         hrv_existIdx = hrv_df[~(hrv_df["NNmean"].isnull())].index.to_list()
+#         # Get indices that fulfill both conditions 
+#         featuresIdx = list(set(mvAvg_userControlIdx) & set(hrv_existIdx))
+#         # If no HRV metrics exist, continue to next loop 
+#         if len(featuresIdx) == 0:
+#             continue 
+#         # print(len(featuresIdx))
+#         # Select PSD and HRV metrics 
+#         hrv_features = hrv_df.loc[featuresIdx, hrv_metrics_list].values
+#         mvAvg_selected = mvAvg_df.iloc[featuresIdx,1].values.reshape(-1,1)
+#         data = np.hstack((hrv_features,mvAvg_selected))
+#         # Append to dataset, if already exists, otherwise, create the dataset 
+#         if interface == "HA":
+#             try:
+#                 HA_dataset = np.vstack((HA_dataset,data))
+#             except NameError:
+#                 HA_dataset = data
+#         elif interface == "JOY":
+#             try:
+#                 JOY_dataset = np.vstack((JOY_dataset,data))
+#             except NameError:
+#                 JOY_dataset = data
+#         elif interface == "SNP":
+#             try:
+#                 SNP_dataset = np.vstack((SNP_dataset,data))
+#             except NameError:
+#                 SNP_dataset = data
+#     # Standardize features 
+#     sc = StandardScaler()
+#     HA_dataset[:,:9] = sc.fit_transform(HA_dataset[:,:9])
+#     JOY_dataset[:,:9] = sc.fit_transform(JOY_dataset[:,:9])
+#     SNP_dataset[:,:9] = sc.fit_transform(SNP_dataset[:,:9])
+#     return HA_dataset, JOY_dataset, SNP_dataset
 
 # Create PSD datasets 
 # psd30_HA_dataset, psd30_JOY_dataset, psd30_SNP_dataset = mk_PSD_dataset(psd30Paths,hrv30Paths,userCtrl30Paths,hrv_metrics_list)
@@ -217,62 +499,16 @@ def mk_mvAvg_dataset(mvAvgPaths,hrvPaths,userCtrlPaths,hrv_metrics_list):
 # print(mvAvg60_SNP_dataset.shape)
 
 # Create peaks Frequency datasets
-pksFreq30_HA_dataset, pksFreq30_JOY_dataset, pksFreq30_SNP_dataset = mk_mvAvg_dataset(pksFreq30Paths,hrv30Paths,userCtrl30Paths,hrv_metrics_list)
-pksFreq60_HA_dataset, pksFreq60_JOY_dataset, pksFreq60_SNP_dataset = mk_mvAvg_dataset(pksFreq60Paths,hrv60Paths,userCtrl60Paths,hrv_metrics_list)
+# pksFreq30_HA_dataset, pksFreq30_JOY_dataset, pksFreq30_SNP_dataset = mk_mvAvg_dataset(pksFreq30Paths,hrv30Paths,userCtrl30Paths,hrv_metrics_list)
+# pksFreq60_HA_dataset, pksFreq60_JOY_dataset, pksFreq60_SNP_dataset = mk_mvAvg_dataset(pksFreq60Paths,hrv60Paths,userCtrl60Paths,hrv_metrics_list)
 
-print("Peaks Frequency dataset shapes")
-print(pksFreq30_HA_dataset.shape)
-print(pksFreq30_JOY_dataset.shape)
-print(pksFreq30_SNP_dataset.shape)
-print(pksFreq60_HA_dataset.shape)
-print(pksFreq60_JOY_dataset.shape)
-print(pksFreq60_SNP_dataset.shape)
-
-
-# Support Vector Regression
-def apply_SVR(dataset,no_features):
-    # Separate features and targets
-    X = dataset[:,:9]
-    y = dataset[:,-1]
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=1)
-    # sss = StratifiedShuffleSplit(n_splits=5,test_size=0.2,random_state=0)
-    # for train_index, test_index in sss.split(X,y):
-    #     X_train, X_test = X[train_index],X[test_index]
-    #     y_train, y_test = y[train_index],y[test_index]
-    # f_selector = SelectKBest(score_func=f_regression, k=3)
-    f_selector = SelectKBest(score_func=mutual_info_regression,k=no_features)
-    # learn relationship from training data
-    f_selector.fit(X_train, y_train)
-    # transform train input data
-    X_train_fs = f_selector.transform(X_train)
-    # transform test input data
-    X_test_fs = f_selector.transform(X_test)
-    # print(X_test_fs.shape)
-    # SVR models
-    svr_rbf = SVR(kernel='rbf', C=100, gamma=0.1, epsilon=.1)
-    svr_lin = SVR(kernel='linear', C=100, gamma='auto')
-    svr_poly = SVR(kernel='poly', C=100, gamma='auto', degree=3, epsilon=.1,
-               coef0=1)
-    # Predictions
-    ypred_rbf = svr_rbf.fit(X_train_fs,y_train).predict(X_test_fs) 
-    ypred_lin = svr_lin.fit(X_train_fs,y_train).predict(X_test_fs) 
-    ypred_poly = svr_poly.fit(X_train_fs,y_train).predict(X_test_fs) 
-    # R^2 values 
-    r2_rbf = r2_score(y_test,ypred_rbf)
-    r2_lin = r2_score(y_test,ypred_lin)
-    r2_poly = r2_score(y_test,ypred_poly)
-    # MAE
-    mse_rbf = mean_squared_error(y_test,ypred_rbf)
-    mse_lin = mean_squared_error(y_test,ypred_lin)
-    mse_poly = mean_squared_error(y_test,ypred_poly)
-
-    print("R^2 values: ", r2_rbf,r2_lin,r2_poly)
-    print("MSE values: ", mse_rbf,mse_lin,mse_poly)
-
-def apply_SVR_multiFeat(dataset):
-    for i in range(1,len(hrv_metrics_list)+1):
-        print("No of features: "+str(i))
-        apply_SVR(dataset,i)
+# print("Peaks Frequency dataset shapes")
+# print(pksFreq30_HA_dataset.shape)
+# print(pksFreq30_JOY_dataset.shape)
+# print(pksFreq30_SNP_dataset.shape)
+# print(pksFreq60_HA_dataset.shape)
+# print(pksFreq60_JOY_dataset.shape)
+# print(pksFreq60_SNP_dataset.shape)
 
 # print("--- PSD 30 HA ---")
 # apply_SVR_multiFeat(psd30_HA_dataset)
@@ -646,18 +882,18 @@ MSE values:  9.658149786436898 43.51135187196043 17.919519286193594
 """
 
 # Peaks Frequency SVR
-print("--- Moving Average 30 HA ---")
-apply_SVR_multiFeat(pksFreq30_HA_dataset)
-print("--- Moving Average 30 JOY ---")
-apply_SVR_multiFeat(pksFreq30_JOY_dataset)
-print("--- Moving Average 30 SNP ---")
-apply_SVR_multiFeat(pksFreq30_SNP_dataset)
-print("--- Moving Average 60 HA ---")
-apply_SVR_multiFeat(pksFreq60_HA_dataset)
-print("--- Moving Average 60 JOY ---")
-apply_SVR_multiFeat(pksFreq60_JOY_dataset)
-print("--- Moving Average 60 SNP ---")
-apply_SVR_multiFeat(pksFreq60_SNP_dataset)
+# print("--- Moving Average 30 HA ---")
+# apply_SVR_multiFeat(pksFreq30_HA_dataset)
+# print("--- Moving Average 30 JOY ---")
+# apply_SVR_multiFeat(pksFreq30_JOY_dataset)
+# print("--- Moving Average 30 SNP ---")
+# apply_SVR_multiFeat(pksFreq30_SNP_dataset)
+# print("--- Moving Average 60 HA ---")
+# apply_SVR_multiFeat(pksFreq60_HA_dataset)
+# print("--- Moving Average 60 JOY ---")
+# apply_SVR_multiFeat(pksFreq60_JOY_dataset)
+# print("--- Moving Average 60 SNP ---")
+# apply_SVR_multiFeat(pksFreq60_SNP_dataset)
 
 """
 Peaks Frequency dataset shapes
