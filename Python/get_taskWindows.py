@@ -11,6 +11,10 @@ taskStatusPaths = glob.glob("E:\\argall-lab-data\\TaskStatus\\*.csv")
 totalPowerPaths = glob.glob("E:\\argall-lab-data\\UserCmdFreq_byEvent\\*close_30.csv")
 totalPowerPaths+=(glob.glob("E:\\argall-lab-data\\UserCmdFreq_byEvent\\*close_60.csv"))
 
+# Supstatus -- select power windows were user controls 
+userCtrl30_close_Paths = glob.glob("E:\\argall-lab-data\\UserControlled_byEventNEW\\*close_30.csv")
+userCtrl60_close_Paths = glob.glob("E:\\argall-lab-data\\UserControlled_byEventNEW\\*close_60.csv")
+
 # Read event name from a path
 def readEvent(path):
     filenameList = path.split("\\")[-1].split("_")
@@ -56,6 +60,7 @@ def find_taskWin(taskTimesList, feat_startTime, feat_endTime, startTask):
     else:
         closest_taskStartTime = min(task_startTimes_bef,key = lambda x: abs(x-feat_startTime))
         start_taskNo = task_startTimes.index(closest_taskStartTime)+1 #Add one to convert index to task number 
+    print(start_taskNo)
     # Get the list of task endTimes AFTER feat_endTime
     task_endTimes_aft = [time for time in task_endTimes if time>=feat_endTime]
     # Get closest task_endTime that is AFTER feat_endTime
@@ -114,7 +119,7 @@ def check_tasksForWindows(taskStatusPath, featPath):
     # Task times list
     taskTimesList = get_allStartEndTimes(taskStatus_df)
     # Create new dataframe to save feature task window times
-    featTaskWin_df = pd.DataFrame(index=range(feature_df.shape[0]),columns=["Start Win Time", "End Win Time", "Main Task", "Tasks Breakdown"])
+    featTaskWin_df = pd.DataFrame(index=feature_df.index,columns=["Start Win Time", "End Win Time", "Main Task", "Tasks Breakdown"])
     # Loop through all windows
     for i,row in feature_df.iterrows():
         feat_startTime = row["Start Win Time"]

@@ -14,6 +14,10 @@ userCmdFreqs60_close_Paths = glob.glob("E:\\argall-lab-data\\UserCmdFreq_byEvent
 tasks30_Paths = glob.glob("E:\\argall-lab-data\\totalPower_taskWindows\\*30.csv")
 tasks60_Paths = glob.glob("E:\\argall-lab-data\\totalPower_taskWindows\\*60.csv")
 
+# Supstatus -- select power windows were user controls 
+userCtrl30_close_Paths = glob.glob("E:\\argall-lab-data\\UserControlled_byEventNEW\\*close_30.csv")
+userCtrl60_close_Paths = glob.glob("E:\\argall-lab-data\\UserControlled_byEventNEW\\*close_60.csv")
+
 # Mean total power files
 meanTP_30 = glob.glob("E:\\argall-lab-data\\meanTotalPower_byTask\\*_30.csv")
 meanTP_60 = glob.glob("E:\\argall-lab-data\\meanTotalPower_byTask\\*_60.csv")
@@ -25,11 +29,21 @@ def readEvent(path):
     return event
 
 # Function to plot total power, for a single event, highlighted by events
-def plt_TP(userCmdFreqPath, taskPath,event,time,savedir):
+def plt_TP(userCmdFreqPath, taskPath, userCtrlPath, event, time, savedir):
+    # Load userCtrl dataframe 
+    userCtrl_df = pd.read_csv(userCtrlPath)
+    # User controlled indices
+    notUserCtrl_idx = userCtrl_df[(userCtrl_df["User Controlled"] == 0)].iloc[:,0].to_list()
     # Load userCmdFreq dataframe
     userCmd_df = pd.read_csv(userCmdFreqPath)
     # Load task window df
     taskWin_df = pd.read_csv(taskPath)
+    # Convert to taskWin indices
+    notUserCtrl_task_idx =  taskWin_df[taskWin_df.iloc[:,0].isin(notUserCtrl_idx)].index.to_list()
+    print(userCtrl_df.shape)
+    print(taskWin_df.shape)
+    taskWin_df.loc[notUserCtrl_task_idx,"Main Task"] = "Sup Ctrl"
+    
     # Total power values
     totalPower = userCmd_df.iloc[:,-1].values
     # Task values
@@ -42,12 +56,16 @@ def plt_TP(userCmdFreqPath, taskPath,event,time,savedir):
     ax.set_title(event)
     ax.plot(totalPower)
     ax.plot(pks,totalPower[pks],"x")
-    colors = ["tab:blue","tab:orange","tab:green","tab:red","tab:purple","tab:brown","tab:pink"]
-    texts = ["Task 1", "Task 2", "Task 3", "Task 4", "Task 5", "Task 6", "Task 7"]
+    colors = ["tab:blue","tab:orange","tab:green","tab:red","tab:purple","tab:brown","tab:pink", "w"]
+    texts = ["Task 1", "Task 2", "Task 3", "Task 4", "Task 5", "Task 6", "Task 7", "Sup Ctrl"]
     patches = [mpatches.Patch(color=colors[i],label="{:s}".format(texts[i])) for i in range(len(texts))]
     ax.legend(handles=patches)
     for i,task in enumerate(tasks):
-        ax.axvspan(i,i+1,facecolor=colors[task-1],alpha=0.5)
+        if task == "Sup Ctrl":
+            ax.axvspan(i,i+1,facecolor=colors[-1],alpha=0.5)
+        else:
+            ax.axvspan(i,i+1,facecolor=colors[task-1],alpha=0.5)
+    # plt.show()
     plt.savefig(savedir+event+"_"+time+".png")
     plt.close()
 tpPath = userCmdFreqs30_close_Paths[0]
@@ -69,29 +87,32 @@ def plt_meanTP(meanTP_Path,savedir,interface):
 
 if __name__ == "__main__":
     # Savedir
-    savedir = "E:\\argall-lab-data\\totalPower_plots\\"
-    HA_30 = [path for path in meanTP_30 if "HA" in path][0]
-    HA_60 = [path for path in meanTP_60 if "HA" in path][0]
-    JOY_30 = [path for path in meanTP_30 if "JOY" in path][0]
-    JOY_60 = [path for path in meanTP_60 if "JOY" in path][0]
-    SNP_30 = [path for path in meanTP_30 if "SNP" in path][0]
-    SNP_60 = [path for path in meanTP_60 if "SNP" in path][0]
-    plt_meanTP(HA_30,savedir,"HA_30")
-    plt_meanTP(HA_60,savedir,"HA_60")
-    plt_meanTP(JOY_30,savedir,"JOY_30")
-    plt_meanTP(SNP_30,savedir,"JOY_60")
-    plt_meanTP(HA_30,savedir,"SNP_30")
-    plt_meanTP(SNP_60,savedir,"SNP_60")
-
-
     # savedir = "E:\\argall-lab-data\\totalPower_plots\\"
-    # for tpPath in userCmdFreqs30_close_Paths:
-    #     event = readEvent(tpPath)
-    #     time = "30"
-    #     taskPath = [path for path in tasks30_Paths if event in path][0]
-    #     plt_TP(tpPath,taskPath,event,time,savedir)
-    # for tpPath in userCmdFreqs60_close_Paths:
-    #     event = readEvent(tpPath)
-    #     time = "60"
-    #     taskPath = [path for path in tasks60_Paths if event in path][0]
-    #     plt_TP(tpPath,taskPath,event,time,savedir)
+    # HA_30 = [path for path in meanTP_30 if "HA" in path][0]
+    # HA_60 = [path for path in meanTP_60 if "HA" in path][0]
+    # JOY_30 = [path for path in meanTP_30 if "JOY" in path][0]
+    # JOY_60 = [path for path in meanTP_60 if "JOY" in path][0]
+    # SNP_30 = [path for path in meanTP_30 if "SNP" in path][0]
+    # SNP_60 = [path for path in meanTP_60 if "SNP" in path][0]
+    # plt_meanTP(HA_30,savedir,"HA_30")
+    # plt_meanTP(HA_60,savedir,"HA_60")
+    # plt_meanTP(JOY_30,savedir,"JOY_30")
+    # plt_meanTP(SNP_30,savedir,"JOY_60")
+    # plt_meanTP(HA_30,savedir,"SNP_30")
+    # plt_meanTP(SNP_60,savedir,"SNP_60")
+
+
+    savedir = "E:\\argall-lab-data\\totalPower_plots\\"
+    for tpPath in userCmdFreqs30_close_Paths:
+        event = readEvent(tpPath)
+        time = "30"
+        taskPath = [path for path in tasks30_Paths if event in path][0]
+        userCtrlPath = [path for path in userCtrl30_close_Paths if event in path][0]
+        print(taskPath,userCtrlPath)
+        plt_TP(tpPath,taskPath,userCtrlPath,event,time,savedir)
+    for tpPath in userCmdFreqs60_close_Paths:
+        event = readEvent(tpPath)
+        time = "60"
+        taskPath = [path for path in tasks60_Paths if event in path][0]
+        userCtrlPath = [path for path in userCtrl60_close_Paths if event in path][0]
+        plt_TP(tpPath,taskPath,userCtrlPath,event,time,savedir)
