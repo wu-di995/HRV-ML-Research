@@ -13,7 +13,8 @@ userCmdFreqs60_close_Paths = glob.glob("E:\\argall-lab-data\\UserCmdFreq_byEvent
 tasks30_Paths = glob.glob("E:\\argall-lab-data\\totalPower_taskWindows\\*30.csv")
 tasks60_Paths = glob.glob("E:\\argall-lab-data\\totalPower_taskWindows\\*60.csv")
 # Savedir
-savedir = "E:\\argall-lab-data\\meanTotalPower_byTask\\"
+savedirMean = "E:\\argall-lab-data\\meanTotalPower_byTask\\"
+savedirVar = "E:\\argall-lab-data\\varTotalPower_byTask\\"
 
 # Read event name from a path
 def readEvent(path):
@@ -34,6 +35,19 @@ def meanTP(eventTP_Path, taskPath):
         meanTPList[i-1] = meanTP
     return meanTPList
 
+# Calcuate variance of total power for each task in an event
+def varTP(eventTP_Path, taskPath):
+    # Load datframes
+    eventTP_df = pd.read_csv(eventTP_Path)
+    task_df = pd.read_csv(taskPath)
+    # Mean TP list 
+    varTPList = [0]*7
+    for i in range(1,7+1): # 7 tasks in total
+        taskTP = eventTP_df[task_df["Main Task"]==i]["Total Power"].values
+        varTP = np.var(taskTP)
+        varTPList[i-1] = varTP
+    return varTPList
+
 # Create dataframe for each interface 
 def mk_interface_dfs(allPaths,columns):
     HA_paths = [path for path in allPaths if "HA" in path]
@@ -44,14 +58,14 @@ def mk_interface_dfs(allPaths,columns):
     SNP_df = pd.DataFrame(index=range(len(SNP_paths)),columns=columns)
     return HA_df, JOY_df, SNP_df
 
-# Fill in dataframe with mean TP
-def fill_df(meanTP_df,eventTP_Paths, taskPaths):
+# Fill in dataframe with mean/var TP
+def fill_df(TP_df,eventTP_Paths, taskPaths, TP_function):
     for i,tpPath in enumerate(eventTP_Paths):
         event = readEvent(tpPath)
         taskPath = [path for path in taskPaths if event in path][0]
-        meanTP_df.loc[i,"Event"] = event
-        meanTP_df.iloc[i,1:] = meanTP(tpPath,taskPath)
-    return meanTP_df
+        TP_df.loc[i,"Event"] = event
+        TP_df.iloc[i,1:] = TP_function(tpPath,taskPath)
+    return TP_df
 
 
 if __name__ == "__main__":
@@ -67,17 +81,18 @@ if __name__ == "__main__":
     HA_60_Paths = [path for path in userCmdFreqs60_close_Paths if "HA" in path]
     JOY_60_Paths = [path for path in userCmdFreqs60_close_Paths if "JOY" in path]
     SNP_60_Paths = [path for path in userCmdFreqs60_close_Paths if "SNP" in path]
+
     # Fill dataframes
-    HA_30_df = fill_df(HA_30_df,HA_30_Paths,tasks30_Paths)
-    JOY_30_df = fill_df(JOY_30_df,JOY_30_Paths,tasks30_Paths)
-    SNP_30_df = fill_df(SNP_30_df,SNP_30_Paths,tasks30_Paths)
-    HA_60_df = fill_df(HA_60_df,HA_60_Paths,tasks60_Paths)
-    JOY_60_df = fill_df(JOY_60_df,JOY_60_Paths,tasks60_Paths)
-    SNP_60_df = fill_df(SNP_60_df,SNP_60_Paths,tasks60_Paths)
+    HA_30_df = fill_df(HA_30_df,HA_30_Paths,tasks30_Paths,varTP)
+    JOY_30_df = fill_df(JOY_30_df,JOY_30_Paths,tasks30_Paths,varTP)
+    SNP_30_df = fill_df(SNP_30_df,SNP_30_Paths,tasks30_Paths,varTP)
+    HA_60_df = fill_df(HA_60_df,HA_60_Paths,tasks60_Paths,varTP)
+    JOY_60_df = fill_df(JOY_60_df,JOY_60_Paths,tasks60_Paths,varTP)
+    SNP_60_df = fill_df(SNP_60_df,SNP_60_Paths,tasks60_Paths,varTP)
     # Save dataframes
-    HA_30_df.to_csv(savedir+"HA_30.csv")
-    JOY_30_df.to_csv(savedir+"JOY_30.csv")
-    SNP_30_df.to_csv(savedir+"SNP_30.csv")
-    HA_60_df.to_csv(savedir+"HA_60.csv")
-    JOY_60_df.to_csv(savedir+"JOY_60.csv")
-    SNP_60_df.to_csv(savedir+"SNP_60.csv")
+    HA_30_df.to_csv(savedirVar+"HA_30.csv")
+    JOY_30_df.to_csv(savedirVar+"JOY_30.csv")
+    SNP_30_df.to_csv(savedirVar+"SNP_30.csv")
+    HA_60_df.to_csv(savedirVar+"HA_60.csv")
+    JOY_60_df.to_csv(savedirVar+"JOY_60.csv")
+    SNP_60_df.to_csv(savedirVar+"SNP_60.csv")

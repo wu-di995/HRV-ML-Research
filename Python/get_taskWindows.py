@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import glob,os, pathlib
 from pathlib import Path 
+import itertools
 
 # Task status files
 taskStatusPaths = glob.glob("E:\\argall-lab-data\\TaskStatus\\*.csv")
@@ -44,6 +45,28 @@ def get_allStartEndTimes(taskStatus_df):
         taskTimesList.append(startEndTime)
     return taskTimesList
 
+# Function to check for collisions
+def check_collisions(taskStatus_df, feat_startTime, feat_endTime):
+    collisions1 = taskStatus_df.iloc[:,2].values
+    collisions2 = taskStatus_df.iloc[:,3].values
+    # Remove nan values 
+    collisions1 = collisions1[~(np.isnan(collisions1))]
+    collisions2 = collisions2[~(np.isnan(collisions2))]
+    collisions1 = [int(value*1000) for value in collisions1]
+    collisions2 = [int(value*1000) for value in collisions2]
+    # Count number of collisions 
+    no_collisions = 0
+    for collision in collisions1:
+        if collision <= feat_endTime and collision>= feat_startTime:
+            no_collisions +=1
+    for collision in collisions2:
+        if collision <= feat_endTime and collision>= feat_startTime:
+            no_collisions +=1
+    return no_collisions
+    
+
+
+
 # Function to check the task(s) a given window (pair of start/end times) belongs to
 def find_taskWin(taskTimesList, feat_startTime, feat_endTime, startTask):
     # Get lists for task start/end times
@@ -60,7 +83,7 @@ def find_taskWin(taskTimesList, feat_startTime, feat_endTime, startTask):
     else:
         closest_taskStartTime = min(task_startTimes_bef,key = lambda x: abs(x-feat_startTime))
         start_taskNo = task_startTimes.index(closest_taskStartTime)+1 #Add one to convert index to task number 
-    print(start_taskNo)
+    # print(start_taskNo)
     # Get the list of task endTimes AFTER feat_endTime
     task_endTimes_aft = [time for time in task_endTimes if time>=feat_endTime]
     # Get closest task_endTime that is AFTER feat_endTime
@@ -108,7 +131,7 @@ def find_taskWin(taskTimesList, feat_startTime, feat_endTime, startTask):
         # Get the task that spans the most in the window
         longestTaskTime = max(feat_taskBreakdown[1::2])
         feat_task = feat_taskBreakdown[(feat_taskBreakdown.index(longestTaskTime)-1)]
-        return feat_task, feat_taskBreakdown
+        return feat_task, feat_taskBreakdown 
 
 # Function to check tasks for a dataframe of windows
 def check_tasksForWindows(taskStatusPath, featPath):
@@ -119,16 +142,20 @@ def check_tasksForWindows(taskStatusPath, featPath):
     # Task times list
     taskTimesList = get_allStartEndTimes(taskStatus_df)
     # Create new dataframe to save feature task window times
-    featTaskWin_df = pd.DataFrame(index=feature_df.index,columns=["Start Win Time", "End Win Time", "Main Task", "Tasks Breakdown"])
+    featTaskWin_df = pd.DataFrame(index=feature_df.index,columns=["Start Win Time", "End Win Time", "Main Task", "Tasks Breakdown", "Collisions"])
     # Loop through all windows
     for i,row in feature_df.iterrows():
         feat_startTime = row["Start Win Time"]
         feat_endTime = row["End Win Time"]
         feat_task, feat_taskBreakdown = find_taskWin(taskTimesList, feat_startTime, feat_endTime, startTask)
+        no_collisions = check_collisions(taskStatus_df, feat_startTime, feat_endTime)
         featTaskWin_df.loc[i,"Start Win Time"] = row["Start Win Time"]
         featTaskWin_df.loc[i,"End Win Time"] = row["End Win Time"]
         featTaskWin_df.loc[i,"Main Task"] =  feat_task
         featTaskWin_df.loc[i,"Tasks Breakdown"] = feat_taskBreakdown
+        featTaskWin_df.loc[i, "Collisions"] = no_collisions
+        print(no_collisions)
+        
     return featTaskWin_df
 
 savedir = "E:\\argall-lab-data\\totalPower_taskWindows\\"
@@ -142,4 +169,5 @@ if __name__ == "__main__":
             time = "60"
         taskStatusPath = [path for path in taskStatusPaths if event in path][0]
         featTaskWin_df = check_tasksForWindows(taskStatusPath, featPath)
+        
         featTaskWin_df.to_csv(savedir+event+"_totalPower_"+time+".csv")
