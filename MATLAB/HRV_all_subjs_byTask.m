@@ -1,6 +1,6 @@
 % Generate HRV metrics for all subjects, 30s and 60s windows only
 
-% run("startup.m");
+run("startup.m");
 
 % Subjects
 subjects = ["s00", "s01", "s02", "s03", "s04", "s05", "s06", "s07", "s08", ...
@@ -17,14 +17,14 @@ autonomies = ["A0"];
 % Task numbers 
 tasks = ["1", "2", "3", "4", "5", "6", "7"];
 
-% Base path -- Change to match local
+% Base path -- Change to match local directory
 % base = "C:\Users\Wu Di\Documents\HRV-ML-Research\RawECG_byTasks\";
 base = "/home/skrdown/HRV-ML-Research/ECG/RawECG_byTasks/";
 
 % InitializeHRVparams.m function
 HRVparams = InitializeHRVparams('Test');
 HRVparams.Fs = 250;
-HRVparams.windowlength = 30; % seconds
+HRVparams.windowlength = 30; % seconds -- Change to 30 or 60
 HRVparams.increment = 1; % seconds
 HRVparams.MSE.on = 0;
 HRVparams.DFA.on = 0;
@@ -44,10 +44,11 @@ for subject = subjects
                 disp(event);
                 path = strcat(base,subject,filesep,event,".csv");
                 subjID = event;
+                disp(path);
                 if isfile(path)
                     ecg = load(path);
+                    [results, resFileName] = Main_HRV_Analysis(ecg,[],"ECGWaveform",HRVparams,subjID);
                 end
-                [results, resFileName] = Main_HRV_Analysis(ecg,[],"ECGWaveform",HRVparams,subjID);
             end
         end 
     end

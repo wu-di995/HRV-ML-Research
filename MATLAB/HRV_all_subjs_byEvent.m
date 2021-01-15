@@ -1,6 +1,6 @@
 % Generate HRV metrics for all subjects, 30s and 60s windows only
 
-% run("startup.m");
+run("startup.m");
 
 % Subjects
 subjects = ["s00", "s01", "s02", "s03", "s04", "s05", "s06", "s07", "s08", ...
@@ -19,7 +19,7 @@ base = "/home/skrdown/Documents/argall-lab-data/ECG_byEvent_forHRV/";
 % InitializeHRVparams.m function
 HRVparams = InitializeHRVparams('Test');
 HRVparams.Fs = 250;
-HRVparams.windowlength = 60; % seconds - change to 30 or 60 
+HRVparams.windowlength = 60; % seconds -- change to 30 or 60 
 HRVparams.increment = 1; % seconds
 HRVparams.MSE.on = 0;
 HRVparams.DFA.on = 0;
@@ -52,9 +52,14 @@ for subject = subjects
         end
         if isfile(path)
             ecg = load(path);
+%             disp(path);
+            subjID = subject+"_"+interface+"_"+autonomy;
+%             disp(subjID);
+            [results, resFileName] = Main_HRV_Analysis(ecg,[],"ECGWaveform",HRVparams,subjID);
         end
-        subjID = subject+"_"+interface+"_"+autonomy;
-        [results, resFileName] = Main_HRV_Analysis(ecg,[],"ECGWaveform",HRVparams,subjID);
+        
+        
+        
     end
 end
     
