@@ -3,32 +3,39 @@
 # Imports
 import pandas as pd
 import numpy as np
-import glob,os, pathlib
+import glob, os, pathlib
 from pathlib import Path 
 from scipy.io import loadmat
 
 
+
+
 # Full ECG dataframes directory 
-subjECGDir = glob.glob("E:\\argall-lab-data\\ECG_combined_bySubj\\*\\")
+ecg_bySubj_dir = "/home/skrdown/Documents/argall-lab-data/ECG_bySubj"
+subjECGDir = glob.glob(ecg_bySubj_dir+os.sep+"*"+os.sep)
+# print(subjECGDir)
 # Exclude u00
 subjECGDir = [path for path in subjECGDir if "u00" not in path]
 # print(subjECGDir)
 # Annotations folders
-ECGDataPath = "E:\\argall-lab-data\\ECG Data\\"
+ECGDataPath = "/home/skrdown/Documents/argall-lab-data/ECG Data/"
 # Subjects
-subjsList = [path.split("\\")[-2] for path in subjECGDir]
+subjsList = [path.split(os.sep)[-2] for path in subjECGDir]
 # print(subjsList)
 annotPaths = []
 for i,subj in enumerate(subjsList):
-    annotPaths.append(ECGDataPath+"laa_wc_multi_session_"+subj+"\\LAA_WC_Multi_Session\\"+subj+"\\annotations.csv")
-
+    annotPaths.append(ECGDataPath+"laa_wc_multi_session_"+subj+os.sep+"LAA_WC_Multi_Session"+os.sep+subj+os.sep+"annotations.csv")
+    # annotPaths.append(os.path.join(ECGDataPath,"laa_wc_multi_session_",subj,"LAA_WC_Multi_Session",subj,"annotations.csv"))
+# print(annotPaths)
 
 # Save directory
-savedir = "E:\\argall-lab-data\\ECG_byEventNew\\"
-ECGforHRVDir = "E:\\argall-lab-data\\ECG_byEvent_forHRV\\"
+savedir = "/home/skrdown/Documents/argall-lab-data/ECG_byEvent/" # This saves ECG values in Volts
+ECGforHRVDir = "/home/skrdown/Documents/argall-lab-data/ECG_byEvent_forHRV/" # This saves ECG values in mV 
+
+
 for subj in subjsList:
-    subjsavedir = savedir+subj+"\\"
-    subjECGforHRVDir = ECGforHRVDir+subj+"\\"
+    subjsavedir = savedir+subj+os.sep
+    subjECGforHRVDir = ECGforHRVDir+subj+os.sep
     Path(subjsavedir).mkdir(parents=True,exist_ok=True)
     Path(subjECGforHRVDir).mkdir(parents=True,exist_ok=True)
 
@@ -122,8 +129,8 @@ def find_closest(df,timestamp,method,times_col_idx,test=False,match_annot=True):
 for annotPath in annotPaths:
     annot_df = pd.read_csv(annotPath)
     # Load the corresponding ECG file for that subject 
-    subj = annotPath.split("\\")[-2]
-    ecgPath = [path for path in subjECGDir if subj in path][0]+"full_ecg.csv"
+    subj = annotPath.split(os.sep)[-2]
+    ecgPath = [path for path in subjECGDir if subj in path][0]+subj+"_full_ecg.csv"
     ecgfull_df = pd.read_csv(ecgPath)
     # Timestamp column index = 1
     # print(ecgPath)
@@ -145,10 +152,10 @@ for annotPath in annotPaths:
         # Convert to mV
         new_df.iloc[:,1] = new_df.iloc[:,1].apply(lambda x:x*1000)
         # Save new dataframe 
-        new_df.to_csv(savedir+subj+"\\"+event+".csv",index=None,header=None)
+        new_df.to_csv(savedir+subj+os.sep+event+".csv",index=None,header=None)
         # ECG for HRV
         ecg4hrv_df = new_df.iloc[:,1]
-        ecg4hrv_df.to_csv(ECGforHRVDir+subj+"\\"+event+".csv",index=None,header=None)
+        ecg4hrv_df.to_csv(ECGforHRVDir+subj+os.sep+event+".csv",index=None,header=None)
         
 
 

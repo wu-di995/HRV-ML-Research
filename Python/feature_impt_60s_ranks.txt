@@ -1,0 +1,28 @@
+Feature Names
+['SDNN' 'RMSSD' 'ulf' 'vlf' 'lf' 'hf' 'lfhf' 'SD1' 'SD2' 'SD1SD2' 'ApEn']
+Size of Raw TLX feature arrays (Low/High)
+(5586, 11)
+(6547, 11)
+Size of Weighted TLX feature arrays (Low/High)
+(6105, 11)
+(6028, 11)
+Size of Raw TLX feature arrays (Low/Med/High)
+(2163, 11)
+(5273, 11)
+(4697, 11)
+Size of Weighted TLX feature arrays (Low/Med/High)
+(2474, 11)
+(5719, 11)
+(3940, 11)
+Raw, 2
+{'ulf': 1, 'SD2': 3, 'vlf': 11, 'SD1SD2': 11, 'lf': 13, 'SDNN': 15, 'SD1': 16, 'ApEn': 16, 'hf': 24, 'RMSSD': 26, 'lfhf': 29}
+['ulf', 'SD2', 'vlf', 'SD1SD2', 'lf', 'SDNN', 'SD1', 'ApEn', 'hf', 'RMSSD', 'lfhf']
+Weighted, 2
+{'ulf': 2, 'SDNN': 5, 'ApEn': 8, 'lf': 12, 'SD1': 13, 'SD1SD2': 14, 'vlf': 17, 'SD2': 21, 'lfhf': 23, 'RMSSD': 24, 'hf': 26}
+['ulf', 'SDNN', 'ApEn', 'lf', 'SD1', 'SD1SD2', 'vlf', 'SD2', 'lfhf', 'RMSSD', 'hf']
+Raw, 3
+{'ulf': 0, 'vlf': 8, 'SD1SD2': 8, 'SDNN': 13, 'ApEn': 13, 'lfhf': 14, 'RMSSD': 16, 'lf': 17, 'SD2': 20, 'SD1': 27, 'hf': 29}
+['ulf', 'vlf', 'SD1SD2', 'SDNN', 'ApEn', 'lfhf', 'RMSSD', 'lf', 'SD2', 'SD1', 'hf']
+Weighted, 3
+{'ulf': 1, 'SDNN': 6, 'vlf': 7, 'SD2': 7, 'SD1SD2': 9, 'ApEn': 16, 'RMSSD': 20, 'lf': 22, 'SD1': 23, 'hf': 27, 'lfhf': 27}
+['ulf', 'SDNN', 'vlf', 'SD2', 'SD1SD2', 'ApEn', 'RMSSD', 'lf', 'SD1', 'hf', 'lfhf']

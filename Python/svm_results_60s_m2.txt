@@ -1,0 +1,940 @@
+60s SVM RESULTS---using same features for all datasets: SDNN, hf, RMSSD, ApEn, SD1SD2
+[15:30:15] WARNING: ../src/learner.cc:541: 
+Parameters: { label_encoder } might not be used.
+
+  This may not be accurate due to some parameters are only used in language bindings but
+  passed down to XGBoost core.  Or some parameters are not used but slip through this
+  verification. Please open an issue if you find above cases.
+
+
+[15:30:15] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+{'ulf': 2, 'SDNN': 5, 'SD2': 6, 'vlf': 12, 'RMSSD': 13, 'SD1': 15, 'ApEn': 18, 'lf': 19, 'hf': 19, 'SD1SD2': 26, 'lfhf': 30}
+HA_A0_rawLabel top features:  ['ApEn', 'lf', 'hf', 'SD1SD2', 'lfhf']
+[15:30:16] WARNING: ../src/learner.cc:541: 
+Parameters: { label_encoder } might not be used.
+
+  This may not be accurate due to some parameters are only used in language bindings but
+  passed down to XGBoost core.  Or some parameters are not used but slip through this
+  verification. Please open an issue if you find above cases.
+
+
+[15:30:16] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+{'SD2': 2, 'ApEn': 4, 'hf': 9, 'SDNN': 11, 'ulf': 13, 'RMSSD': 14, 'SD1': 15, 'SD1SD2': 19, 'lf': 22, 'vlf': 27, 'lfhf': 29}
+HA_A0_weightedLabel top features:  ['SD1', 'SD1SD2', 'lf', 'vlf', 'lfhf']
+[15:30:16] WARNING: ../src/learner.cc:541: 
+Parameters: { label_encoder } might not be used.
+
+  This may not be accurate due to some parameters are only used in language bindings but
+  passed down to XGBoost core.  Or some parameters are not used but slip through this
+  verification. Please open an issue if you find above cases.
+
+
+[15:30:16] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+{'ulf': 3, 'SD2': 6, 'lf': 7, 'SD1SD2': 11, 'SD1': 13, 'ApEn': 13, 'RMSSD': 16, 'SDNN': 19, 'vlf': 23, 'hf': 24, 'lfhf': 30}
+HA_A1_rawLabel top features:  ['RMSSD', 'SDNN', 'vlf', 'hf', 'lfhf']
+[15:30:17] WARNING: ../src/learner.cc:541: 
+Parameters: { label_encoder } might not be used.
+
+  This may not be accurate due to some parameters are only used in language bindings but
+  passed down to XGBoost core.  Or some parameters are not used but slip through this
+  verification. Please open an issue if you find above cases.
+
+
+[15:30:17] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+{'ulf': 6, 'SD2': 8, 'ApEn': 8, 'SDNN': 9, 'vlf': 9, 'SD1': 14, 'lf': 15, 'RMSSD': 20, 'hf': 23, 'SD1SD2': 23, 'lfhf': 30}
+HA_A1_weightedLabel top features:  ['lf', 'RMSSD', 'hf', 'SD1SD2', 'lfhf']
+[15:30:18] WARNING: ../src/learner.cc:541: 
+Parameters: { label_encoder } might not be used.
+
+  This may not be accurate due to some parameters are only used in language bindings but
+  passed down to XGBoost core.  Or some parameters are not used but slip through this
+  verification. Please open an issue if you find above cases.
+
+
+[15:30:18] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+{'ulf': 0, 'vlf': 4, 'ApEn': 6, 'SD1SD2': 13, 'SD2': 14, 'SD1': 16, 'lfhf': 18, 'lf': 19, 'SDNN': 20, 'RMSSD': 25, 'hf': 30}
+HA_A2_rawLabel top features:  ['lfhf', 'lf', 'SDNN', 'RMSSD', 'hf']
+[15:30:19] WARNING: ../src/learner.cc:541: 
+Parameters: { label_encoder } might not be used.
+
+  This may not be accurate due to some parameters are only used in language bindings but
+  passed down to XGBoost core.  Or some parameters are not used but slip through this
+  verification. Please open an issue if you find above cases.
+
+
+[15:30:19] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+{'ulf': 0, 'vlf': 4, 'ApEn': 6, 'SD1SD2': 13, 'SD2': 14, 'SD1': 16, 'lfhf': 18, 'lf': 19, 'SDNN': 20, 'RMSSD': 25, 'hf': 30}
+HA_A2_weightedLabel top features:  ['lfhf', 'lf', 'SDNN', 'RMSSD', 'hf']
+[15:30:20] WARNING: ../src/learner.cc:541: 
+Parameters: { label_encoder } might not be used.
+
+  This may not be accurate due to some parameters are only used in language bindings but
+  passed down to XGBoost core.  Or some parameters are not used but slip through this
+  verification. Please open an issue if you find above cases.
+
+
+[15:30:20] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+{'vlf': 2, 'ulf': 7, 'SD1': 9, 'SD1SD2': 10, 'hf': 12, 'ApEn': 14, 'SDNN': 17, 'RMSSD': 22, 'lf': 22, 'lfhf': 22, 'SD2': 28}
+SNP_A0_rawLabel top features:  ['SDNN', 'RMSSD', 'lf', 'lfhf', 'SD2']
+[15:30:20] WARNING: ../src/learner.cc:541: 
+Parameters: { label_encoder } might not be used.
+
+  This may not be accurate due to some parameters are only used in language bindings but
+  passed down to XGBoost core.  Or some parameters are not used but slip through this
+  verification. Please open an issue if you find above cases.
+
+
+[15:30:20] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+{'vlf': 2, 'ulf': 7, 'SD1': 9, 'SD1SD2': 10, 'hf': 12, 'ApEn': 14, 'SDNN': 17, 'RMSSD': 22, 'lf': 22, 'lfhf': 22, 'SD2': 28}
+SNP_A0_weightedLabel top features:  ['SDNN', 'RMSSD', 'lf', 'lfhf', 'SD2']
+[15:30:21] WARNING: ../src/learner.cc:541: 
+Parameters: { label_encoder } might not be used.
+
+  This may not be accurate due to some parameters are only used in language bindings but
+  passed down to XGBoost core.  Or some parameters are not used but slip through this
+  verification. Please open an issue if you find above cases.
+
+
+[15:30:21] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+{'ulf': 8, 'ApEn': 9, 'vlf': 10, 'lf': 13, 'hf': 13, 'lfhf': 13, 'SD2': 18, 'SDNN': 19, 'SD1': 19, 'RMSSD': 21, 'SD1SD2': 22}
+JOY_A0_rawLabel top features:  ['SD2', 'SDNN', 'SD1', 'SD1SD2', 'lfhf']
+[15:30:21] WARNING: ../src/learner.cc:541: 
+Parameters: { label_encoder } might not be used.
+
+  This may not be accurate due to some parameters are only used in language bindings but
+  passed down to XGBoost core.  Or some parameters are not used but slip through this
+  verification. Please open an issue if you find above cases.
+
+
+[15:30:21] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+{'ulf': 8, 'ApEn': 9, 'vlf': 10, 'lf': 13, 'hf': 13, 'lfhf': 13, 'SD2': 18, 'SDNN': 19, 'SD1': 19, 'RMSSD': 21, 'SD1SD2': 22}
+JOY_A0_weightedLabel top features:  ['SD2', 'SDNN', 'SD1', 'SD1SD2', 'lfhf']
+[15:30:21] WARNING: ../src/learner.cc:541: 
+Parameters: { label_encoder } might not be used.
+
+  This may not be accurate due to some parameters are only used in language bindings but
+  passed down to XGBoost core.  Or some parameters are not used but slip through this
+  verification. Please open an issue if you find above cases.
+
+
+[15:30:21] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+{'lfhf': 6, 'ulf': 7, 'ApEn': 8, 'SD1': 9, 'SD2': 9, 'SDNN': 11, 'vlf': 16, 'lf': 19, 'SD1SD2': 23, 'RMSSD': 28, 'hf': 29}
+JOY_A1_weightedLabel top features:  ['vlf', 'lf', 'SD1SD2', 'RMSSD', 'hf']
+[15:30:22] WARNING: ../src/learner.cc:541: 
+Parameters: { label_encoder } might not be used.
+
+  This may not be accurate due to some parameters are only used in language bindings but
+  passed down to XGBoost core.  Or some parameters are not used but slip through this
+  verification. Please open an issue if you find above cases.
+
+
+[15:30:22] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+{'ulf': 3, 'SD1SD2': 7, 'ApEn': 7, 'lf': 13, 'vlf': 14, 'lfhf': 14, 'SDNN': 18, 'SD1': 20, 'RMSSD': 22, 'SD2': 23, 'hf': 24}
+JOY_A2_rawLabel top features:  ['SDNN', 'SD1', 'SD2', 'hf', 'lfhf']
+[15:30:23] WARNING: ../src/learner.cc:541: 
+Parameters: { label_encoder } might not be used.
+
+  This may not be accurate due to some parameters are only used in language bindings but
+  passed down to XGBoost core.  Or some parameters are not used but slip through this
+  verification. Please open an issue if you find above cases.
+
+
+[15:30:23] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+{'ulf': 3, 'SD1SD2': 7, 'ApEn': 7, 'lf': 13, 'vlf': 14, 'lfhf': 14, 'SDNN': 18, 'SD1': 20, 'RMSSD': 22, 'SD2': 23, 'hf': 24}
+JOY_A2_weightedLabel top features:  ['SDNN', 'SD1', 'SD2', 'hf', 'lfhf']
+[15:30:24] WARNING: ../src/learner.cc:541: 
+Parameters: { label_encoder } might not be used.
+
+  This may not be accurate due to some parameters are only used in language bindings but
+  passed down to XGBoost core.  Or some parameters are not used but slip through this
+  verification. Please open an issue if you find above cases.
+
+
+[15:30:24] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+{'vlf': 6, 'SDNN': 7, 'ulf': 7, 'SD2': 10, 'ApEn': 10, 'SD1': 13, 'lf': 17, 'RMSSD': 18, 'SD1SD2': 20, 'lfhf': 27, 'hf': 30}
+HA_rawLabel top features:  ['lf', 'RMSSD', 'SD1SD2', 'lfhf', 'hf']
+[15:30:26] WARNING: ../src/learner.cc:541: 
+Parameters: { label_encoder } might not be used.
+
+  This may not be accurate due to some parameters are only used in language bindings but
+  passed down to XGBoost core.  Or some parameters are not used but slip through this
+  verification. Please open an issue if you find above cases.
+
+
+[15:30:26] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+{'ulf': 1, 'SD2': 5, 'ApEn': 7, 'lf': 10, 'SDNN': 11, 'vlf': 11, 'SD1SD2': 19, 'RMSSD': 22, 'SD1': 22, 'lfhf': 27, 'hf': 30}
+HA_weightedLabel top features:  ['SD1SD2', 'RMSSD', 'lfhf', 'hf', 'vlf']
+[15:30:28] WARNING: ../src/learner.cc:541: 
+Parameters: { label_encoder } might not be used.
+
+  This may not be accurate due to some parameters are only used in language bindings but
+  passed down to XGBoost core.  Or some parameters are not used but slip through this
+  verification. Please open an issue if you find above cases.
+
+
+[15:30:28] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+{'vlf': 2, 'ulf': 7, 'SD1': 9, 'SD1SD2': 10, 'hf': 12, 'ApEn': 14, 'SDNN': 17, 'RMSSD': 22, 'lf': 22, 'lfhf': 22, 'SD2': 28}
+SNP_rawLabel top features:  ['SDNN', 'RMSSD', 'lf', 'lfhf', 'SD2']
+[15:30:28] WARNING: ../src/learner.cc:541: 
+Parameters: { label_encoder } might not be used.
+
+  This may not be accurate due to some parameters are only used in language bindings but
+  passed down to XGBoost core.  Or some parameters are not used but slip through this
+  verification. Please open an issue if you find above cases.
+
+
+[15:30:28] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+{'vlf': 2, 'ulf': 7, 'SD1': 9, 'SD1SD2': 10, 'hf': 12, 'ApEn': 14, 'SDNN': 17, 'RMSSD': 22, 'lf': 22, 'lfhf': 22, 'SD2': 28}
+SNP_weightedLabel top features:  ['SDNN', 'RMSSD', 'lf', 'lfhf', 'SD2']
+[15:30:29] WARNING: ../src/learner.cc:541: 
+Parameters: { label_encoder } might not be used.
+
+  This may not be accurate due to some parameters are only used in language bindings but
+  passed down to XGBoost core.  Or some parameters are not used but slip through this
+  verification. Please open an issue if you find above cases.
+
+
+[15:30:29] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+{'ulf': 1, 'SD1SD2': 7, 'ApEn': 7, 'lfhf': 12, 'vlf': 14, 'lf': 15, 'SDNN': 16, 'SD2': 21, 'SD1': 23, 'RMSSD': 24, 'hf': 25}
+JOY_rawLabel top features:  ['SDNN', 'SD2', 'SD1', 'hf', 'lf']
+[15:30:30] WARNING: ../src/learner.cc:541: 
+Parameters: { label_encoder } might not be used.
+
+  This may not be accurate due to some parameters are only used in language bindings but
+  passed down to XGBoost core.  Or some parameters are not used but slip through this
+  verification. Please open an issue if you find above cases.
+
+
+[15:30:30] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+{'ulf': 0, 'ApEn': 4, 'lfhf': 13, 'SD1SD2': 13, 'lf': 14, 'vlf': 16, 'SD2': 17, 'SDNN': 19, 'RMSSD': 20, 'SD1': 23, 'hf': 26}
+JOY_weightedLabel top features:  ['SD2', 'SDNN', 'RMSSD', 'hf', 'vlf']
+[15:30:31] WARNING: ../src/learner.cc:541: 
+Parameters: { label_encoder } might not be used.
+
+  This may not be accurate due to some parameters are only used in language bindings but
+  passed down to XGBoost core.  Or some parameters are not used but slip through this
+  verification. Please open an issue if you find above cases.
+
+
+[15:30:31] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+{'SD2': 4, 'ulf': 5, 'vlf': 6, 'SDNN': 10, 'ApEn': 14, 'RMSSD': 16, 'lf': 16, 'SD1': 18, 'SD1SD2': 19, 'hf': 27, 'lfhf': 30}
+HA_A0_rawLabel top features:  ['lf', 'SD1', 'SD1SD2', 'hf', 'lfhf']
+[15:30:31] WARNING: ../src/learner.cc:541: 
+Parameters: { label_encoder } might not be used.
+
+  This may not be accurate due to some parameters are only used in language bindings but
+  passed down to XGBoost core.  Or some parameters are not used but slip through this
+  verification. Please open an issue if you find above cases.
+
+
+[15:30:31] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+{'SD2': 1, 'ulf': 4, 'vlf': 4, 'SD1SD2': 11, 'lf': 14, 'RMSSD': 18, 'SD1': 19, 'SDNN': 21, 'ApEn': 21, 'hf': 24, 'lfhf': 28}
+HA_A0_weightedLabel top features:  ['SD1', 'SDNN', 'ApEn', 'hf', 'lfhf']
+[15:30:32] WARNING: ../src/learner.cc:541: 
+Parameters: { label_encoder, scale_pos_weight } might not be used.
+
+  This may not be accurate due to some parameters are only used in language bindings but
+  passed down to XGBoost core.  Or some parameters are not used but slip through this
+  verification. Please open an issue if you find above cases.
+
+
+[15:30:32] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+{'ulf': 4, 'vlf': 4, 'ApEn': 7, 'SD1SD2': 10, 'SDNN': 11, 'SD1': 19, 'SD2': 20, 'lfhf': 21, 'lf': 22, 'hf': 22, 'RMSSD': 25}
+HA_A1_rawLabel top features:  ['SD2', 'lfhf', 'lf', 'hf', 'RMSSD']
+[15:30:33] WARNING: ../src/learner.cc:541: 
+Parameters: { label_encoder } might not be used.
+
+  This may not be accurate due to some parameters are only used in language bindings but
+  passed down to XGBoost core.  Or some parameters are not used but slip through this
+  verification. Please open an issue if you find above cases.
+
+
+[15:30:33] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+{'ulf': 4, 'vlf': 4, 'ApEn': 7, 'SD1SD2': 10, 'SDNN': 11, 'SD1': 19, 'SD2': 20, 'lfhf': 21, 'lf': 22, 'hf': 22, 'RMSSD': 25}
+HA_A1_weightedLabel top features:  ['SD2', 'lfhf', 'lf', 'hf', 'RMSSD']
+[15:30:34] WARNING: ../src/learner.cc:541: 
+Parameters: { label_encoder } might not be used.
+
+  This may not be accurate due to some parameters are only used in language bindings but
+  passed down to XGBoost core.  Or some parameters are not used but slip through this
+  verification. Please open an issue if you find above cases.
+
+
+[15:30:34] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+{'ulf': 0, 'vlf': 7, 'SD2': 9, 'SDNN': 10, 'lfhf': 15, 'ApEn': 15, 'SD1SD2': 17, 'RMSSD': 18, 'lf': 19, 'SD1': 25, 'hf': 30}
+HA_A2_rawLabel top features:  ['SD1SD2', 'RMSSD', 'lf', 'hf', 'ApEn']
+[15:30:38] WARNING: ../src/learner.cc:541: 
+Parameters: { label_encoder } might not be used.
+
+  This may not be accurate due to some parameters are only used in language bindings but
+  passed down to XGBoost core.  Or some parameters are not used but slip through this
+  verification. Please open an issue if you find above cases.
+
+
+[15:30:38] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+{'ulf': 0, 'vlf': 7, 'SD2': 9, 'SDNN': 10, 'lfhf': 15, 'ApEn': 15, 'SD1SD2': 17, 'RMSSD': 18, 'lf': 19, 'SD1': 25, 'hf': 30}
+HA_A2_weightedLabel top features:  ['SD1SD2', 'RMSSD', 'lf', 'hf', 'ApEn']
+[15:30:40] WARNING: ../src/learner.cc:541: 
+Parameters: { label_encoder } might not be used.
+
+  This may not be accurate due to some parameters are only used in language bindings but
+  passed down to XGBoost core.  Or some parameters are not used but slip through this
+  verification. Please open an issue if you find above cases.
+
+
+[15:30:40] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+{'vlf': 3, 'ApEn': 4, 'ulf': 7, 'SD1SD2': 9, 'RMSSD': 14, 'SD1': 16, 'lfhf': 17, 'lf': 19, 'hf': 20, 'SD2': 26, 'SDNN': 30}
+SNP_A0_rawLabel top features:  ['lfhf', 'lf', 'hf', 'SD2', 'SDNN']
+[15:30:41] WARNING: ../src/learner.cc:541: 
+Parameters: { label_encoder } might not be used.
+
+  This may not be accurate due to some parameters are only used in language bindings but
+  passed down to XGBoost core.  Or some parameters are not used but slip through this
+  verification. Please open an issue if you find above cases.
+
+
+[15:30:42] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+{'SD2': 7, 'ApEn': 7, 'ulf': 8, 'SD1SD2': 8, 'vlf': 13, 'lf': 14, 'RMSSD': 16, 'hf': 18, 'lfhf': 18, 'SD1': 27, 'SDNN': 29}
+SNP_A0_weightedLabel top features:  ['RMSSD', 'hf', 'lfhf', 'SDNN', 'lf']
+[15:30:43] WARNING: ../src/learner.cc:541: 
+Parameters: { label_encoder } might not be used.
+
+  This may not be accurate due to some parameters are only used in language bindings but
+  passed down to XGBoost core.  Or some parameters are not used but slip through this
+  verification. Please open an issue if you find above cases.
+
+
+[15:30:43] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+{'ulf': 8, 'ApEn': 9, 'vlf': 10, 'lf': 13, 'hf': 13, 'lfhf': 13, 'SD2': 18, 'SDNN': 19, 'SD1': 19, 'RMSSD': 21, 'SD1SD2': 22}
+JOY_A0_rawLabel top features:  ['SD2', 'SDNN', 'SD1', 'SD1SD2', 'lfhf']
+[15:30:43] WARNING: ../src/learner.cc:541: 
+Parameters: { label_encoder } might not be used.
+
+  This may not be accurate due to some parameters are only used in language bindings but
+  passed down to XGBoost core.  Or some parameters are not used but slip through this
+  verification. Please open an issue if you find above cases.
+
+
+[15:30:43] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+{'ulf': 7, 'ApEn': 8, 'SD1SD2': 10, 'lfhf': 13, 'hf': 14, 'lf': 17, 'SDNN': 18, 'SD2': 18, 'SD1': 19, 'vlf': 20, 'RMSSD': 21}
+JOY_A0_weightedLabel top features:  ['SDNN', 'SD2', 'SD1', 'vlf', 'lf']
+[15:30:44] WARNING: ../src/learner.cc:541: 
+Parameters: { label_encoder } might not be used.
+
+  This may not be accurate due to some parameters are only used in language bindings but
+  passed down to XGBoost core.  Or some parameters are not used but slip through this
+  verification. Please open an issue if you find above cases.
+
+
+[15:30:44] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+{'lfhf': 6, 'ulf': 7, 'ApEn': 8, 'SD1': 9, 'SD2': 9, 'SDNN': 11, 'vlf': 16, 'lf': 19, 'SD1SD2': 23, 'RMSSD': 28, 'hf': 29}
+JOY_A1_rawLabel top features:  ['vlf', 'lf', 'SD1SD2', 'RMSSD', 'hf']
+[15:30:44] WARNING: ../src/learner.cc:541: 
+Parameters: { label_encoder } might not be used.
+
+  This may not be accurate due to some parameters are only used in language bindings but
+  passed down to XGBoost core.  Or some parameters are not used but slip through this
+  verification. Please open an issue if you find above cases.
+
+
+[15:30:44] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+{'lfhf': 6, 'ApEn': 8, 'SDNN': 9, 'ulf': 12, 'SD2': 13, 'lf': 16, 'vlf': 17, 'RMSSD': 18, 'SD1SD2': 18, 'SD1': 19, 'hf': 29}
+JOY_A1_weightedLabel top features:  ['vlf', 'RMSSD', 'SD1SD2', 'hf', 'lf']
+[15:30:45] WARNING: ../src/learner.cc:541: 
+Parameters: { label_encoder, scale_pos_weight } might not be used.
+
+  This may not be accurate due to some parameters are only used in language bindings but
+  passed down to XGBoost core.  Or some parameters are not used but slip through this
+  verification. Please open an issue if you find above cases.
+
+
+[15:30:45] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+{'ulf': 3, 'vlf': 4, 'SD2': 6, 'SD1SD2': 11, 'SD1': 13, 'lf': 14, 'SDNN': 20, 'hf': 20, 'ApEn': 21, 'lfhf': 24, 'RMSSD': 29}
+JOY_A2_rawLabel top features:  ['SDNN', 'hf', 'ApEn', 'lfhf', 'RMSSD']
+[15:30:46] WARNING: ../src/learner.cc:541: 
+Parameters: { label_encoder } might not be used.
+
+  This may not be accurate due to some parameters are only used in language bindings but
+  passed down to XGBoost core.  Or some parameters are not used but slip through this
+  verification. Please open an issue if you find above cases.
+
+
+[15:30:46] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+{'ulf': 2, 'SD1SD2': 5, 'SD1': 7, 'vlf': 9, 'lfhf': 12, 'ApEn': 14, 'RMSSD': 16, 'SD2': 20, 'hf': 26, 'SDNN': 27, 'lf': 27}
+JOY_A2_weightedLabel top features:  ['RMSSD', 'SD2', 'hf', 'SDNN', 'lf']
+[15:30:47] WARNING: ../src/learner.cc:541: 
+Parameters: { label_encoder } might not be used.
+
+  This may not be accurate due to some parameters are only used in language bindings but
+  passed down to XGBoost core.  Or some parameters are not used but slip through this
+  verification. Please open an issue if you find above cases.
+
+
+[15:30:47] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+{'ulf': 5, 'vlf': 7, 'SD2': 8, 'SD1SD2': 9, 'ApEn': 9, 'SDNN': 15, 'RMSSD': 18, 'lf': 20, 'SD1': 21, 'lfhf': 23, 'hf': 30}
+HA_rawLabel top features:  ['RMSSD', 'lf', 'lfhf', 'hf', 'SDNN']
+[15:30:53] WARNING: ../src/learner.cc:541: 
+Parameters: { label_encoder } might not be used.
+
+  This may not be accurate due to some parameters are only used in language bindings but
+  passed down to XGBoost core.  Or some parameters are not used but slip through this
+  verification. Please open an issue if you find above cases.
+
+
+[15:30:53] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+{'ulf': 1, 'SD2': 6, 'vlf': 7, 'ApEn': 11, 'SD1SD2': 12, 'lfhf': 15, 'SDNN': 18, 'SD1': 20, 'lf': 21, 'RMSSD': 24, 'hf': 30}
+HA_weightedLabel top features:  ['SDNN', 'SD1', 'lf', 'hf', 'lfhf']
+[15:31:02] WARNING: ../src/learner.cc:541: 
+Parameters: { label_encoder } might not be used.
+
+  This may not be accurate due to some parameters are only used in language bindings but
+  passed down to XGBoost core.  Or some parameters are not used but slip through this
+  verification. Please open an issue if you find above cases.
+
+
+[15:31:02] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+{'vlf': 3, 'ApEn': 4, 'ulf': 7, 'SD1SD2': 9, 'RMSSD': 14, 'SD1': 16, 'lfhf': 17, 'lf': 19, 'hf': 20, 'SD2': 26, 'SDNN': 30}
+SNP_rawLabel top features:  ['lfhf', 'lf', 'hf', 'SD2', 'SDNN']
+[15:31:02] WARNING: ../src/learner.cc:541: 
+Parameters: { label_encoder } might not be used.
+
+  This may not be accurate due to some parameters are only used in language bindings but
+  passed down to XGBoost core.  Or some parameters are not used but slip through this
+  verification. Please open an issue if you find above cases.
+
+
+[15:31:02] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+{'SD2': 7, 'ApEn': 7, 'ulf': 8, 'SD1SD2': 8, 'vlf': 13, 'lf': 14, 'RMSSD': 16, 'hf': 18, 'lfhf': 18, 'SD1': 27, 'SDNN': 29}
+SNP_weightedLabel top features:  ['RMSSD', 'hf', 'lfhf', 'SDNN', 'lf']
+[15:31:03] WARNING: ../src/learner.cc:541: 
+Parameters: { label_encoder } might not be used.
+
+  This may not be accurate due to some parameters are only used in language bindings but
+  passed down to XGBoost core.  Or some parameters are not used but slip through this
+  verification. Please open an issue if you find above cases.
+
+
+[15:31:03] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+{'ulf': 0, 'lfhf': 8, 'SD1SD2': 9, 'SD2': 15, 'ApEn': 15, 'lf': 16, 'vlf': 18, 'RMSSD': 20, 'hf': 21, 'SD1': 21, 'SDNN': 22}
+JOY_rawLabel top features:  ['vlf', 'RMSSD', 'hf', 'SDNN', 'lf']
+[15:31:05] WARNING: ../src/learner.cc:541: 
+Parameters: { label_encoder } might not be used.
+
+  This may not be accurate due to some parameters are only used in language bindings but
+  passed down to XGBoost core.  Or some parameters are not used but slip through this
+  verification. Please open an issue if you find above cases.
+
+
+[15:31:05] WARNING: ../src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+{'ulf': 0, 'SD1SD2': 6, 'vlf': 7, 'ApEn': 9, 'lfhf': 12, 'SD2': 14, 'hf': 19, 'lf': 20, 'SD1': 23, 'RMSSD': 27, 'SDNN': 28}
+JOY_weightedLabel top features:  ['hf', 'lf', 'SD1', 'SDNN', 'SD2']
+***********************Using same features for all **********************************
+Datasets separated by autonomy and interface, 2 levels, all
+***********************
+Dataset:  HA_A0
+Raw label accuracy:  0.9372384937238494
+Raw Label confusion matrix: 
+ [[159   4]
+ [ 11  65]]
+----------------------
+Weighted label accuracy:  0.891213389121339
+Weighted Label confusion matrix: 
+ [[205   6]
+ [ 20   8]]
+***********************
+***********************
+Dataset:  HA_A1
+Raw label accuracy:  0.9497607655502392
+Raw Label confusion matrix: 
+ [[272   4]
+ [ 17 125]]
+----------------------
+Weighted label accuracy:  0.9138755980861244
+Weighted Label confusion matrix: 
+ [[330   9]
+ [ 27  52]]
+***********************
+***********************
+Dataset:  HA_A2
+Raw label accuracy:  0.9943820224719101
+Raw Label confusion matrix: 
+ [[142   3]
+ [  1 566]]
+----------------------
+Weighted label accuracy:  0.9943820224719101
+Weighted Label confusion matrix: 
+ [[142   3]
+ [  1 566]]
+***********************
+***********************
+Dataset:  SNP_A0
+Raw label accuracy:  0.9666666666666667
+Raw Label confusion matrix: 
+ [[147   7]
+ [  9 317]]
+----------------------
+Weighted label accuracy:  0.9666666666666667
+Weighted Label confusion matrix: 
+ [[147   7]
+ [  9 317]]
+***********************
+***********************
+Dataset:  JOY_A0
+Raw label accuracy:  1.0
+Raw Label confusion matrix: 
+ [[72  0]
+ [ 0 55]]
+----------------------
+Weighted label accuracy:  1.0
+Weighted Label confusion matrix: 
+ [[72  0]
+ [ 0 55]]
+***********************
+JOY_A1, raw score, not enough classes
+Weighted label accuracy:  0.9565217391304348
+Weighted Label confusion matrix: 
+ [[62  0]
+ [ 3  4]]
+***********************
+***********************
+Dataset:  JOY_A2
+Raw label accuracy:  0.9558441558441558
+Raw Label confusion matrix: 
+ [[239   1]
+ [ 16 129]]
+----------------------
+Weighted label accuracy:  0.9558441558441558
+Weighted Label confusion matrix: 
+ [[239   1]
+ [ 16 129]]
+***********************
+***********************
+Datasets separated by interface only, 2 levels, all
+***********************
+Dataset:  HA
+Raw label accuracy:  0.8720760233918129
+Raw Label confusion matrix: 
+ [[440 143]
+ [ 32 753]]
+----------------------
+Weighted label accuracy:  0.8062865497076024
+Weighted Label confusion matrix: 
+ [[468 226]
+ [ 39 635]]
+***********************
+***********************
+Dataset:  SNP
+Raw label accuracy:  0.9666666666666667
+Raw Label confusion matrix: 
+ [[147   7]
+ [  9 317]]
+----------------------
+Weighted label accuracy:  0.9666666666666667
+Weighted Label confusion matrix: 
+ [[147   7]
+ [  9 317]]
+***********************
+***********************
+Dataset:  JOY
+Raw label accuracy:  0.9603448275862069
+Raw Label confusion matrix: 
+ [[371  10]
+ [ 13 186]]
+----------------------
+Weighted label accuracy:  0.9517241379310345
+Weighted Label confusion matrix: 
+ [[365   9]
+ [ 19 187]]
+***********************
+Datasets separated by autonomy and interface, 3 levels, all
+***********************
+Dataset:  HA_A0
+Raw label accuracy:  0.9456066945606695
+Raw Label confusion matrix: 
+ [[127   3]
+ [ 10  99]]
+----------------------
+Weighted label accuracy:  0.8828451882845189
+Weighted Label confusion matrix: 
+ [[ 81  13]
+ [ 15 130]]
+***********************
+***********************
+Dataset:  HA_A1
+Raw label accuracy:  0.9043062200956937
+Raw Label confusion matrix: 
+ [[ 87   1   0]
+ [  2 239  10]
+ [  0  27  52]]
+----------------------
+Weighted label accuracy:  0.9043062200956937
+Weighted Label confusion matrix: 
+ [[ 87   1   0]
+ [  2 239  10]
+ [  0  27  52]]
+***********************
+***********************
+Dataset:  HA_A2
+Raw label accuracy:  0.9536516853932584
+Raw Label confusion matrix: 
+ [[  6   0   4]
+ [  0 194  22]
+ [  0   7 479]]
+----------------------
+Weighted label accuracy:  0.9536516853932584
+Weighted Label confusion matrix: 
+ [[  6   0   4]
+ [  0 194  22]
+ [  0   7 479]]
+***********************
+***********************
+Dataset:  SNP_A0
+Raw label accuracy:  0.9770833333333333
+Raw Label confusion matrix: 
+ [[ 38   0   7]
+ [  0 109   0]
+ [  2   2 322]]
+----------------------
+Weighted label accuracy:  0.9854166666666667
+Weighted Label confusion matrix: 
+ [[ 42   0   3]
+ [  0 276   0]
+ [  1   3 155]]
+***********************
+***********************
+Dataset:  JOY_A0
+Raw label accuracy:  1.0
+Raw Label confusion matrix: 
+ [[72  0]
+ [ 0 55]]
+----------------------
+Weighted label accuracy:  0.9448818897637795
+Weighted Label confusion matrix: 
+ [[58  0]
+ [ 7 62]]
+***********************
+***********************
+Dataset:  JOY_A1
+Raw label accuracy:  0.9565217391304348
+Raw Label confusion matrix: 
+ [[62  0]
+ [ 3  4]]
+----------------------
+Weighted label accuracy:  0.9420289855072463
+Weighted Label confusion matrix: 
+ [[55  0]
+ [ 4 10]]
+***********************
+***********************
+Dataset:  JOY_A2
+Raw label accuracy:  0.9272727272727272
+Raw Label confusion matrix: 
+ [[ 26   0   0]
+ [  0 310   0]
+ [  0  28  21]]
+----------------------
+Weighted label accuracy:  0.8831168831168831
+Weighted Label confusion matrix: 
+ [[137   8   1]
+ [  1 173   0]
+ [ 13  22  30]]
+***********************
+***********************
+Datasets separated by interface only, 3 levels, all
+***********************
+Dataset:  HA
+Raw label accuracy:  0.7675438596491229
+Raw Label confusion matrix: 
+ [[ 92  36  99]
+ [  1 442 133]
+ [  4  45 516]]
+----------------------
+Weighted label accuracy:  0.7850877192982456
+Weighted Label confusion matrix: 
+ [[ 77  24  90]
+ [  0 496 116]
+ [  5  59 501]]
+***********************
+***********************
+Dataset:  SNP
+Raw label accuracy:  0.9770833333333333
+Raw Label confusion matrix: 
+ [[ 38   0   7]
+ [  0 109   0]
+ [  2   2 322]]
+----------------------
+Weighted label accuracy:  0.9854166666666667
+Weighted Label confusion matrix: 
+ [[ 42   0   3]
+ [  0 276   0]
+ [  1   3 155]]
+***********************
+***********************
+Dataset:  JOY
+Raw label accuracy:  0.7793103448275862
+Raw Label confusion matrix: 
+ [[ 85  75   0]
+ [ 10 361   0]
+ [ 12  31   6]]
+----------------------
+Weighted label accuracy:  0.8068965517241379
+Weighted Label confusion matrix: 
+ [[233  25   0]
+ [ 60 197   0]
+ [ 20   7  38]]
+***********************
+***********************Using best features for single dataset **********************************
+Datasets separated by autonomy and interface, 2 levels, self
+***********************
+Dataset:  HA_A0
+Raw label accuracy:  0.9456066945606695
+Raw Label confusion matrix: 
+ [[159   4]
+ [  9  67]]
+----------------------
+Weighted label accuracy:  0.9288702928870293
+Weighted Label confusion matrix: 
+ [[207   4]
+ [ 13  15]]
+***********************
+***********************
+Dataset:  HA_A1
+Raw label accuracy:  0.8971291866028708
+Raw Label confusion matrix: 
+ [[256  20]
+ [ 23 119]]
+----------------------
+Weighted label accuracy:  0.9210526315789473
+Weighted Label confusion matrix: 
+ [[333   6]
+ [ 27  52]]
+***********************
+***********************
+Dataset:  HA_A2
+Raw label accuracy:  0.9943820224719101
+Raw Label confusion matrix: 
+ [[142   3]
+ [  1 566]]
+----------------------
+Weighted label accuracy:  0.9943820224719101
+Weighted Label confusion matrix: 
+ [[142   3]
+ [  1 566]]
+***********************
+***********************
+Dataset:  SNP_A0
+Raw label accuracy:  0.9729166666666667
+Raw Label confusion matrix: 
+ [[146   8]
+ [  5 321]]
+----------------------
+Weighted label accuracy:  0.9729166666666667
+Weighted Label confusion matrix: 
+ [[146   8]
+ [  5 321]]
+***********************
+***********************
+Dataset:  JOY_A0
+Raw label accuracy:  0.984251968503937
+Raw Label confusion matrix: 
+ [[70  2]
+ [ 0 55]]
+----------------------
+Weighted label accuracy:  0.984251968503937
+Weighted Label confusion matrix: 
+ [[70  2]
+ [ 0 55]]
+***********************
+JOY_A1, raw score, not enough classes
+Weighted label accuracy:  0.9855072463768116
+Weighted Label confusion matrix: 
+ [[62  0]
+ [ 1  6]]
+***********************
+***********************
+Dataset:  JOY_A2
+Raw label accuracy:  0.9558441558441558
+Raw Label confusion matrix: 
+ [[238   2]
+ [ 15 130]]
+----------------------
+Weighted label accuracy:  0.9558441558441558
+Weighted Label confusion matrix: 
+ [[238   2]
+ [ 15 130]]
+***********************
+***********************
+Datasets separated by interface only, 2 levels, self
+***********************
+Dataset:  HA
+Raw label accuracy:  0.8793859649122807
+Raw Label confusion matrix: 
+ [[447 136]
+ [ 29 756]]
+----------------------
+Weighted label accuracy:  0.8472222222222222
+Weighted Label confusion matrix: 
+ [[592 102]
+ [107 567]]
+***********************
+***********************
+Dataset:  SNP
+Raw label accuracy:  0.9729166666666667
+Raw Label confusion matrix: 
+ [[146   8]
+ [  5 321]]
+----------------------
+Weighted label accuracy:  0.9729166666666667
+Weighted Label confusion matrix: 
+ [[146   8]
+ [  5 321]]
+***********************
+***********************
+Dataset:  JOY
+Raw label accuracy:  0.9637931034482758
+Raw Label confusion matrix: 
+ [[373   8]
+ [ 13 186]]
+----------------------
+Weighted label accuracy:  0.946551724137931
+Weighted Label confusion matrix: 
+ [[364  10]
+ [ 21 185]]
+***********************
+Datasets separated by autonomy and interface, 3 levels, self
+***********************
+Dataset:  HA_A0
+Raw label accuracy:  0.9246861924686193
+Raw Label confusion matrix: 
+ [[122   8]
+ [ 10  99]]
+----------------------
+Weighted label accuracy:  0.891213389121339
+Weighted Label confusion matrix: 
+ [[ 81  13]
+ [ 13 132]]
+***********************
+***********************
+Dataset:  HA_A1
+Raw label accuracy:  0.9066985645933014
+Raw Label confusion matrix: 
+ [[ 87   1   0]
+ [  3 240   8]
+ [  0  27  52]]
+----------------------
+Weighted label accuracy:  0.9066985645933014
+Weighted Label confusion matrix: 
+ [[ 87   1   0]
+ [  3 240   8]
+ [  0  27  52]]
+***********************
+***********************
+Dataset:  HA_A2
+Raw label accuracy:  0.9606741573033708
+Raw Label confusion matrix: 
+ [[  8   0   2]
+ [  0 199  17]
+ [  0   9 477]]
+----------------------
+Weighted label accuracy:  0.9606741573033708
+Weighted Label confusion matrix: 
+ [[  8   0   2]
+ [  0 199  17]
+ [  0   9 477]]
+***********************
+***********************
+Dataset:  SNP_A0
+Raw label accuracy:  0.96875
+Raw Label confusion matrix: 
+ [[ 39   0   6]
+ [  0 108   1]
+ [  8   0 318]]
+----------------------
+Weighted label accuracy:  0.9791666666666666
+Weighted Label confusion matrix: 
+ [[ 43   0   2]
+ [  0 276   0]
+ [  8   0 151]]
+***********************
+***********************
+Dataset:  JOY_A0
+Raw label accuracy:  0.984251968503937
+Raw Label confusion matrix: 
+ [[70  2]
+ [ 0 55]]
+----------------------
+Weighted label accuracy:  0.8582677165354331
+Weighted Label confusion matrix: 
+ [[58  0]
+ [18 51]]
+***********************
+***********************
+Dataset:  JOY_A1
+Raw label accuracy:  0.9855072463768116
+Raw Label confusion matrix: 
+ [[62  0]
+ [ 1  6]]
+----------------------
+Weighted label accuracy:  0.9710144927536232
+Weighted Label confusion matrix: 
+ [[55  0]
+ [ 2 12]]
+***********************
+***********************
+Dataset:  JOY_A2
+Raw label accuracy:  0.9272727272727272
+Raw Label confusion matrix: 
+ [[ 26   0   0]
+ [  0 310   0]
+ [  0  28  21]]
+----------------------
+Weighted label accuracy:  0.8623376623376623
+Weighted Label confusion matrix: 
+ [[134  11   1]
+ [  7 167   0]
+ [ 12  22  31]]
+***********************
+***********************
+Datasets separated by interface only, 3 levels, self
+***********************
+Dataset:  HA
+Raw label accuracy:  0.7375730994152047
+Raw Label confusion matrix: 
+ [[ 70  70  87]
+ [  0 462 114]
+ [  1  87 477]]
+----------------------
+Weighted label accuracy:  0.7602339181286549
+Weighted Label confusion matrix: 
+ [[ 64  48  79]
+ [  0 517  95]
+ [  1 105 459]]
+***********************
+***********************
+Dataset:  SNP
+Raw label accuracy:  0.96875
+Raw Label confusion matrix: 
+ [[ 39   0   6]
+ [  0 108   1]
+ [  8   0 318]]
+----------------------
+Weighted label accuracy:  0.9791666666666666
+Weighted Label confusion matrix: 
+ [[ 43   0   2]
+ [  0 276   0]
+ [  8   0 151]]
+***********************
+***********************
+Dataset:  JOY
+Raw label accuracy:  0.7758620689655172
+Raw Label confusion matrix: 
+ [[ 98  61   1]
+ [ 25 346   0]
+ [ 10  33   6]]
+----------------------
+Weighted label accuracy:  0.7862068965517242
+Weighted Label confusion matrix: 
+ [[243  15   0]
+ [ 68 185   4]
+ [ 24  13  28]]
+***********************

@@ -1,12 +1,19 @@
 # Saves ECG data as a single dataframe for all subjects
 import pandas as pd
 import numpy as np
-import glob,os, pathlib
+import glob, os, pathlib
 from pathlib import Path
 import re
 
-# ECG Folder
-ecgDir = "E:\\argall-lab-data\\ECG Data\\"
+"""
+    Change directories to match local
+"""
+# ECG Folder - Raw Data, from data collection 
+# ecgDir = "E:\\argall-lab-data\\ECG Data\\"
+ecgDir = "/home/skrdown/Documents/argall-lab-data/ECG Data/"
+# Directory to save to 
+# savedir = "E:\\argall-lab-data\ECG_combined_bySubj\\"
+savedir = "/home/skrdown/Documents/argall-lab-data/ECG_bySubj/"
 
 # Subjects 
 subjsList = []
@@ -31,8 +38,7 @@ subjsList = [subj for subj in subjsList if "u00" not in subj]
 # ECG subject folder paths
 ecgSubjsPaths = []
 for i,subj in enumerate(subjsList):
-    ecgSubjsPaths.append(ecgDir+"laa_wc_multi_session_"+subj+"\\LAA_WC_Multi_Session\\"+subj+"\\")
-# print(ecgSubjsPaths)
+    ecgSubjsPaths.append(ecgDir+"laa_wc_multi_session_"+subj+os.sep+"LAA_WC_Multi_Session"+os.sep+subj+os.sep)
 
 # Combines ecg files to one df
 def get_combinedECG(ecgFolders):
@@ -55,14 +61,14 @@ def get_combinedECG(ecgFolders):
 
 # For all subjects, save combined ECG dataframes 
 
-def saveECG(ecgSubjsPaths):
+def saveECG(ecgSubjsPaths,savedir):
     for i in range(len(ecgSubjsPaths)):
-        subj = ecgSubjsPaths[i].split("\\")[-2]
+        subj = ecgSubjsPaths[i].split(os.sep)[-2]
         print(subj)
 
         # Sensor names 
         sensors = []
-        for (dirpath,dirnames,filenames) in os.walk(ecgSubjsPaths[i]+"ecg_lead_i\\"):
+        for (dirpath,dirnames,filenames) in os.walk(ecgSubjsPaths[i]+"ecg_lead_i"+os.sep):
             sensors.extend(dirnames)
             break
         # print(i)
@@ -71,7 +77,7 @@ def saveECG(ecgSubjsPaths):
         # Sensor folders
         ssrFolders = []
         for sensor in sensors:
-            ssrFolders.append(ecgSubjsPaths[i]+"ecg_lead_i\\"+sensor+"\\")
+            ssrFolders.append(ecgSubjsPaths[i]+"ecg_lead_i"+os.sep+sensor+os.sep)
         # print(i)
         # print(len(ssrFolders))
         # print("----")
@@ -81,7 +87,7 @@ def saveECG(ecgSubjsPaths):
         for ssrFolder in ssrFolders:
             seshFolders = os.listdir(ssrFolder)
             for folder in seshFolders:
-                ecgFolders.append(ssrFolder+folder+"\\")
+                ecgFolders.append(ssrFolder+folder+os.sep)
 
         # Get combined ECG file
         ecgfull_df = get_combinedECG(ecgFolders)
@@ -89,11 +95,11 @@ def saveECG(ecgSubjsPaths):
         # print(ecgfull_df.shape)
 
         # Directory to save to 
-        savedir = "E:\\argall-lab-data\ECG_combined_bySubj\\"
-        subjsavedir = savedir+subjsList[i]+"\\"
-        Path(subjsavedir).mkdir(parents=True,exist_ok=True)
+        
+        # subjsavedir = savedir+subjsList[i]+os.sep
+        # Path(subjsavedir).mkdir(parents=True,exist_ok=True)
 
         # Save ECG file
-        ecgfull_df.to_csv(subjsavedir+"full_ecg.csv")
+        ecgfull_df.to_csv(savedir+subjsList[i].lower()+"_full_ecg.csv")
 
-saveECG(ecgSubjsPaths)
+saveECG(ecgSubjsPaths,savedir)

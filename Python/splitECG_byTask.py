@@ -8,15 +8,18 @@ from pathlib import Path
 
 
 # Trajectory Folder 
-trajDir = "E:\\argall-lab-data\\Trajectory Data\\"
-trajSubjsPaths = glob.glob(trajDir+"*\\")
-
+trajDir = "/home/skrdown/Documents/argall-lab-data/Trajectory Data/"
+trajSubjsPaths = glob.glob(trajDir+"*"+os.sep)
+# Exclude u00
+trajSubjsPaths = [path for path in trajSubjsPaths if "u00" not in path.lower()]
 # ECG Folder
-ecgDir = "E:\\argall-lab-data\\ECG_combined_bySubj\\"
-ecgPaths = glob.glob(ecgDir+"*\\")
+ecgDir = "/home/skrdown/Documents/argall-lab-data/ECG_bySubj/"
+ecgPaths = glob.glob(ecgDir+"*"+os.sep)
+print(ecgPaths)
 
 # Directory to save to 
-savedir = "C:\\Users\\Wu Di\\Documents\\HRV-ML-Research\\RawECG_byTasks\\"
+# savedir = "C:\\Users\\Wu Di\\Documents\\HRV-ML-Research\\RawECG_byTasks\\"
+savedir = "/home/skrdown/HRV-ML-Research/ECG/RawECG_byTasks/"
 
 # For each trajectory subject folder, find the session folders 
 path = trajSubjsPaths[0]
@@ -24,7 +27,7 @@ A0folders = glob.glob(path+"*A0*")
 
 # Function to find index of closest lower neighbour of a timestamp
 def find_closest(df,timestamp):
-    print(df.columns[1])
+    # print(df.columns[1])
     exactmatch = (df[df.columns[1]]==timestamp)
     while (exactmatch[exactmatch==True].empty):
         timestamp -=1
@@ -50,8 +53,10 @@ def splitECG(trajSubjsPaths):
             # event = folder.split("\\")[-1]
             # event = event.rstrip(event.split("_")[-1])
             # print(event)
-            nameSplitList = folder.split("\\")[-1].split("_")
+            nameSplitList = folder.split(os.sep)[-1].split("_")
             subj = nameSplitList[0].lower()
+            print(folder)
+            print(subj)
             interface = nameSplitList[1]
             autonomy = nameSplitList[2]
             start_task = nameSplitList[3][-1]
@@ -65,7 +70,7 @@ def splitECG(trajSubjsPaths):
             # print(subj,interface,autonomy,start_task)
             # print(subj)
             # Read task status file 
-            task_status_path = glob.glob(folder+"\\*_task_status_cleaned.mat")[0]
+            task_status_path = glob.glob(folder+os.sep+"*_task_status_cleaned.mat")[0]
             mat_struct = loadmat(task_status_path)
             task_status = mat_struct["task_status"].flatten()
             no_tasks = task_status.shape[0]
@@ -75,7 +80,7 @@ def splitECG(trajSubjsPaths):
                 task_no += 1 
                 if (task_no>7):
                     task_no = 1
-                print(taskName)
+                # print(taskName)
                 # startTime = int(np.squeeze(task_status[task][0])) #Round down to the nearest integer 
                 # endTime = int(np.squeeze(task_status[task][1])) 
                 startTime = int((np.squeeze(task_status[task][0]))*1000) # Convert to ms, multiply 1000 
@@ -94,7 +99,7 @@ def splitECG(trajSubjsPaths):
                 # Convert to mV
                 task_df = task_df.apply(lambda x:x*1000)
                 # Save mV values
-                subjsavedir = savedir+subj+"\\"
+                subjsavedir = savedir+subj+os.sep
                 Path(subjsavedir).mkdir(parents=True,exist_ok=True)
                 newPath = subjsavedir+taskName+".csv"
                 task_df.to_csv(newPath, index=False)

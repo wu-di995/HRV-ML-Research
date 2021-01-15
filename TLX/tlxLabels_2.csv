@@ -1,0 +1,150 @@
+,id,interface,autonomy,Raw Label,Weighted Label
+0,u02,Sip N Puff,A0,Low,Low
+1,u03,Joystick,A0,High,High
+2,u03,Joystick,A2,High,High
+3,u03,Joystick,A1,Low,Low
+4,u05,Sip N Puff,A0,Low,Low
+5,u03,Sip N Puff,A0,High,High
+6,u09,Joystick,A1,High,High
+7,u09,Joystick,A0,Low,Low
+8,u09,Joystick,A2,High,High
+9,u09,Sip N Puff,A0,High,High
+10,u07,Head Array,A0,High,High
+11,u07,Head Array,A1,High,High
+12,u07,Head Array,A2,High,High
+13,u02,Joystick,A2,Low,Low
+14,u02,Joystick,A0,Low,Low
+15,u02,Joystick,A1,Low,Low
+16,u03,Head Array,A1,Low,Low
+17,u03,Head Array,A0,Low,Low
+18,u03,Head Array,A2,Low,Low
+19,u10,Head Array,A0,High,High
+20,u10,Head Array,A2,High,High
+21,u10,Head Array,A1,High,High
+22,u05,Head Array,A0,Low,Low
+23,u05,Head Array,A2,High,High
+24,u05,Head Array,A1,Low,Low
+25,u14,Joystick,A1,Low,High
+26,u14,Joystick,A0,Low,Low
+27,u14,Joystick,A2,High,High
+28,s01,Head Array,A0,Low,Low
+29,s01,Head Array,A2,High,High
+30,s01,Head Array,A1,Low,Low
+31,u14,Head Array,A2,High,High
+32,u14,Head Array,A0,Low,Low
+33,u14,Head Array,A1,Low,Low
+34,u07,Sip N Puff,A0,High,High
+35,u04,Head Array,A1,High,High
+36,u04,Head Array,A0,High,High
+37,u04,Head Array,A2,High,High
+38,s00,Joystick,A2,High,High
+39,s00,Joystick,A1,Low,Low
+40,s00,Joystick,A0,Low,Low
+41,s02,Sip N Puff,A0,Low,Low
+42,u04,Joystick,A1,Low,Low
+43,u04,Joystick,A0,Low,Low
+44,u04,Joystick,A2,High,High
+45,u10,Joystick,A2,High,High
+46,u10,Joystick,A1,High,High
+47,u10,Joystick,A0,Low,Low
+48,u04,Sip N Puff,A0,Low,Low
+49,s01,Sip N Puff,A0,Low,Low
+50,s02,Head Array,A0,Low,Low
+51,s02,Head Array,A2,Low,Low
+52,s02,Head Array,A1,Low,Low
+53,s00,Sip N Puff,A0,High,High
+54,u02,Head Array,A0,Low,Low
+55,u02,Head Array,A2,High,High
+56,u02,Head Array,A1,Low,Low
+57,u05,Joystick,A2,Low,Low
+58,u05,Joystick,A1,Low,Low
+59,u05,Joystick,A0,Low,Low
+60,u09,Head Array,A2,Low,Low
+61,u09,Head Array,A1,Low,Low
+62,u09,Head Array,A0,Low,Low
+63,s00,Head Array,A1,High,High
+64,s00,Head Array,A0,High,High
+65,s00,Head Array,A2,High,High
+66,u14,Sip N Puff,A0,Low,Low
+67,s03,Joystick,A1,Low,Low
+68,s03,Joystick,A2,High,High
+69,s03,Joystick,A0,Low,Low
+70,s03,Sip N Puff,A0,High,High
+71,s04,Head Array,A0,High,High
+72,s04,Head Array,A1,High,Low
+73,s04,Head Array,A2,High,High
+74,u11,Sip N Puff,A0,High,High
+75,u10,Sip N Puff,A0,High,High
+76,u00,Joystick,A0,High,High
+77,u00,Joystick,A1,Low,High
+78,u00,Joystick,A2,Low,Low
+79,u06,Joystick,A1,Low,Low
+80,u06,Joystick,A0,Low,Low
+81,u06,Joystick,A2,Low,Low
+82,u07,Joystick,A2,High,High
+83,u07,Joystick,A1,High,High
+84,u07,Joystick,A0,High,High
+85,u13,Sip N Puff,A0,High,High
+86,u06,Joystick,A2,High,High
+87,u06,Head Array,A1,Low,Low
+88,u06,Joystick,A0,High,High
+89,u13,Joystick,A0,High,High
+90,u13,Joystick,A2,High,High
+91,u13,Joystick,A1,High,High
+92,u06,Sip N Puff,A0,High,High
+93,u13,Head Array,A1,High,High
+94,u13,Head Array,A2,High,High
+95,u13,Head Array,A0,High,High
+96,u12,Head Array,A0,High,High
+97,u12,Head Array,A1,High,High
+98,u12,Head Array,A2,High,High
+99,s04,Sip N Puff,A0,High,Low
+100,u01,Head Array,A1,High,Low
+101,u01,Head Array,A2,High,High
+102,u01,Head Array,A0,Low,Low
+103,u12,Sip N Puff,A0,High,High
+104,u11,Head Array,A1,High,Low
+105,u11,Head Array,A0,High,Low
+106,u11,Head Array,A2,High,High
+107,u12,Joystick,A2,High,High
+108,u12,Joystick,A1,High,High
+109,u12,Joystick,A0,Low,Low
+110,u01,Sip N Puff,A0,High,High
+111,u01,Joystick,A1,High,High
+112,u01,Joystick,A2,High,High
+113,u01,Joystick,A0,Low,Low
+114,s05,Sip N Puff,A0,High,High
+115,u11,Joystick,A0,Low,Low
+116,u11,Joystick,A2,High,High
+117,u11,Joystick,A1,Low,Low
+118,s06,Head Array,A1,Low,Low
+119,s06,Head Array,A0,Low,Low
+120,s06,Head Array,A2,Low,Low
+121,s05,Joystick,A2,Low,Low
+122,s05,Joystick,A0,Low,Low
+123,s05,Joystick,A1,Low,Low
+124,s05,Head Array,A0,Low,Low
+125,s05,Head Array,A1,Low,Low
+126,s05,Head Array,A2,Low,Low
+127,s07,Sip N Puff,A0,High,High
+128,s08,Joystick,A2,High,High
+129,s08,Joystick,A0,Low,Low
+130,s08,Joystick,A1,Low,Low
+131,u08,Sip N Puff,A0,High,High
+132,u00,Head Array,A2,High,High
+133,u00,Head Array,A1,Low,High
+134,u00,Head Array,A0,Low,High
+135,s06,Joystick,A0,Low,Low
+136,s06,Joystick,A1,Low,Low
+137,s06,Joystick,A2,Low,Low
+138,u08,Joystick,A0,Low,Low
+139,u08,Joystick,A2,Low,Low
+140,u08,Joystick,A1,Low,Low
+141,s08,Head Array,A0,Low,Low
+142,s08,Head Array,A2,High,High
+143,s08,Head Array,A1,High,High
+144,u08,Head Array,A2,Low,Low
+145,u08,Head Array,A0,High,High
+146,u08,Head Array,A1,High,High
+147,s08,Sip N Puff,A0,High,High
+148,s06,Sip N Puff,A0,Low,Low
