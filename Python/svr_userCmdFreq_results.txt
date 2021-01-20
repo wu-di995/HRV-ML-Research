@@ -1,0 +1,2477 @@
+Creating datasets...
+userCmdFreqs30_aft_dataset
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u11_SNP_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u11_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u11_SNP_A0_aft_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u11_HA_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u11_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u11_HA_A0_aft_30.csv
+HRV shape: (203, 9)
+Target shape: (203, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u14_SNP_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u14_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u14_SNP_A0_aft_30.csv
+HRV shape: (160, 9)
+Target shape: (160, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s04_HA_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/s04_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s04_HA_A0_aft_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s01_HA_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/s01_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s01_HA_A0_aft_30.csv
+HRV shape: (158, 9)
+Target shape: (158, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u09_HA_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u09_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u09_HA_A0_aft_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u13_HA_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u13_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u13_HA_A0_aft_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s00_SNP_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/s00_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s00_SNP_A0_aft_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u08_JOY_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u08_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u08_JOY_A0_aft_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s08_HA_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/s08_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s08_HA_A0_aft_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u02_HA_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u02_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u02_HA_A0_aft_30.csv
+HRV shape: (38, 9)
+Target shape: (38, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s03_JOY_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/s03_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s03_JOY_A0_aft_30.csv
+No matching userCtrl and HRV times
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u03_HA_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u03_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u03_HA_A0_aft_30.csv
+HRV shape: (172, 9)
+Target shape: (172, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s06_SNP_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/s06_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s06_SNP_A0_aft_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u05_JOY_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u05_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u05_JOY_A0_aft_30.csv
+HRV shape: (25, 9)
+Target shape: (25, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u07_JOY_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u07_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u07_JOY_A0_aft_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s02_HA_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/s02_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s02_HA_A0_aft_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s05_SNP_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/s05_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s05_SNP_A0_aft_30.csv
+HRV shape: (232, 9)
+Target shape: (232, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s04_SNP_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/s04_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s04_SNP_A0_aft_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s06_HA_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/s06_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s06_HA_A0_aft_30.csv
+HRV shape: (49, 9)
+Target shape: (49, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u14_JOY_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u14_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u14_JOY_A0_aft_30.csv
+HRV shape: (145, 9)
+Target shape: (145, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u14_HA_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u14_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u14_HA_A0_aft_30.csv
+HRV shape: (49, 9)
+Target shape: (49, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s07_SNP_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/s07_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s07_SNP_A0_aft_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u07_HA_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u07_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u07_HA_A0_aft_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u01_SNP_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u01_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u01_SNP_A0_aft_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u02_JOY_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u02_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u02_JOY_A0_aft_30.csv
+HRV shape: (33, 9)
+Target shape: (33, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u11_JOY_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u11_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u11_JOY_A0_aft_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u06_HA_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u06_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u06_HA_A0_aft_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u04_SNP_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u04_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u04_SNP_A0_aft_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u05_HA_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u05_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u05_HA_A0_aft_30.csv
+HRV shape: (120, 9)
+Target shape: (120, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u04_JOY_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u04_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u04_JOY_A0_aft_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u08_HA_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u08_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u08_HA_A0_aft_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u13_SNP_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u13_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u13_SNP_A0_aft_30.csv
+HRV shape: (173, 9)
+Target shape: (173, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s08_JOY_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/s08_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s08_JOY_A0_aft_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u01_HA_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u01_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u01_HA_A0_aft_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u03_JOY_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u03_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u03_JOY_A0_aft_30.csv
+HRV shape: (124, 9)
+Target shape: (124, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s05_JOY_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/s05_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s05_JOY_A0_aft_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u03_SNP_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u03_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u03_SNP_A0_aft_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s00_HA_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/s00_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s00_HA_A0_aft_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s06_JOY_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/s06_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s06_JOY_A0_aft_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s00_JOY_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/s00_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s00_JOY_A0_aft_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u05_SNP_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u05_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u05_SNP_A0_aft_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s05_HA_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/s05_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s05_HA_A0_aft_30.csv
+HRV shape: (79, 9)
+Target shape: (79, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u09_JOY_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u09_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u09_JOY_A0_aft_30.csv
+HRV shape: (24, 9)
+Target shape: (24, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u12_JOY_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u12_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u12_JOY_A0_aft_30.csv
+HRV shape: (48, 9)
+Target shape: (48, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u09_SNP_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u09_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u09_SNP_A0_aft_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s08_SNP_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/s08_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s08_SNP_A0_aft_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s02_SNP_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/s02_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s02_SNP_A0_aft_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u12_SNP_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u12_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u12_SNP_A0_aft_30.csv
+HRV shape: (28, 9)
+Target shape: (28, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u07_SNP_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u07_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u07_SNP_A0_aft_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u08_SNP_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u08_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u08_SNP_A0_aft_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u02_SNP_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u02_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u02_SNP_A0_aft_30.csv
+HRV shape: (52, 9)
+Target shape: (52, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u04_HA_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u04_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u04_HA_A0_aft_30.csv
+HRV shape: (92, 9)
+Target shape: (92, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s03_SNP_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/s03_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s03_SNP_A0_aft_30.csv
+HRV shape: (49, 9)
+Target shape: (49, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u01_JOY_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u01_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u01_JOY_A0_aft_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u12_HA_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u12_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u12_HA_A0_aft_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u06_SNP_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u06_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u06_SNP_A0_aft_30.csv
+No matching userCtrl and HRV times
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u13_JOY_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u13_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u13_JOY_A0_aft_30.csv
+HRV shape: (60, 9)
+Target shape: (60, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s01_SNP_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/s01_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s01_SNP_A0_aft_30.csv
+HRV shape: (126, 9)
+Target shape: (126, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u06_JOY_A0_aft_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u06_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u06_JOY_A0_aft_30.csv
+No HRV metrics
+9 7 7
+userCmdFreqs30_close_dataset
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u02_JOY_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u02_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u02_JOY_A0_close_30.csv
+HRV shape: (33, 9)
+Target shape: (33, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u01_JOY_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u01_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u01_JOY_A0_close_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u07_HA_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u07_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u07_HA_A0_close_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s00_HA_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/s00_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s00_HA_A0_close_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u06_JOY_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u06_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u06_JOY_A0_close_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s03_SNP_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/s03_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s03_SNP_A0_close_30.csv
+HRV shape: (49, 9)
+Target shape: (49, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u09_JOY_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u09_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u09_JOY_A0_close_30.csv
+HRV shape: (24, 9)
+Target shape: (24, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u03_SNP_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u03_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u03_SNP_A0_close_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s03_JOY_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/s03_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s03_JOY_A0_close_30.csv
+No matching userCtrl and HRV times
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u14_SNP_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u14_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u14_SNP_A0_close_30.csv
+HRV shape: (160, 9)
+Target shape: (160, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u05_JOY_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u05_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u05_JOY_A0_close_30.csv
+HRV shape: (25, 9)
+Target shape: (25, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s08_JOY_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/s08_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s08_JOY_A0_close_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s04_HA_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/s04_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s04_HA_A0_close_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u06_SNP_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u06_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u06_SNP_A0_close_30.csv
+No matching userCtrl and HRV times
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u01_SNP_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u01_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u01_SNP_A0_close_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u12_JOY_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u12_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u12_JOY_A0_close_30.csv
+HRV shape: (48, 9)
+Target shape: (48, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s05_JOY_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/s05_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s05_JOY_A0_close_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u04_JOY_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u04_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u04_JOY_A0_close_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u07_SNP_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u07_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u07_SNP_A0_close_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u11_HA_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u11_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u11_HA_A0_close_30.csv
+HRV shape: (203, 9)
+Target shape: (203, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u13_JOY_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u13_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u13_JOY_A0_close_30.csv
+HRV shape: (60, 9)
+Target shape: (60, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s08_HA_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/s08_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s08_HA_A0_close_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u05_HA_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u05_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u05_HA_A0_close_30.csv
+HRV shape: (120, 9)
+Target shape: (120, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s07_SNP_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/s07_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s07_SNP_A0_close_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s01_SNP_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/s01_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s01_SNP_A0_close_30.csv
+HRV shape: (126, 9)
+Target shape: (126, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s06_SNP_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/s06_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s06_SNP_A0_close_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u08_HA_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u08_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u08_HA_A0_close_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u03_JOY_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u03_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u03_JOY_A0_close_30.csv
+HRV shape: (124, 9)
+Target shape: (124, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u13_SNP_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u13_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u13_SNP_A0_close_30.csv
+HRV shape: (173, 9)
+Target shape: (173, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u13_HA_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u13_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u13_HA_A0_close_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s05_SNP_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/s05_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s05_SNP_A0_close_30.csv
+HRV shape: (232, 9)
+Target shape: (232, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u01_HA_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u01_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u01_HA_A0_close_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u04_SNP_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u04_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u04_SNP_A0_close_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u07_JOY_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u07_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u07_JOY_A0_close_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s01_HA_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/s01_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s01_HA_A0_close_30.csv
+HRV shape: (158, 9)
+Target shape: (158, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u05_SNP_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u05_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u05_SNP_A0_close_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s02_SNP_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/s02_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s02_SNP_A0_close_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s08_SNP_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/s08_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s08_SNP_A0_close_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u03_HA_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u03_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u03_HA_A0_close_30.csv
+HRV shape: (172, 9)
+Target shape: (172, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s05_HA_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/s05_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s05_HA_A0_close_30.csv
+HRV shape: (79, 9)
+Target shape: (79, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u11_SNP_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u11_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u11_SNP_A0_close_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u02_SNP_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u02_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u02_SNP_A0_close_30.csv
+HRV shape: (52, 9)
+Target shape: (52, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u09_SNP_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u09_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u09_SNP_A0_close_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s00_JOY_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/s00_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s00_JOY_A0_close_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s02_HA_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/s02_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s02_HA_A0_close_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s04_SNP_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/s04_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s04_SNP_A0_close_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u04_HA_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u04_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u04_HA_A0_close_30.csv
+HRV shape: (92, 9)
+Target shape: (92, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s06_HA_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/s06_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s06_HA_A0_close_30.csv
+HRV shape: (49, 9)
+Target shape: (49, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u08_SNP_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u08_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u08_SNP_A0_close_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u09_HA_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u09_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u09_HA_A0_close_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s00_SNP_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/s00_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s00_SNP_A0_close_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u12_HA_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u12_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u12_HA_A0_close_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u11_JOY_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u11_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u11_JOY_A0_close_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u06_HA_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u06_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u06_HA_A0_close_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u14_HA_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u14_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u14_HA_A0_close_30.csv
+HRV shape: (49, 9)
+Target shape: (49, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u08_JOY_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u08_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u08_JOY_A0_close_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s06_JOY_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/s06_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s06_JOY_A0_close_30.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u14_JOY_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u14_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u14_JOY_A0_close_30.csv
+HRV shape: (145, 9)
+Target shape: (145, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u12_SNP_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u12_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u12_SNP_A0_close_30.csv
+HRV shape: (28, 9)
+Target shape: (28, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u02_HA_A0_close_30.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/30s/u02_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u02_HA_A0_close_30.csv
+HRV shape: (38, 9)
+Target shape: (38, 3)
+9 7 7
+userCmdFreqs60_aft_dataset
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u12_SNP_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u12_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u12_SNP_A0_aft_60.csv
+HRV shape: (23, 9)
+Target shape: (23, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u12_JOY_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u12_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u12_JOY_A0_aft_60.csv
+HRV shape: (30, 9)
+Target shape: (30, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u08_JOY_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u08_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u08_JOY_A0_aft_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u14_JOY_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u14_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u14_JOY_A0_aft_60.csv
+HRV shape: (114, 9)
+Target shape: (114, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u05_JOY_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u05_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u05_JOY_A0_aft_60.csv
+HRV shape: (1, 9)
+Target shape: (1, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s02_HA_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/s02_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s02_HA_A0_aft_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u09_SNP_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u09_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u09_SNP_A0_aft_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u01_HA_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u01_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u01_HA_A0_aft_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u05_HA_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u05_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u05_HA_A0_aft_60.csv
+HRV shape: (87, 9)
+Target shape: (87, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s05_JOY_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/s05_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s05_JOY_A0_aft_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u14_HA_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u14_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u14_HA_A0_aft_60.csv
+HRV shape: (24, 9)
+Target shape: (24, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s02_SNP_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/s02_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s02_SNP_A0_aft_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u04_HA_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u04_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u04_HA_A0_aft_60.csv
+HRV shape: (22, 9)
+Target shape: (22, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u13_JOY_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u13_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u13_JOY_A0_aft_60.csv
+HRV shape: (26, 9)
+Target shape: (26, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u04_SNP_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u04_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u04_SNP_A0_aft_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u03_JOY_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u03_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u03_JOY_A0_aft_60.csv
+HRV shape: (97, 9)
+Target shape: (97, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u08_HA_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u08_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u08_HA_A0_aft_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s07_SNP_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/s07_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s07_SNP_A0_aft_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u14_SNP_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u14_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u14_SNP_A0_aft_60.csv
+HRV shape: (133, 9)
+Target shape: (133, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s01_SNP_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/s01_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s01_SNP_A0_aft_60.csv
+HRV shape: (117, 9)
+Target shape: (117, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u07_JOY_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u07_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u07_JOY_A0_aft_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u06_JOY_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u06_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u06_JOY_A0_aft_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u06_SNP_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u06_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u06_SNP_A0_aft_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s00_HA_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/s00_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s00_HA_A0_aft_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s03_JOY_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/s03_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s03_JOY_A0_aft_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u11_JOY_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u11_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u11_JOY_A0_aft_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s01_HA_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/s01_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s01_HA_A0_aft_60.csv
+HRV shape: (100, 9)
+Target shape: (100, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u13_SNP_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u13_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u13_SNP_A0_aft_60.csv
+HRV shape: (154, 9)
+Target shape: (154, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s06_JOY_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/s06_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s06_JOY_A0_aft_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u06_HA_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u06_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u06_HA_A0_aft_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u09_HA_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u09_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u09_HA_A0_aft_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u02_HA_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u02_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u02_HA_A0_aft_60.csv
+HRV shape: (8, 9)
+Target shape: (8, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u04_JOY_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u04_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u04_JOY_A0_aft_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u12_HA_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u12_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u12_HA_A0_aft_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s06_HA_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/s06_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s06_HA_A0_aft_60.csv
+HRV shape: (27, 9)
+Target shape: (27, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u05_SNP_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u05_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u05_SNP_A0_aft_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u13_HA_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u13_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u13_HA_A0_aft_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s04_SNP_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/s04_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s04_SNP_A0_aft_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u07_SNP_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u07_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u07_SNP_A0_aft_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u07_HA_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u07_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u07_HA_A0_aft_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u02_SNP_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u02_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u02_SNP_A0_aft_60.csv
+HRV shape: (36, 9)
+Target shape: (36, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s08_JOY_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/s08_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s08_JOY_A0_aft_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u11_HA_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u11_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u11_HA_A0_aft_60.csv
+HRV shape: (173, 9)
+Target shape: (173, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u09_JOY_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u09_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u09_JOY_A0_aft_60.csv
+HRV shape: (10, 9)
+Target shape: (10, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u11_SNP_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u11_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u11_SNP_A0_aft_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s00_SNP_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/s00_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s00_SNP_A0_aft_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u01_JOY_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u01_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u01_JOY_A0_aft_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u01_SNP_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u01_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u01_SNP_A0_aft_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u03_SNP_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u03_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u03_SNP_A0_aft_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s00_JOY_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/s00_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s00_JOY_A0_aft_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u03_HA_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u03_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u03_HA_A0_aft_60.csv
+HRV shape: (146, 9)
+Target shape: (146, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s05_HA_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/s05_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s05_HA_A0_aft_60.csv
+HRV shape: (56, 9)
+Target shape: (56, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s05_SNP_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/s05_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s05_SNP_A0_aft_60.csv
+HRV shape: (121, 9)
+Target shape: (121, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s08_HA_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/s08_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s08_HA_A0_aft_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s06_SNP_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/s06_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s06_SNP_A0_aft_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s08_SNP_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/s08_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s08_SNP_A0_aft_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u08_SNP_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u08_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u08_SNP_A0_aft_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s03_SNP_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/s03_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s03_SNP_A0_aft_60.csv
+HRV shape: (40, 9)
+Target shape: (40, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u02_JOY_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u02_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u02_JOY_A0_aft_60.csv
+HRV shape: (6, 9)
+Target shape: (6, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s04_HA_A0_aft_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/s04_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s04_HA_A0_aft_60.csv
+No HRV metrics
+9 7 7
+userCmdFreqs60_close_dataset
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u11_SNP_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u11_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u11_SNP_A0_close_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s00_HA_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/s00_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s00_HA_A0_close_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u08_HA_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u08_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u08_HA_A0_close_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u09_JOY_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u09_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u09_JOY_A0_close_60.csv
+HRV shape: (10, 9)
+Target shape: (10, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u05_HA_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u05_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u05_HA_A0_close_60.csv
+HRV shape: (87, 9)
+Target shape: (87, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s00_JOY_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/s00_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s00_JOY_A0_close_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u12_JOY_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u12_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u12_JOY_A0_close_60.csv
+HRV shape: (30, 9)
+Target shape: (30, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u14_JOY_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u14_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u14_JOY_A0_close_60.csv
+HRV shape: (114, 9)
+Target shape: (114, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u03_HA_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u03_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u03_HA_A0_close_60.csv
+HRV shape: (146, 9)
+Target shape: (146, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u07_HA_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u07_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u07_HA_A0_close_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u05_SNP_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u05_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u05_SNP_A0_close_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u04_SNP_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u04_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u04_SNP_A0_close_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s08_JOY_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/s08_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s08_JOY_A0_close_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s02_HA_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/s02_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s02_HA_A0_close_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u07_SNP_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u07_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u07_SNP_A0_close_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u12_HA_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u12_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u12_HA_A0_close_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u06_SNP_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u06_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u06_SNP_A0_close_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u09_HA_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u09_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u09_HA_A0_close_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s04_HA_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/s04_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s04_HA_A0_close_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s08_SNP_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/s08_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s08_SNP_A0_close_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u08_SNP_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u08_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u08_SNP_A0_close_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u14_SNP_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u14_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u14_SNP_A0_close_60.csv
+HRV shape: (133, 9)
+Target shape: (133, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u01_SNP_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u01_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u01_SNP_A0_close_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s06_SNP_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/s06_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s06_SNP_A0_close_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s08_HA_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/s08_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s08_HA_A0_close_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u01_JOY_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u01_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u01_JOY_A0_close_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u13_HA_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u13_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u13_HA_A0_close_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s05_HA_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/s05_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s05_HA_A0_close_60.csv
+HRV shape: (56, 9)
+Target shape: (56, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u04_HA_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u04_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u04_HA_A0_close_60.csv
+HRV shape: (22, 9)
+Target shape: (22, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u12_SNP_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u12_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u12_SNP_A0_close_60.csv
+HRV shape: (23, 9)
+Target shape: (23, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s00_SNP_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/s00_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s00_SNP_A0_close_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u06_HA_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u06_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u06_HA_A0_close_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s03_SNP_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/s03_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s03_SNP_A0_close_60.csv
+HRV shape: (40, 9)
+Target shape: (40, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u08_JOY_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u08_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u08_JOY_A0_close_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u03_JOY_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u03_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u03_JOY_A0_close_60.csv
+HRV shape: (97, 9)
+Target shape: (97, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u03_SNP_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u03_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u03_SNP_A0_close_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s05_SNP_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/s05_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s05_SNP_A0_close_60.csv
+HRV shape: (121, 9)
+Target shape: (121, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s03_JOY_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/s03_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s03_JOY_A0_close_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s04_SNP_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/s04_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s04_SNP_A0_close_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u02_HA_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u02_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u02_HA_A0_close_60.csv
+HRV shape: (8, 9)
+Target shape: (8, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u06_JOY_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u06_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u06_JOY_A0_close_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s05_JOY_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/s05_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s05_JOY_A0_close_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u02_JOY_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u02_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u02_JOY_A0_close_60.csv
+HRV shape: (6, 9)
+Target shape: (6, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s02_SNP_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/s02_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s02_SNP_A0_close_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s06_JOY_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/s06_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s06_JOY_A0_close_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u11_HA_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u11_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u11_HA_A0_close_60.csv
+HRV shape: (173, 9)
+Target shape: (173, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u13_JOY_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u13_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u13_JOY_A0_close_60.csv
+HRV shape: (26, 9)
+Target shape: (26, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s01_SNP_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/s01_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s01_SNP_A0_close_60.csv
+HRV shape: (117, 9)
+Target shape: (117, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u14_HA_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u14_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u14_HA_A0_close_60.csv
+HRV shape: (24, 9)
+Target shape: (24, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s07_SNP_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/s07_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s07_SNP_A0_close_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u01_HA_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u01_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u01_HA_A0_close_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u11_JOY_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u11_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u11_JOY_A0_close_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u05_JOY_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u05_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u05_JOY_A0_close_60.csv
+HRV shape: (1, 9)
+Target shape: (1, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u04_JOY_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u04_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u04_JOY_A0_close_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u09_SNP_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u09_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u09_SNP_A0_close_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u07_JOY_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u07_JOY_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u07_JOY_A0_close_60.csv
+No HRV metrics
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u13_SNP_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u13_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u13_SNP_A0_close_60.csv
+HRV shape: (154, 9)
+Target shape: (154, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/u02_SNP_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/u02_SNP_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/u02_SNP_A0_close_60.csv
+HRV shape: (36, 9)
+Target shape: (36, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s01_HA_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/s01_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s01_HA_A0_close_60.csv
+HRV shape: (100, 9)
+Target shape: (100, 3)
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/s06_HA_A0_close_60.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/60s/s06_HA_A0_HRV_results_allwindows_20210115.csv
+/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/s06_HA_A0_close_60.csv
+HRV shape: (27, 9)
+Target shape: (27, 3)
+9 7 7
+MvAvg UserCmd- 30s, aft
+No of features: 1
+-----('HA', 0)-----
+Features selected: ['SD1']
+R^2 values:  -0.05088556319266657
+MSE values:  181.7687472225084
+-----('JOY', 1)-----
+Features selected: ['RMSSD']
+R^2 values:  0.3476289357102874
+MSE values:  22.795845768991438
+-----('SNP', 2)-----
+Features selected: ['RMSSD']
+R^2 values:  0.4587578225122375
+MSE values:  313.7752545969302
+No of features: 2
+-----('HA', 0)-----
+Features selected: ['RMSSD', 'SD1']
+R^2 values:  -0.04145499273419029
+MSE values:  180.13756773173395
+-----('JOY', 1)-----
+Features selected: ['RMSSD', 'SD1']
+R^2 values:  0.38233440193219337
+MSE values:  21.583130339626273
+-----('SNP', 2)-----
+Features selected: ['RMSSD', 'SD1']
+R^2 values:  0.4719202605260855
+MSE values:  306.1445718624812
+No of features: 3
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1']
+R^2 values:  -0.04361964412718877
+MSE values:  180.51198145065823
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1']
+R^2 values:  0.4433925135313632
+MSE values:  19.44957265880549
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1']
+R^2 values:  0.4787751646222609
+MSE values:  302.17056656969595
+No of features: 4
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1', 'SD2']
+R^2 values:  -0.03220005214185906
+MSE values:  178.53676644945543
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1', 'ApEn']
+R^2 values:  0.6743133456718756
+MSE values:  11.38049056355093
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'SD1']
+R^2 values:  0.49806119700090135
+MSE values:  290.9898419856268
+No of features: 5
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'SD1', 'SD2']
+R^2 values:  0.005715146055246256
+MSE values:  171.97868028064067
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1', 'SD1SD2', 'ApEn']
+R^2 values:  0.7038148893885957
+MSE values:  10.349616146633425
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'SD1', 'SD2']
+R^2 values:  0.5057047690788306
+MSE values:  286.55862085294547
+No of features: 6
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'SD1', 'SD2', 'ApEn']
+R^2 values:  0.20850383848989162
+MSE values:  136.90288528850974
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.7453779292184948
+MSE values:  8.89727606364031
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'lfhf', 'SD1', 'SD2']
+R^2 values:  0.5706672405693152
+MSE values:  248.89781598776386
+No of features: 7
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.23317547234053082
+MSE values:  132.6355015370965
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.7529848536547556
+MSE values:  8.631466793858893
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'lfhf', 'SD1', 'SD2', 'ApEn']
+R^2 values:  0.6256485590498067
+MSE values:  217.02340205282772
+No of features: 8
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.24352778324301538
+MSE values:  130.84489117045894
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.7854005866313056
+MSE values:  7.498761666560231
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.6301327478783125
+MSE values:  214.4237755827399
+No of features: 9
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.3480278872804866
+MSE values:  112.76979939947182
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.8003421672557061
+MSE values:  6.9766570146170475
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.6772789729728784
+MSE values:  187.09161375640832
+MvAvg UserCmd- 30s, close
+No of features: 1
+-----('HA', 0)-----
+Features selected: ['SD1']
+R^2 values:  0.025311582988299053
+MSE values:  169.92516771592034
+-----('JOY', 1)-----
+Features selected: ['SD1']
+R^2 values:  0.4257229518377321
+MSE values:  16.224540192198475
+-----('SNP', 2)-----
+Features selected: ['SD1']
+R^2 values:  0.5971954972591674
+MSE values:  254.0285641663134
+No of features: 2
+-----('HA', 0)-----
+Features selected: ['RMSSD', 'SD1']
+R^2 values:  0.02896363640277755
+MSE values:  169.28847625828982
+-----('JOY', 1)-----
+Features selected: ['RMSSD', 'SD1']
+R^2 values:  0.44981610473367006
+MSE values:  15.54385770842546
+-----('SNP', 2)-----
+Features selected: ['RMSSD', 'SD1']
+R^2 values:  0.5975876118835997
+MSE values:  253.78127717136832
+No of features: 3
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1']
+R^2 values:  0.028264128495937846
+MSE values:  169.41042702359468
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1']
+R^2 values:  0.5222385377822896
+MSE values:  13.497770929275417
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1']
+R^2 values:  0.6096041309574733
+MSE values:  246.20306226601693
+No of features: 4
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1', 'SD2']
+R^2 values:  0.04199015740222356
+MSE values:  167.01745946261238
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1', 'ApEn']
+R^2 values:  0.7087108424174181
+MSE values:  8.229534263773756
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'SD1']
+R^2 values:  0.6532928413442978
+MSE values:  218.65078741723357
+No of features: 5
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'SD1', 'SD2']
+R^2 values:  0.05869397479172378
+MSE values:  164.10535040102204
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1', 'SD1SD2', 'ApEn']
+R^2 values:  0.7659427724290899
+MSE values:  6.612611296500504
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'SD1', 'SD2']
+R^2 values:  0.6623550744237447
+MSE values:  212.93569227393633
+No of features: 6
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'SD1', 'SD2', 'ApEn']
+R^2 values:  0.23650128836096884
+MSE values:  133.10679019241283
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'SD1', 'SD1SD2', 'ApEn']
+R^2 values:  0.7956318321839114
+MSE values:  5.773832618505039
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'lfhf', 'SD1', 'SD2']
+R^2 values:  0.696031085990849
+MSE values:  191.6979235622401
+No of features: 7
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.26619603814934045
+MSE values:  127.92986877834544
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'SD1', 'SD1SD2', 'ApEn']
+R^2 values:  0.8083559638579789
+MSE values:  5.414349009648706
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.7206083032032733
+MSE values:  176.19830735339946
+No of features: 8
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.26901152476072443
+MSE values:  127.43902265122294
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.8122621790964311
+MSE values:  5.303990174416732
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.7505639609083821
+MSE values:  157.3067789228387
+No of features: 9
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.3011729300757482
+MSE values:  121.83206960166238
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.8092723463475662
+MSE values:  5.388459267787505
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.7726884820633335
+MSE values:  143.35395490121735
+PksFreq  UserCmd- 30s, aft
+No of features: 1
+-----('HA', 0)-----
+Features selected: ['RMSSD']
+R^2 values:  -0.06729584077773687
+MSE values:  0.16395816785875084
+-----('JOY', 1)-----
+Features selected: ['RMSSD']
+R^2 values:  0.3578392708197021
+MSE values:  0.04895939869056981
+-----('SNP', 2)-----
+Features selected: ['SDNN']
+R^2 values:  0.4817137018053982
+MSE values:  0.0299118943643564
+No of features: 2
+-----('HA', 0)-----
+Features selected: ['RMSSD', 'SD1']
+R^2 values:  -0.05333662994961186
+MSE values:  0.16181375152666277
+-----('JOY', 1)-----
+Features selected: ['RMSSD', 'SD1']
+R^2 values:  0.2545934337666199
+MSE values:  0.056831032488351016
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'SD1']
+R^2 values:  0.5089069330489553
+MSE values:  0.02834248945587976
+No of features: 3
+-----('HA', 0)-----
+Features selected: ['RMSSD', 'hf', 'SD1']
+R^2 values:  0.4689951996454381
+MSE values:  0.08157304738196426
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1']
+R^2 values:  0.3590227172998931
+MSE values:  0.048869170768774305
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1']
+R^2 values:  0.5360686036231863
+MSE values:  0.026774906010579438
+No of features: 4
+-----('HA', 0)-----
+Features selected: ['RMSSD', 'hf', 'lfhf', 'SD1']
+R^2 values:  0.5180851208048155
+MSE values:  0.07403184537769433
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1', 'SD1SD2']
+R^2 values:  0.3572517028449347
+MSE values:  0.04900419584714955
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'SD1']
+R^2 values:  0.5372264793583927
+MSE values:  0.026708081445085047
+No of features: 5
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'lfhf', 'SD1']
+R^2 values:  0.5284753372087616
+MSE values:  0.0724356985736315
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.42104644262097235
+MSE values:  0.04414037911540536
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'SD1', 'SD2']
+R^2 values:  0.5598913955942988
+MSE values:  0.02540001950598502
+No of features: 6
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'lfhf', 'SD1', 'SD2']
+R^2 values:  0.5340439858538528
+MSE values:  0.07158024182545102
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.5886862851391749
+MSE values:  0.03135923957616611
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'lfhf', 'SD1', 'SD2']
+R^2 values:  0.6173101691837157
+MSE values:  0.022086205700525975
+No of features: 7
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'lfhf', 'SD1', 'SD2', 'ApEn']
+R^2 values:  0.5695667467465815
+MSE values:  0.06612322927960229
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.6855797617674857
+MSE values:  0.023971920269337314
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.6435042080488403
+MSE values:  0.020574467253573498
+No of features: 8
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.6166550922706647
+MSE values:  0.05888950966349044
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.8028723067006258
+MSE values:  0.015029342173439996
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.6922532264195056
+MSE values:  0.017761011653939056
+No of features: 9
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.6353625521158524
+MSE values:  0.056015666513054264
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.7526005784019618
+MSE values:  0.018862142089093575
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.6650280844895962
+MSE values:  0.0193322582261498
+PksFreq  UserCmd- 30s, close
+No of features: 1
+-----('HA', 0)-----
+Features selected: ['SD1']
+R^2 values:  -0.07166606107743334
+MSE values:  0.1611456913557435
+-----('JOY', 1)-----
+Features selected: ['RMSSD']
+R^2 values:  0.13665596523180312
+MSE values:  0.09613436317174888
+-----('SNP', 2)-----
+Features selected: ['SDNN']
+R^2 values:  0.48272678645077827
+MSE values:  0.0261880114441218
+No of features: 2
+-----('HA', 0)-----
+Features selected: ['RMSSD', 'SD1']
+R^2 values:  -0.04896207492314408
+MSE values:  0.15773170851328436
+-----('JOY', 1)-----
+Features selected: ['RMSSD', 'SD1']
+R^2 values:  0.12101847746317418
+MSE values:  0.09787561563623923
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'SD1']
+R^2 values:  0.5528726265551702
+MSE values:  0.022636735222399267
+No of features: 3
+-----('HA', 0)-----
+Features selected: ['RMSSD', 'hf', 'SD1']
+R^2 values:  0.39026601717158416
+MSE values:  0.09168528124067991
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1']
+R^2 values:  0.3601826667826007
+MSE values:  0.07124440477730991
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1']
+R^2 values:  0.5725731482788494
+MSE values:  0.021639356129801442
+No of features: 4
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'SD1']
+R^2 values:  0.42719930637025516
+MSE values:  0.08613164784859713
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1', 'SD1SD2']
+R^2 values:  0.36504774640065474
+MSE values:  0.07070267249906806
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'SD1']
+R^2 values:  0.5813433181568646
+MSE values:  0.021195348392465754
+No of features: 5
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'lfhf', 'SD1']
+R^2 values:  0.4528669490950725
+MSE values:  0.08227202199816717
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'lfhf', 'SD1', 'SD1SD2']
+R^2 values:  0.5124782267435313
+MSE values:  0.05428611690929916
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'SD1', 'SD2']
+R^2 values:  0.5937547561084001
+MSE values:  0.020566994032334376
+No of features: 6
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'lfhf', 'SD1', 'ApEn']
+R^2 values:  0.5058552022684044
+MSE values:  0.07430421467322029
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'lfhf', 'SD1', 'SD1SD2', 'ApEn']
+R^2 values:  0.5723706914507315
+MSE values:  0.04761702125155357
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'lfhf', 'SD1', 'SD2']
+R^2 values:  0.6430052044294419
+MSE values:  0.018073589636986073
+No of features: 7
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'lfhf', 'SD1', 'SD2', 'ApEn']
+R^2 values:  0.5459135115774514
+MSE values:  0.0682806741482375
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'lfhf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.5637262813269738
+MSE values:  0.048579586380605506
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.6498657033346258
+MSE values:  0.017726262887532724
+No of features: 8
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.5992512971446788
+MSE values:  0.06026030787670152
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.5880832253142434
+MSE values:  0.04586741231704715
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.7010451421317504
+MSE values:  0.015135199415046737
+No of features: 9
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.6595339834586285
+MSE values:  0.051195641638156784
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.5912710160881185
+MSE values:  0.045512448103906394
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.6669133470253923
+MSE values:  0.016863191156047015
+TotalPower  UserCmd- 30s, aft
+No of features: 1
+-----('HA', 0)-----
+Features selected: ['SD1']
+R^2 values:  0.04434053619678768
+MSE values:  0.039326323371817705
+-----('JOY', 1)-----
+Features selected: ['RMSSD']
+R^2 values:  0.38375912114106836
+MSE values:  0.01319712391161828
+-----('SNP', 2)-----
+Features selected: ['RMSSD']
+R^2 values:  0.2406630060303927
+MSE values:  0.004128863058351299
+No of features: 2
+-----('HA', 0)-----
+Features selected: ['RMSSD', 'SD1']
+R^2 values:  0.045749314656657214
+MSE values:  0.03926835075775328
+-----('JOY', 1)-----
+Features selected: ['RMSSD', 'SD1']
+R^2 values:  0.41003593587671017
+MSE values:  0.012634392044964094
+-----('SNP', 2)-----
+Features selected: ['RMSSD', 'SD1']
+R^2 values:  0.2639017302535138
+MSE values:  0.004002503470012977
+No of features: 3
+-----('HA', 0)-----
+Features selected: ['RMSSD', 'SD1', 'SD2']
+R^2 values:  0.10161197250936393
+MSE values:  0.036969547648137306
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1']
+R^2 values:  0.582204295469047
+MSE values:  0.008947315687083832
+-----('SNP', 2)-----
+Features selected: ['RMSSD', 'SD1', 'SD1SD2']
+R^2 values:  0.35411589878357375
+MSE values:  0.0035119677121850743
+No of features: 4
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1', 'SD2']
+R^2 values:  0.12870498858994694
+MSE values:  0.0358546434883829
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1', 'ApEn']
+R^2 values:  0.519434237627805
+MSE values:  0.01029156963012669
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1', 'SD1SD2']
+R^2 values:  0.3702339580006204
+MSE values:  0.0034243264411787967
+No of features: 5
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'SD1', 'SD2']
+R^2 values:  0.22497795308849322
+MSE values:  0.03189291666283976
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1', 'SD1SD2', 'ApEn']
+R^2 values:  0.5725842985219354
+MSE values:  0.009153333002870316
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'SD1', 'SD1SD2']
+R^2 values:  0.30591915305689454
+MSE values:  0.0037740354957172977
+No of features: 6
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'lfhf', 'SD1', 'SD2']
+R^2 values:  0.4077833057451059
+MSE values:  0.024370297272808292
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'SD1', 'SD1SD2', 'ApEn']
+R^2 values:  0.47550646337277747
+MSE values:  0.011232306117908286
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.3132547814668609
+MSE values:  0.0037341483238920903
+No of features: 7
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.4210275284060605
+MSE values:  0.023825284532495692
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.4910263889210227
+MSE values:  0.010899938714858792
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.39757963948917474
+MSE values:  0.003275635444954198
+No of features: 8
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.5194893845664874
+MSE values:  0.019773482670204196
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.5865789374665671
+MSE values:  0.008853630418074831
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.4005718281279813
+MSE values:  0.003259365544722152
+No of features: 9
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.585183431840218
+MSE values:  0.017070108252282667
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.45146090600206135
+MSE values:  0.011747254429569887
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.44701817703753666
+MSE values:  0.003006815470471939
+TotalPower  UserCmd- 30s, close
+No of features: 1
+-----('HA', 0)-----
+Features selected: ['RMSSD']
+R^2 values:  0.09643425745055978
+MSE values:  0.03590853370815356
+-----('JOY', 1)-----
+Features selected: ['SD1']
+R^2 values:  0.46293663409906427
+MSE values:  0.01175672994808184
+-----('SNP', 2)-----
+Features selected: ['SD1']
+R^2 values:  0.32599233695358243
+MSE values:  0.004032140952089165
+No of features: 2
+-----('HA', 0)-----
+Features selected: ['RMSSD', 'SD1']
+R^2 values:  0.09827170612273917
+MSE values:  0.03583551180783695
+-----('JOY', 1)-----
+Features selected: ['RMSSD', 'SD1']
+R^2 values:  0.475099208036174
+MSE values:  0.011490481854596064
+-----('SNP', 2)-----
+Features selected: ['RMSSD', 'SD1']
+R^2 values:  0.3476353800873144
+MSE values:  0.003902664975283628
+No of features: 3
+-----('HA', 0)-----
+Features selected: ['RMSSD', 'hf', 'SD1']
+R^2 values:  0.16891209928515893
+MSE values:  0.03302819760857029
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1']
+R^2 values:  0.6404984597845864
+MSE values:  0.007869765082825836
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1']
+R^2 values:  0.3968934921230298
+MSE values:  0.003607986351209696
+No of features: 4
+-----('HA', 0)-----
+Features selected: ['RMSSD', 'hf', 'lfhf', 'SD1']
+R^2 values:  0.31504213339293996
+MSE values:  0.0272208556428076
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1', 'ApEn']
+R^2 values:  0.7001836554362066
+MSE values:  0.006563210266901268
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'SD1']
+R^2 values:  0.40025716898574704
+MSE values:  0.0035878637028017315
+No of features: 5
+-----('HA', 0)-----
+Features selected: ['RMSSD', 'hf', 'lfhf', 'SD1', 'SD2']
+R^2 values:  0.33704548560896663
+MSE values:  0.02634642218707227
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1', 'SD1SD2', 'ApEn']
+R^2 values:  0.7100613393275836
+MSE values:  0.0063469801730302615
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'SD1', 'SD2']
+R^2 values:  0.41100890424500336
+MSE values:  0.0035235431996060835
+No of features: 6
+-----('HA', 0)-----
+Features selected: ['RMSSD', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.36759304324872744
+MSE values:  0.025132434148842614
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'SD1', 'SD1SD2', 'ApEn']
+R^2 values:  0.7037967018413939
+MSE values:  0.0064841179035552456
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.42753158426894355
+MSE values:  0.0034246989602666165
+No of features: 7
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.371447230769555
+MSE values:  0.02497926519168551
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'SD1', 'SD1SD2', 'ApEn']
+R^2 values:  0.712838245240427
+MSE values:  0.006286191567846281
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.43214873618560723
+MSE values:  0.0033970776017184802
+No of features: 8
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.4966040413617917
+MSE values:  0.020005418419589218
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.762177838618675
+MSE values:  0.0052061099388877605
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.432221699584474
+MSE values:  0.0033966411100809155
+No of features: 9
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.529092457006746
+MSE values:  0.018714298899033123
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.7034682368724074
+MSE values:  0.0064913082542344454
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.49172032391814324
+MSE values:  0.0030407002908261127
+MvAvg UserCmd- 60s, aft
+No of features: 1
+-----('HA', 0)-----
+Features selected: ['SDNN']
+R^2 values:  0.2668617637947731
+MSE values:  74.93196496035449
+-----('JOY', 1)-----
+Features selected: ['SD1']
+R^2 values:  0.4914593159137416
+MSE values:  13.433392133060659
+-----('SNP', 2)-----
+Features selected: ['SDNN']
+R^2 values:  0.5263072976645622
+MSE values:  174.57751484451813
+No of features: 2
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD']
+R^2 values:  0.21114847342417464
+MSE values:  80.62626122770553
+-----('JOY', 1)-----
+Features selected: ['RMSSD', 'SD1']
+R^2 values:  0.5850200704696935
+MSE values:  10.961931454406363
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'hf']
+R^2 values:  0.5177195185963243
+MSE values:  177.74250581941624
+No of features: 3
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1']
+R^2 values:  0.23212668598642772
+MSE values:  78.48213804463151
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1']
+R^2 values:  0.5492576069585996
+MSE values:  11.906617319318032
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'hf', 'SD1']
+R^2 values:  0.6055007535289059
+MSE values:  145.3910894497779
+No of features: 4
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1', 'SD2']
+R^2 values:  0.36785172453624904
+MSE values:  64.61006954429067
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1', 'SD1SD2']
+R^2 values:  0.6295954856416741
+MSE values:  9.784446446348232
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'SD1']
+R^2 values:  0.5962194217109784
+MSE values:  148.81168646390236
+No of features: 5
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.3755732815622037
+MSE values:  63.820871256798476
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.6273889393679295
+MSE values:  9.84273362431161
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'SD1', 'SD2']
+R^2 values:  0.6101918274514122
+MSE values:  143.6622132747695
+No of features: 6
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.3783918609277278
+MSE values:  63.532792310938795
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.7931909402677144
+MSE values:  5.462979232517274
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'lfhf', 'SD1', 'SD2']
+R^2 values:  0.6684959748865407
+MSE values:  122.1744573643031
+No of features: 7
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.4233489658205246
+MSE values:  58.9378550369224
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.7711967839834855
+MSE values:  6.043967411531389
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2']
+R^2 values:  0.6551655200200106
+MSE values:  127.0873421752197
+No of features: 8
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.5273479829690315
+MSE values:  48.30841256067188
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.8598197773279471
+MSE values:  3.7029405107223172
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.6689707168239818
+MSE values:  121.99949315813667
+No of features: 9
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.7275536347672993
+MSE values:  27.84596476492863
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.8889448307430454
+MSE values:  2.9335856180565623
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.800111064375038
+MSE values:  73.66825254911913
+MvAvg UserCmd- 60s, close
+No of features: 1
+-----('HA', 0)-----
+Features selected: ['SDNN']
+R^2 values:  0.2508792584608365
+MSE values:  82.44960187191701
+-----('JOY', 1)-----
+Features selected: ['RMSSD']
+R^2 values:  0.5849897526399117
+MSE values:  10.948479457366883
+-----('SNP', 2)-----
+Features selected: ['RMSSD']
+R^2 values:  0.5872247736638065
+MSE values:  182.26248434436877
+No of features: 2
+-----('HA', 0)-----
+Features selected: ['SDNN', 'SD2']
+R^2 values:  0.3203175419461276
+MSE values:  74.80709711858647
+-----('JOY', 1)-----
+Features selected: ['RMSSD', 'SD1']
+R^2 values:  0.6543851536921055
+MSE values:  9.117743643760686
+-----('SNP', 2)-----
+Features selected: ['RMSSD', 'SD1']
+R^2 values:  0.6743058183533185
+MSE values:  143.81151507159927
+No of features: 3
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'SD2']
+R^2 values:  0.3682014861253473
+MSE values:  69.53690245607842
+-----('JOY', 1)-----
+Features selected: ['RMSSD', 'SD1', 'SD1SD2']
+R^2 values:  0.6390889667849677
+MSE values:  9.521275819638587
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1']
+R^2 values:  0.7265828996591722
+MSE values:  120.72836931779608
+No of features: 4
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1', 'SD2']
+R^2 values:  0.3786695795214201
+MSE values:  68.3847649100122
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1', 'SD1SD2']
+R^2 values:  0.6581423526593533
+MSE values:  9.018624125696208
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'SD1']
+R^2 values:  0.7709731047383985
+MSE values:  101.12770401113792
+No of features: 5
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.38790653948986786
+MSE values:  67.36812816552614
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.6631324086159911
+MSE values:  8.886980327790281
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'SD1', 'SD2']
+R^2 values:  0.7851202680437572
+MSE values:  94.88096979371163
+No of features: 6
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.3846685999166587
+MSE values:  67.72450172975012
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.659542483314674
+MSE values:  8.981686961337209
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'SD1', 'SD2']
+R^2 values:  0.8325016641955596
+MSE values:  73.95953259656125
+No of features: 7
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.5593490682790798
+MSE values:  48.49884921118524
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.7200532629416755
+MSE values:  7.385338360526266
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2']
+R^2 values:  0.8417558443742214
+MSE values:  69.87331384524609
+No of features: 8
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.6674549170561357
+MSE values:  36.60052134833571
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.8385117894829208
+MSE values:  4.260257106179627
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.8752261208458696
+MSE values:  55.09438489749255
+No of features: 9
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.8226946636020349
+MSE values:  19.51455030565894
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.883358213555091
+MSE values:  3.077153421839761
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.908986560473741
+MSE values:  40.18733329521867
+PksFreq  UserCmd- 60s, aft
+No of features: 1
+-----('HA', 0)-----
+Features selected: ['SDNN']
+R^2 values:  0.17562505882058776
+MSE values:  0.09618979031471825
+-----('JOY', 1)-----
+Features selected: ['RMSSD']
+R^2 values:  -0.03896950607142324
+MSE values:  0.09587494794636954
+-----('SNP', 2)-----
+Features selected: ['SDNN']
+R^2 values:  0.760395751012096
+MSE values:  0.0057736254417007785
+No of features: 2
+-----('HA', 0)-----
+Features selected: ['SDNN', 'SD2']
+R^2 values:  0.3133617356543159
+MSE values:  0.08011838712004131
+-----('JOY', 1)-----
+Features selected: ['RMSSD', 'SD1']
+R^2 values:  -0.05186302669106646
+MSE values:  0.09706474765755449
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'SD1']
+R^2 values:  0.7530786160710394
+MSE values:  0.005949942834378463
+No of features: 3
+-----('HA', 0)-----
+Features selected: ['SDNN', 'SD2', 'SD1SD2']
+R^2 values:  0.44241045265031753
+MSE values:  0.06506071322899652
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1']
+R^2 values:  0.42718975014540117
+MSE values:  0.05285829138105742
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1']
+R^2 values:  0.7647106791580837
+MSE values:  0.005669650745809459
+No of features: 4
+-----('HA', 0)-----
+Features selected: ['SDNN', 'lfhf', 'SD2', 'SD1SD2']
+R^2 values:  0.5816184535029558
+MSE values:  0.04881763287409259
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1', 'SD1SD2']
+R^2 values:  0.39576695073102874
+MSE values:  0.05575795228599939
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'SD1']
+R^2 values:  0.7583141355370266
+MSE values:  0.00582378510338234
+No of features: 5
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'lfhf', 'SD2', 'SD1SD2']
+R^2 values:  0.5839605710955313
+MSE values:  0.0485443497005406
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.44366441978351645
+MSE values:  0.05133802723012925
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'SD1', 'SD2']
+R^2 values:  0.7714497506478818
+MSE values:  0.005507262663080162
+No of features: 6
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'lfhf', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.5817549768130282
+MSE values:  0.04880170304906644
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.698372812579986
+MSE values:  0.027833820650281636
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'SD1', 'SD2']
+R^2 values:  0.7928727449742715
+MSE values:  0.004991043332234743
+No of features: 7
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.6247544300042998
+MSE values:  0.04378443702179184
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.7488690478099302
+MSE values:  0.02317408434823687
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2']
+R^2 values:  0.7980097294366943
+MSE values:  0.0048672599506330095
+No of features: 8
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.7153067030176381
+MSE values:  0.03321860863645462
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.9126119572215546
+MSE values:  0.008064071181645054
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.8006249695538854
+MSE values:  0.004804241799074549
+No of features: 9
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.7507615465330895
+MSE values:  0.02908166342738113
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.9252627890776259
+MSE values:  0.0068966665190526525
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.8480102549995975
+MSE values:  0.0036624219408406154
+PksFreq  UserCmd- 60s, close
+No of features: 1
+-----('HA', 0)-----
+Features selected: ['SDNN']
+R^2 values:  0.13995115935143587
+MSE values:  0.11239193268556082
+-----('JOY', 1)-----
+Features selected: ['SD1']
+R^2 values:  -0.3794526696952858
+MSE values:  0.17872408207391435
+-----('SNP', 2)-----
+Features selected: ['hf']
+R^2 values:  0.8109956790145116
+MSE values:  0.004876739643506282
+No of features: 2
+-----('HA', 0)-----
+Features selected: ['SDNN', 'SD2']
+R^2 values:  0.17743502495451802
+MSE values:  0.10749350843272505
+-----('JOY', 1)-----
+Features selected: ['RMSSD', 'SD1']
+R^2 values:  -0.3666164092959461
+MSE values:  0.17706099575893372
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'hf']
+R^2 values:  0.842247516446328
+MSE values:  0.004070371441226641
+No of features: 3
+-----('HA', 0)-----
+Features selected: ['SDNN', 'lfhf', 'SD2']
+R^2 values:  0.5149833126937295
+MSE values:  0.06338240375975915
+-----('JOY', 1)-----
+Features selected: ['RMSSD', 'SD1', 'SD1SD2']
+R^2 values:  0.15534325315398234
+MSE values:  0.10943507165123656
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'hf', 'SD1']
+R^2 values:  0.8405587594211588
+MSE values:  0.004113945198111939
+No of features: 4
+-----('HA', 0)-----
+Features selected: ['SDNN', 'lfhf', 'SD2', 'SD1SD2']
+R^2 values:  0.6305197934852087
+MSE values:  0.04828399567162054
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1', 'SD1SD2']
+R^2 values:  0.21444241032674582
+MSE values:  0.10177809084349537
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'SD1']
+R^2 values:  0.8384615153642456
+MSE values:  0.004168058845784797
+No of features: 5
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'lfhf', 'SD2', 'SD1SD2']
+R^2 values:  0.6149867071814101
+MSE values:  0.05031387293875229
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.23712954684213583
+MSE values:  0.09883870934989593
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'SD1', 'SD2']
+R^2 values:  0.8401966814428834
+MSE values:  0.0041232876301869805
+No of features: 6
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'lfhf', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.5826006215305873
+MSE values:  0.05454611486081709
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.3570671454382499
+MSE values:  0.08329940330036316
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.8517354144317336
+MSE values:  0.00382556217973614
+No of features: 7
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.663694352053178
+MSE values:  0.04394871542098652
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.5922600846021864
+MSE values:  0.05282743199914718
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.8515164916066529
+MSE values:  0.003831210884561369
+No of features: 8
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.7293516164586599
+MSE values:  0.03536856683801278
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'lfhf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.7619258259237778
+MSE values:  0.030845268679408264
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.8483524325538885
+MSE values:  0.003912850775842985
+No of features: 9
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.7044294692849886
+MSE values:  0.03862541476935889
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.7593986148875584
+MSE values:  0.0311726981610991
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.8767796673603153
+MSE values:  0.0031793637200290205
+TotalPower  UserCmd- 60s, aft
+No of features: 1
+-----('HA', 0)-----
+Features selected: ['SD2']
+R^2 values:  0.3124141384060488
+MSE values:  0.09087982408054204
+-----('JOY', 1)-----
+Features selected: ['RMSSD']
+R^2 values:  0.6394478430653955
+MSE values:  0.036815798931316375
+-----('SNP', 2)-----
+Features selected: ['RMSSD']
+R^2 values:  0.5104737713408052
+MSE values:  0.011408908503252045
+No of features: 2
+-----('HA', 0)-----
+Features selected: ['SDNN', 'SD2']
+R^2 values:  0.38568650022401785
+MSE values:  0.0811952454352713
+-----('JOY', 1)-----
+Features selected: ['RMSSD', 'SD1']
+R^2 values:  0.6584875642284167
+MSE values:  0.034871662604395844
+-----('SNP', 2)-----
+Features selected: ['RMSSD', 'SD1']
+R^2 values:  0.4934354858354375
+MSE values:  0.011806003140888628
+No of features: 3
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'SD2']
+R^2 values:  0.4176077058776817
+MSE values:  0.07697614536896288
+-----('JOY', 1)-----
+Features selected: ['RMSSD', 'SD1', 'SD1SD2']
+R^2 values:  0.8174913352399431
+MSE values:  0.018635867726199684
+-----('SNP', 2)-----
+Features selected: ['RMSSD', 'hf', 'SD1']
+R^2 values:  0.542993518677426
+MSE values:  0.010651002593024138
+No of features: 4
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1', 'SD2']
+R^2 values:  0.4168297940526364
+MSE values:  0.07707896378591869
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1', 'SD1SD2']
+R^2 values:  0.8238691103620129
+MSE values:  0.017984636324564054
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'SD1']
+R^2 values:  0.5770455748744422
+MSE values:  0.009857384660511224
+No of features: 5
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.45590603073339264
+MSE values:  0.07191416661128756
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.8300896790341369
+MSE values:  0.017349457194258917
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'SD1', 'SD2']
+R^2 values:  0.5909683197337643
+MSE values:  0.009532900878203588
+No of features: 6
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'lfhf', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.6478315216878704
+MSE values:  0.04654692765427868
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.9125620836020263
+MSE values:  0.008928241551651337
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'SD1', 'SD2']
+R^2 values:  0.6476961825034085
+MSE values:  0.00821080012438578
+No of features: 7
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.7114569210131222
+MSE values:  0.03813741050055368
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.9108557349274752
+MSE values:  0.00910247595436048
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2']
+R^2 values:  0.6313112613850544
+MSE values:  0.008592667437980626
+No of features: 8
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.7765774714301767
+MSE values:  0.029530275746196395
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.9107478815821569
+MSE values:  0.009113488805064426
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.6399439227346568
+MSE values:  0.008391474452373026
+No of features: 9
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.8125893273746378
+MSE values:  0.02477050490759946
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.8935239684635988
+MSE values:  0.010872213888210469
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.7436431405436592
+MSE values:  0.005974658317551828
+TotalPower  UserCmd- 60s, close
+No of features: 1
+-----('HA', 0)-----
+Features selected: ['SD2']
+R^2 values:  0.33392460351482056
+MSE values:  0.08916259897833836
+-----('JOY', 1)-----
+Features selected: ['RMSSD']
+R^2 values:  0.6317483462582532
+MSE values:  0.03359880825662407
+-----('SNP', 2)-----
+Features selected: ['RMSSD']
+R^2 values:  0.5492212590955188
+MSE values:  0.012240076229938904
+No of features: 2
+-----('HA', 0)-----
+Features selected: ['SDNN', 'SD2']
+R^2 values:  0.36844769255699483
+MSE values:  0.08454124776193843
+-----('JOY', 1)-----
+Features selected: ['RMSSD', 'SD1']
+R^2 values:  0.6381778892037493
+MSE values:  0.03301218501024226
+-----('SNP', 2)-----
+Features selected: ['RMSSD', 'SD1']
+R^2 values:  0.5902588577706345
+MSE values:  0.011125774931991288
+No of features: 3
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'SD2']
+R^2 values:  0.34816920104775495
+MSE values:  0.08725577980420436
+-----('JOY', 1)-----
+Features selected: ['RMSSD', 'SD1', 'SD1SD2']
+R^2 values:  0.7148587450078323
+MSE values:  0.026015922142344782
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1']
+R^2 values:  0.6233416135254208
+MSE values:  0.010227472914636748
+No of features: 4
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1', 'SD2']
+R^2 values:  0.362915199574921
+MSE values:  0.08528184177834285
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1', 'SD1SD2']
+R^2 values:  0.7206820010742998
+MSE values:  0.025484615732669625
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'SD1']
+R^2 values:  0.6363285177963887
+MSE values:  0.009874837167111001
+No of features: 5
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.20726334664125978
+MSE values:  0.10611780692071865
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.72414283058456
+MSE values:  0.025168854089938093
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'SD1', 'SD2']
+R^2 values:  0.6294211195971253
+MSE values:  0.01006239499279702
+No of features: 6
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'lfhf', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.6775662126080333
+MSE values:  0.043161832179964665
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.765290624710346
+MSE values:  0.021414582164835265
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'SD1', 'SD2']
+R^2 values:  0.7319705189889937
+MSE values:  0.0072778527063254985
+No of features: 7
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.7388595058699583
+MSE values:  0.03495695123703629
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.9153829197715377
+MSE values:  0.007720353798669659
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2']
+R^2 values:  0.7473227444291735
+MSE values:  0.006860990967659728
+No of features: 8
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.6740394402723503
+MSE values:  0.04363393517177874
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.9240864337955321
+MSE values:  0.006926256349602655
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2']
+R^2 values:  0.7709674419180371
+MSE values:  0.006218962243951879
+No of features: 9
+-----('HA', 0)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.8664767066940409
+MSE values:  0.01787377813101852
+-----('JOY', 1)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.9397791467496764
+MSE values:  0.00549447336040175
+-----('SNP', 2)-----
+Features selected: ['SDNN', 'RMSSD', 'lf', 'hf', 'lfhf', 'SD1', 'SD2', 'SD1SD2', 'ApEn']
+R^2 values:  0.7875450909452922
+MSE values:  0.005768826358218591

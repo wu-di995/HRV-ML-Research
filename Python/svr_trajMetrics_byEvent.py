@@ -13,49 +13,52 @@ import glob,os, pathlib
 import matplotlib.pyplot as plt 
 from sklearn import svm 
 
-# Feature files - SPARC (velocity, user command), user command frequencies 
-## SPARC velocity 
-### 30s 
-sparcVel30_aft_Paths = glob.glob("E:\\argall-lab-data\\SPARC_vel_byEvent\\*aft_30.csv")
-sparcVel30_close_Paths = glob.glob("E:\\argall-lab-data\\SPARC_vel_byEvent\\*close_30.csv")
-### 60s 
-sparcVel60_aft_Paths = glob.glob("E:\\argall-lab-data\\SPARC_vel_byEvent\\*aft_60.csv")
-sparcVel60_close_Paths = glob.glob("E:\\argall-lab-data\\SPARC_vel_byEvent\\*close_60.csv")
+# # Feature files - SPARC (velocity, user command), user command frequencies 
+# ## SPARC velocity 
+# ### 30s 
+# sparcVel30_aft_Paths = glob.glob("E:\\argall-lab-data\\SPARC_vel_byEvent\\*aft_30.csv")
+# sparcVel30_close_Paths = glob.glob("E:\\argall-lab-data\\SPARC_vel_byEvent\\*close_30.csv")
+# ### 60s 
+# sparcVel60_aft_Paths = glob.glob("E:\\argall-lab-data\\SPARC_vel_byEvent\\*aft_60.csv")
+# sparcVel60_close_Paths = glob.glob("E:\\argall-lab-data\\SPARC_vel_byEvent\\*close_60.csv")
 
-## SPARC User command 
-### 30s
-sparcUserCmd30_aft_Paths = glob.glob("E:\\argall-lab-data\\SPARC_userCmd_byEventNEW\\*aft_30.csv")
-sparcUserCmd30_close_Paths = glob.glob("E:\\argall-lab-data\\SPARC_userCmd_byEventNEW\\*close_30.csv")
-### 60s
-sparcUserCmd60_aft_Paths = glob.glob("E:\\argall-lab-data\\SPARC_userCmd_byEventNEW\\*aft_60.csv")
-sparcUserCmd60_close_Paths = glob.glob("E:\\argall-lab-data\\SPARC_userCmd_byEventNEW\\*close_60.csv")
+# ## SPARC User command 
+# ### 30s
+# sparcUserCmd30_aft_Paths = glob.glob("E:\\argall-lab-data\\SPARC_userCmd_byEventNEW\\*aft_30.csv")
+# sparcUserCmd30_close_Paths = glob.glob("E:\\argall-lab-data\\SPARC_userCmd_byEventNEW\\*close_30.csv")
+# ### 60s
+# sparcUserCmd60_aft_Paths = glob.glob("E:\\argall-lab-data\\SPARC_userCmd_byEventNEW\\*aft_60.csv")
+# sparcUserCmd60_close_Paths = glob.glob("E:\\argall-lab-data\\SPARC_userCmd_byEventNEW\\*close_60.csv")
 
 ## User Command Frequencies 
 ### 30s
-userCmdFreqs30_aft_Paths = glob.glob("E:\\argall-lab-data\\UserCmdFreq_byEvent\\*aft_30.csv")
-userCmdFreqs30_close_Paths = glob.glob("E:\\argall-lab-data\\UserCmdFreq_byEvent\\*close_30.csv")
+userCmdFreqDir = "/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/"
+userCmdFreqs30_aft_Paths = glob.glob(userCmdFreqDir + "*aft_30.csv")
+userCmdFreqs30_close_Paths = glob.glob(userCmdFreqDir + "*close_30.csv")
 ### 60s
-userCmdFreqs60_aft_Paths = glob.glob("E:\\argall-lab-data\\UserCmdFreq_byEvent\\*aft_60.csv")
-userCmdFreqs60_close_Paths = glob.glob("E:\\argall-lab-data\\UserCmdFreq_byEvent\\*close_60.csv")
+userCmdFreqs60_aft_Paths = glob.glob(userCmdFreqDir + "*aft_60.csv")
+userCmdFreqs60_close_Paths = glob.glob(userCmdFreqDir + "*close_60.csv")
 
 ## User Controlled status 
 ### 30s
-userCtrl30_aft_Paths = glob.glob("E:\\argall-lab-data\\UserControlled_byEventNEW\\*aft_30.csv")
-userCtrl30_close_Paths = glob.glob("E:\\argall-lab-data\\UserControlled_byEventNEW\\*close_30.csv")
+userCtrlDir = "/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/"
+userCtrl30_aft_Paths = glob.glob(userCtrlDir + "*aft_30.csv")
+userCtrl30_close_Paths = glob.glob(userCtrlDir + "*close_30.csv")
 ##s# 60s
-userCtrl60_aft_Paths = glob.glob("E:\\argall-lab-data\\UserControlled_byEventNEW\\*aft_60.csv")
-userCtrl60_close_Paths = glob.glob("E:\\argall-lab-data\\UserControlled_byEventNEW\\*close_60.csv")
+userCtrl60_aft_Paths = glob.glob(userCtrlDir + "*aft_60.csv")
+userCtrl60_close_Paths = glob.glob(userCtrlDir + "*close_60.csv")
 
 # HRV files 
-hrv30Paths = glob.glob("E:\\argall-lab-data\\HRV_byEventNEW\\30s\\*.csv")
-hrv60Paths = glob.glob("E:\\argall-lab-data\\HRV_byEventNEW\\60s\\*.csv")
+HRVDir = "/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/"
+hrv30Paths = glob.glob(HRVDir + "30s" + os.sep + "*.csv")
+hrv60Paths = glob.glob(HRVDir + "60s" + os.sep + "*.csv")
 
 # HRV metrics -- use as features (9)
 hrv_metrics_list = ['SDNN','RMSSD','lf','hf','lfhf','SD1','SD2','SD1SD2','ApEn']
 
 # Read event name from a path
 def readEvent(path):
-    filenameList = path.split("\\")[-1].split("_")
+    filenameList = path.split(os.sep)[-1].split("_")
     event = filenameList[0].lower()+"_"+filenameList[1]+"_"+filenameList[2]
     return event
 
@@ -162,7 +165,8 @@ def apply_SVR_interfaces(dataset,no_features,target_col_idx):
     interfaces = ["HA","JOY","SNP"]
     r2_scores = []
     for i in range(3):
-        print("-----"+interfaces[i]+"-----")
+        # print("-----"+interfaces[i]+"-----")
+        print(f"-----{interfaces[i], i}-----")
         if np.array_equal(dataset[i],np.zeros(9)):
             r2_scores.append("NA")
             print("No Data")
@@ -183,6 +187,10 @@ def apply_SVR_interfaces(dataset,no_features,target_col_idx):
         X_train_fs = f_selector.transform(X_train)
         # transform test input data
         X_test_fs = f_selector.transform(X_test)
+        # Get the features that were selected 
+        features_selected_mask = f_selector.get_support(indices=True)
+        features_selected = [hrv_metrics_list[i] for i in features_selected_mask]
+        print(f"Features selected: {features_selected}")
         # print(X_test_fs.shape)
         # SVR models
         svr_rbf = SVR(kernel='rbf', C=100, gamma=0.1, epsilon=.1)
@@ -205,37 +213,38 @@ def apply_SVR_interfaces(dataset,no_features,target_col_idx):
         print("R^2 values: ", r2_rbf)
         print("MSE values: ", mse_rbf)
         r2_scores.append(r2_rbf)
-        return r2_scores
+    return r2_scores
 
 def apply_SVR_multiFeat(dataset,target_col_idx,export_results=False):
     if export_results:
         # Create dataframe
-        results_df = pd.dataframe(columns=range(1,len(hrv_metrics_list)+1),index=["HA","JOY","SNP"])
+        results_df = pd.DataFrame(columns=range(1,len(hrv_metrics_list)+1),index=["HA","JOY","SNP"])
     for i in range(1,len(hrv_metrics_list)+1):
         print("No of features: "+str(i))
         r2_scores = apply_SVR_interfaces(dataset,i,target_col_idx)
-        results_df.loc[:,i] = r2_scores 
+        # results_df.loc[:,i] = r2_scores 
 # Create datasets 
 print("Creating datasets...")
-## SPARC Vel (lin,ang)
-print("sparcVel30_aft_dataset")
-sparcVel30_aft_dataset = mk_dataset(sparcVel30_aft_Paths,hrv30Paths,userCtrl30_aft_Paths,hrv_metrics_list,[-2,-1])
-print("sparcVel30_close_dataset")
-sparcVel30_close_dataset = mk_dataset(sparcVel30_close_Paths,hrv30Paths,userCtrl30_close_Paths,hrv_metrics_list,[-2,-1])
-print("sparcVel60_aft_dataset")
-sparcVel60_aft_dataset = mk_dataset(sparcVel60_aft_Paths,hrv60Paths,userCtrl60_aft_Paths,hrv_metrics_list,[-2,-1])
-print("sparcVel60_close_dataset")
-sparcVel60_close_dataset = mk_dataset(sparcVel60_close_Paths,hrv60Paths,userCtrl60_close_Paths,hrv_metrics_list,[-2,-1])
 
-## SPARC User Cmd (lin,ang)
-print("sparcUserCmd30_aft_dataset")
-sparcUserCmd30_aft_dataset = mk_dataset(sparcUserCmd30_aft_Paths,hrv30Paths,userCtrl30_aft_Paths,hrv_metrics_list,[-2,-1])
-print("sparcUserCmd30_close_dataset")
-sparcUserCmd30_close_dataset = mk_dataset(sparcUserCmd30_close_Paths,hrv30Paths,userCtrl30_close_Paths,hrv_metrics_list,[-2,-1])
-print("sparcUserCmd60_aft_dataset")
-sparcUserCmd60_aft_dataset = mk_dataset(sparcUserCmd60_aft_Paths,hrv60Paths,userCtrl60_aft_Paths,hrv_metrics_list,[-2,-1])
-print("sparcUserCmd60_close_dataset")
-sparcUserCmd60_close_dataset = mk_dataset(sparcUserCmd60_close_Paths,hrv60Paths,userCtrl60_close_Paths,hrv_metrics_list,[-2,-1])
+# ## SPARC Vel (lin,ang)
+# print("sparcVel30_aft_dataset")
+# sparcVel30_aft_dataset = mk_dataset(sparcVel30_aft_Paths,hrv30Paths,userCtrl30_aft_Paths,hrv_metrics_list,[-2,-1])
+# print("sparcVel30_close_dataset")
+# sparcVel30_close_dataset = mk_dataset(sparcVel30_close_Paths,hrv30Paths,userCtrl30_close_Paths,hrv_metrics_list,[-2,-1])
+# print("sparcVel60_aft_dataset")
+# sparcVel60_aft_dataset = mk_dataset(sparcVel60_aft_Paths,hrv60Paths,userCtrl60_aft_Paths,hrv_metrics_list,[-2,-1])
+# print("sparcVel60_close_dataset")
+# sparcVel60_close_dataset = mk_dataset(sparcVel60_close_Paths,hrv60Paths,userCtrl60_close_Paths,hrv_metrics_list,[-2,-1])
+
+# ## SPARC User Cmd (lin,ang)
+# print("sparcUserCmd30_aft_dataset")
+# sparcUserCmd30_aft_dataset = mk_dataset(sparcUserCmd30_aft_Paths,hrv30Paths,userCtrl30_aft_Paths,hrv_metrics_list,[-2,-1])
+# print("sparcUserCmd30_close_dataset")
+# sparcUserCmd30_close_dataset = mk_dataset(sparcUserCmd30_close_Paths,hrv30Paths,userCtrl30_close_Paths,hrv_metrics_list,[-2,-1])
+# print("sparcUserCmd60_aft_dataset")
+# sparcUserCmd60_aft_dataset = mk_dataset(sparcUserCmd60_aft_Paths,hrv60Paths,userCtrl60_aft_Paths,hrv_metrics_list,[-2,-1])
+# print("sparcUserCmd60_close_dataset")
+# sparcUserCmd60_close_dataset = mk_dataset(sparcUserCmd60_close_Paths,hrv60Paths,userCtrl60_close_Paths,hrv_metrics_list,[-2,-1])
 
 ## User Cmd Freqs (mvAvg, peakFreq, totalPower)
 print("userCmdFreqs30_aft_dataset")
@@ -249,53 +258,53 @@ userCmdFreqs60_close_dataset = mk_dataset(userCmdFreqs60_close_Paths,hrv60Paths,
 
 # SVR Regression
 
-## SPARC Velocity 
-### 30s 
-#### Linear Velocity 
-print("SPARC Linear Velocity- 30s, aft")
-apply_SVR_multiFeat(sparcVel30_aft_dataset,-2)
-print("SPARC Linear Velocity- 30s, close")
-apply_SVR_multiFeat(sparcVel30_close_dataset,-2)
-#### Angular Velocity
-print("SPARC Angular Velocity- 30s, aft")
-apply_SVR_multiFeat(sparcVel30_aft_dataset,-1)
-print("SPARC Angular Velocity- 30s, close")
-apply_SVR_multiFeat(sparcVel30_close_dataset,-1)
-### 60s 
-#### Linear Velocity 
-print("SPARC Linear Velocity- 60s, aft")
-apply_SVR_multiFeat(sparcVel60_aft_dataset,-2)
-print("SPARC Linear Velocity- 60s, close")
-apply_SVR_multiFeat(sparcVel60_close_dataset,-2)
-#### Angular Velocity
-print("SPARC Angular Velocity- 60s, aft")
-apply_SVR_multiFeat(sparcVel60_aft_dataset,-1)
-print("SPARC Angular Velocity- 60s, close")
-apply_SVR_multiFeat(sparcVel60_close_dataset,-1)
+# ## SPARC Velocity 
+# ### 30s 
+# #### Linear Velocity 
+# print("SPARC Linear Velocity- 30s, aft")
+# apply_SVR_multiFeat(sparcVel30_aft_dataset,-2)
+# print("SPARC Linear Velocity- 30s, close")
+# apply_SVR_multiFeat(sparcVel30_close_dataset,-2)
+# #### Angular Velocity
+# print("SPARC Angular Velocity- 30s, aft")
+# apply_SVR_multiFeat(sparcVel30_aft_dataset,-1)
+# print("SPARC Angular Velocity- 30s, close")
+# apply_SVR_multiFeat(sparcVel30_close_dataset,-1)
+# ### 60s 
+# #### Linear Velocity 
+# print("SPARC Linear Velocity- 60s, aft")
+# apply_SVR_multiFeat(sparcVel60_aft_dataset,-2)
+# print("SPARC Linear Velocity- 60s, close")
+# apply_SVR_multiFeat(sparcVel60_close_dataset,-2)
+# #### Angular Velocity
+# print("SPARC Angular Velocity- 60s, aft")
+# apply_SVR_multiFeat(sparcVel60_aft_dataset,-1)
+# print("SPARC Angular Velocity- 60s, close")
+# apply_SVR_multiFeat(sparcVel60_close_dataset,-1)
 
-## SPARC User Command  
-### 30s 
-#### Linear  
-print("SPARC Linear UserCmd- 30s, aft")
-apply_SVR_multiFeat(sparcUserCmd30_aft_dataset,-2)
-print("SPARC Linear UserCmd- 30s, close")
-apply_SVR_multiFeat(sparcUserCmd30_close_dataset,-2)
-#### Angular 
-print("SPARC Angular UserCmd- 30s, aft")
-apply_SVR_multiFeat(sparcUserCmd30_aft_dataset,-1)
-print("SPARC Angular UserCmd- 30s, close")
-apply_SVR_multiFeat(sparcUserCmd30_close_dataset,-1)
-### 60s 
-#### Linear  
-print("SPARC Linear UserCmd- 60s, aft")
-apply_SVR_multiFeat(sparcUserCmd60_aft_dataset,-2)
-print("SPARC Linear UserCmd- 60s, close")
-apply_SVR_multiFeat(sparcUserCmd60_close_dataset,-2)
-#### Angular 
-print("SPARC Angular UserCmd- 60s, aft")
-apply_SVR_multiFeat(sparcUserCmd60_aft_dataset,-1)
-print("SPARC Angular UserCmd- 60s, close")
-apply_SVR_multiFeat(sparcUserCmd60_close_dataset,-1)
+# ## SPARC User Command  
+# ### 30s 
+# #### Linear  
+# print("SPARC Linear UserCmd- 30s, aft")
+# apply_SVR_multiFeat(sparcUserCmd30_aft_dataset,-2)
+# print("SPARC Linear UserCmd- 30s, close")
+# apply_SVR_multiFeat(sparcUserCmd30_close_dataset,-2)
+# #### Angular 
+# print("SPARC Angular UserCmd- 30s, aft")
+# apply_SVR_multiFeat(sparcUserCmd30_aft_dataset,-1)
+# print("SPARC Angular UserCmd- 30s, close")
+# apply_SVR_multiFeat(sparcUserCmd30_close_dataset,-1)
+# ### 60s 
+# #### Linear  
+# print("SPARC Linear UserCmd- 60s, aft")
+# apply_SVR_multiFeat(sparcUserCmd60_aft_dataset,-2)
+# print("SPARC Linear UserCmd- 60s, close")
+# apply_SVR_multiFeat(sparcUserCmd60_close_dataset,-2)
+# #### Angular 
+# print("SPARC Angular UserCmd- 60s, aft")
+# apply_SVR_multiFeat(sparcUserCmd60_aft_dataset,-1)
+# print("SPARC Angular UserCmd- 60s, close")
+# apply_SVR_multiFeat(sparcUserCmd60_close_dataset,-1)
 
 ## User Command Frequencies
 ### 30s 

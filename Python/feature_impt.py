@@ -240,12 +240,12 @@ def feat_impt_multiModels(X,y,scType,featureNames, win, TLX_levels):
             # Higher number is more important 
         # Plotting
         # importances,names = zip(*sorted(zip(importances,featureNames)))
-        # plt.barh(range(len(names)), importances, align='center')
-        # plt.yticks(range(len(names)), names)
-        # plt.title(scType+" Labels: "+modelNames[i]+" Feature Importances")
-        # filename = scType+"_"+modelNames[i]+"_featImpt.png"
-        # plt.savefig(sub_savedir+filename)
-        # plt.close()
+        plt.barh(range(len(ranked_names)), importances, align='center')
+        plt.yticks(range(len(ranked_names)), ranked_names)
+        plt.title(scType+" Labels: "+modelNames[i]+" Feature Importances")
+        filename = scType+"_"+modelNames[i]+"_featImpt.png"
+        plt.savefig(sub_savedir+filename)
+        plt.close()
 
     # Feature Scores
     # featureScores,names = zip(*sorted(zip(featureScores,featureNames))) #Ascending order

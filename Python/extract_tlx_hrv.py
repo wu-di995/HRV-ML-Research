@@ -9,7 +9,7 @@ from sklearn.model_selection import StratifiedShuffleSplit, GridSearchCV
 from sklearn.metrics import classification_report, confusion_matrix, plot_confusion_matrix
 import re
 
-win = "60s"
+win = "30s"
 
 # Change paths to match local
 # Create HRV Feature Set
@@ -35,8 +35,8 @@ def mk_tlx_hrv_dataframe(tlxLabels_df, savedir, TLX_levels):
         wLabel = row["Weighted Label"]
         # Subject 
         subject = row["id"]
-        # Skip over subject u00
-        if subject == "u00":
+        # Skip over subject u00 and u10
+        if subject == "u00" or subject == "u10":
             continue
         # Get interface
         if row["interface"] == "Sip N Puff":

@@ -5,15 +5,17 @@ import numpy as np
 import glob,os, pathlib
 
 # ECG directory
-ECGDirs = glob.glob("E:\\argall-lab-data\\ECG_byEventNew\\*\\")
+# ECGDirs = glob.glob("E:\\argall-lab-data\\ECG_byEventNew\\*\\")
+ECGDirs = glob.glob("/home/skrdown/Documents/argall-lab-data/ECG_byEvent/"+"*"+os.sep)
 teleopPaths = [path for ECGDir in ECGDirs for path in glob.glob(ECGDir+"*Teleoperation.csv") ]
 # print(len(teleopPaths)) #60
 
 # Save directory 
-savedir = "E:\\argall-lab-data\\ECG_eventStartEndTimes\\"
+# savedir = "E:\\argall-lab-data\\ECG_eventStartEndTimes\\"
+savedir = "/home/skrdown/Documents/argall-lab-data/ECG_eventStartEndTimes/"
 
 def readEvent(path):
-    subject = path.split("\\")[-2]
+    subject = path.split(os.sep)[-2]
     if "Headarray" in path:
         interface = "HA"
     elif "Joystick" in path:

@@ -1,19 +1,19 @@
 # Get user frequency window dataframes, moving Average, peaks Average frequency, total power, based on ECG
 import pandas as pd
 import numpy as np
-import glob,os, pathlib
+import glob, os, pathlib
 from pathlib import Path 
 from scipy.io import loadmat
-from Documents.SPARC.scripts.smoothness import sparc
 from scipy.signal import welch 
 from scipy.signal import find_peaks
 
 # User Impulses Files 
-subjFolders = glob.glob("E:\\argall-lab-data\\Trajectory Data\\*\\")
+# subjFolders = glob.glob("E:\\argall-lab-data\\Trajectory Data\\*\\")
+subjFolders = glob.glob("/home/skrdown/Documents/argall-lab-data/Trajectory Data/"+"*"+os.sep)
 subjFolders = [path for path in subjFolders if "U00" not in path]
 teleopFolders = []
 for subjFolder in subjFolders:
-    trajFolders = glob.glob(subjFolder+"*\\")
+    trajFolders = glob.glob(subjFolder+"*"+os.sep)
     for trajFolder in trajFolders:
         if "A0" in trajFolder:
             teleopFolders.append(trajFolder)
@@ -23,16 +23,18 @@ for teleopFolder in teleopFolders:
 # print(userImpPaths)
 
 # ECG start end times files
-ECGdir = "E:\\argall-lab-data\\ECG_eventStartEndTimes\\"
+# ECGdir = "E:\\argall-lab-data\\ECG_eventStartEndTimes\\"
+ECGdir = "/home/skrdown/Documents/argall-lab-data/ECG_eventStartEndTimes/"
 ECG30Paths = glob.glob(ECGdir+"*30.csv")
 ECG60Paths = glob.glob(ECGdir+"*60.csv")
 
 # Save directory
-savedir = "E:\\argall-lab-data\\UserCmdFreq_byEvent\\"
+# savedir = "E:\\argall-lab-data\\UserCmdFreq_byEvent\\"
+savedir = "/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/"
 
 # Read event name from a path
 def readEvent(path):
-    filenameList = path.split("\\")[-1].split("_")
+    filenameList = path.split(os.sep)[-1].split("_")
     event = filenameList[0].lower()+"_"+filenameList[1]+"_"+filenameList[2]
     return event
 

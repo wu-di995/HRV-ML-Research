@@ -14,7 +14,7 @@ from xgboost import XGBClassifier
 import re
 
 
-win = "60s"
+win = "30s"
 print(win+" SVM RESULTS---using same features for all datasets: SDNN, hf, RMSSD, ApEn, SD1SD2") #Old best features
 cwd = os.getcwd()
 mainDir = pathlib.Path(cwd).parent
@@ -101,7 +101,8 @@ def get_data(HRVpaths, TLX_levels):
                 except NameError: #If the array has not been created, create it 
                     rLow_ar = colData
             if rLabel == 1:
-                try:SDNNData))
+                try:
+                    rMed_ar = np.vstack((rMed_ar,colData))
                 except NameError:
                     rMed_ar = colData
             if rLabel == 2:

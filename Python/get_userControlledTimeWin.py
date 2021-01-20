@@ -6,21 +6,23 @@ from pathlib import Path
 from scipy.io import loadmat
 
 # Supstatus Files 
-subjFolders = glob.glob("E:\\argall-lab-data\\Trajectory Data\\*\\")
+trajDir = "/home/skrdown/Documents/argall-lab-data/Trajectory Data/"
+subjFolders = glob.glob(trajDir + "*" + os.sep)
 subjFolders = [path for path in subjFolders if "U00" not in path]
 teleopFolders = []
 for subjFolder in subjFolders:
-    trajFolders = glob.glob(subjFolder+"*\\")
+    trajFolders = glob.glob(subjFolder+"*"+os.sep)
     for trajFolder in trajFolders:
         if "A0" in trajFolder:
             teleopFolders.append(trajFolder)
 supStatusPaths = []
 for teleopFolder in teleopFolders:
     supStatusPaths.append(glob.glob(teleopFolder+"*supStatus.csv")[0])
-# print(len(supStatusPaths))
+print(len(supStatusPaths))
 
 # ECG start end times files
-ECGdir = "E:\\argall-lab-data\\ECG_eventStartEndTimes\\"
+# ECGdir = "E:\\argall-lab-data\\ECG_eventStartEndTimes\\"
+ECGdir = "/home/skrdown/Documents/argall-lab-data/ECG_eventStartEndTimes/"
 ECG30Paths = glob.glob(ECGdir+"*30.csv")
 ECG60Paths = glob.glob(ECGdir+"*60.csv")
 
@@ -28,11 +30,12 @@ ECG60Paths = glob.glob(ECGdir+"*60.csv")
 # print(len(ECG60Paths))
 
 # Save directory
-savedir = "E:\\argall-lab-data\\UserControlled_byEventNEW\\"
+# savedir = "E:\\argall-lab-data\\UserControlled_byEventNEW\\"
+savedir = "/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserControlled_byEvent/"
 
 # Read event name from a path
 def readEvent(path):
-    filenameList = path.split("\\")[-1].split("_")
+    filenameList = path.split(os.sep)[-1].split("_")
     event = filenameList[0].lower()+"_"+filenameList[1]+"_"+filenameList[2]
     return event
 
