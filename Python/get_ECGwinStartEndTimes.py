@@ -1,18 +1,8 @@
 # Get list of window start and end times
-# Imports
 import pandas as pd
 import numpy as np
 import glob,os, pathlib
-
-# ECG directory
-# ECGDirs = glob.glob("E:\\argall-lab-data\\ECG_byEventNew\\*\\")
-ECGDirs = glob.glob("/home/skrdown/Documents/argall-lab-data/ECG_byEvent/"+"*"+os.sep)
-teleopPaths = [path for ECGDir in ECGDirs for path in glob.glob(ECGDir+"*Teleoperation.csv") ]
-# print(len(teleopPaths)) #60
-
-# Save directory 
-# savedir = "E:\\argall-lab-data\\ECG_eventStartEndTimes\\"
-savedir = "/home/skrdown/Documents/argall-lab-data/ECG_eventStartEndTimes/"
+import paths
 
 def readEvent(path):
     subject = path.split(os.sep)[-2]
@@ -55,11 +45,22 @@ def read_WinStartEnd(ECGPath,windowSizeSecs,stepSizeSecs):
         endTimes.append(window[-1])
     return startTimes,endTimes
 
-for path in teleopPaths:
-    event = readEvent(path)
-    startTimes30, endTimes30 = read_WinStartEnd(path,30,1)
-    startTimes60, endTimes60 = read_WinStartEnd(path,60,1)
-    startEnd30_df = pd.DataFrame({"Start Times":startTimes30, "End Times":endTimes30})
-    startEnd60_df = pd.DataFrame({"Start Times":startTimes60, "End Times":endTimes60})
-    startEnd30_df.to_csv(savedir+event+"_startEnd30.csv")
-    startEnd60_df.to_csv(savedir+event+"_startEnd60.csv")
+
+if __name__ == "__main__":
+    # ECG directory
+    ECGDirs = glob.glob(paths.ECG_byEvent_V_path + "*" + os.sep)
+    teleopPaths = [path for ECGDir in ECGDirs for path in glob.glob(ECGDir+"*Teleoperation.csv") ]
+    # print(len(teleopPaths)) #60
+
+    # Save directory 
+    savedir = paths.ECG_startEnd_path
+
+    for path in teleopPaths:
+        event = readEvent(path)
+        startTimes30, endTimes30 = read_WinStartEnd(path,30,1)
+        startTimes60, endTimes60 = read_WinStartEnd(path,60,1)
+        startEnd30_df = pd.DataFrame({"Start Times":startTimes30, "End Times":endTimes30})
+        startEnd60_df = pd.DataFrame({"Start Times":startTimes60, "End Times":endTimes60})
+        startEnd30_df.to_csv(savedir+event+"_startEnd30.csv")
+        startEnd60_df.to_csv(savedir+event+"_startEnd60.csv")
+

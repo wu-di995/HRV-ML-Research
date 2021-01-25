@@ -3,42 +3,10 @@ import pandas as pd
 import numpy as np
 import glob, os, pathlib
 from pathlib import Path
-import re
+import paths
 
-"""
-    Change directories to match local
-"""
-# ECG Folder - Raw Data, from data collection 
-# ecgDir = "E:\\argall-lab-data\\ECG Data\\"
-ecgDir = "/home/skrdown/Documents/argall-lab-data/ECG Data/"
-# Directory to save to 
-# savedir = "E:\\argall-lab-data\ECG_combined_bySubj\\"
-savedir = "/home/skrdown/Documents/argall-lab-data/ECG_bySubj/"
 
-# Subjects 
-subjsList = []
-for i in range(8+1):
-    if i<10:
-        subjsList.append("s0"+str(i))
-    else:
-        subjsList.append("s"+str(i))
-for i in range(10):
-    if i<10:
-        subjsList.append("u0"+str(i))
-    else:
-        subjsList.append("u"+str(i))
-for i in range(11,14+1):
-    if i<10:
-        subjsList.append("u0"+str(i))
-    else:
-        subjsList.append("u"+str(i))
-subjsList = [subj for subj in subjsList if "u00" not in subj]
-# print(subjsList)
 
-# ECG subject folder paths
-ecgSubjsPaths = []
-for i,subj in enumerate(subjsList):
-    ecgSubjsPaths.append(ecgDir+"laa_wc_multi_session_"+subj+os.sep+"LAA_WC_Multi_Session"+os.sep+subj+os.sep)
 
 # Combines ecg files to one df
 def get_combinedECG(ecgFolders):
@@ -102,4 +70,35 @@ def saveECG(ecgSubjsPaths,savedir):
         # Save ECG file
         ecgfull_df.to_csv(savedir+subjsList[i].lower()+"_full_ecg.csv")
 
-saveECG(ecgSubjsPaths,savedir)
+if __name__ == "__main__":
+    # ECG Folder - Raw Data, from data collection 
+    ecgDir = paths.RawECG_path
+    # ECG by subject
+    savedir = paths.ECG_bySubj_path 
+    # Subjects 
+    subjsList = []
+    for i in range(8+1):
+        if i<10:
+            subjsList.append("s0"+str(i))
+        else:
+            subjsList.append("s"+str(i))
+    for i in range(10):
+        if i<10:
+            subjsList.append("u0"+str(i))
+        else:
+            subjsList.append("u"+str(i))
+    for i in range(11,14+1):
+        if i<10:
+            subjsList.append("u0"+str(i))
+        else:
+            subjsList.append("u"+str(i))
+    subjsList = [subj for subj in subjsList if "u00" not in subj]
+    # print(subjsList)
+
+    # ECG subject folder paths
+    ecgSubjsPaths = []
+    for i,subj in enumerate(subjsList):
+        ecgSubjsPaths.append(ecgDir+"laa_wc_multi_session_"+subj+os.sep+"LAA_WC_Multi_Session"+os.sep+subj+os.sep)
+
+    saveECG(ecgSubjsPaths,savedir)
+

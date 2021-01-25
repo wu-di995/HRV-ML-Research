@@ -3,34 +3,10 @@ import pandas as pd
 import numpy as np
 import glob, os, pathlib
 from pathlib import Path 
-from scipy.io import loadmat
 from scipy.signal import welch 
 from scipy.signal import find_peaks
+import paths
 
-# User Impulses Files 
-# subjFolders = glob.glob("E:\\argall-lab-data\\Trajectory Data\\*\\")
-subjFolders = glob.glob("/home/skrdown/Documents/argall-lab-data/Trajectory Data/"+"*"+os.sep)
-subjFolders = [path for path in subjFolders if "U00" not in path]
-teleopFolders = []
-for subjFolder in subjFolders:
-    trajFolders = glob.glob(subjFolder+"*"+os.sep)
-    for trajFolder in trajFolders:
-        if "A0" in trajFolder:
-            teleopFolders.append(trajFolder)
-userImpPaths = []
-for teleopFolder in teleopFolders:
-    userImpPaths.append(glob.glob(teleopFolder+"*userImpulses.csv")[0])
-# print(userImpPaths)
-
-# ECG start end times files
-# ECGdir = "E:\\argall-lab-data\\ECG_eventStartEndTimes\\"
-ECGdir = "/home/skrdown/Documents/argall-lab-data/ECG_eventStartEndTimes/"
-ECG30Paths = glob.glob(ECGdir+"*30.csv")
-ECG60Paths = glob.glob(ECGdir+"*60.csv")
-
-# Save directory
-# savedir = "E:\\argall-lab-data\\UserCmdFreq_byEvent\\"
-savedir = "/home/skrdown/Documents/argall-lab-data/HRV_newgen/UserCmdFreq_byEvent/"
 
 # Read event name from a path
 def readEvent(path):
@@ -252,26 +228,49 @@ def get_userFreqWindows(userImp_df, ECGWin_df):
             freq_aft_df.loc[idx,"Total Power"] = totalPower_aft
     return freq_close_df, freq_aft_df
 
-# For each Supstatus file, read the ECG30s windows and ECG60s windows dataframes 
-# For each pair of start and end times, slice the window, calculate the userCtrl percentage, status, and save them
 
-if len(ECG30Paths) == len(ECG60Paths):
-    for userImpPath in userImpPaths:
-        event = readEvent(userImpPath)
-        print(event)
-        ECG30Path = [path for path in ECG30Paths if event in path][0]
-        ECG60Path = [path for path in ECG60Paths if event in path][0]
-        # Read datframes
-        userImp_df = pd.read_csv(userImpPath)
-        ECG30_df = pd.read_csv(ECG30Path)
-        ECG60_df = pd.read_csv(ECG60Path)
-        # Generate user control dataframes 
-        print("30")
-        freq30_close_df, freq30_aft_df = get_userFreqWindows(userImp_df,ECG30_df)
-        print("60")
-        freq60_close_df, freq60_aft_df = get_userFreqWindows(userImp_df,ECG60_df)
-        # Save dataframes
-        freq30_close_df.to_csv(savedir+event+"_close_30.csv")
-        freq30_aft_df.to_csv(savedir+event+"_aft_30.csv")
-        freq60_close_df.to_csv(savedir+event+"_close_60.csv")
-        freq60_aft_df.to_csv(savedir+event+"_aft_60.csv")
+if __name__ == "__main__":
+    # User Impulses Files 
+    subjFolders = glob.glob(paths.Traj_path + "*" + os.sep)
+    subjFolders = [path for path in subjFolders if "U00" not in path]
+    teleopFolders = []
+    for subjFolder in subjFolders:
+        trajFolders = glob.glob(subjFolder+"*"+os.sep)
+        for trajFolder in trajFolders:
+            if "A0" in trajFolder:
+                teleopFolders.append(trajFolder)
+    userImpPaths = []
+    for teleopFolder in teleopFolders:
+        userImpPaths.append(glob.glob(teleopFolder+"*userImpulses.csv")[0])
+    # print(userImpPaths)
+
+    # ECG start end times files
+    ECGdir = paths.ECG_startEnd_path
+    ECG30Paths = glob.glob(ECGdir + "*30.csv")
+    ECG60Paths = glob.glob(ECGdir + "*60.csv")
+
+    # Save directory
+    savedir = paths.UserCmdFreqs_path
+
+    # For each Supstatus file, read the ECG30s windows and ECG60s windows dataframes 
+    # For each pair of start and end times, slice the window, calculate the userCtrl percentage, status, and save them
+    if len(ECG30Paths) == len(ECG60Paths):
+        for userImpPath in userImpPaths:
+            event = readEvent(userImpPath)
+            print(event)
+            ECG30Path = [path for path in ECG30Paths if event in path][0]
+            ECG60Path = [path for path in ECG60Paths if event in path][0]
+            # Read datframes
+            userImp_df = pd.read_csv(userImpPath)
+            ECG30_df = pd.read_csv(ECG30Path)
+            ECG60_df = pd.read_csv(ECG60Path)
+            # Generate user control dataframes 
+            print("30")
+            freq30_close_df, freq30_aft_df = get_userFreqWindows(userImp_df,ECG30_df)
+            print("60")
+            freq60_close_df, freq60_aft_df = get_userFreqWindows(userImp_df,ECG60_df)
+            # Save dataframes
+            freq30_close_df.to_csv(savedir+event+"_close_30.csv")
+            freq30_aft_df.to_csv(savedir+event+"_aft_30.csv")
+            freq60_close_df.to_csv(savedir+event+"_close_60.csv")
+            freq60_aft_df.to_csv(savedir+event+"_aft_60.csv")

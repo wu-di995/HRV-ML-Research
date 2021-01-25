@@ -1,35 +1,15 @@
 # Get feature importances using a few methods 
 import pandas as pd
 import numpy as np
-import glob,os, pathlib
+import glob, os, pathlib
 from pathlib import Path
-from sklearn import svm 
-from sklearn.svm import SVC
 from sklearn.preprocessing import StandardScaler
-from sklearn.model_selection import StratifiedShuffleSplit, GridSearchCV, RandomizedSearchCV
-from sklearn.metrics import classification_report, confusion_matrix, plot_confusion_matrix, accuracy_score
+from sklearn.model_selection import StratifiedShuffleSplit
 from sklearn.ensemble import ExtraTreesClassifier
 from sklearn.tree import DecisionTreeClassifier
-from scipy.stats import loguniform
 from xgboost import XGBClassifier
-import re
 import matplotlib.pyplot as plt 
-
-cwd = os.getcwd()
-mainDir = pathlib.Path(cwd).parent
-# Have to manually change for 5s/10s/30s/60s
-win = "60s"
-
-# Change to match local 
-HRV_extr_dir = "/home/skrdown/Documents/argall-lab-data/HRV_newgen/Extracted_with_tlx_labels/"
-HRV_2_pathsList = glob.glob(HRV_extr_dir+win+os.sep+"2"+os.sep+"*.csv")
-HRV_3_pathsList = glob.glob(HRV_extr_dir+win+os.sep+"3"+os.sep+"*.csv")
-savedir = "/home/skrdown/Documents/argall-lab-data/HRV_newgen/Plots/"
-# Print feature names 
-HRV_df0 = pd.read_csv(HRV_2_pathsList[0])
-featureNames = HRV_df0.columns[1:-5].values
-print("Feature Names")
-print(featureNames)
+import paths
 
 # Group data by labels to create datasets, for 2 TLX levels
 def mk_2_dataset(HRV_pathsList):
@@ -191,32 +171,11 @@ def mk_3_dataset(HRV_pathsList):
 
     return rX,wX,ry,wy
 
-# Create datasets
-rX_2,wX_2,ry_2,wy_2 = mk_2_dataset(HRV_2_pathsList)
-rX_3,wX_3,ry_3,wy_3 = mk_3_dataset(HRV_3_pathsList)
-
-# Standardize 
-# Instantiate Standard scalar
-sc = StandardScaler()
-# Standardize all features on full datasets
-rX_2 = sc.fit_transform(rX_2)
-wX_2 = sc.fit_transform(wX_2)
-rX_3 = sc.fit_transform(rX_3)
-wX_3 = sc.fit_transform(wX_3)
-
-# Split into training and test sets 
-sss = StratifiedShuffleSplit(n_splits=5,test_size=0.2,random_state=0)
 def apply_sss(X,y):
     for train_index, test_index in sss.split(X,y):
             X_train, X_test = X[train_index],X[test_index]
             y_train, y_test = y[train_index],y[test_index]
     return X_train,X_test,y_train,y_test
-
-rX_train_2,rX_test_2,ry_train_2,ry_test_2 = apply_sss(rX_2,ry_2)
-wX_train_2,wX_test_2,wy_train_2,wy_test_2 = apply_sss(wX_2,wy_2)
-
-rX_train_3,rX_test_3,ry_train_3,ry_test_3 = apply_sss(rX_3,ry_3)
-wX_train_3,wX_test_3,wy_train_3,wy_test_3 = apply_sss(wX_3,wy_3)
 
 def feat_impt_multiModels(X,y,scType,featureNames, win, TLX_levels):
     # scType == score type ("Raw" or "Weighted")
@@ -231,8 +190,6 @@ def feat_impt_multiModels(X,y,scType,featureNames, win, TLX_levels):
     for i,model in enumerate(models):
         model.fit(X,y)
         importances = model.feature_importances_
-        # Sum up scores for feature importances
-        # featureScores = [featureScore + importance for featureScore,importance in zip(featureScores,importances)]
         # Sum up ranks 
         importances,ranked_names = zip(*sorted(zip(importances,featureNames))) 
         for rank, ranked_name in enumerate(ranked_names):
@@ -247,47 +204,60 @@ def feat_impt_multiModels(X,y,scType,featureNames, win, TLX_levels):
         plt.savefig(sub_savedir+filename)
         plt.close()
 
-    # Feature Scores
-    # featureScores,names = zip(*sorted(zip(featureScores,featureNames))) #Ascending order
-    # print(list(names))
-    # print(list(featureScores))
-
     # Feature Ranks
     sorted_ranks_dict = dict(sorted(featureRanks_dict.items(), key = lambda item: item[1])) # Sorts features in ascending order 
     print(sorted_ranks_dict)
     print(list(sorted_ranks_dict.keys()))# Get the feature names in ascending order
     # print(sorted(featureRanks_dict.keys(), key = featureRanks_dict.get)) 
-# Get feature importances 
-print("Raw, 2")
-feat_impt_multiModels(rX_train_2,ry_train_2,"Raw",featureNames, win, "2")
-print("Weighted, 2")
-feat_impt_multiModels(wX_train_2,wy_train_2,"Weighted",featureNames, win, "2")
 
-print("Raw, 3")
-feat_impt_multiModels(rX_train_3,ry_train_3,"Raw",featureNames, win, "3")
-print("Weighted, 3")
-feat_impt_multiModels(wX_train_3,wy_train_3,"Weighted",featureNames, win, "3")
 
-"""
+if __name__ == "__main__":
+    wins = ["30s", "60s"]
 
-# Change low/med/high arrays to standardized features
-## Raw Labels
-rLow_ar = rX[:rLowlen]
-rMed_ar = rX[rLowlen:rLowlen+rMedlen]
-rHigh_ar = rX[rLowlen+rMedlen:]
-## Weighted Labels
-wLow_ar = wX[:wLowlen]
-wMed_ar = wX[wLowlen:wLowlen+wMedlen]
-wHigh_ar = wX[wLowlen+wMedlen:]
+    # HRV by Event labelled by TLX directory
+    HRV_extr_dir = paths.HRV_byEvent_TLX_path 
+    # Feature importance plots directory 
+    savedir = paths.Plots_featImpt_path
 
-# Raw label arrays
-print("Size of Raw TLX standardized feature arrays (Low/Med/High)")
-print(rLow_ar.shape)
-print(rMed_ar.shape)
-print(rHigh_ar.shape)
-# Weighted label arrays
-print("Size of Weighted TLX standardized feature arrays (Low/Med/High)")
-print(wLow_ar.shape)
-print(wMed_ar.shape)
-print(wHigh_ar.shape)
-"""
+    for win in wins:
+        # HRV with 2 or 3 labels
+        HRV_2_pathsList = glob.glob(HRV_extr_dir+win+os.sep+"2"+os.sep+"*.csv")
+        HRV_3_pathsList = glob.glob(HRV_extr_dir+win+os.sep+"3"+os.sep+"*.csv")
+    
+        # Print feature names 
+        HRV_df0 = pd.read_csv(HRV_2_pathsList[0])
+        featureNames = HRV_df0.columns[1:-5].values
+        print("Feature Names")
+        print(featureNames)
+
+
+        # Create datasets
+        rX_2,wX_2,ry_2,wy_2 = mk_2_dataset(HRV_2_pathsList)
+        rX_3,wX_3,ry_3,wy_3 = mk_3_dataset(HRV_3_pathsList)
+
+        # Standardize 
+        # Instantiate Standard scalar
+        sc = StandardScaler()
+        # Standardize all features on full datasets
+        rX_2 = sc.fit_transform(rX_2)
+        wX_2 = sc.fit_transform(wX_2)
+        rX_3 = sc.fit_transform(rX_3)
+        wX_3 = sc.fit_transform(wX_3)
+
+        # Split into training and test sets 
+        sss = StratifiedShuffleSplit(n_splits=5,test_size=0.2,random_state=0)
+        rX_train_2,rX_test_2,ry_train_2,ry_test_2 = apply_sss(rX_2,ry_2)
+        wX_train_2,wX_test_2,wy_train_2,wy_test_2 = apply_sss(wX_2,wy_2)
+        rX_train_3,rX_test_3,ry_train_3,ry_test_3 = apply_sss(rX_3,ry_3)
+        wX_train_3,wX_test_3,wy_train_3,wy_test_3 = apply_sss(wX_3,wy_3)
+
+        # Get feature importances 
+        print("Raw, 2")
+        feat_impt_multiModels(rX_train_2,ry_train_2,"Raw",featureNames, win, "2")
+        print("Weighted, 2")
+        feat_impt_multiModels(wX_train_2,wy_train_2,"Weighted",featureNames, win, "2")
+
+        print("Raw, 3")
+        feat_impt_multiModels(rX_train_3,ry_train_3,"Raw",featureNames, win, "3")
+        print("Weighted, 3")
+        feat_impt_multiModels(wX_train_3,wy_train_3,"Weighted",featureNames, win, "3")

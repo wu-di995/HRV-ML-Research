@@ -2,7 +2,9 @@
 % supervisor controls
 
 % Loop through all userCmd files 
-base = "E:\argall-lab-data\Trajectory Data\";
+% base = "E:\argall-lab-data\Trajectory Data\";
+base = "/home/skrdown/Documents/argall-lab-data/Trajectory Data/";
+
 
 % Subjects
 subjects = ["S00", "S01", "S02", "S03", "S04", "S05", "S06", "S07", "S08", ...

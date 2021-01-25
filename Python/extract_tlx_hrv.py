@@ -4,29 +4,7 @@ import numpy as np
 import os, glob
 from pathlib import Path
 from sklearn import svm 
-from sklearn.preprocessing import StandardScaler
-from sklearn.model_selection import StratifiedShuffleSplit, GridSearchCV
-from sklearn.metrics import classification_report, confusion_matrix, plot_confusion_matrix
-import re
-
-win = "30s"
-
-# Change paths to match local
-# Create HRV Feature Set
-# savedir = "C:\\Users\\Wu Di\\Documents\\HRV-ML-Research\\HRV_allSubj\\Extracted-with_tlx_labels\\"+win+"\\"
-savedir = "/home/skrdown/Documents/argall-lab-data/HRV_newgen/Extracted_with_tlx_labels/" + win + os.sep
-# Read TLX Label csv
-# tlxLabels_df = pd.read_csv("C:\\Users\\Wu Di\\Documents\\HRV-ML-Research\\TLX\\tlxLabels.csv")
-tlxLabels_2_path = "/home/skrdown/HRV-ML-Research/TLX/"+"tlxLabels_2.csv"
-tlxLabels_3_path = "/home/skrdown/HRV-ML-Research/TLX/"+"tlxLabels_3.csv"
-tlxLabels_2_df = pd.read_csv(tlxLabels_2_path)
-tlxLabels_3_df = pd.read_csv(tlxLabels_3_path)
-
-## Loop through each id and interface in sub_tlxLabels, extract HRV metrics from corresponding csv file
-# HRV_dir = "C:\\Users\\Wu Di\\Documents\\HRV-ML-Research\\HRV_allSubj\\"+win+"\\"
-HRV_dir = "/home/skrdown/Documents/argall-lab-data/HRV_newgen/HRV_byEvent/"+ win + os.sep
-HRV_filesList = glob.glob(HRV_dir+"*.csv")
-print(HRV_filesList)
+import paths 
 
 def mk_tlx_hrv_dataframe(tlxLabels_df, savedir, TLX_levels):
     for idx, row in tlxLabels_df.iterrows():
@@ -94,5 +72,26 @@ def mk_tlx_hrv_dataframe(tlxLabels_df, savedir, TLX_levels):
             # Export HRV_metrics_df as csv
             HRV_metrics_df.to_csv(sub_savedir+subject+"_"+interface+"_"+alevel+".csv")
 
-mk_tlx_hrv_dataframe(tlxLabels_2_df, savedir, "2")
-mk_tlx_hrv_dataframe(tlxLabels_3_df, savedir, "3")
+
+
+if __name__ == "__main__":
+    wins = ["30s", "60s"]
+    # TLX label dataframes 
+    tlxLabels_2_path = paths.TLX_label_path + "tlxLabels_2.csv"
+    tlxLabels_3_path = paths.TLX_label_path + "tlxLabels_3.csv"
+    tlxLabels_2_df = pd.read_csv(tlxLabels_2_path)
+    tlxLabels_3_df = pd.read_csv(tlxLabels_3_path)
+
+    for win in wins:
+        # HRV by event, labelled with TLX directory 
+        savedir = paths.HRV_byEvent_TLX_path + win + os.sep
+        # HRV by Event
+        HRV_dir = paths.HRV_byEvent_path + win + os.sep
+        HRV_filesList = glob.glob(HRV_dir+"*.csv")
+        print(HRV_filesList)
+        # Loop through each id and interface in sub_tlxLabels, extract HRV metrics from corresponding csv file
+        mk_tlx_hrv_dataframe(tlxLabels_2_df, savedir, "2")
+        mk_tlx_hrv_dataframe(tlxLabels_3_df, savedir, "3")
+
+        
+

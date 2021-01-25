@@ -2,28 +2,9 @@
 import pandas as pd
 import numpy as np
 import glob,os, pathlib
-import re
 from scipy.io import loadmat
 from pathlib import Path 
-
-
-# Trajectory Folder 
-trajDir = "/home/skrdown/Documents/argall-lab-data/Trajectory Data/"
-trajSubjsPaths = glob.glob(trajDir+"*"+os.sep)
-# Exclude u00
-trajSubjsPaths = [path for path in trajSubjsPaths if "u00" not in path.lower()]
-# ECG Folder
-ecgDir = "/home/skrdown/Documents/argall-lab-data/ECG_bySubj/"
-ecgPaths = glob.glob(ecgDir+"*"+os.sep)
-print(ecgPaths)
-
-# Directory to save to 
-# savedir = "C:\\Users\\Wu Di\\Documents\\HRV-ML-Research\\RawECG_byTasks\\"
-savedir = "/home/skrdown/HRV-ML-Research/ECG/RawECG_byTasks/"
-
-# For each trajectory subject folder, find the session folders 
-path = trajSubjsPaths[0]
-A0folders = glob.glob(path+"*A0*")
+import paths
 
 # Function to find index of closest lower neighbour of a timestamp
 def find_closest(df,timestamp):
@@ -115,36 +96,23 @@ def splitECG(trajSubjsPaths):
     task_time_df["End Time"] = end_time_list
     task_time_df.to_csv(savedir+"task_times.csv",index=False)
 
-splitECG(trajSubjsPaths)
 
-# filepath = "E:\\argall-lab-data\\S00\\S00_HA_A0_S4\\S00_HA_A0_S4_task_status_cleaned.mat"
-# mat_struct = loadmat(filepath)
-# task_status = mat_struct["task_status"].flatten() # Each element contains 1 task 
-# task2 = task_status[1]
-# def taskStatus_reader(matfilepath):
-#     mat_struct = loadmat(matfilepath)
-#     task_status = mat_struct["task_status"].flatten()
-#     no_tasks = task_status.shape[0]
-#     start_end_list = [0]*no_tasks
-#     for task in range(no_tasks):
-#         start_time = np.squeeze(task_status[task][0])
-#         end_time = np.squeeze(task_status[task][1])
-#         start_end_list[task] = (start_time,end_time)
-# print(new_arr)
-# [(array([[1.53859407e+09]]), array([[1.53859412e+09]]), array([[1.53859408e+09]]), array([], shape=(0, 0), dtype=uint8))
-#  (array([[1.53859415e+09]]), array([[1.53859427e+09]]), array([[1.53859417e+09, 1.53859417e+09]]), array([], shape=(0, 0), dtype=uint8))
-#  (array([[1.53859429e+09]]), array([[1.53859432e+09]]), array([], shape=(0, 0), dtype=uint8), array([], shape=(0, 0), dtype=uint8))
-#  (array([[1.53859433e+09]]), array([[1.53859434e+09]]), array([], shape=(0, 0), dtype=uint8), array([], shape=(0, 0), dtype=uint8))
-#  (array([[1.53859436e+09]]), array([[1.53859439e+09]]), array([], shape=(0, 0), dtype=uint8), array([], shape=(0, 0), dtype=uint8))
-#  (array([[1.53859439e+09]]), array([[1.53859448e+09]]), array([[1.53859446e+09]]), array([], shape=(0, 0), dtype=uint8))
-#  (array([[1.53859448e+09]]), array([[1.5385945e+09]]), array([], shape=(0, 0), dtype=uint8), array([], shape=(0, 0), dtype=uint8))]
+if __name__ == "__main__":
+    # Trajectory Folder 
+    trajDir = paths.Traj_path
+    trajSubjsPaths = glob.glob(trajDir+"*"+os.sep)
+    # Exclude u00
+    trajSubjsPaths = [path for path in trajSubjsPaths if "u00" not in path.lower()]
+    # ECG Folder
+    ecgDir = paths.ECG_bySubj_path 
+    ecgPaths = glob.glob(ecgDir+"*"+os.sep)
+    print(ecgPaths)
 
-# print(np.squeeze(task2[-2]))
+    # Directory to save to 
+    savedir = paths.ECG_byTasks_forHRV_path 
 
-# print(type(task1))
-# print(task1[0])
-# print(type(task1[0][0].flatten()))
-# print(task_status.shape)
-# first_start_time = task_status[0][1][0]
-# print(type(first_start_time))
-# print(first_start_time.flatten())
+    # For each trajectory subject folder, find the session folders 
+    path = trajSubjsPaths[0]
+    A0folders = glob.glob(path+"*A0*")
+
+    splitECG(trajSubjsPaths)
